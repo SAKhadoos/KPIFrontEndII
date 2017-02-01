@@ -1,0 +1,84 @@
+{
+  "IncidentNumber": "IncidentNumber_1",
+  "BusinessUnit": {
+    "Value": "KST_BusinessUnit1",
+    "Enabled": true,
+    "Id": 1
+  },
+  "OperationalFinding": "OperationalFinding_1",
+  "RootCause": {
+    "Value": "OperationalIncidentRootCauseValue1",
+    "Enabled": true,
+    "Id": 1
+  },
+  "RootCauseDetail": "RootCauseDetail_1",
+  "FinancialExposure": {
+    "Amount": 1.10,
+    "Type": 1,
+    "Id": 1
+  },
+  "Source": {
+    "Value": "OperationalIncidentSourceValue1",
+    "Enabled": true,
+    "Id": 1
+  },
+  "Impact": [
+    {
+      "Value": "OperationalIncidentImpactValue1",
+      "Enabled": true,
+      "Id": 1
+    },
+    {
+      "Value": "OperationalIncidentImpactValue2",
+      "Enabled": false,
+      "Id": 2
+    }
+  ],
+  "MitigationStrategy": "MitigationStrategy_1",
+  "IncidentYear": {
+    "Value": "2017",
+    "Enabled": true,
+    "Id": 1
+  },
+  "IncidentMonth": {
+    "Value": "January",
+    "Enabled": true,
+    "Id": 1
+  },
+  "RemediationYear": {
+    "Value": "2017",
+    "Enabled": true,
+    "Id": 1
+  },
+  "RemediationMonth": {
+    "Value": "January",
+    "Enabled": true,
+    "Id": 1
+  },
+  "Status": {
+    "Value": "OperationalIncidentStatusValue1",
+    "Enabled": true,
+    "Id": 1
+  },
+  "ReportedToGORM": {
+    "Value": "OperationalIncidentReportedToGORMValue1",
+    "Enabled": true,
+    "Id": 1
+  },
+  "ReportedToORMYear": {
+    "Value": "2017",
+    "Enabled": true,
+    "Id": 1
+  },
+  "ReportedToORMMonth": {
+    "Value": "January",
+    "Enabled": true,
+    "Id": 1
+  },
+  "CompletionType": 0,
+  "CreatedBy": "CreatedBy_1",
+  "CreatedTime": "09/21/2020 00:00:00",
+  "LastUpdatedBy": "LastUpdatedBy_1",
+  "LastUpdatedTime": "11/23/2022 00:00:00",
+  "Id": 0
+}

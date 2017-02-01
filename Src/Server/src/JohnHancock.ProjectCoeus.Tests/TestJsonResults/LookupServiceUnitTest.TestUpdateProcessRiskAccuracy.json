@@ -1,0 +1,40 @@
+{
+  "Risk": "Risk_1",
+  "Category": {
+    "Weight": 0.00,
+    "Name": "KPI's / SLA's",
+    "DisplayOrder": 1,
+    "Enabled": true,
+    "AddOnStatus": 1,
+    "CreatedBy": "CoeusAdminUser",
+    "CreatedTime": "12/12/9999 00:00:00",
+    "LastUpdatedBy": "CoeusAdminUser",
+    "LastUpdatedTime": "12/12/9999 00:00:00",
+    "Id": 0
+  },
+  "ControlTypes": [
+    {
+      "Category": null,
+      "Name": "for process Risk",
+      "DisplayOrder": 1,
+      "Enabled": true,
+      "AddOnStatus": 1,
+      "CreatedBy": "CoeusAdminUser",
+      "CreatedTime": "12/12/9999 00:00:00",
+      "LastUpdatedBy": "CoeusAdminUser",
+      "LastUpdatedTime": "12/12/9999 00:00:00",
+      "Id": 0
+    }
+  ],
+  "BusinessUnitId": 1,
+  "FunctionalAreaId": 1,
+  "Name": "Name_1",
+  "DisplayOrder": 17,
+  "Enabled": true,
+  "AddOnStatus": 0,
+  "CreatedBy": "CreatedBy_1",
+  "CreatedTime": "12/12/2011 00:00:00",
+  "LastUpdatedBy": "LastUpdatedBy_1",
+  "LastUpdatedTime": "02/14/2013 00:00:00",
+  "Id": 2
+}

@@ -1,0 +1,686 @@
+<div>
+    <!-- BEGIN #main-content -->
+    <div id="main-content" class="row margin-top-35" data-position-area>
+        <h1 class="row m-t-20 title">Edit Risk Assessment fields</h1>
+        <div class="nav-tabs m-t-20 row" data-ng-include="'partials/admin/shared/tabnav.edit.html'"></div>
+        <div class="row m-t-25">
+            <div class="row tab-headers ctKPI-static">
+                <a href="#/admin/edit/processes/{{category.id}}" ng-repeat="category in lookups.categories"
+                   ng-class="{'active current': selected.categoryType==category.id}">
+                    {{category.name}}
+                </a>
+            </div>
+            <!-- /.tab-headers -->
+            <div class="clear"></div>
+            <div class="row tab-bu-new-d m-t-25"
+                 data-ng-class="{active:globalOptions[selected.categoryType].global}">
+                <section class="toggle-view-sn" data-toggle-view="">
+                    <div class="title-wrap">
+                        <div class="toggle-group-title">
+                            <span>Business Unit</span>
+                        </div>
+                        <div class="cover-on-off">
+                            <a href="javascript:;" class="on-off-swift" data-ng-click="editGlobal()"
+                               data-ng-class="{active:globalOptions[selected.categoryType].global}">
+                                <span class="text">Global option</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="clearfix"></div>
+                    <div class="col-layout view-content">
+                        <div class="col">
+                            <section class="edit-block-sn">
+                                <div data-edit-block="adminLookups.BusinessUnit" type="BusinessUnit"
+                                     hide-checkbox="true" data-selected="selected.businessUnit"
+                                     on-created="createLookupEntity" class="toggle-view-con parent-block can-select">
+                                </div>
+                            </section>
+                        </div>
+                        <!-- COl ONE -->
+                        <div class="col col-new-d" data-ng-class="{active:globalOptions[selected.categoryType].businessUnitWiseGlobal}">
+                            <section class="edit-block-sn fix-z-index">
+                                <div class="toggle-view-con">
+                                    <div class="title">
+                                        <h2>
+                                            Functional Area
+                                        </h2>
+                                        <div class="cover-on-off">
+                                            <a href="javascript:;" class="on-off-swift"
+                                               data-ng-click="editBusinessUnitWiseGlobal()"
+                                               data-ng-class="{active:globalOptions[selected.categoryType].businessUnitWiseGlobal}">
+                                                <span class="text">Global option</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div data-edit-block="adminLookups.FunctionalArea"
+                                         data-selected="selected.functionalArea" hide-checkbox="true"
+                                         type="FunctionalArea" on-created="addBusinessUnitRelated"
+                                         class="toggle-view-con can-select">
+                                    </div>
+                                </div>
+                            </section>
+                            <div class="white-overlay"></div>
+                        </div>
+                        <!-- COl ONE -->
+                    </div>
+                </section>
+                <div class="white-over"></div>
+            </div>
+            <div>
+                <div ng-show="selected.categoryType==config.KPISLA_ASSESSMENT_CATEGORY_ID">
+                    <div class="tab-content row style-new-d" data-position-area>
+                        <ul class="tabular-view" data-ui-sortable="rowSortOptions" data-ng-model="adminLookups.KPICategory">
+                            <li class="li th">
+                                <div class="col-layout">
+                                    <!-- Update Code HTML -->
+                                    <div class="col h hint">
+                                        <div class="new-title-d">
+                                            <div class="cover-all-icon-d">
+                                                <span>Category</span>
+                                                <p class="icon-hint">
+                                                    <span class="tooltip">
+                                                    A specific classification of key performance indicators and service levels.
+                                                    <i class="arrow"></i>
+                                                    </span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col h hint">
+                                        <div class="new-title-d">
+                                            <div class="cover-all-icon-d">
+                                                <span>KPI</span>
+                                                <p class="icon-hint">
+                                                    <span class="tooltip hide">
+                                                    A measurable value that demonstrates how effectively an activity is achieving key business objectives. Indication of success at meeting targets.
+                                                    <i class="arrow"></i>
+                                                    </span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- /Update Code HTML -->
+                                </div>
+                            </li>
+                            <!-- Li Head -->
+                            <li class="li local-tab" id="{{kpiCategory.id}}" data-ng-repeat="kpiCategory in adminLookups.KPICategory">
+                                <div class="col-layout col-kips">
+                                    <div class="col static-col"
+                                         data-ng-mouseover="showDragInfo($index, $event, kpiCategory, selected.slAs, 'KPICategory')">
+                                        <div class="edit-block-sn">
+                                            <a class="move-handel-row"></a>
+                                            <div class="toggle-view-con ">
+                                                <ul class="edit-list">
+                                                    <li class="li">
+                                                        <div class="edit-row">
+                                                            <a class="move-handel ui-sortable-handle"></a>
+                                                            <div class="chk-ctrl">
+                                                                <input class="ck " type="checkbox">
+                                                                <label class="chk-lbl ">
+                                                                    <span class="tx" data-inline-edit="kpiCategory"
+                                                                    type="KPICategory" field="name"></span>
+                                                                </label>
+                                                            </div>
+                                                        </div>
+                                                        <!-- /.edit-row -->
+                                                        <a class="remove"
+                                                           data-ng-click="deleteLookupEntity('KPICategory', kpiCategory.id)"></a>
+                                                    </li>
+                                                </ul>
+                                                <!-- pending-group -->
+                                            </div>
+                                        </div>
+                                        <div class="when-drop-d" ng-show="kpiCategory.slAs.length>0">
+                                            <p class="title">Controls</p>
+                                            <a href="javascript:;" class="close-icon close-icon-drag"
+                                               data-ng-click="deleteChildItems('KPICategory', kpiCategory)"></a>
+                                            <div class="clearfix"></div>
+                                            <ul class="list-drap">
+                                                <li data-ng-repeat="sla in kpiCategory.slAs">
+                                                    <span>{{sla.name}}</span>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <!-- /.col -->
+                                    <div class="col">
+                                        <div class="edit-block-sn">
+                                            <div data-edit-block="kpiCategory.kpIs"
+                                                 type="KPI"
+                                                 data-parent-id="{{kpiCategory.id}}"
+                                                 on-created="createKPIEntity"
+                                                 class="toggle-view-con">
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <!-- /.col -->
+                                </div>
+                                <!-- /.col-layout -->
+                            </li>
+                            <!-- Li item -->
+                            <li class="li last-input">
+                                <div class="col-layout">
+                                    <div class="col static-col">
+                                        <ul class="edit-list">
+                                            <li class="li li-add">
+                                                <div class="add-group">
+                                                    <input class="text-ctrl" type="text" data-ng-model="new.categoryTitle"
+                                                           data-ng-enter="addKPICategory()" maxlength="200" />
+                                                    <a class="add-link" data-ng-click="addKPICategory()"></a>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                        <div class="master-col">
+                            <div class="cover-master">
+                                <div class="col h hint">
+                                    <div class="new-title-d">
+                                        <div class="cover-all-icon-d">
+                                            <span>SLA (master list)</span>
+                                            <p class="icon-hint">
+                                             <span class="tooltip hide">
+                                             The service level agreement is a contract between a service provider (either internal or external) and the end user that defines the level of service expected from the service provider. SLA’s are output-based in that their purpose is specifically to define the expectations of the customer.  This is where you determine the service levels/thresholds (i.e. 80% of calls answered within 20 seconds, 1-2 days processing turnaround, avg. call monitoring score of 95, etc.) for your KPI’s. SLA’s are attributed to Category.
+                                             <i class="arrow"></i>
+                                             </span>
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="clearfix"></div>
+                                </div>
+                                <!-- Heading -->
+                                <div class="main-check area-drag">
+                                    <a href="javascript:;" class="handel-d  hold-tap-section"></a>
+                                    <div class="col">
+                                        <div class="edit-block-sn">
+                                            <div data-edit-block="adminLookups.SLA"
+                                                 type="SLA"
+                                                 drag-items="selected.slAs"
+                                                 master-list="true"
+                                                 category-id="category{{config.KPISLA_ASSESSMENT_CATEGORY_ID}}"
+                                                 on-created="createCategoryLookupEntity"
+                                                 class="toggle-view-con">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Col data  -->
+                                <div class="white-overlay"></div>
+                            </div>
+                            <!-- CheckBox -->
+                            <div class="when-drop-drap">
+                                <a href="javascript:;" class="move-hand"></a>
+                                <ul class="edit-list">
+                                    <li class="li" data-ng-repeat="item in selected.slAs">
+                                        <div class="edit-row">
+                                            <div class="chk-ctrl">
+                                                <input class="ck ng-pristine " type="checkbox" checked>
+                                                <label class="chk-lbl"><span class="tx ">{{item.name}}</span></label>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="processes" ng-show="selected.categoryType==config.FUNCTIONAL_ASSESSMENT_CATEGORY_ID">
+                    <div class="tab-content row style-new-d style-new-d-3" data-position-area>
+                    <ul class="tabular-view" data-ui-sortable="rowSortOptions" data-ng-model="adminLookups.CoreProcess">
+                        <li class="li th">
+                            <div class="col-layout">
+                                <div class="col h hint">
+                                    <div class="new-title-d">
+                                        <div class="cover-all-icon-d">
+                                            <span>Core Processes</span>
+                                            <p class="icon-hint ">
+                                                <span class="tooltip">
+													A general category of processes assigned to the function being assessed.  Functions are usually made of many processes that are rolled up to general categories (i.e. Disbursement of funds is a general process that has several sub-processes).
+													<i class="arrow"></i>
+												</span>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col h hint">
+                                    <div class="new-title-d">
+                                        <div class="cover-all-icon-d">
+                                            <span>Sub Processes</span>
+                                            <p class="icon-hint">
+                                                <span class="tooltip hide">
+													A series of specific actions needed in order to achieve a particular end or to fulfill a customer’s request.  One or multiple sub-processes are associated with one core process. Sub-processes should be distinct enough to have attributable controls.
+													<i class="arrow"></i>
+												</span>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col h hint">
+                                    <div class="new-title-d">
+                                        <div class="cover-all-icon-d">
+                                            <span>Risks</span>
+                                            <p class="icon-hint">
+                                                <span class="tooltip hide">
+													The impact of a process/sub-process not being achieved. There are many risks but some include inappropriate system access and not meeting regulatory requirements, training requirements, or customer expectations. Risks are attributed to processes/sub-processes.
+													<i class="arrow"></i>
+												</span>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="clearfix"></div>
+                        </li>
+                        <!-- Li head -->
+
+                        <li class="li col-li" id="{{coreProcess.id}}"
+                            data-ng-repeat="coreProcess in adminLookups.CoreProcess">
+                            <div class="col-layout col-kips"
+                                 data-ng-mouseover="showDragInfo($index,$event,coreProcess,selected.controlTypes, 'CoreProcess')">
+                                <div class="col static-col">
+                                    <div class="edit-block-sn">
+                                        <a class="move-handel-row"></a>
+                                        <div class="toggle-view-con ">
+                                            <ul class="edit-list">
+                                                <li class="li">
+                                                    <div class="edit-row">
+                                                        <a class="move-handel ui-sortable-handle"></a>
+                                                        <div class="chk-ctrl">
+                                                            <input class="ck " type="checkbox">
+                                                            <label class="chk-lbl">
+                                                                <span data-inline-edit="coreProcess"
+                                                                    type="CoreProcess" field="name"
+                                                                    class="tx">
+                                                                </span>
+                                                            </label>
+                                                        </div>
+                                                    </div>
+                                                    <!-- /.edit-row -->
+                                                    <a class="remove"
+                                                       data-ng-click="deleteLookupEntity('CoreProcess', coreProcess.id)"></a>
+                                                </li>
+                                            </ul>
+                                            <!-- pending-group -->
+                                        </div>
+                                    </div>
+                                    <div class="when-drop-d" ng-show="coreProcess.controlTypes.length>0">
+                                        <p class="title">Controls</p>
+                                        <a href="javascript:;" class="close-icon close-icon-drag"
+                                           data-ng-click="deleteChildItems('CoreProcess', coreProcess)"></a>
+                                        <div class="clearfix"></div>
+                                        <ul class="list-drap">
+                                            <li data-ng-repeat="controlType in coreProcess.controlTypes">
+                                                <span>{{controlType.name}}</span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <!-- /.col -->
+
+                                <div class="cover-col" data-ng-repeat="subProcess in coreProcess.subProcessRisks">
+                                    <div class="col one">
+                                        <div class="cover-text">
+                                            <p data-inline-edit="subProcess" parent-id={{coreProcess.id}}
+                                                type="SubProcessRisk" field="name"
+                                                class="text">
+                                            </p>
+                                            <div class="clearfix"></div>
+                                        </div>
+                                    </div>
+                                    <!-- /.col -->
+
+                                    <div class="col two">
+                                        <div class="cover-text">
+                                            <ul class="list-process">
+                                                <li>
+                                                    <span data-inline-edit="subProcess" parent-id={{coreProcess.id}}
+                                                        type="SubProcessRisk" field="risk"
+                                                        class="list-text">
+                                                    </span>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <!-- /.col -->
+                                </div>
+                                <!-- Col items -->
+
+                                <div class="cover-col">
+                                    <div class="col one">
+                                        <ul class="edit-list">
+                                            <li class="li li-add">
+                                                <div class="add-group">
+                                                    <input class="text-ctrl ng-pristine ng-valid ng-empty ng-touched"
+                                                           data-ng-enter="addSubProcess(coreProcess);" maxlength="200"
+                                                           data-ng-model="coreProcess.newSubProcess" type="text">
+                                                    <a class="add-link" data-ng-click="addSubProcess(coreProcess);"></a>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="col two">
+                                        <ul class="edit-list">
+                                            <li class="li li-add">
+                                                <div class="add-group" ng-if="coreProcess.subProcessRisks.length>0">
+                                                    <input class="text-ctrl ng-pristine ng-valid ng-empty ng-touched"
+                                                           data-ng-enter="addCoreProcessRisk(coreProcess);"
+                                                           data-ng-model="coreProcess.newRiskTitle" type="text">
+                                                    <a class="add-link"
+                                                       data-ng-click="addCoreProcessRisk(coreProcess);"></a>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="clearfix"></div>
+                                </div>
+                                <div class="clearfix"></div>
+                            </div>
+                            <!-- /.col-layout -->
+                        </li>
+                        <!-- Li item -->
+
+                        <li class="li col-li li-add-more">
+                            <div class="col-layout col-kips">
+                                <div class="col">
+                                    <ul class="edit-list">
+                                        <li class="li li-add">
+                                            <div class="add-group">
+                                                <input class="text-ctrl ng-pristine ng-valid ng-empty ng-touched"
+                                                       data-ng-enter="addCoreProcess()" maxlength="200"
+                                                       data-ng-model="new.coreProcess" type="text">
+                                                <a class="add-link" data-ng-click="addCoreProcess()"></a>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                    <!-- /.row-view -->
+
+                    <div class="master-col">
+                        <div class="cover-master">
+                            <div class="col h hint">
+                                <div class="new-title-d">
+                                    <div class="cover-all-icon-d">
+                                        <span>Controls (master list)</span>
+                                        <p class="icon-hint">
+                                            <span class="tooltip hide">
+                                                Activities that can direct or influence a process to achieve the most desired result and decrease the exposure to risk in that process.  These are safeguards to ensure you’re successfully and efficiently completing your processes and achieving your service levels.  For example, quality review of work is done to ensure people are processing their work accurately. Controls are attributed to Core Processes.
+                                                <i class="arrow"></i>
+                                            </span>
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="clearfix"></div>
+                            </div>
+                            <div class="main-check">
+                                <a href="javascript:;" class="handel-d  hold-tap-section"></a>
+                                <div class="col">
+                                    <div class="edit-block-sn">
+                                        <div data-edit-block="adminLookups.ControlType"
+                                             type="ControlType"
+                                             drag-items="selected.controlTypes"
+                                             master-list="true"
+                                             category-id={{selected.categoryType}}
+                                             unique-name="ControlTypeFunctional"
+                                             on-created="createCategoryLookupEntity"
+                                             class="toggle-view-con">
+                                        </div>
+                                    </div>
+                                    <!-- Col data  -->
+                                </div>
+                            </div>
+                            <div class="white-overlay"></div>
+
+                        </div>
+                        <!-- Master Col -->
+                        <div class="when-drop-drap">
+                            <a href="javascript:;" class="move-hand"></a>
+                            <ul class="edit-list">
+                                <li class="li" data-ng-repeat="item in selected.controlTypes">
+                                    <div class="edit-row">
+                                        <div class="chk-ctrl">
+                                            <input class="ck ng-pristine " type="checkbox" checked>
+                                            <label class="chk-lbl"><span class="tx ">{{item.name}}</span></label>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+                </div>
+                <div ng-show="selected.categoryType!=config.FUNCTIONAL_ASSESSMENT_CATEGORY_ID &&
+                 selected.categoryType!=config.KPISLA_ASSESSMENT_CATEGORY_ID">
+                    <div class="tab-content row style-new-d style-under"  data-position-area>
+                        <ul class="tabular-view" data-ui-sortable="rowSortOptions" data-ng-model="adminLookups.ProcessRisk">
+                            <li class="li th">
+                                <div class="col-layout">
+                                    <div class="col h hint">
+                                        <div class="new-title-d">
+                                            <div class="cover-all-icon-d" ng-if="selected.categoryType==config.CORP_DIV_TRAINING_ASSESSMENT_CATEGORY_ID">
+                                                <span>Curriculum</span>
+                                                <p class="icon-hint">
+                                                <span class="tooltip hide">
+                                                    The specific type of training or documentation that is often a requirement for all employees to complete.  These types of trainings are at the corporate and divisional levels. Curriculums should be distinct enough to have attributable controls.
+                                                    <i class="arrow"></i>
+                                                </span>
+                                                </p>
+                                            </div>
+                                            <div class="cover-all-icon-d" ng-if="selected.categoryType!=config.CORP_DIV_TRAINING_ASSESSMENT_CATEGORY_ID">
+                                                <span>Process</span>
+                                                <p class="icon-hint">
+                                                <span class="tooltip hide">
+                                                    A series of specific actions needed in order to achieve a particular end or to fulfill a customer’s request.  Processes should be distinct enough to have attributable controls.
+                                                    <i class="arrow"></i>
+                                                </span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col h hint">
+                                        <div class="new-title-d">
+                                            <div class="cover-all-icon-d">
+                                                <span>Risks</span>
+                                                <p class="icon-hint">
+                                                    <span class="tooltip hide">
+                                                        The impact of a process/sub-process not being achieved.  There are many risks but some include inappropriate system access and not meeting regulatory requirements, training requirements, or customer expectations.  Risks are attributed to processes.
+                                                        <i class="arrow"></i>
+                                                    </span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="clearfix"></div>
+                            </li>
+                            <!-- Li Thread -->
+                            <li class="li " id="{{processRisk.id}}" data-ng-repeat="processRisk in adminLookups.ProcessRisk">
+                                <div class="col-layout col-kips">
+                                    <div class="col static-col"
+                                         data-ng-mouseover="showDragInfo($index,$event,processRisk,selected.controlTypes, 'ProcessRisk')">
+                                        <div class="edit-block-sn">
+                                            <a class="move-handel-row ui-sortable-handle"></a>
+                                            <div class="toggle-view-con ng-isolate-scope">
+                                                <ul class="edit-list">
+                                                    <li class="li">
+                                                        <div class="edit-row">
+                                                            <a class="move-handel ui-sortable-handle"></a>
+                                                            <div class="chk-ctrl">
+                                                                <input  class="ck " type="checkbox">
+                                                                <label class="chk-lbl">
+                                                                    <span data-inline-edit="processRisk"
+                                                                        type="ProcessRisk" field="name"
+                                                                        class="tx">
+                                                                    </span>
+                                                                </label>
+                                                            </div>
+                                                        </div>
+                                                        <!-- /.edit-row -->
+                                                        <a class="remove"
+                                                           data-ng-click="deleteLookupEntity('ProcessRisk', processRisk.id)"></a>
+                                                    </li>
+                                                    <li class="li li-add">
+                                                        <div class="add-group">
+                                                            <input class="text-ctrl ng-pristine ng-untouched ng-valid ng-empty"
+                                                                   data-ng-enter="addRecord(newRecord)"
+                                                                   data-ng-model="newRecord" type="text">
+                                                            <a class="add-link" data-ng-click="addRecord(newRecord)"></a>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="when-drop-d" ng-show="processRisk.controlTypes.length>0">
+                                            <p class="title">Controls</p>
+                                            <a href="javascript:;" class="close-icon close-icon-drag"
+                                               data-ng-click="deleteChildItems('ProcessRisk', processRisk)"></a>
+                                            <div class="clearfix"></div>
+                                            <ul class="list-drap">
+                                                <li data-ng-repeat="controlType in processRisk.controlTypes">
+                                                    <span>{{controlType.name}}</span>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <!-- /.col -->
+                                    <div class="col">
+                                        <div class="edit-block-sn">
+                                            <div  class="toggle-view-con can-select">
+                                                <ul class="list-d-col-2" >
+                                                    <li>
+                                                        <span data-inline-edit="processRisk"
+                                                            type="ProcessRisk" field="risk"
+                                                            class="text">
+                                                        </span>
+                                                    </li>
+                                                </ul>
+                                                <!-- list-d-col-2 -->
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- /.col -->
+                                </div>
+                                <!-- /.col-layout -->
+                                <div class="clearfix"></div>
+                            </li>
+                            <li class="li">
+                                <div class="col-layout col-kips">
+                                    <div class="col static-col">
+                                        <div class="edit-block-sn">
+                                            <div class="toggle-view-con ng-isolate-scope">
+                                                <ul class="edit-list">
+                                                    <li class="li li-add">
+                                                        <div class="add-group">
+                                                            <input class="text-ctrl"
+                                                                   data-ng-enter="addProcess()" maxlength="200"
+                                                                   data-ng-model="new.processTitle" type="text">
+                                                            <a class="add-link" data-ng-click="addProcess()"></a>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- /.col -->
+                                    <div class="col">
+                                        <div class="edit-block-sn">
+                                            <div  class="toggle-view-con can-select">
+                                                <ul class="edit-list">
+                                                    <li class="li li-add">
+                                                        <div class="add-group">
+                                                            <input class="text-ctrl"
+                                                                   data-ng-enter="addProcessRisk()" maxlength="200"
+                                                                   data-ng-model="new.processRisk" type="text">
+                                                            <a class="add-link" data-ng-click="addProcessRisk()"></a>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- /.col -->
+                                </div>
+                                <!-- /.col-layout -->
+                                <div class="clearfix"></div>
+                            </li>
+                            <!-- Li ADD -->
+                        </ul>
+                        <!-- /.row-view -->
+
+                        <div class="master-col">
+                            <div class="cover-master">
+                                <div class="col h hint">
+                                    <div class="new-title-d">
+                                        <div class="cover-all-icon-d">
+                                            <span>Controls (master list)</span>
+                                            <p class="icon-hint">
+                                            <span class="tooltip hide">
+                                                Activities that can direct or influence a process to achieve the most desired result and decrease the exposure to risk in that process.  These are safeguards to ensure you’re successfully and efficiently completing your processes and achieving your service levels.  For example, quality review of work is done to ensure people are processing their work accurately. Controls are attributed to Core Processes.
+                                                <i class="arrow"></i>
+                                            </span>
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="clearfix"></div>
+                                </div>
+                                <div class="main-check">
+                                    <a href="javascript:;" class="handel-d  hold-tap-section"></a>
+                                    <div class="col">
+                                        <div class="edit-block-sn">
+                                            <div data-edit-block="adminLookups.ControlType"
+                                                 type="ControlType"
+                                                 drag-items="selected.controlTypes"
+                                                 master-list="true"
+                                                 category-id="{{selected.categoryType}}"
+                                                 unique-name="ControlType{{selected.categoryType}}"
+                                                 on-created="createCategoryLookupEntity"
+                                                 class="toggle-view-con">
+                                            </div>
+                                        </div>
+                                        <!-- Col data  -->
+                                    </div>
+                                </div>
+                                <div class="white-overlay"></div>
+
+                            </div>
+                            <!-- Master Col -->
+                            <div class="when-drop-drap">
+                                <a href="javascript:;" class="move-hand"></a>
+                                <ul class="edit-list">
+                                    <li class="li" data-ng-repeat="item in selected.controlTypes">
+                                        <div class="edit-row">
+                                            <div class="chk-ctrl">
+                                                <input class="ck ng-pristine " type="checkbox" checked>
+                                                <label class="chk-lbl"><span class="tx ">{{item.name}}</span></label>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- Master Col -->
+                    </div>
+                </div>
+            </div>
+            <!-- /.col-layout -->
+
+            <div class="section-footer row m-t-40">
+                <div class="left">
+                    <a href="#/admin/edit" ng-if="current.showPrev" class="btn btn-primary">Prev</a>
+                    <a href="javascript:;" ng-if="!current.showPrev" ng-click="current.tabIndex=current.tabIndex-1;setCurrentNav(true)" class="btn btn-primary">Prev</a>
+                </div>
+                <div class="right">
+                    <a href="#/admin/edit/globalFields" ng-if="current.showNext" class="btn btn-primary">Next</a>
+                    <a href="javascript:;" ng-if="!current.showNext" ng-click="current.tabIndex=current.tabIndex+1;setCurrentNav(true)" class="btn btn-primary">Next</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- END #main-content -->
+    <div class="clearfix"></div>

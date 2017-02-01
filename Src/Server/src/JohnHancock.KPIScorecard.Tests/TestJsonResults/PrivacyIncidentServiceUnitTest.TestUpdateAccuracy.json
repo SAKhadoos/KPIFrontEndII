@@ -1,0 +1,75 @@
+{
+  "IncidentNumber": "IncidentNumber_1",
+  "BusinessUnit": {
+    "Value": "KST_BusinessUnit1",
+    "Enabled": true,
+    "Id": 1
+  },
+  "IncidentTitle": "IncidentTitle_1",
+  "IncidentType": {
+    "Value": "PrivacyIncidentTypeValue1",
+    "Enabled": true,
+    "Id": 1
+  },
+  "RootCause": {
+    "Value": "PrivacyIncidentStatusValue1",
+    "Enabled": true,
+    "Id": 1
+  },
+  "RootCauseDetail": "RootCauseDetail_1",
+  "NumberOfCustomersImpacted": 17,
+  "MitigationCode": [
+    {
+      "Value": "PrivacyIncidentMitigationCodeValue1",
+      "Enabled": true,
+      "Id": 1
+    },
+    {
+      "Value": "PrivacyIncidentMitigationCodeValue2",
+      "Enabled": false,
+      "Id": 2
+    }
+  ],
+  "MitigationDetail": "MitigationDetail_1",
+  "IncidentYear": {
+    "Value": "2017",
+    "Enabled": true,
+    "Id": 1
+  },
+  "IncidentMonth": {
+    "Value": "January",
+    "Enabled": true,
+    "Id": 1
+  },
+  "RemediationYear": {
+    "Value": "2017",
+    "Enabled": true,
+    "Id": 1
+  },
+  "RemediationMonth": {
+    "Value": "January",
+    "Enabled": true,
+    "Id": 1
+  },
+  "Status": {
+    "Value": "PrivacyIncidentStatusValue1",
+    "Enabled": true,
+    "Id": 1
+  },
+  "ReportedToORMYear": {
+    "Value": "2017",
+    "Enabled": true,
+    "Id": 1
+  },
+  "ReportedToORMMonth": {
+    "Value": "January",
+    "Enabled": true,
+    "Id": 1
+  },
+  "CompletionType": 0,
+  "CreatedBy": "CreatedBy2",
+  "CreatedTime": "12/10/2016 00:00:00",
+  "LastUpdatedBy": "LastUpdatedBy_1",
+  "LastUpdatedTime": "10/22/2021 00:00:00",
+  "Id": 2
+}

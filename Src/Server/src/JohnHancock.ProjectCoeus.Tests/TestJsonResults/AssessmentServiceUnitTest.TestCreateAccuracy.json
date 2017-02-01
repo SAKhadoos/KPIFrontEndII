@@ -1,0 +1,3339 @@
+{
+  "BusinessUnit": {
+    "Category": null,
+    "Name": "Annuities",
+    "DisplayOrder": 1,
+    "Enabled": true,
+    "AddOnStatus": 1,
+    "CreatedBy": "CoeusAdminUser",
+    "CreatedTime": "12/12/9999 00:00:00",
+    "LastUpdatedBy": "CoeusAdminUser",
+    "LastUpdatedTime": "12/12/9999 00:00:00",
+    "Id": 1
+  },
+  "Products": [
+    {
+      "BusinessUnitId": 1,
+      "Name": "Fixed Annuity",
+      "DisplayOrder": 1,
+      "Enabled": true,
+      "AddOnStatus": 1,
+      "CreatedBy": "CoeusAdminUser",
+      "CreatedTime": "12/12/9999 00:00:00",
+      "LastUpdatedBy": "CoeusAdminUser",
+      "LastUpdatedTime": "12/12/9999 00:00:00",
+      "Id": 1
+    },
+    {
+      "BusinessUnitId": 1,
+      "Name": "PAR",
+      "DisplayOrder": 2,
+      "Enabled": true,
+      "AddOnStatus": 1,
+      "CreatedBy": "CoeusAdminUser",
+      "CreatedTime": "12/12/9999 00:00:00",
+      "LastUpdatedBy": "CoeusAdminUser",
+      "LastUpdatedTime": "12/12/9999 00:00:00",
+      "Id": 2
+    }
+  ],
+  "Department": {
+    "BusinessUnitId": 1,
+    "Name": "Annuities Administration",
+    "DisplayOrder": 1,
+    "Enabled": true,
+    "AddOnStatus": 1,
+    "CreatedBy": "CoeusAdminUser",
+    "CreatedTime": "12/12/9999 00:00:00",
+    "LastUpdatedBy": "CoeusAdminUser",
+    "LastUpdatedTime": "12/12/9999 00:00:00",
+    "Id": 1
+  },
+  "DepartmentHead": {
+    "BusinessUnitId": 1,
+    "Name": "CoeusBUFuncApp1",
+    "DisplayOrder": 1,
+    "Enabled": true,
+    "AddOnStatus": 1,
+    "CreatedBy": "CoeusAdminUser",
+    "CreatedTime": "12/12/9999 00:00:00",
+    "LastUpdatedBy": "CoeusAdminUser",
+    "LastUpdatedTime": "12/12/9999 00:00:00",
+    "Id": 1
+  },
+  "FunctionalAreaOwner": {
+    "BusinessUnitId": 1,
+    "Name": "CoeusBUFuncApp1",
+    "DisplayOrder": 1,
+    "Enabled": true,
+    "AddOnStatus": 1,
+    "CreatedBy": "CoeusAdminUser",
+    "CreatedTime": "12/12/9999 00:00:00",
+    "LastUpdatedBy": "CoeusAdminUser",
+    "LastUpdatedTime": "12/12/9999 00:00:00",
+    "Id": 1
+  },
+  "FunctionalArea": {
+    "Category": null,
+    "BusinessUnitId": 1,
+    "Name": "Account Maintenance",
+    "DisplayOrder": 1,
+    "Enabled": true,
+    "AddOnStatus": 1,
+    "CreatedBy": "CoeusAdminUser",
+    "CreatedTime": "12/12/9999 00:00:00",
+    "LastUpdatedBy": "CoeusAdminUser",
+    "LastUpdatedTime": "12/12/9999 00:00:00",
+    "Id": 1
+  },
+  "FunctionalAreaDescription": "FunctionalAreaDescription_1",
+  "FunctionPerformedSites": [
+    {
+      "Site": {
+        "Name": "Boston",
+        "DisplayOrder": 1,
+        "Enabled": true,
+        "AddOnStatus": 1,
+        "CreatedBy": "CoeusAdminUser",
+        "CreatedTime": "12/12/9999 00:00:00",
+        "LastUpdatedBy": "CoeusAdminUser",
+        "LastUpdatedTime": "12/12/9999 00:00:00",
+        "Id": 1
+      },
+      "Percentage": {
+        "Value": 10.0,
+        "Name": "10%",
+        "DisplayOrder": 2,
+        "Enabled": true,
+        "AddOnStatus": 1,
+        "CreatedBy": "CoeusAdminUser",
+        "CreatedTime": "12/12/9999 00:00:00",
+        "LastUpdatedBy": "CoeusAdminUser",
+        "LastUpdatedTime": "12/12/9999 00:00:00",
+        "Id": 1
+      },
+      "Id": 0
+    },
+    {
+      "Site": {
+        "Name": "Cebu",
+        "DisplayOrder": 2,
+        "Enabled": true,
+        "AddOnStatus": 1,
+        "CreatedBy": "CoeusAdminUser",
+        "CreatedTime": "12/12/9999 00:00:00",
+        "LastUpdatedBy": "CoeusAdminUser",
+        "LastUpdatedTime": "12/12/9999 00:00:00",
+        "Id": 2
+      },
+      "Percentage": {
+        "Value": 20.0,
+        "Name": "20%",
+        "DisplayOrder": 3,
+        "Enabled": true,
+        "AddOnStatus": 1,
+        "CreatedBy": "CoeusAdminUser",
+        "CreatedTime": "12/12/9999 00:00:00",
+        "LastUpdatedBy": "CoeusAdminUser",
+        "LastUpdatedTime": "12/12/9999 00:00:00",
+        "Id": 2
+      },
+      "Id": 0
+    }
+  ],
+  "AssessmentType": {
+    "Name": "Annual Analysis",
+    "DisplayOrder": 1,
+    "Enabled": true,
+    "AddOnStatus": 1,
+    "CreatedBy": "CoeusAdminUser",
+    "CreatedTime": "12/12/9999 00:00:00",
+    "LastUpdatedBy": "CoeusAdminUser",
+    "LastUpdatedTime": "12/12/9999 00:00:00",
+    "Id": 1
+  },
+  "AssessmentStatus": {
+    "Name": "Not Started",
+    "DisplayOrder": 1,
+    "Enabled": true,
+    "AddOnStatus": 1,
+    "CreatedBy": "CoeusAdminUser",
+    "CreatedTime": "12/12/9999 00:00:00",
+    "LastUpdatedBy": "CoeusAdminUser",
+    "LastUpdatedTime": "12/12/9999 00:00:00",
+    "Id": 1
+  },
+  "AssessmentDueDate": "12/12/2011 00:00:00",
+  "PriorFunctionChanges": [
+    {
+      "ChangeType": {
+        "Name": "Process",
+        "DisplayOrder": 1,
+        "Enabled": true,
+        "AddOnStatus": 1,
+        "CreatedBy": "CoeusAdminUser",
+        "CreatedTime": "12/12/9999 00:00:00",
+        "LastUpdatedBy": "CoeusAdminUser",
+        "LastUpdatedTime": "12/12/9999 00:00:00",
+        "Id": 1
+      },
+      "ChangeTime": "03/03/2002 00:00:00",
+      "ChangeDescription": "ChangeDescription_1",
+      "Id": 0
+    },
+    {
+      "ChangeType": {
+        "Name": "Compliance Requirements",
+        "DisplayOrder": 2,
+        "Enabled": true,
+        "AddOnStatus": 1,
+        "CreatedBy": "CoeusAdminUser",
+        "CreatedTime": "12/12/9999 00:00:00",
+        "LastUpdatedBy": "CoeusAdminUser",
+        "LastUpdatedTime": "12/12/9999 00:00:00",
+        "Id": 2
+      },
+      "ChangeTime": "03/03/2002 00:00:00",
+      "ChangeDescription": "ChangeDescription_2",
+      "Id": 0
+    }
+  ],
+  "FutureFunctionChanges": [
+    {
+      "ChangeType": {
+        "Name": "Process",
+        "DisplayOrder": 1,
+        "Enabled": true,
+        "AddOnStatus": 1,
+        "CreatedBy": "CoeusAdminUser",
+        "CreatedTime": "12/12/9999 00:00:00",
+        "LastUpdatedBy": "CoeusAdminUser",
+        "LastUpdatedTime": "12/12/9999 00:00:00",
+        "Id": 1
+      },
+      "ChangeTime": "03/03/2002 00:00:00",
+      "ChangeDescription": "ChangeDescription_1",
+      "Id": 0
+    },
+    {
+      "ChangeType": {
+        "Name": "Compliance Requirements",
+        "DisplayOrder": 2,
+        "Enabled": true,
+        "AddOnStatus": 1,
+        "CreatedBy": "CoeusAdminUser",
+        "CreatedTime": "12/12/9999 00:00:00",
+        "LastUpdatedBy": "CoeusAdminUser",
+        "LastUpdatedTime": "12/12/9999 00:00:00",
+        "Id": 2
+      },
+      "ChangeTime": "03/03/2002 00:00:00",
+      "ChangeDescription": "ChangeDescription_2",
+      "Id": 0
+    }
+  ],
+  "KPISLAAssessments": [
+    {
+      "Category": {
+        "Weight": 0.00,
+        "Name": "KPI's / SLA's",
+        "DisplayOrder": 1,
+        "Enabled": true,
+        "AddOnStatus": 1,
+        "CreatedBy": "CoeusAdminUser",
+        "CreatedTime": "12/12/9999 00:00:00",
+        "LastUpdatedBy": "CoeusAdminUser",
+        "LastUpdatedTime": "12/12/9999 00:00:00",
+        "Id": 1
+      },
+      "KPICategory": {
+        "KPIs": [
+          {
+            "Name": "Answer Rate",
+            "DisplayOrder": 1,
+            "Enabled": true,
+            "AddOnStatus": 1,
+            "CreatedBy": "CoeusAdminUser",
+            "CreatedTime": "12/12/9999 00:00:00",
+            "LastUpdatedBy": "CoeusAdminUser",
+            "LastUpdatedTime": "12/12/9999 00:00:00",
+            "Id": 1
+          },
+          {
+            "Name": "Abandoned Rate",
+            "DisplayOrder": 2,
+            "Enabled": true,
+            "AddOnStatus": 1,
+            "CreatedBy": "CoeusAdminUser",
+            "CreatedTime": "12/12/9999 00:00:00",
+            "LastUpdatedBy": "CoeusAdminUser",
+            "LastUpdatedTime": "12/12/9999 00:00:00",
+            "Id": 2
+          },
+          {
+            "Name": "IVR Containment Rate",
+            "DisplayOrder": 3,
+            "Enabled": true,
+            "AddOnStatus": 1,
+            "CreatedBy": "CoeusAdminUser",
+            "CreatedTime": "12/12/9999 00:00:00",
+            "LastUpdatedBy": "CoeusAdminUser",
+            "LastUpdatedTime": "12/12/9999 00:00:00",
+            "Id": 3
+          },
+          {
+            "Name": "Occupancy Rate",
+            "DisplayOrder": 4,
+            "Enabled": true,
+            "AddOnStatus": 1,
+            "CreatedBy": "CoeusAdminUser",
+            "CreatedTime": "12/12/9999 00:00:00",
+            "LastUpdatedBy": "CoeusAdminUser",
+            "LastUpdatedTime": "12/12/9999 00:00:00",
+            "Id": 4
+          }
+        ],
+        "SLAs": [
+          {
+            "Name": "Not applicable",
+            "DisplayOrder": 50,
+            "Enabled": true,
+            "AddOnStatus": 1,
+            "CreatedBy": "CoeusAdminUser",
+            "CreatedTime": "12/12/9999 00:00:00",
+            "LastUpdatedBy": "CoeusAdminUser",
+            "LastUpdatedTime": "12/12/9999 00:00:00",
+            "Id": 4
+          },
+          {
+            "Name": "<3%",
+            "DisplayOrder": 28,
+            "Enabled": true,
+            "AddOnStatus": 1,
+            "CreatedBy": "CoeusAdminUser",
+            "CreatedTime": "12/12/9999 00:00:00",
+            "LastUpdatedBy": "CoeusAdminUser",
+            "LastUpdatedTime": "12/12/9999 00:00:00",
+            "Id": 15
+          },
+          {
+            "Name": "90%",
+            "DisplayOrder": 21,
+            "Enabled": true,
+            "AddOnStatus": 1,
+            "CreatedBy": "CoeusAdminUser",
+            "CreatedTime": "12/12/9999 00:00:00",
+            "LastUpdatedBy": "CoeusAdminUser",
+            "LastUpdatedTime": "12/12/9999 00:00:00",
+            "Id": 21
+          },
+          {
+            "Name": "85%",
+            "DisplayOrder": 22,
+            "Enabled": true,
+            "AddOnStatus": 1,
+            "CreatedBy": "CoeusAdminUser",
+            "CreatedTime": "12/12/9999 00:00:00",
+            "LastUpdatedBy": "CoeusAdminUser",
+            "LastUpdatedTime": "12/12/9999 00:00:00",
+            "Id": 22
+          },
+          {
+            "Name": "80%",
+            "DisplayOrder": 23,
+            "Enabled": true,
+            "AddOnStatus": 1,
+            "CreatedBy": "CoeusAdminUser",
+            "CreatedTime": "12/12/9999 00:00:00",
+            "LastUpdatedBy": "CoeusAdminUser",
+            "LastUpdatedTime": "12/12/9999 00:00:00",
+            "Id": 24
+          },
+          {
+            "Name": "30%",
+            "DisplayOrder": 24,
+            "Enabled": true,
+            "AddOnStatus": 1,
+            "CreatedBy": "CoeusAdminUser",
+            "CreatedTime": "12/12/9999 00:00:00",
+            "LastUpdatedBy": "CoeusAdminUser",
+            "LastUpdatedTime": "12/12/9999 00:00:00",
+            "Id": 25
+          }
+        ],
+        "BusinessUnitId": null,
+        "FunctionalAreaId": null,
+        "Name": "Telephony",
+        "DisplayOrder": 1,
+        "Enabled": true,
+        "AddOnStatus": 1,
+        "CreatedBy": "CoeusAdminUser",
+        "CreatedTime": "12/12/9999 00:00:00",
+        "LastUpdatedBy": "CoeusAdminUser",
+        "LastUpdatedTime": "12/12/9999 00:00:00",
+        "Id": 1
+      },
+      "KPI": {
+        "KPICategory": {
+          "KPIs": [
+            {
+              "Name": "Abandoned Rate",
+              "DisplayOrder": 2,
+              "Enabled": true,
+              "AddOnStatus": 1,
+              "CreatedBy": "CoeusAdminUser",
+              "CreatedTime": "12/12/9999 00:00:00",
+              "LastUpdatedBy": "CoeusAdminUser",
+              "LastUpdatedTime": "12/12/9999 00:00:00",
+              "Id": 2
+            },
+            {
+              "Name": "IVR Containment Rate",
+              "DisplayOrder": 3,
+              "Enabled": true,
+              "AddOnStatus": 1,
+              "CreatedBy": "CoeusAdminUser",
+              "CreatedTime": "12/12/9999 00:00:00",
+              "LastUpdatedBy": "CoeusAdminUser",
+              "LastUpdatedTime": "12/12/9999 00:00:00",
+              "Id": 3
+            },
+            {
+              "Name": "Occupancy Rate",
+              "DisplayOrder": 4,
+              "Enabled": true,
+              "AddOnStatus": 1,
+              "CreatedBy": "CoeusAdminUser",
+              "CreatedTime": "12/12/9999 00:00:00",
+              "LastUpdatedBy": "CoeusAdminUser",
+              "LastUpdatedTime": "12/12/9999 00:00:00",
+              "Id": 4
+            }
+          ],
+          "SLAs": [
+            {
+              "Name": "Not applicable",
+              "DisplayOrder": 50,
+              "Enabled": true,
+              "AddOnStatus": 1,
+              "CreatedBy": "CoeusAdminUser",
+              "CreatedTime": "12/12/9999 00:00:00",
+              "LastUpdatedBy": "CoeusAdminUser",
+              "LastUpdatedTime": "12/12/9999 00:00:00",
+              "Id": 4
+            },
+            {
+              "Name": "<3%",
+              "DisplayOrder": 28,
+              "Enabled": true,
+              "AddOnStatus": 1,
+              "CreatedBy": "CoeusAdminUser",
+              "CreatedTime": "12/12/9999 00:00:00",
+              "LastUpdatedBy": "CoeusAdminUser",
+              "LastUpdatedTime": "12/12/9999 00:00:00",
+              "Id": 15
+            },
+            {
+              "Name": "90%",
+              "DisplayOrder": 21,
+              "Enabled": true,
+              "AddOnStatus": 1,
+              "CreatedBy": "CoeusAdminUser",
+              "CreatedTime": "12/12/9999 00:00:00",
+              "LastUpdatedBy": "CoeusAdminUser",
+              "LastUpdatedTime": "12/12/9999 00:00:00",
+              "Id": 21
+            },
+            {
+              "Name": "85%",
+              "DisplayOrder": 22,
+              "Enabled": true,
+              "AddOnStatus": 1,
+              "CreatedBy": "CoeusAdminUser",
+              "CreatedTime": "12/12/9999 00:00:00",
+              "LastUpdatedBy": "CoeusAdminUser",
+              "LastUpdatedTime": "12/12/9999 00:00:00",
+              "Id": 22
+            },
+            {
+              "Name": "80%",
+              "DisplayOrder": 23,
+              "Enabled": true,
+              "AddOnStatus": 1,
+              "CreatedBy": "CoeusAdminUser",
+              "CreatedTime": "12/12/9999 00:00:00",
+              "LastUpdatedBy": "CoeusAdminUser",
+              "LastUpdatedTime": "12/12/9999 00:00:00",
+              "Id": 24
+            },
+            {
+              "Name": "30%",
+              "DisplayOrder": 24,
+              "Enabled": true,
+              "AddOnStatus": 1,
+              "CreatedBy": "CoeusAdminUser",
+              "CreatedTime": "12/12/9999 00:00:00",
+              "LastUpdatedBy": "CoeusAdminUser",
+              "LastUpdatedTime": "12/12/9999 00:00:00",
+              "Id": 25
+            }
+          ],
+          "BusinessUnitId": null,
+          "FunctionalAreaId": null,
+          "Name": "Telephony",
+          "DisplayOrder": 1,
+          "Enabled": true,
+          "AddOnStatus": 1,
+          "CreatedBy": "CoeusAdminUser",
+          "CreatedTime": "12/12/9999 00:00:00",
+          "LastUpdatedBy": "CoeusAdminUser",
+          "LastUpdatedTime": "12/12/9999 00:00:00",
+          "Id": 1
+        },
+        "Name": "Answer Rate",
+        "DisplayOrder": 1,
+        "Enabled": true,
+        "AddOnStatus": 1,
+        "CreatedBy": "CoeusAdminUser",
+        "CreatedTime": "12/12/9999 00:00:00",
+        "LastUpdatedBy": "CoeusAdminUser",
+        "LastUpdatedTime": "12/12/9999 00:00:00",
+        "Id": 1
+      },
+      "SelectedSLA": {
+        "Name": "XX% Satisfied",
+        "DisplayOrder": 1,
+        "Enabled": true,
+        "AddOnStatus": 1,
+        "CreatedBy": "CoeusAdminUser",
+        "CreatedTime": "12/12/9999 00:00:00",
+        "LastUpdatedBy": "CoeusAdminUser",
+        "LastUpdatedTime": "12/12/9999 00:00:00",
+        "Id": 1
+      },
+      "AdditionalKPICategory": "AdditionalKPICategory_1",
+      "AdditionalKPI": "AdditionalKPI_1",
+      "AdditionalSLA": "AdditionalSLA_1",
+      "Id": 0
+    },
+    {
+      "Category": {
+        "Weight": 65.00,
+        "Name": "Functional Area Processes",
+        "DisplayOrder": 2,
+        "Enabled": true,
+        "AddOnStatus": 1,
+        "CreatedBy": "CoeusAdminUser",
+        "CreatedTime": "12/12/9999 00:00:00",
+        "LastUpdatedBy": "CoeusAdminUser",
+        "LastUpdatedTime": "12/12/9999 00:00:00",
+        "Id": 2
+      },
+      "KPICategory": {
+        "KPIs": [],
+        "SLAs": [
+          {
+            "Name": "Same day",
+            "DisplayOrder": 2,
+            "Enabled": true,
+            "AddOnStatus": 1,
+            "CreatedBy": "CoeusAdminUser",
+            "CreatedTime": "12/12/9999 00:00:00",
+            "LastUpdatedBy": "CoeusAdminUser",
+            "LastUpdatedTime": "12/12/9999 00:00:00",
+            "Id": 2
+          },
+          {
+            "Name": "Phone/emails every 15 days",
+            "DisplayOrder": 3,
+            "Enabled": true,
+            "AddOnStatus": 1,
+            "CreatedBy": "CoeusAdminUser",
+            "CreatedTime": "12/12/9999 00:00:00",
+            "LastUpdatedBy": "CoeusAdminUser",
+            "LastUpdatedTime": "12/12/9999 00:00:00",
+            "Id": 3
+          },
+          {
+            "Name": "Not applicable",
+            "DisplayOrder": 50,
+            "Enabled": true,
+            "AddOnStatus": 1,
+            "CreatedBy": "CoeusAdminUser",
+            "CreatedTime": "12/12/9999 00:00:00",
+            "LastUpdatedBy": "CoeusAdminUser",
+            "LastUpdatedTime": "12/12/9999 00:00:00",
+            "Id": 4
+          },
+          {
+            "Name": "Letters every 30 days",
+            "DisplayOrder": 6,
+            "Enabled": true,
+            "AddOnStatus": 1,
+            "CreatedBy": "CoeusAdminUser",
+            "CreatedTime": "12/12/9999 00:00:00",
+            "LastUpdatedBy": "CoeusAdminUser",
+            "LastUpdatedTime": "12/12/9999 00:00:00",
+            "Id": 6
+          },
+          {
+            "Name": "90% in 6 hours",
+            "DisplayOrder": 9,
+            "Enabled": true,
+            "AddOnStatus": 1,
+            "CreatedBy": "CoeusAdminUser",
+            "CreatedTime": "12/12/9999 00:00:00",
+            "LastUpdatedBy": "CoeusAdminUser",
+            "LastUpdatedTime": "12/12/9999 00:00:00",
+            "Id": 9
+          },
+          {
+            "Name": "90% in 5 days",
+            "DisplayOrder": 10,
+            "Enabled": true,
+            "AddOnStatus": 1,
+            "CreatedBy": "CoeusAdminUser",
+            "CreatedTime": "12/12/9999 00:00:00",
+            "LastUpdatedBy": "CoeusAdminUser",
+            "LastUpdatedTime": "12/12/9999 00:00:00",
+            "Id": 10
+          },
+          {
+            "Name": "3-5 days",
+            "DisplayOrder": 11,
+            "Enabled": true,
+            "AddOnStatus": 1,
+            "CreatedBy": "CoeusAdminUser",
+            "CreatedTime": "12/12/9999 00:00:00",
+            "LastUpdatedBy": "CoeusAdminUser",
+            "LastUpdatedTime": "12/12/9999 00:00:00",
+            "Id": 11
+          },
+          {
+            "Name": "30 days",
+            "DisplayOrder": 12,
+            "Enabled": true,
+            "AddOnStatus": 1,
+            "CreatedBy": "CoeusAdminUser",
+            "CreatedTime": "12/12/9999 00:00:00",
+            "LastUpdatedBy": "CoeusAdminUser",
+            "LastUpdatedTime": "12/12/9999 00:00:00",
+            "Id": 12
+          },
+          {
+            "Name": "1-2 days",
+            "DisplayOrder": 14,
+            "Enabled": true,
+            "AddOnStatus": 1,
+            "CreatedBy": "CoeusAdminUser",
+            "CreatedTime": "12/12/9999 00:00:00",
+            "LastUpdatedBy": "CoeusAdminUser",
+            "LastUpdatedTime": "12/12/9999 00:00:00",
+            "Id": 14
+          },
+          {
+            "Name": "% of payments in inventory by days (15/30 days)",
+            "DisplayOrder": 16,
+            "Enabled": true,
+            "AddOnStatus": 1,
+            "CreatedBy": "CoeusAdminUser",
+            "CreatedTime": "12/12/9999 00:00:00",
+            "LastUpdatedBy": "CoeusAdminUser",
+            "LastUpdatedTime": "12/12/9999 00:00:00",
+            "Id": 16
+          }
+        ],
+        "BusinessUnitId": null,
+        "FunctionalAreaId": null,
+        "Name": "Transactional Timeliness",
+        "DisplayOrder": 2,
+        "Enabled": true,
+        "AddOnStatus": 1,
+        "CreatedBy": "CoeusAdminUser",
+        "CreatedTime": "12/12/9999 00:00:00",
+        "LastUpdatedBy": "CoeusAdminUser",
+        "LastUpdatedTime": "12/12/9999 00:00:00",
+        "Id": 2
+      },
+      "KPI": {
+        "KPICategory": {
+          "KPIs": [
+            {
+              "Name": "Answer Rate",
+              "DisplayOrder": 1,
+              "Enabled": true,
+              "AddOnStatus": 1,
+              "CreatedBy": "CoeusAdminUser",
+              "CreatedTime": "12/12/9999 00:00:00",
+              "LastUpdatedBy": "CoeusAdminUser",
+              "LastUpdatedTime": "12/12/9999 00:00:00",
+              "Id": 1
+            },
+            {
+              "Name": "IVR Containment Rate",
+              "DisplayOrder": 3,
+              "Enabled": true,
+              "AddOnStatus": 1,
+              "CreatedBy": "CoeusAdminUser",
+              "CreatedTime": "12/12/9999 00:00:00",
+              "LastUpdatedBy": "CoeusAdminUser",
+              "LastUpdatedTime": "12/12/9999 00:00:00",
+              "Id": 3
+            },
+            {
+              "Name": "Occupancy Rate",
+              "DisplayOrder": 4,
+              "Enabled": true,
+              "AddOnStatus": 1,
+              "CreatedBy": "CoeusAdminUser",
+              "CreatedTime": "12/12/9999 00:00:00",
+              "LastUpdatedBy": "CoeusAdminUser",
+              "LastUpdatedTime": "12/12/9999 00:00:00",
+              "Id": 4
+            }
+          ],
+          "SLAs": [
+            {
+              "Name": "Not applicable",
+              "DisplayOrder": 50,
+              "Enabled": true,
+              "AddOnStatus": 1,
+              "CreatedBy": "CoeusAdminUser",
+              "CreatedTime": "12/12/9999 00:00:00",
+              "LastUpdatedBy": "CoeusAdminUser",
+              "LastUpdatedTime": "12/12/9999 00:00:00",
+              "Id": 4
+            },
+            {
+              "Name": "<3%",
+              "DisplayOrder": 28,
+              "Enabled": true,
+              "AddOnStatus": 1,
+              "CreatedBy": "CoeusAdminUser",
+              "CreatedTime": "12/12/9999 00:00:00",
+              "LastUpdatedBy": "CoeusAdminUser",
+              "LastUpdatedTime": "12/12/9999 00:00:00",
+              "Id": 15
+            },
+            {
+              "Name": "90%",
+              "DisplayOrder": 21,
+              "Enabled": true,
+              "AddOnStatus": 1,
+              "CreatedBy": "CoeusAdminUser",
+              "CreatedTime": "12/12/9999 00:00:00",
+              "LastUpdatedBy": "CoeusAdminUser",
+              "LastUpdatedTime": "12/12/9999 00:00:00",
+              "Id": 21
+            },
+            {
+              "Name": "85%",
+              "DisplayOrder": 22,
+              "Enabled": true,
+              "AddOnStatus": 1,
+              "CreatedBy": "CoeusAdminUser",
+              "CreatedTime": "12/12/9999 00:00:00",
+              "LastUpdatedBy": "CoeusAdminUser",
+              "LastUpdatedTime": "12/12/9999 00:00:00",
+              "Id": 22
+            },
+            {
+              "Name": "80%",
+              "DisplayOrder": 23,
+              "Enabled": true,
+              "AddOnStatus": 1,
+              "CreatedBy": "CoeusAdminUser",
+              "CreatedTime": "12/12/9999 00:00:00",
+              "LastUpdatedBy": "CoeusAdminUser",
+              "LastUpdatedTime": "12/12/9999 00:00:00",
+              "Id": 24
+            },
+            {
+              "Name": "30%",
+              "DisplayOrder": 24,
+              "Enabled": true,
+              "AddOnStatus": 1,
+              "CreatedBy": "CoeusAdminUser",
+              "CreatedTime": "12/12/9999 00:00:00",
+              "LastUpdatedBy": "CoeusAdminUser",
+              "LastUpdatedTime": "12/12/9999 00:00:00",
+              "Id": 25
+            }
+          ],
+          "BusinessUnitId": null,
+          "FunctionalAreaId": null,
+          "Name": "Telephony",
+          "DisplayOrder": 1,
+          "Enabled": true,
+          "AddOnStatus": 1,
+          "CreatedBy": "CoeusAdminUser",
+          "CreatedTime": "12/12/9999 00:00:00",
+          "LastUpdatedBy": "CoeusAdminUser",
+          "LastUpdatedTime": "12/12/9999 00:00:00",
+          "Id": 1
+        },
+        "Name": "Abandoned Rate",
+        "DisplayOrder": 2,
+        "Enabled": true,
+        "AddOnStatus": 1,
+        "CreatedBy": "CoeusAdminUser",
+        "CreatedTime": "12/12/9999 00:00:00",
+        "LastUpdatedBy": "CoeusAdminUser",
+        "LastUpdatedTime": "12/12/9999 00:00:00",
+        "Id": 2
+      },
+      "SelectedSLA": {
+        "Name": "Same day",
+        "DisplayOrder": 2,
+        "Enabled": true,
+        "AddOnStatus": 1,
+        "CreatedBy": "CoeusAdminUser",
+        "CreatedTime": "12/12/9999 00:00:00",
+        "LastUpdatedBy": "CoeusAdminUser",
+        "LastUpdatedTime": "12/12/9999 00:00:00",
+        "Id": 2
+      },
+      "AdditionalKPICategory": "AdditionalKPICategory_2",
+      "AdditionalKPI": "AdditionalKPI_2",
+      "AdditionalSLA": "AdditionalSLA_2",
+      "Id": 0
+    }
+  ],
+  "FunctionalAreaProcessAssessments": [
+    {
+      "CoreProcess": {
+        "SubProcessRisks": [
+          {
+            "Risk": "Out of date or lack of policies and procedures",
+            "Name": "Document policies and procedures",
+            "DisplayOrder": 1,
+            "Enabled": true,
+            "AddOnStatus": 1,
+            "CreatedBy": "CoeusAdminUser",
+            "CreatedTime": "12/12/9999 00:00:00",
+            "LastUpdatedBy": "CoeusAdminUser",
+            "LastUpdatedTime": "12/12/9999 00:00:00",
+            "Id": 1
+          }
+        ],
+        "Category": {
+          "Weight": 65.00,
+          "Name": "Functional Area Processes",
+          "DisplayOrder": 2,
+          "Enabled": true,
+          "AddOnStatus": 1,
+          "CreatedBy": "CoeusAdminUser",
+          "CreatedTime": "12/12/9999 00:00:00",
+          "LastUpdatedBy": "CoeusAdminUser",
+          "LastUpdatedTime": "12/12/9999 00:00:00",
+          "Id": 2
+        },
+        "ControlTypes": [
+          {
+            "Category": {
+              "Weight": 65.00,
+              "Name": "Functional Area Processes",
+              "DisplayOrder": 2,
+              "Enabled": true,
+              "AddOnStatus": 1,
+              "CreatedBy": "CoeusAdminUser",
+              "CreatedTime": "12/12/9999 00:00:00",
+              "LastUpdatedBy": "CoeusAdminUser",
+              "LastUpdatedTime": "12/12/9999 00:00:00",
+              "Id": 2
+            },
+            "Name": "Quality Review",
+            "DisplayOrder": 43,
+            "Enabled": true,
+            "AddOnStatus": 1,
+            "CreatedBy": "CoeusAdminUser",
+            "CreatedTime": "12/12/9999 00:00:00",
+            "LastUpdatedBy": "CoeusAdminUser",
+            "LastUpdatedTime": "12/12/9999 00:00:00",
+            "Id": 201
+          },
+          {
+            "Category": {
+              "Weight": 65.00,
+              "Name": "Functional Area Processes",
+              "DisplayOrder": 2,
+              "Enabled": true,
+              "AddOnStatus": 1,
+              "CreatedBy": "CoeusAdminUser",
+              "CreatedTime": "12/12/9999 00:00:00",
+              "LastUpdatedBy": "CoeusAdminUser",
+              "LastUpdatedTime": "12/12/9999 00:00:00",
+              "Id": 2
+            },
+            "Name": "Manager Approval",
+            "DisplayOrder": 44,
+            "Enabled": true,
+            "AddOnStatus": 1,
+            "CreatedBy": "CoeusAdminUser",
+            "CreatedTime": "12/12/9999 00:00:00",
+            "LastUpdatedBy": "CoeusAdminUser",
+            "LastUpdatedTime": "12/12/9999 00:00:00",
+            "Id": 202
+          }
+        ],
+        "BusinessUnitId": null,
+        "FunctionalAreaId": 1,
+        "Name": "Policies and procedures",
+        "DisplayOrder": 1,
+        "Enabled": true,
+        "AddOnStatus": 1,
+        "CreatedBy": "CoeusAdminUser",
+        "CreatedTime": "12/12/9999 00:00:00",
+        "LastUpdatedBy": "CoeusAdminUser",
+        "LastUpdatedTime": "12/12/9999 00:00:00",
+        "Id": 1
+      },
+      "AdditionalCoreProcess": "AdditionalCoreProcess_1",
+      "SubProcessRisk": {
+        "CoreProcess": {
+          "SubProcessRisks": [],
+          "Category": {
+            "Weight": 65.00,
+            "Name": "Functional Area Processes",
+            "DisplayOrder": 2,
+            "Enabled": true,
+            "AddOnStatus": 1,
+            "CreatedBy": "CoeusAdminUser",
+            "CreatedTime": "12/12/9999 00:00:00",
+            "LastUpdatedBy": "CoeusAdminUser",
+            "LastUpdatedTime": "12/12/9999 00:00:00",
+            "Id": 2
+          },
+          "ControlTypes": [
+            {
+              "Category": {
+                "Weight": 65.00,
+                "Name": "Functional Area Processes",
+                "DisplayOrder": 2,
+                "Enabled": true,
+                "AddOnStatus": 1,
+                "CreatedBy": "CoeusAdminUser",
+                "CreatedTime": "12/12/9999 00:00:00",
+                "LastUpdatedBy": "CoeusAdminUser",
+                "LastUpdatedTime": "12/12/9999 00:00:00",
+                "Id": 2
+              },
+              "Name": "Quality Review",
+              "DisplayOrder": 43,
+              "Enabled": true,
+              "AddOnStatus": 1,
+              "CreatedBy": "CoeusAdminUser",
+              "CreatedTime": "12/12/9999 00:00:00",
+              "LastUpdatedBy": "CoeusAdminUser",
+              "LastUpdatedTime": "12/12/9999 00:00:00",
+              "Id": 201
+            },
+            {
+              "Category": {
+                "Weight": 65.00,
+                "Name": "Functional Area Processes",
+                "DisplayOrder": 2,
+                "Enabled": true,
+                "AddOnStatus": 1,
+                "CreatedBy": "CoeusAdminUser",
+                "CreatedTime": "12/12/9999 00:00:00",
+                "LastUpdatedBy": "CoeusAdminUser",
+                "LastUpdatedTime": "12/12/9999 00:00:00",
+                "Id": 2
+              },
+              "Name": "Manager Approval",
+              "DisplayOrder": 44,
+              "Enabled": true,
+              "AddOnStatus": 1,
+              "CreatedBy": "CoeusAdminUser",
+              "CreatedTime": "12/12/9999 00:00:00",
+              "LastUpdatedBy": "CoeusAdminUser",
+              "LastUpdatedTime": "12/12/9999 00:00:00",
+              "Id": 202
+            }
+          ],
+          "BusinessUnitId": null,
+          "FunctionalAreaId": 1,
+          "Name": "Policies and procedures",
+          "DisplayOrder": 1,
+          "Enabled": true,
+          "AddOnStatus": 1,
+          "CreatedBy": "CoeusAdminUser",
+          "CreatedTime": "12/12/9999 00:00:00",
+          "LastUpdatedBy": "CoeusAdminUser",
+          "LastUpdatedTime": "12/12/9999 00:00:00",
+          "Id": 1
+        },
+        "Risk": "Out of date or lack of policies and procedures",
+        "Name": "Document policies and procedures",
+        "DisplayOrder": 1,
+        "Enabled": true,
+        "AddOnStatus": 1,
+        "CreatedBy": "CoeusAdminUser",
+        "CreatedTime": "12/12/9999 00:00:00",
+        "LastUpdatedBy": "CoeusAdminUser",
+        "LastUpdatedTime": "12/12/9999 00:00:00",
+        "Id": 1
+      },
+      "AdditionalSubProcess": "AdditionalSubProcess_1",
+      "AdditionalRisk": "AdditionalRisk_1",
+      "LikelihoodOfOccurrence": {
+        "Value": 6,
+        "Name": "Daily",
+        "DisplayOrder": 1,
+        "Enabled": true,
+        "AddOnStatus": 1,
+        "CreatedBy": "CoeusAdminUser",
+        "CreatedTime": "12/12/9999 00:00:00",
+        "LastUpdatedBy": "CoeusAdminUser",
+        "LastUpdatedTime": "12/12/9999 00:00:00",
+        "Id": 1
+      },
+      "OtherLikelihoodOfOccurrence": "OtherLikelihoodOfOccurrence_1",
+      "RiskImpacts": [
+        {
+          "Name": "Financial",
+          "DisplayOrder": 1,
+          "Enabled": true,
+          "AddOnStatus": 1,
+          "CreatedBy": "CoeusAdminUser",
+          "CreatedTime": "12/12/9999 00:00:00",
+          "LastUpdatedBy": "CoeusAdminUser",
+          "LastUpdatedTime": "12/12/9999 00:00:00",
+          "Id": 1
+        },
+        {
+          "Name": "Operational",
+          "DisplayOrder": 2,
+          "Enabled": true,
+          "AddOnStatus": 1,
+          "CreatedBy": "CoeusAdminUser",
+          "CreatedTime": "12/12/9999 00:00:00",
+          "LastUpdatedBy": "CoeusAdminUser",
+          "LastUpdatedTime": "12/12/9999 00:00:00",
+          "Id": 2
+        }
+      ],
+      "RiskExposure": {
+        "Value": 1.00,
+        "Name": "Low",
+        "DisplayOrder": 1,
+        "Enabled": true,
+        "AddOnStatus": 1,
+        "CreatedBy": "CoeusAdminUser",
+        "CreatedTime": "12/12/9999 00:00:00",
+        "LastUpdatedBy": "CoeusAdminUser",
+        "LastUpdatedTime": "12/12/9999 00:00:00",
+        "Id": 1
+      },
+      "ControlAssessments": [
+        {
+          "ControlType": {
+            "Category": {
+              "Weight": 5.00,
+              "Name": "Corporate & Divisional Training",
+              "DisplayOrder": 3,
+              "Enabled": true,
+              "AddOnStatus": 1,
+              "CreatedBy": "CoeusAdminUser",
+              "CreatedTime": "12/12/9999 00:00:00",
+              "LastUpdatedBy": "CoeusAdminUser",
+              "LastUpdatedTime": "12/12/9999 00:00:00",
+              "Id": 3
+            },
+            "Name": "Annual review of policies & procedures",
+            "DisplayOrder": 1,
+            "Enabled": true,
+            "AddOnStatus": 1,
+            "CreatedBy": "CoeusAdminUser",
+            "CreatedTime": "12/12/9999 00:00:00",
+            "LastUpdatedBy": "CoeusAdminUser",
+            "LastUpdatedTime": "12/12/9999 00:00:00",
+            "Id": 1
+          },
+          "OtherControlType": "OtherControlType_1",
+          "ControlObjective": "ControlObjective_1",
+          "ControlFrequency": {
+            "Name": "Ad Hoc",
+            "DisplayOrder": 1,
+            "Enabled": true,
+            "AddOnStatus": 1,
+            "CreatedBy": "CoeusAdminUser",
+            "CreatedTime": "12/12/9999 00:00:00",
+            "LastUpdatedBy": "CoeusAdminUser",
+            "LastUpdatedTime": "12/12/9999 00:00:00",
+            "Id": 1
+          },
+          "ControlDesigns": [
+            {
+              "Name": "Automated",
+              "DisplayOrder": 1,
+              "Enabled": true,
+              "AddOnStatus": 1,
+              "CreatedBy": "CoeusAdminUser",
+              "CreatedTime": "12/12/9999 00:00:00",
+              "LastUpdatedBy": "CoeusAdminUser",
+              "LastUpdatedTime": "12/12/9999 00:00:00",
+              "Id": 1
+            },
+            {
+              "Name": "IT Dependent",
+              "DisplayOrder": 2,
+              "Enabled": true,
+              "AddOnStatus": 1,
+              "CreatedBy": "CoeusAdminUser",
+              "CreatedTime": "12/12/9999 00:00:00",
+              "LastUpdatedBy": "CoeusAdminUser",
+              "LastUpdatedTime": "12/12/9999 00:00:00",
+              "Id": 2
+            }
+          ],
+          "TestingFrequencies": [
+            {
+              "Name": "Business Area - Ad Hoc",
+              "DisplayOrder": 1,
+              "Enabled": true,
+              "AddOnStatus": 1,
+              "CreatedBy": "CoeusAdminUser",
+              "CreatedTime": "12/12/9999 00:00:00",
+              "LastUpdatedBy": "CoeusAdminUser",
+              "LastUpdatedTime": "12/12/9999 00:00:00",
+              "Id": 1
+            },
+            {
+              "Name": "Business Area - Daily",
+              "DisplayOrder": 2,
+              "Enabled": true,
+              "AddOnStatus": 1,
+              "CreatedBy": "CoeusAdminUser",
+              "CreatedTime": "12/12/9999 00:00:00",
+              "LastUpdatedBy": "CoeusAdminUser",
+              "LastUpdatedTime": "12/12/9999 00:00:00",
+              "Id": 2
+            }
+          ],
+          "OtherTestingFrequency": "OtherTestingFrequency_1",
+          "ControlTriggers": [
+            {
+              "Name": "Performance",
+              "DisplayOrder": 1,
+              "Enabled": true,
+              "AddOnStatus": 1,
+              "CreatedBy": "CoeusAdminUser",
+              "CreatedTime": "12/12/9999 00:00:00",
+              "LastUpdatedBy": "CoeusAdminUser",
+              "LastUpdatedTime": "12/12/9999 00:00:00",
+              "Id": 1
+            },
+            {
+              "Name": "Process",
+              "DisplayOrder": 2,
+              "Enabled": true,
+              "AddOnStatus": 1,
+              "CreatedBy": "CoeusAdminUser",
+              "CreatedTime": "12/12/9999 00:00:00",
+              "LastUpdatedBy": "CoeusAdminUser",
+              "LastUpdatedTime": "12/12/9999 00:00:00",
+              "Id": 2
+            }
+          ],
+          "KeyControlsMaturity": {
+            "Value": 0.10,
+            "Name": "Well Developed",
+            "DisplayOrder": 1,
+            "Enabled": true,
+            "AddOnStatus": 1,
+            "CreatedBy": "CoeusAdminUser",
+            "CreatedTime": "12/12/9999 00:00:00",
+            "LastUpdatedBy": "CoeusAdminUser",
+            "LastUpdatedTime": "12/12/9999 00:00:00",
+            "Id": 1
+          },
+          "OtherKeyControlMaturity": "OtherKeyControlMaturity_1",
+          "Id": 0
+        },
+        {
+          "ControlType": {
+            "Category": {
+              "Weight": 5.00,
+              "Name": "Corporate & Divisional Training",
+              "DisplayOrder": 3,
+              "Enabled": true,
+              "AddOnStatus": 1,
+              "CreatedBy": "CoeusAdminUser",
+              "CreatedTime": "12/12/9999 00:00:00",
+              "LastUpdatedBy": "CoeusAdminUser",
+              "LastUpdatedTime": "12/12/9999 00:00:00",
+              "Id": 3
+            },
+            "Name": "Resides in centralized location with employee access",
+            "DisplayOrder": 2,
+            "Enabled": true,
+            "AddOnStatus": 1,
+            "CreatedBy": "CoeusAdminUser",
+            "CreatedTime": "12/12/9999 00:00:00",
+            "LastUpdatedBy": "CoeusAdminUser",
+            "LastUpdatedTime": "12/12/9999 00:00:00",
+            "Id": 2
+          },
+          "OtherControlType": "OtherControlType_2",
+          "ControlObjective": "ControlObjective_2",
+          "ControlFrequency": {
+            "Name": "Daily",
+            "DisplayOrder": 2,
+            "Enabled": true,
+            "AddOnStatus": 1,
+            "CreatedBy": "CoeusAdminUser",
+            "CreatedTime": "12/12/9999 00:00:00",
+            "LastUpdatedBy": "CoeusAdminUser",
+            "LastUpdatedTime": "12/12/9999 00:00:00",
+            "Id": 2
+          },
+          "ControlDesigns": [
+            {
+              "Name": "IT Dependent",
+              "DisplayOrder": 2,
+              "Enabled": true,
+              "AddOnStatus": 1,
+              "CreatedBy": "CoeusAdminUser",
+              "CreatedTime": "12/12/9999 00:00:00",
+              "LastUpdatedBy": "CoeusAdminUser",
+              "LastUpdatedTime": "12/12/9999 00:00:00",
+              "Id": 2
+            },
+            {
+              "Name": "Manual Prevention (Same Day)",
+              "DisplayOrder": 3,
+              "Enabled": true,
+              "AddOnStatus": 1,
+              "CreatedBy": "CoeusAdminUser",
+              "CreatedTime": "12/12/9999 00:00:00",
+              "LastUpdatedBy": "CoeusAdminUser",
+              "LastUpdatedTime": "12/12/9999 00:00:00",
+              "Id": 3
+            }
+          ],
+          "TestingFrequencies": [
+            {
+              "Name": "Business Area - Daily",
+              "DisplayOrder": 2,
+              "Enabled": true,
+              "AddOnStatus": 1,
+              "CreatedBy": "CoeusAdminUser",
+              "CreatedTime": "12/12/9999 00:00:00",
+              "LastUpdatedBy": "CoeusAdminUser",
+              "LastUpdatedTime": "12/12/9999 00:00:00",
+              "Id": 2
+            },
+            {
+              "Name": "Business Area - Weekly",
+              "DisplayOrder": 3,
+              "Enabled": true,
+              "AddOnStatus": 1,
+              "CreatedBy": "CoeusAdminUser",
+              "CreatedTime": "12/12/9999 00:00:00",
+              "LastUpdatedBy": "CoeusAdminUser",
+              "LastUpdatedTime": "12/12/9999 00:00:00",
+              "Id": 3
+            }
+          ],
+          "OtherTestingFrequency": "OtherTestingFrequency_2",
+          "ControlTriggers": [
+            {
+              "Name": "Process",
+              "DisplayOrder": 2,
+              "Enabled": true,
+              "AddOnStatus": 1,
+              "CreatedBy": "CoeusAdminUser",
+              "CreatedTime": "12/12/9999 00:00:00",
+              "LastUpdatedBy": "CoeusAdminUser",
+              "LastUpdatedTime": "12/12/9999 00:00:00",
+              "Id": 2
+            },
+            {
+              "Name": "Product",
+              "DisplayOrder": 3,
+              "Enabled": true,
+              "AddOnStatus": 1,
+              "CreatedBy": "CoeusAdminUser",
+              "CreatedTime": "12/12/9999 00:00:00",
+              "LastUpdatedBy": "CoeusAdminUser",
+              "LastUpdatedTime": "12/12/9999 00:00:00",
+              "Id": 3
+            }
+          ],
+          "KeyControlsMaturity": {
+            "Value": 0.60,
+            "Name": "Partially Developed/Requires Improvement",
+            "DisplayOrder": 2,
+            "Enabled": true,
+            "AddOnStatus": 1,
+            "CreatedBy": "CoeusAdminUser",
+            "CreatedTime": "12/12/9999 00:00:00",
+            "LastUpdatedBy": "CoeusAdminUser",
+            "LastUpdatedTime": "12/12/9999 00:00:00",
+            "Id": 2
+          },
+          "OtherKeyControlMaturity": "OtherKeyControlMaturity_2",
+          "Id": 0
+        }
+      ],
+      "Category": {
+        "Weight": 0.00,
+        "Name": "KPI's / SLA's",
+        "DisplayOrder": 1,
+        "Enabled": true,
+        "AddOnStatus": 1,
+        "CreatedBy": "CoeusAdminUser",
+        "CreatedTime": "12/12/9999 00:00:00",
+        "LastUpdatedBy": "CoeusAdminUser",
+        "LastUpdatedTime": "12/12/9999 00:00:00",
+        "Id": 1
+      },
+      "Id": 0
+    },
+    {
+      "CoreProcess": {
+        "SubProcessRisks": [
+          {
+            "Risk": "Wrongful terminations, customer service issues and financial impacts to company",
+            "Name": "Check admin system and AWD to confirm if the deceased is a JH client, has inactive account, and if there is a pending or completed claim",
+            "DisplayOrder": 1,
+            "Enabled": true,
+            "AddOnStatus": 1,
+            "CreatedBy": "CoeusAdminUser",
+            "CreatedTime": "12/12/9999 00:00:00",
+            "LastUpdatedBy": "CoeusAdminUser",
+            "LastUpdatedTime": "12/12/9999 00:00:00",
+            "Id": 4
+          },
+          {
+            "Risk": "Increase in false positive death matches",
+            "Name": "Perfom 2nd validation of death using an external resource",
+            "DisplayOrder": 3,
+            "Enabled": true,
+            "AddOnStatus": 1,
+            "CreatedBy": "CoeusAdminUser",
+            "CreatedTime": "12/12/9999 00:00:00",
+            "LastUpdatedBy": "CoeusAdminUser",
+            "LastUpdatedTime": "12/12/9999 00:00:00",
+            "Id": 5
+          },
+          {
+            "Risk": "Previously reported deaths added to the workflow causing confusion and unnecessary work",
+            "Name": "Scrub internal UCI and Lexis Nexis death files and create AWD RIP job for processing",
+            "DisplayOrder": 2,
+            "Enabled": true,
+            "AddOnStatus": 1,
+            "CreatedBy": "CoeusAdminUser",
+            "CreatedTime": "12/12/9999 00:00:00",
+            "LastUpdatedBy": "CoeusAdminUser",
+            "LastUpdatedTime": "12/12/9999 00:00:00",
+            "Id": 3
+          },
+          {
+            "Risk": "Old or inaccurate files in the workflow",
+            "Name": "Verification of internal UCI and Lexis Nexis death files prior to AWD RIP job for processing",
+            "DisplayOrder": 1,
+            "Enabled": true,
+            "AddOnStatus": 1,
+            "CreatedBy": "CoeusAdminUser",
+            "CreatedTime": "12/12/9999 00:00:00",
+            "LastUpdatedBy": "CoeusAdminUser",
+            "LastUpdatedTime": "12/12/9999 00:00:00",
+            "Id": 2
+          }
+        ],
+        "Category": {
+          "Weight": 65.00,
+          "Name": "Functional Area Processes",
+          "DisplayOrder": 2,
+          "Enabled": true,
+          "AddOnStatus": 1,
+          "CreatedBy": "CoeusAdminUser",
+          "CreatedTime": "12/12/9999 00:00:00",
+          "LastUpdatedBy": "CoeusAdminUser",
+          "LastUpdatedTime": "12/12/9999 00:00:00",
+          "Id": 2
+        },
+        "ControlTypes": [
+          {
+            "Category": {
+              "Weight": 65.00,
+              "Name": "Functional Area Processes",
+              "DisplayOrder": 2,
+              "Enabled": true,
+              "AddOnStatus": 1,
+              "CreatedBy": "CoeusAdminUser",
+              "CreatedTime": "12/12/9999 00:00:00",
+              "LastUpdatedBy": "CoeusAdminUser",
+              "LastUpdatedTime": "12/12/9999 00:00:00",
+              "Id": 2
+            },
+            "Name": "Legal/Compliance Review",
+            "DisplayOrder": 45,
+            "Enabled": true,
+            "AddOnStatus": 1,
+            "CreatedBy": "CoeusAdminUser",
+            "CreatedTime": "12/12/9999 00:00:00",
+            "LastUpdatedBy": "CoeusAdminUser",
+            "LastUpdatedTime": "12/12/9999 00:00:00",
+            "Id": 204
+          },
+          {
+            "Category": {
+              "Weight": 65.00,
+              "Name": "Functional Area Processes",
+              "DisplayOrder": 2,
+              "Enabled": true,
+              "AddOnStatus": 1,
+              "CreatedBy": "CoeusAdminUser",
+              "CreatedTime": "12/12/9999 00:00:00",
+              "LastUpdatedBy": "CoeusAdminUser",
+              "LastUpdatedTime": "12/12/9999 00:00:00",
+              "Id": 2
+            },
+            "Name": "AWD/Workflow Reporting",
+            "DisplayOrder": 46,
+            "Enabled": true,
+            "AddOnStatus": 1,
+            "CreatedBy": "CoeusAdminUser",
+            "CreatedTime": "12/12/9999 00:00:00",
+            "LastUpdatedBy": "CoeusAdminUser",
+            "LastUpdatedTime": "12/12/9999 00:00:00",
+            "Id": 205
+          }
+        ],
+        "BusinessUnitId": null,
+        "FunctionalAreaId": 1,
+        "Name": "Death notification and validation",
+        "DisplayOrder": 2,
+        "Enabled": true,
+        "AddOnStatus": 1,
+        "CreatedBy": "CoeusAdminUser",
+        "CreatedTime": "12/12/9999 00:00:00",
+        "LastUpdatedBy": "CoeusAdminUser",
+        "LastUpdatedTime": "12/12/9999 00:00:00",
+        "Id": 2
+      },
+      "AdditionalCoreProcess": "AdditionalCoreProcess_2",
+      "SubProcessRisk": {
+        "CoreProcess": {
+          "SubProcessRisks": [
+            {
+              "Risk": "Wrongful terminations, customer service issues and financial impacts to company",
+              "Name": "Check admin system and AWD to confirm if the deceased is a JH client, has inactive account, and if there is a pending or completed claim",
+              "DisplayOrder": 1,
+              "Enabled": true,
+              "AddOnStatus": 1,
+              "CreatedBy": "CoeusAdminUser",
+              "CreatedTime": "12/12/9999 00:00:00",
+              "LastUpdatedBy": "CoeusAdminUser",
+              "LastUpdatedTime": "12/12/9999 00:00:00",
+              "Id": 4
+            },
+            {
+              "Risk": "Increase in false positive death matches",
+              "Name": "Perfom 2nd validation of death using an external resource",
+              "DisplayOrder": 3,
+              "Enabled": true,
+              "AddOnStatus": 1,
+              "CreatedBy": "CoeusAdminUser",
+              "CreatedTime": "12/12/9999 00:00:00",
+              "LastUpdatedBy": "CoeusAdminUser",
+              "LastUpdatedTime": "12/12/9999 00:00:00",
+              "Id": 5
+            },
+            {
+              "Risk": "Previously reported deaths added to the workflow causing confusion and unnecessary work",
+              "Name": "Scrub internal UCI and Lexis Nexis death files and create AWD RIP job for processing",
+              "DisplayOrder": 2,
+              "Enabled": true,
+              "AddOnStatus": 1,
+              "CreatedBy": "CoeusAdminUser",
+              "CreatedTime": "12/12/9999 00:00:00",
+              "LastUpdatedBy": "CoeusAdminUser",
+              "LastUpdatedTime": "12/12/9999 00:00:00",
+              "Id": 3
+            }
+          ],
+          "Category": {
+            "Weight": 65.00,
+            "Name": "Functional Area Processes",
+            "DisplayOrder": 2,
+            "Enabled": true,
+            "AddOnStatus": 1,
+            "CreatedBy": "CoeusAdminUser",
+            "CreatedTime": "12/12/9999 00:00:00",
+            "LastUpdatedBy": "CoeusAdminUser",
+            "LastUpdatedTime": "12/12/9999 00:00:00",
+            "Id": 2
+          },
+          "ControlTypes": [
+            {
+              "Category": {
+                "Weight": 65.00,
+                "Name": "Functional Area Processes",
+                "DisplayOrder": 2,
+                "Enabled": true,
+                "AddOnStatus": 1,
+                "CreatedBy": "CoeusAdminUser",
+                "CreatedTime": "12/12/9999 00:00:00",
+                "LastUpdatedBy": "CoeusAdminUser",
+                "LastUpdatedTime": "12/12/9999 00:00:00",
+                "Id": 2
+              },
+              "Name": "Legal/Compliance Review",
+              "DisplayOrder": 45,
+              "Enabled": true,
+              "AddOnStatus": 1,
+              "CreatedBy": "CoeusAdminUser",
+              "CreatedTime": "12/12/9999 00:00:00",
+              "LastUpdatedBy": "CoeusAdminUser",
+              "LastUpdatedTime": "12/12/9999 00:00:00",
+              "Id": 204
+            },
+            {
+              "Category": {
+                "Weight": 65.00,
+                "Name": "Functional Area Processes",
+                "DisplayOrder": 2,
+                "Enabled": true,
+                "AddOnStatus": 1,
+                "CreatedBy": "CoeusAdminUser",
+                "CreatedTime": "12/12/9999 00:00:00",
+                "LastUpdatedBy": "CoeusAdminUser",
+                "LastUpdatedTime": "12/12/9999 00:00:00",
+                "Id": 2
+              },
+              "Name": "AWD/Workflow Reporting",
+              "DisplayOrder": 46,
+              "Enabled": true,
+              "AddOnStatus": 1,
+              "CreatedBy": "CoeusAdminUser",
+              "CreatedTime": "12/12/9999 00:00:00",
+              "LastUpdatedBy": "CoeusAdminUser",
+              "LastUpdatedTime": "12/12/9999 00:00:00",
+              "Id": 205
+            }
+          ],
+          "BusinessUnitId": null,
+          "FunctionalAreaId": 1,
+          "Name": "Death notification and validation",
+          "DisplayOrder": 2,
+          "Enabled": true,
+          "AddOnStatus": 1,
+          "CreatedBy": "CoeusAdminUser",
+          "CreatedTime": "12/12/9999 00:00:00",
+          "LastUpdatedBy": "CoeusAdminUser",
+          "LastUpdatedTime": "12/12/9999 00:00:00",
+          "Id": 2
+        },
+        "Risk": "Old or inaccurate files in the workflow",
+        "Name": "Verification of internal UCI and Lexis Nexis death files prior to AWD RIP job for processing",
+        "DisplayOrder": 1,
+        "Enabled": true,
+        "AddOnStatus": 1,
+        "CreatedBy": "CoeusAdminUser",
+        "CreatedTime": "12/12/9999 00:00:00",
+        "LastUpdatedBy": "CoeusAdminUser",
+        "LastUpdatedTime": "12/12/9999 00:00:00",
+        "Id": 2
+      },
+      "AdditionalSubProcess": "AdditionalSubProcess_2",
+      "AdditionalRisk": "AdditionalRisk_2",
+      "LikelihoodOfOccurrence": {
+        "Value": 5,
+        "Name": "Weekly",
+        "DisplayOrder": 2,
+        "Enabled": true,
+        "AddOnStatus": 1,
+        "CreatedBy": "CoeusAdminUser",
+        "CreatedTime": "12/12/9999 00:00:00",
+        "LastUpdatedBy": "CoeusAdminUser",
+        "LastUpdatedTime": "12/12/9999 00:00:00",
+        "Id": 2
+      },
+      "OtherLikelihoodOfOccurrence": "OtherLikelihoodOfOccurrence_2",
+      "RiskImpacts": [
+        {
+          "Name": "Operational",
+          "DisplayOrder": 2,
+          "Enabled": true,
+          "AddOnStatus": 1,
+          "CreatedBy": "CoeusAdminUser",
+          "CreatedTime": "12/12/9999 00:00:00",
+          "LastUpdatedBy": "CoeusAdminUser",
+          "LastUpdatedTime": "12/12/9999 00:00:00",
+          "Id": 2
+        },
+        {
+          "Name": "Regulatory",
+          "DisplayOrder": 1,
+          "Enabled": true,
+          "AddOnStatus": 3,
+          "CreatedBy": "CoeusAdminUser",
+          "CreatedTime": "12/12/9999 00:00:00",
+          "LastUpdatedBy": "CoeusAdminUser",
+          "LastUpdatedTime": "12/12/9999 00:00:00",
+          "Id": 3
+        }
+      ],
+      "RiskExposure": {
+        "Value": 3.00,
+        "Name": "Medium",
+        "DisplayOrder": 2,
+        "Enabled": true,
+        "AddOnStatus": 1,
+        "CreatedBy": "CoeusAdminUser",
+        "CreatedTime": "12/12/9999 00:00:00",
+        "LastUpdatedBy": "CoeusAdminUser",
+        "LastUpdatedTime": "12/12/9999 00:00:00",
+        "Id": 2
+      },
+      "ControlAssessments": [
+        {
+          "ControlType": {
+            "Category": {
+              "Weight": 5.00,
+              "Name": "Corporate & Divisional Training",
+              "DisplayOrder": 3,
+              "Enabled": true,
+              "AddOnStatus": 1,
+              "CreatedBy": "CoeusAdminUser",
+              "CreatedTime": "12/12/9999 00:00:00",
+              "LastUpdatedBy": "CoeusAdminUser",
+              "LastUpdatedTime": "12/12/9999 00:00:00",
+              "Id": 3
+            },
+            "Name": "Resides in centralized location with employee access",
+            "DisplayOrder": 2,
+            "Enabled": true,
+            "AddOnStatus": 1,
+            "CreatedBy": "CoeusAdminUser",
+            "CreatedTime": "12/12/9999 00:00:00",
+            "LastUpdatedBy": "CoeusAdminUser",
+            "LastUpdatedTime": "12/12/9999 00:00:00",
+            "Id": 2
+          },
+          "OtherControlType": "OtherControlType_2",
+          "ControlObjective": "ControlObjective_2",
+          "ControlFrequency": {
+            "Name": "Daily",
+            "DisplayOrder": 2,
+            "Enabled": true,
+            "AddOnStatus": 1,
+            "CreatedBy": "CoeusAdminUser",
+            "CreatedTime": "12/12/9999 00:00:00",
+            "LastUpdatedBy": "CoeusAdminUser",
+            "LastUpdatedTime": "12/12/9999 00:00:00",
+            "Id": 2
+          },
+          "ControlDesigns": [
+            {
+              "Name": "IT Dependent",
+              "DisplayOrder": 2,
+              "Enabled": true,
+              "AddOnStatus": 1,
+              "CreatedBy": "CoeusAdminUser",
+              "CreatedTime": "12/12/9999 00:00:00",
+              "LastUpdatedBy": "CoeusAdminUser",
+              "LastUpdatedTime": "12/12/9999 00:00:00",
+              "Id": 2
+            },
+            {
+              "Name": "Manual Prevention (Same Day)",
+              "DisplayOrder": 3,
+              "Enabled": true,
+              "AddOnStatus": 1,
+              "CreatedBy": "CoeusAdminUser",
+              "CreatedTime": "12/12/9999 00:00:00",
+              "LastUpdatedBy": "CoeusAdminUser",
+              "LastUpdatedTime": "12/12/9999 00:00:00",
+              "Id": 3
+            }
+          ],
+          "TestingFrequencies": [
+            {
+              "Name": "Business Area - Daily",
+              "DisplayOrder": 2,
+              "Enabled": true,
+              "AddOnStatus": 1,
+              "CreatedBy": "CoeusAdminUser",
+              "CreatedTime": "12/12/9999 00:00:00",
+              "LastUpdatedBy": "CoeusAdminUser",
+              "LastUpdatedTime": "12/12/9999 00:00:00",
+              "Id": 2
+            },
+            {
+              "Name": "Business Area - Weekly",
+              "DisplayOrder": 3,
+              "Enabled": true,
+              "AddOnStatus": 1,
+              "CreatedBy": "CoeusAdminUser",
+              "CreatedTime": "12/12/9999 00:00:00",
+              "LastUpdatedBy": "CoeusAdminUser",
+              "LastUpdatedTime": "12/12/9999 00:00:00",
+              "Id": 3
+            }
+          ],
+          "OtherTestingFrequency": "OtherTestingFrequency_2",
+          "ControlTriggers": [
+            {
+              "Name": "Process",
+              "DisplayOrder": 2,
+              "Enabled": true,
+              "AddOnStatus": 1,
+              "CreatedBy": "CoeusAdminUser",
+              "CreatedTime": "12/12/9999 00:00:00",
+              "LastUpdatedBy": "CoeusAdminUser",
+              "LastUpdatedTime": "12/12/9999 00:00:00",
+              "Id": 2
+            },
+            {
+              "Name": "Product",
+              "DisplayOrder": 3,
+              "Enabled": true,
+              "AddOnStatus": 1,
+              "CreatedBy": "CoeusAdminUser",
+              "CreatedTime": "12/12/9999 00:00:00",
+              "LastUpdatedBy": "CoeusAdminUser",
+              "LastUpdatedTime": "12/12/9999 00:00:00",
+              "Id": 3
+            }
+          ],
+          "KeyControlsMaturity": {
+            "Value": 0.60,
+            "Name": "Partially Developed/Requires Improvement",
+            "DisplayOrder": 2,
+            "Enabled": true,
+            "AddOnStatus": 1,
+            "CreatedBy": "CoeusAdminUser",
+            "CreatedTime": "12/12/9999 00:00:00",
+            "LastUpdatedBy": "CoeusAdminUser",
+            "LastUpdatedTime": "12/12/9999 00:00:00",
+            "Id": 2
+          },
+          "OtherKeyControlMaturity": "OtherKeyControlMaturity_2",
+          "Id": 0
+        },
+        {
+          "ControlType": {
+            "Category": {
+              "Weight": 5.00,
+              "Name": "Corporate & Divisional Training",
+              "DisplayOrder": 3,
+              "Enabled": true,
+              "AddOnStatus": 1,
+              "CreatedBy": "CoeusAdminUser",
+              "CreatedTime": "12/12/9999 00:00:00",
+              "LastUpdatedBy": "CoeusAdminUser",
+              "LastUpdatedTime": "12/12/9999 00:00:00",
+              "Id": 3
+            },
+            "Name": "Change in policies & procedures are communicated",
+            "DisplayOrder": 3,
+            "Enabled": true,
+            "AddOnStatus": 1,
+            "CreatedBy": "CoeusAdminUser",
+            "CreatedTime": "12/12/9999 00:00:00",
+            "LastUpdatedBy": "CoeusAdminUser",
+            "LastUpdatedTime": "12/12/9999 00:00:00",
+            "Id": 3
+          },
+          "OtherControlType": "OtherControlType_3",
+          "ControlObjective": "ControlObjective_3",
+          "ControlFrequency": {
+            "Name": "Weekly",
+            "DisplayOrder": 3,
+            "Enabled": true,
+            "AddOnStatus": 1,
+            "CreatedBy": "CoeusAdminUser",
+            "CreatedTime": "12/12/9999 00:00:00",
+            "LastUpdatedBy": "CoeusAdminUser",
+            "LastUpdatedTime": "12/12/9999 00:00:00",
+            "Id": 3
+          },
+          "ControlDesigns": [
+            {
+              "Name": "Manual Prevention (Same Day)",
+              "DisplayOrder": 3,
+              "Enabled": true,
+              "AddOnStatus": 1,
+              "CreatedBy": "CoeusAdminUser",
+              "CreatedTime": "12/12/9999 00:00:00",
+              "LastUpdatedBy": "CoeusAdminUser",
+              "LastUpdatedTime": "12/12/9999 00:00:00",
+              "Id": 3
+            },
+            {
+              "Name": "Manual Detect (Day 2 plus)",
+              "DisplayOrder": 4,
+              "Enabled": true,
+              "AddOnStatus": 1,
+              "CreatedBy": "CoeusAdminUser",
+              "CreatedTime": "12/12/9999 00:00:00",
+              "LastUpdatedBy": "CoeusAdminUser",
+              "LastUpdatedTime": "12/12/9999 00:00:00",
+              "Id": 4
+            }
+          ],
+          "TestingFrequencies": [
+            {
+              "Name": "Business Area - Weekly",
+              "DisplayOrder": 3,
+              "Enabled": true,
+              "AddOnStatus": 1,
+              "CreatedBy": "CoeusAdminUser",
+              "CreatedTime": "12/12/9999 00:00:00",
+              "LastUpdatedBy": "CoeusAdminUser",
+              "LastUpdatedTime": "12/12/9999 00:00:00",
+              "Id": 3
+            },
+            {
+              "Name": "Business Area - Monthly",
+              "DisplayOrder": 4,
+              "Enabled": true,
+              "AddOnStatus": 1,
+              "CreatedBy": "CoeusAdminUser",
+              "CreatedTime": "12/12/9999 00:00:00",
+              "LastUpdatedBy": "CoeusAdminUser",
+              "LastUpdatedTime": "12/12/9999 00:00:00",
+              "Id": 4
+            }
+          ],
+          "OtherTestingFrequency": "OtherTestingFrequency_3",
+          "ControlTriggers": [
+            {
+              "Name": "Product",
+              "DisplayOrder": 3,
+              "Enabled": true,
+              "AddOnStatus": 1,
+              "CreatedBy": "CoeusAdminUser",
+              "CreatedTime": "12/12/9999 00:00:00",
+              "LastUpdatedBy": "CoeusAdminUser",
+              "LastUpdatedTime": "12/12/9999 00:00:00",
+              "Id": 3
+            },
+            {
+              "Name": "Regulatory/Compliance",
+              "DisplayOrder": 4,
+              "Enabled": true,
+              "AddOnStatus": 1,
+              "CreatedBy": "CoeusAdminUser",
+              "CreatedTime": "12/12/9999 00:00:00",
+              "LastUpdatedBy": "CoeusAdminUser",
+              "LastUpdatedTime": "12/12/9999 00:00:00",
+              "Id": 4
+            }
+          ],
+          "KeyControlsMaturity": {
+            "Value": 1.00,
+            "Name": "Under Developed/Weak",
+            "DisplayOrder": 3,
+            "Enabled": true,
+            "AddOnStatus": 1,
+            "CreatedBy": "CoeusAdminUser",
+            "CreatedTime": "12/12/9999 00:00:00",
+            "LastUpdatedBy": "CoeusAdminUser",
+            "LastUpdatedTime": "12/12/9999 00:00:00",
+            "Id": 3
+          },
+          "OtherKeyControlMaturity": "OtherKeyControlMaturity_3",
+          "Id": 0
+        }
+      ],
+      "Category": {
+        "Weight": 65.00,
+        "Name": "Functional Area Processes",
+        "DisplayOrder": 2,
+        "Enabled": true,
+        "AddOnStatus": 1,
+        "CreatedBy": "CoeusAdminUser",
+        "CreatedTime": "12/12/9999 00:00:00",
+        "LastUpdatedBy": "CoeusAdminUser",
+        "LastUpdatedTime": "12/12/9999 00:00:00",
+        "Id": 2
+      },
+      "Id": 0
+    }
+  ],
+  "ProcessRiskAssessments": [
+    {
+      "ProcessRisk": {
+        "Risk": "Procedures not followed according to current documentation. Documentation is not current",
+        "Category": {
+          "Weight": 5.00,
+          "Name": "Corporate & Divisional Training",
+          "DisplayOrder": 3,
+          "Enabled": true,
+          "AddOnStatus": 1,
+          "CreatedBy": "CoeusAdminUser",
+          "CreatedTime": "12/12/9999 00:00:00",
+          "LastUpdatedBy": "CoeusAdminUser",
+          "LastUpdatedTime": "12/12/9999 00:00:00",
+          "Id": 3
+        },
+        "ControlTypes": [
+          {
+            "Category": {
+              "Weight": 5.00,
+              "Name": "Corporate & Divisional Training",
+              "DisplayOrder": 3,
+              "Enabled": true,
+              "AddOnStatus": 1,
+              "CreatedBy": "CoeusAdminUser",
+              "CreatedTime": "12/12/9999 00:00:00",
+              "LastUpdatedBy": "CoeusAdminUser",
+              "LastUpdatedTime": "12/12/9999 00:00:00",
+              "Id": 3
+            },
+            "Name": "Annual review of policies & procedures",
+            "DisplayOrder": 1,
+            "Enabled": true,
+            "AddOnStatus": 1,
+            "CreatedBy": "CoeusAdminUser",
+            "CreatedTime": "12/12/9999 00:00:00",
+            "LastUpdatedBy": "CoeusAdminUser",
+            "LastUpdatedTime": "12/12/9999 00:00:00",
+            "Id": 1
+          },
+          {
+            "Category": {
+              "Weight": 5.00,
+              "Name": "Corporate & Divisional Training",
+              "DisplayOrder": 3,
+              "Enabled": true,
+              "AddOnStatus": 1,
+              "CreatedBy": "CoeusAdminUser",
+              "CreatedTime": "12/12/9999 00:00:00",
+              "LastUpdatedBy": "CoeusAdminUser",
+              "LastUpdatedTime": "12/12/9999 00:00:00",
+              "Id": 3
+            },
+            "Name": "Resides in centralized location with employee access",
+            "DisplayOrder": 2,
+            "Enabled": true,
+            "AddOnStatus": 1,
+            "CreatedBy": "CoeusAdminUser",
+            "CreatedTime": "12/12/9999 00:00:00",
+            "LastUpdatedBy": "CoeusAdminUser",
+            "LastUpdatedTime": "12/12/9999 00:00:00",
+            "Id": 2
+          },
+          {
+            "Category": {
+              "Weight": 5.00,
+              "Name": "Corporate & Divisional Training",
+              "DisplayOrder": 3,
+              "Enabled": true,
+              "AddOnStatus": 1,
+              "CreatedBy": "CoeusAdminUser",
+              "CreatedTime": "12/12/9999 00:00:00",
+              "LastUpdatedBy": "CoeusAdminUser",
+              "LastUpdatedTime": "12/12/9999 00:00:00",
+              "Id": 3
+            },
+            "Name": "Change in policies & procedures are communicated",
+            "DisplayOrder": 3,
+            "Enabled": true,
+            "AddOnStatus": 1,
+            "CreatedBy": "CoeusAdminUser",
+            "CreatedTime": "12/12/9999 00:00:00",
+            "LastUpdatedBy": "CoeusAdminUser",
+            "LastUpdatedTime": "12/12/9999 00:00:00",
+            "Id": 3
+          },
+          {
+            "Category": {
+              "Weight": 5.00,
+              "Name": "Corporate & Divisional Training",
+              "DisplayOrder": 3,
+              "Enabled": true,
+              "AddOnStatus": 1,
+              "CreatedBy": "CoeusAdminUser",
+              "CreatedTime": "12/12/9999 00:00:00",
+              "LastUpdatedBy": "CoeusAdminUser",
+              "LastUpdatedTime": "12/12/9999 00:00:00",
+              "Id": 3
+            },
+            "Name": "Master Production Calendar/Document Log Review",
+            "DisplayOrder": 4,
+            "Enabled": true,
+            "AddOnStatus": 1,
+            "CreatedBy": "CoeusAdminUser",
+            "CreatedTime": "12/12/9999 00:00:00",
+            "LastUpdatedBy": "CoeusAdminUser",
+            "LastUpdatedTime": "12/12/9999 00:00:00",
+            "Id": 4
+          },
+          {
+            "Category": {
+              "Weight": 5.00,
+              "Name": "Corporate & Divisional Training",
+              "DisplayOrder": 3,
+              "Enabled": true,
+              "AddOnStatus": 1,
+              "CreatedBy": "CoeusAdminUser",
+              "CreatedTime": "12/12/9999 00:00:00",
+              "LastUpdatedBy": "CoeusAdminUser",
+              "LastUpdatedTime": "12/12/9999 00:00:00",
+              "Id": 3
+            },
+            "Name": "Porject Management - Change Control",
+            "DisplayOrder": 5,
+            "Enabled": true,
+            "AddOnStatus": 1,
+            "CreatedBy": "CoeusAdminUser",
+            "CreatedTime": "12/12/9999 00:00:00",
+            "LastUpdatedBy": "CoeusAdminUser",
+            "LastUpdatedTime": "12/12/9999 00:00:00",
+            "Id": 5
+          },
+          {
+            "Category": {
+              "Weight": 5.00,
+              "Name": "Corporate & Divisional Training",
+              "DisplayOrder": 3,
+              "Enabled": true,
+              "AddOnStatus": 1,
+              "CreatedBy": "CoeusAdminUser",
+              "CreatedTime": "12/12/9999 00:00:00",
+              "LastUpdatedBy": "CoeusAdminUser",
+              "LastUpdatedTime": "12/12/9999 00:00:00",
+              "Id": 3
+            },
+            "Name": "Compass Reporting",
+            "DisplayOrder": 6,
+            "Enabled": true,
+            "AddOnStatus": 1,
+            "CreatedBy": "CoeusAdminUser",
+            "CreatedTime": "12/12/9999 00:00:00",
+            "LastUpdatedBy": "CoeusAdminUser",
+            "LastUpdatedTime": "12/12/9999 00:00:00",
+            "Id": 6
+          },
+          {
+            "Category": {
+              "Weight": 5.00,
+              "Name": "Corporate & Divisional Training",
+              "DisplayOrder": 3,
+              "Enabled": true,
+              "AddOnStatus": 1,
+              "CreatedBy": "CoeusAdminUser",
+              "CreatedTime": "12/12/9999 00:00:00",
+              "LastUpdatedBy": "CoeusAdminUser",
+              "LastUpdatedTime": "12/12/9999 00:00:00",
+              "Id": 3
+            },
+            "Name": "Employee Email Notification",
+            "DisplayOrder": 7,
+            "Enabled": true,
+            "AddOnStatus": 1,
+            "CreatedBy": "CoeusAdminUser",
+            "CreatedTime": "12/12/9999 00:00:00",
+            "LastUpdatedBy": "CoeusAdminUser",
+            "LastUpdatedTime": "12/12/9999 00:00:00",
+            "Id": 7
+          },
+          {
+            "Category": {
+              "Weight": 5.00,
+              "Name": "Corporate & Divisional Training",
+              "DisplayOrder": 3,
+              "Enabled": true,
+              "AddOnStatus": 1,
+              "CreatedBy": "CoeusAdminUser",
+              "CreatedTime": "12/12/9999 00:00:00",
+              "LastUpdatedBy": "CoeusAdminUser",
+              "LastUpdatedTime": "12/12/9999 00:00:00",
+              "Id": 3
+            },
+            "Name": "Manager Email Notification",
+            "DisplayOrder": 8,
+            "Enabled": true,
+            "AddOnStatus": 1,
+            "CreatedBy": "CoeusAdminUser",
+            "CreatedTime": "12/12/9999 00:00:00",
+            "LastUpdatedBy": "CoeusAdminUser",
+            "LastUpdatedTime": "12/12/9999 00:00:00",
+            "Id": 8
+          },
+          {
+            "Category": {
+              "Weight": 5.00,
+              "Name": "Corporate & Divisional Training",
+              "DisplayOrder": 3,
+              "Enabled": true,
+              "AddOnStatus": 1,
+              "CreatedBy": "CoeusAdminUser",
+              "CreatedTime": "12/12/9999 00:00:00",
+              "LastUpdatedBy": "CoeusAdminUser",
+              "LastUpdatedTime": "12/12/9999 00:00:00",
+              "Id": 3
+            },
+            "Name": "No controls are in place",
+            "DisplayOrder": 9,
+            "Enabled": true,
+            "AddOnStatus": 1,
+            "CreatedBy": "CoeusAdminUser",
+            "CreatedTime": "12/12/9999 00:00:00",
+            "LastUpdatedBy": "CoeusAdminUser",
+            "LastUpdatedTime": "12/12/9999 00:00:00",
+            "Id": 9
+          }
+        ],
+        "BusinessUnitId": null,
+        "FunctionalAreaId": null,
+        "Name": "Documented policies, procedures, manuals, job-aids and training materials",
+        "DisplayOrder": 1,
+        "Enabled": true,
+        "AddOnStatus": 1,
+        "CreatedBy": "CoeusAdminUser",
+        "CreatedTime": "12/12/9999 00:00:00",
+        "LastUpdatedBy": "CoeusAdminUser",
+        "LastUpdatedTime": "12/12/9999 00:00:00",
+        "Id": 1
+      },
+      "AdditionalProcess": "AdditionalProcess_1",
+      "AdditionalRisk": "AdditionalRisk_1",
+      "LikelihoodOfOccurrence": {
+        "Value": 6,
+        "Name": "Daily",
+        "DisplayOrder": 1,
+        "Enabled": true,
+        "AddOnStatus": 1,
+        "CreatedBy": "CoeusAdminUser",
+        "CreatedTime": "12/12/9999 00:00:00",
+        "LastUpdatedBy": "CoeusAdminUser",
+        "LastUpdatedTime": "12/12/9999 00:00:00",
+        "Id": 1
+      },
+      "OtherLikelihoodOfOccurrence": "OtherLikelihoodOfOccurrence_1",
+      "RiskImpacts": [
+        {
+          "Name": "Financial",
+          "DisplayOrder": 1,
+          "Enabled": true,
+          "AddOnStatus": 1,
+          "CreatedBy": "CoeusAdminUser",
+          "CreatedTime": "12/12/9999 00:00:00",
+          "LastUpdatedBy": "CoeusAdminUser",
+          "LastUpdatedTime": "12/12/9999 00:00:00",
+          "Id": 1
+        },
+        {
+          "Name": "Operational",
+          "DisplayOrder": 2,
+          "Enabled": true,
+          "AddOnStatus": 1,
+          "CreatedBy": "CoeusAdminUser",
+          "CreatedTime": "12/12/9999 00:00:00",
+          "LastUpdatedBy": "CoeusAdminUser",
+          "LastUpdatedTime": "12/12/9999 00:00:00",
+          "Id": 2
+        }
+      ],
+      "RiskExposure": {
+        "Value": 1.00,
+        "Name": "Low",
+        "DisplayOrder": 1,
+        "Enabled": true,
+        "AddOnStatus": 1,
+        "CreatedBy": "CoeusAdminUser",
+        "CreatedTime": "12/12/9999 00:00:00",
+        "LastUpdatedBy": "CoeusAdminUser",
+        "LastUpdatedTime": "12/12/9999 00:00:00",
+        "Id": 1
+      },
+      "ControlAssessments": [
+        {
+          "ControlType": {
+            "Category": {
+              "Weight": 5.00,
+              "Name": "Corporate & Divisional Training",
+              "DisplayOrder": 3,
+              "Enabled": true,
+              "AddOnStatus": 1,
+              "CreatedBy": "CoeusAdminUser",
+              "CreatedTime": "12/12/9999 00:00:00",
+              "LastUpdatedBy": "CoeusAdminUser",
+              "LastUpdatedTime": "12/12/9999 00:00:00",
+              "Id": 3
+            },
+            "Name": "Annual review of policies & procedures",
+            "DisplayOrder": 1,
+            "Enabled": true,
+            "AddOnStatus": 1,
+            "CreatedBy": "CoeusAdminUser",
+            "CreatedTime": "12/12/9999 00:00:00",
+            "LastUpdatedBy": "CoeusAdminUser",
+            "LastUpdatedTime": "12/12/9999 00:00:00",
+            "Id": 1
+          },
+          "OtherControlType": "OtherControlType_1",
+          "ControlObjective": "ControlObjective_1",
+          "ControlFrequency": {
+            "Name": "Ad Hoc",
+            "DisplayOrder": 1,
+            "Enabled": true,
+            "AddOnStatus": 1,
+            "CreatedBy": "CoeusAdminUser",
+            "CreatedTime": "12/12/9999 00:00:00",
+            "LastUpdatedBy": "CoeusAdminUser",
+            "LastUpdatedTime": "12/12/9999 00:00:00",
+            "Id": 1
+          },
+          "ControlDesigns": [
+            {
+              "Name": "Automated",
+              "DisplayOrder": 1,
+              "Enabled": true,
+              "AddOnStatus": 1,
+              "CreatedBy": "CoeusAdminUser",
+              "CreatedTime": "12/12/9999 00:00:00",
+              "LastUpdatedBy": "CoeusAdminUser",
+              "LastUpdatedTime": "12/12/9999 00:00:00",
+              "Id": 1
+            },
+            {
+              "Name": "IT Dependent",
+              "DisplayOrder": 2,
+              "Enabled": true,
+              "AddOnStatus": 1,
+              "CreatedBy": "CoeusAdminUser",
+              "CreatedTime": "12/12/9999 00:00:00",
+              "LastUpdatedBy": "CoeusAdminUser",
+              "LastUpdatedTime": "12/12/9999 00:00:00",
+              "Id": 2
+            }
+          ],
+          "TestingFrequencies": [
+            {
+              "Name": "Business Area - Ad Hoc",
+              "DisplayOrder": 1,
+              "Enabled": true,
+              "AddOnStatus": 1,
+              "CreatedBy": "CoeusAdminUser",
+              "CreatedTime": "12/12/9999 00:00:00",
+              "LastUpdatedBy": "CoeusAdminUser",
+              "LastUpdatedTime": "12/12/9999 00:00:00",
+              "Id": 1
+            },
+            {
+              "Name": "Business Area - Daily",
+              "DisplayOrder": 2,
+              "Enabled": true,
+              "AddOnStatus": 1,
+              "CreatedBy": "CoeusAdminUser",
+              "CreatedTime": "12/12/9999 00:00:00",
+              "LastUpdatedBy": "CoeusAdminUser",
+              "LastUpdatedTime": "12/12/9999 00:00:00",
+              "Id": 2
+            }
+          ],
+          "OtherTestingFrequency": "OtherTestingFrequency_1",
+          "ControlTriggers": [
+            {
+              "Name": "Performance",
+              "DisplayOrder": 1,
+              "Enabled": true,
+              "AddOnStatus": 1,
+              "CreatedBy": "CoeusAdminUser",
+              "CreatedTime": "12/12/9999 00:00:00",
+              "LastUpdatedBy": "CoeusAdminUser",
+              "LastUpdatedTime": "12/12/9999 00:00:00",
+              "Id": 1
+            },
+            {
+              "Name": "Process",
+              "DisplayOrder": 2,
+              "Enabled": true,
+              "AddOnStatus": 1,
+              "CreatedBy": "CoeusAdminUser",
+              "CreatedTime": "12/12/9999 00:00:00",
+              "LastUpdatedBy": "CoeusAdminUser",
+              "LastUpdatedTime": "12/12/9999 00:00:00",
+              "Id": 2
+            }
+          ],
+          "KeyControlsMaturity": {
+            "Value": 0.10,
+            "Name": "Well Developed",
+            "DisplayOrder": 1,
+            "Enabled": true,
+            "AddOnStatus": 1,
+            "CreatedBy": "CoeusAdminUser",
+            "CreatedTime": "12/12/9999 00:00:00",
+            "LastUpdatedBy": "CoeusAdminUser",
+            "LastUpdatedTime": "12/12/9999 00:00:00",
+            "Id": 1
+          },
+          "OtherKeyControlMaturity": "OtherKeyControlMaturity_1",
+          "Id": 0
+        },
+        {
+          "ControlType": {
+            "Category": {
+              "Weight": 5.00,
+              "Name": "Corporate & Divisional Training",
+              "DisplayOrder": 3,
+              "Enabled": true,
+              "AddOnStatus": 1,
+              "CreatedBy": "CoeusAdminUser",
+              "CreatedTime": "12/12/9999 00:00:00",
+              "LastUpdatedBy": "CoeusAdminUser",
+              "LastUpdatedTime": "12/12/9999 00:00:00",
+              "Id": 3
+            },
+            "Name": "Resides in centralized location with employee access",
+            "DisplayOrder": 2,
+            "Enabled": true,
+            "AddOnStatus": 1,
+            "CreatedBy": "CoeusAdminUser",
+            "CreatedTime": "12/12/9999 00:00:00",
+            "LastUpdatedBy": "CoeusAdminUser",
+            "LastUpdatedTime": "12/12/9999 00:00:00",
+            "Id": 2
+          },
+          "OtherControlType": "OtherControlType_2",
+          "ControlObjective": "ControlObjective_2",
+          "ControlFrequency": {
+            "Name": "Daily",
+            "DisplayOrder": 2,
+            "Enabled": true,
+            "AddOnStatus": 1,
+            "CreatedBy": "CoeusAdminUser",
+            "CreatedTime": "12/12/9999 00:00:00",
+            "LastUpdatedBy": "CoeusAdminUser",
+            "LastUpdatedTime": "12/12/9999 00:00:00",
+            "Id": 2
+          },
+          "ControlDesigns": [
+            {
+              "Name": "IT Dependent",
+              "DisplayOrder": 2,
+              "Enabled": true,
+              "AddOnStatus": 1,
+              "CreatedBy": "CoeusAdminUser",
+              "CreatedTime": "12/12/9999 00:00:00",
+              "LastUpdatedBy": "CoeusAdminUser",
+              "LastUpdatedTime": "12/12/9999 00:00:00",
+              "Id": 2
+            },
+            {
+              "Name": "Manual Prevention (Same Day)",
+              "DisplayOrder": 3,
+              "Enabled": true,
+              "AddOnStatus": 1,
+              "CreatedBy": "CoeusAdminUser",
+              "CreatedTime": "12/12/9999 00:00:00",
+              "LastUpdatedBy": "CoeusAdminUser",
+              "LastUpdatedTime": "12/12/9999 00:00:00",
+              "Id": 3
+            }
+          ],
+          "TestingFrequencies": [
+            {
+              "Name": "Business Area - Daily",
+              "DisplayOrder": 2,
+              "Enabled": true,
+              "AddOnStatus": 1,
+              "CreatedBy": "CoeusAdminUser",
+              "CreatedTime": "12/12/9999 00:00:00",
+              "LastUpdatedBy": "CoeusAdminUser",
+              "LastUpdatedTime": "12/12/9999 00:00:00",
+              "Id": 2
+            },
+            {
+              "Name": "Business Area - Weekly",
+              "DisplayOrder": 3,
+              "Enabled": true,
+              "AddOnStatus": 1,
+              "CreatedBy": "CoeusAdminUser",
+              "CreatedTime": "12/12/9999 00:00:00",
+              "LastUpdatedBy": "CoeusAdminUser",
+              "LastUpdatedTime": "12/12/9999 00:00:00",
+              "Id": 3
+            }
+          ],
+          "OtherTestingFrequency": "OtherTestingFrequency_2",
+          "ControlTriggers": [
+            {
+              "Name": "Process",
+              "DisplayOrder": 2,
+              "Enabled": true,
+              "AddOnStatus": 1,
+              "CreatedBy": "CoeusAdminUser",
+              "CreatedTime": "12/12/9999 00:00:00",
+              "LastUpdatedBy": "CoeusAdminUser",
+              "LastUpdatedTime": "12/12/9999 00:00:00",
+              "Id": 2
+            },
+            {
+              "Name": "Product",
+              "DisplayOrder": 3,
+              "Enabled": true,
+              "AddOnStatus": 1,
+              "CreatedBy": "CoeusAdminUser",
+              "CreatedTime": "12/12/9999 00:00:00",
+              "LastUpdatedBy": "CoeusAdminUser",
+              "LastUpdatedTime": "12/12/9999 00:00:00",
+              "Id": 3
+            }
+          ],
+          "KeyControlsMaturity": {
+            "Value": 0.60,
+            "Name": "Partially Developed/Requires Improvement",
+            "DisplayOrder": 2,
+            "Enabled": true,
+            "AddOnStatus": 1,
+            "CreatedBy": "CoeusAdminUser",
+            "CreatedTime": "12/12/9999 00:00:00",
+            "LastUpdatedBy": "CoeusAdminUser",
+            "LastUpdatedTime": "12/12/9999 00:00:00",
+            "Id": 2
+          },
+          "OtherKeyControlMaturity": "OtherKeyControlMaturity_2",
+          "Id": 0
+        }
+      ],
+      "Category": {
+        "Weight": 0.00,
+        "Name": "KPI's / SLA's",
+        "DisplayOrder": 1,
+        "Enabled": true,
+        "AddOnStatus": 1,
+        "CreatedBy": "CoeusAdminUser",
+        "CreatedTime": "12/12/9999 00:00:00",
+        "LastUpdatedBy": "CoeusAdminUser",
+        "LastUpdatedTime": "12/12/9999 00:00:00",
+        "Id": 1
+      },
+      "Id": 0
+    },
+    {
+      "ProcessRisk": {
+        "Risk": "Incomplete training or knowledge of material",
+        "Category": {
+          "Weight": 5.00,
+          "Name": "Corporate & Divisional Training",
+          "DisplayOrder": 3,
+          "Enabled": true,
+          "AddOnStatus": 1,
+          "CreatedBy": "CoeusAdminUser",
+          "CreatedTime": "12/12/9999 00:00:00",
+          "LastUpdatedBy": "CoeusAdminUser",
+          "LastUpdatedTime": "12/12/9999 00:00:00",
+          "Id": 3
+        },
+        "ControlTypes": [
+          {
+            "Category": {
+              "Weight": 5.00,
+              "Name": "Corporate & Divisional Training",
+              "DisplayOrder": 3,
+              "Enabled": true,
+              "AddOnStatus": 1,
+              "CreatedBy": "CoeusAdminUser",
+              "CreatedTime": "12/12/9999 00:00:00",
+              "LastUpdatedBy": "CoeusAdminUser",
+              "LastUpdatedTime": "12/12/9999 00:00:00",
+              "Id": 3
+            },
+            "Name": "Annual review of policies & procedures",
+            "DisplayOrder": 1,
+            "Enabled": true,
+            "AddOnStatus": 1,
+            "CreatedBy": "CoeusAdminUser",
+            "CreatedTime": "12/12/9999 00:00:00",
+            "LastUpdatedBy": "CoeusAdminUser",
+            "LastUpdatedTime": "12/12/9999 00:00:00",
+            "Id": 1
+          },
+          {
+            "Category": {
+              "Weight": 5.00,
+              "Name": "Corporate & Divisional Training",
+              "DisplayOrder": 3,
+              "Enabled": true,
+              "AddOnStatus": 1,
+              "CreatedBy": "CoeusAdminUser",
+              "CreatedTime": "12/12/9999 00:00:00",
+              "LastUpdatedBy": "CoeusAdminUser",
+              "LastUpdatedTime": "12/12/9999 00:00:00",
+              "Id": 3
+            },
+            "Name": "Resides in centralized location with employee access",
+            "DisplayOrder": 2,
+            "Enabled": true,
+            "AddOnStatus": 1,
+            "CreatedBy": "CoeusAdminUser",
+            "CreatedTime": "12/12/9999 00:00:00",
+            "LastUpdatedBy": "CoeusAdminUser",
+            "LastUpdatedTime": "12/12/9999 00:00:00",
+            "Id": 2
+          },
+          {
+            "Category": {
+              "Weight": 5.00,
+              "Name": "Corporate & Divisional Training",
+              "DisplayOrder": 3,
+              "Enabled": true,
+              "AddOnStatus": 1,
+              "CreatedBy": "CoeusAdminUser",
+              "CreatedTime": "12/12/9999 00:00:00",
+              "LastUpdatedBy": "CoeusAdminUser",
+              "LastUpdatedTime": "12/12/9999 00:00:00",
+              "Id": 3
+            },
+            "Name": "Change in policies & procedures are communicated",
+            "DisplayOrder": 3,
+            "Enabled": true,
+            "AddOnStatus": 1,
+            "CreatedBy": "CoeusAdminUser",
+            "CreatedTime": "12/12/9999 00:00:00",
+            "LastUpdatedBy": "CoeusAdminUser",
+            "LastUpdatedTime": "12/12/9999 00:00:00",
+            "Id": 3
+          },
+          {
+            "Category": {
+              "Weight": 5.00,
+              "Name": "Corporate & Divisional Training",
+              "DisplayOrder": 3,
+              "Enabled": true,
+              "AddOnStatus": 1,
+              "CreatedBy": "CoeusAdminUser",
+              "CreatedTime": "12/12/9999 00:00:00",
+              "LastUpdatedBy": "CoeusAdminUser",
+              "LastUpdatedTime": "12/12/9999 00:00:00",
+              "Id": 3
+            },
+            "Name": "Master Production Calendar/Document Log Review",
+            "DisplayOrder": 4,
+            "Enabled": true,
+            "AddOnStatus": 1,
+            "CreatedBy": "CoeusAdminUser",
+            "CreatedTime": "12/12/9999 00:00:00",
+            "LastUpdatedBy": "CoeusAdminUser",
+            "LastUpdatedTime": "12/12/9999 00:00:00",
+            "Id": 4
+          },
+          {
+            "Category": {
+              "Weight": 5.00,
+              "Name": "Corporate & Divisional Training",
+              "DisplayOrder": 3,
+              "Enabled": true,
+              "AddOnStatus": 1,
+              "CreatedBy": "CoeusAdminUser",
+              "CreatedTime": "12/12/9999 00:00:00",
+              "LastUpdatedBy": "CoeusAdminUser",
+              "LastUpdatedTime": "12/12/9999 00:00:00",
+              "Id": 3
+            },
+            "Name": "Porject Management - Change Control",
+            "DisplayOrder": 5,
+            "Enabled": true,
+            "AddOnStatus": 1,
+            "CreatedBy": "CoeusAdminUser",
+            "CreatedTime": "12/12/9999 00:00:00",
+            "LastUpdatedBy": "CoeusAdminUser",
+            "LastUpdatedTime": "12/12/9999 00:00:00",
+            "Id": 5
+          },
+          {
+            "Category": {
+              "Weight": 5.00,
+              "Name": "Corporate & Divisional Training",
+              "DisplayOrder": 3,
+              "Enabled": true,
+              "AddOnStatus": 1,
+              "CreatedBy": "CoeusAdminUser",
+              "CreatedTime": "12/12/9999 00:00:00",
+              "LastUpdatedBy": "CoeusAdminUser",
+              "LastUpdatedTime": "12/12/9999 00:00:00",
+              "Id": 3
+            },
+            "Name": "Compass Reporting",
+            "DisplayOrder": 6,
+            "Enabled": true,
+            "AddOnStatus": 1,
+            "CreatedBy": "CoeusAdminUser",
+            "CreatedTime": "12/12/9999 00:00:00",
+            "LastUpdatedBy": "CoeusAdminUser",
+            "LastUpdatedTime": "12/12/9999 00:00:00",
+            "Id": 6
+          },
+          {
+            "Category": {
+              "Weight": 5.00,
+              "Name": "Corporate & Divisional Training",
+              "DisplayOrder": 3,
+              "Enabled": true,
+              "AddOnStatus": 1,
+              "CreatedBy": "CoeusAdminUser",
+              "CreatedTime": "12/12/9999 00:00:00",
+              "LastUpdatedBy": "CoeusAdminUser",
+              "LastUpdatedTime": "12/12/9999 00:00:00",
+              "Id": 3
+            },
+            "Name": "Employee Email Notification",
+            "DisplayOrder": 7,
+            "Enabled": true,
+            "AddOnStatus": 1,
+            "CreatedBy": "CoeusAdminUser",
+            "CreatedTime": "12/12/9999 00:00:00",
+            "LastUpdatedBy": "CoeusAdminUser",
+            "LastUpdatedTime": "12/12/9999 00:00:00",
+            "Id": 7
+          },
+          {
+            "Category": {
+              "Weight": 5.00,
+              "Name": "Corporate & Divisional Training",
+              "DisplayOrder": 3,
+              "Enabled": true,
+              "AddOnStatus": 1,
+              "CreatedBy": "CoeusAdminUser",
+              "CreatedTime": "12/12/9999 00:00:00",
+              "LastUpdatedBy": "CoeusAdminUser",
+              "LastUpdatedTime": "12/12/9999 00:00:00",
+              "Id": 3
+            },
+            "Name": "Manager Email Notification",
+            "DisplayOrder": 8,
+            "Enabled": true,
+            "AddOnStatus": 1,
+            "CreatedBy": "CoeusAdminUser",
+            "CreatedTime": "12/12/9999 00:00:00",
+            "LastUpdatedBy": "CoeusAdminUser",
+            "LastUpdatedTime": "12/12/9999 00:00:00",
+            "Id": 8
+          },
+          {
+            "Category": {
+              "Weight": 5.00,
+              "Name": "Corporate & Divisional Training",
+              "DisplayOrder": 3,
+              "Enabled": true,
+              "AddOnStatus": 1,
+              "CreatedBy": "CoeusAdminUser",
+              "CreatedTime": "12/12/9999 00:00:00",
+              "LastUpdatedBy": "CoeusAdminUser",
+              "LastUpdatedTime": "12/12/9999 00:00:00",
+              "Id": 3
+            },
+            "Name": "No controls are in place",
+            "DisplayOrder": 9,
+            "Enabled": true,
+            "AddOnStatus": 1,
+            "CreatedBy": "CoeusAdminUser",
+            "CreatedTime": "12/12/9999 00:00:00",
+            "LastUpdatedBy": "CoeusAdminUser",
+            "LastUpdatedTime": "12/12/9999 00:00:00",
+            "Id": 9
+          }
+        ],
+        "BusinessUnitId": null,
+        "FunctionalAreaId": null,
+        "Name": "Corporate Training, Anti-Money Laundering & Fraud, Privacy & Information Security, Code of Conduct & Business Ethics, Employee Harrassment, Conflict of Interest",
+        "DisplayOrder": 2,
+        "Enabled": true,
+        "AddOnStatus": 1,
+        "CreatedBy": "CoeusAdminUser",
+        "CreatedTime": "12/12/9999 00:00:00",
+        "LastUpdatedBy": "CoeusAdminUser",
+        "LastUpdatedTime": "12/12/9999 00:00:00",
+        "Id": 2
+      },
+      "AdditionalProcess": "AdditionalProcess_2",
+      "AdditionalRisk": "AdditionalRisk_2",
+      "LikelihoodOfOccurrence": {
+        "Value": 5,
+        "Name": "Weekly",
+        "DisplayOrder": 2,
+        "Enabled": true,
+        "AddOnStatus": 1,
+        "CreatedBy": "CoeusAdminUser",
+        "CreatedTime": "12/12/9999 00:00:00",
+        "LastUpdatedBy": "CoeusAdminUser",
+        "LastUpdatedTime": "12/12/9999 00:00:00",
+        "Id": 2
+      },
+      "OtherLikelihoodOfOccurrence": "OtherLikelihoodOfOccurrence_2",
+      "RiskImpacts": [
+        {
+          "Name": "Operational",
+          "DisplayOrder": 2,
+          "Enabled": true,
+          "AddOnStatus": 1,
+          "CreatedBy": "CoeusAdminUser",
+          "CreatedTime": "12/12/9999 00:00:00",
+          "LastUpdatedBy": "CoeusAdminUser",
+          "LastUpdatedTime": "12/12/9999 00:00:00",
+          "Id": 2
+        },
+        {
+          "Name": "Regulatory",
+          "DisplayOrder": 1,
+          "Enabled": true,
+          "AddOnStatus": 3,
+          "CreatedBy": "CoeusAdminUser",
+          "CreatedTime": "12/12/9999 00:00:00",
+          "LastUpdatedBy": "CoeusAdminUser",
+          "LastUpdatedTime": "12/12/9999 00:00:00",
+          "Id": 3
+        }
+      ],
+      "RiskExposure": {
+        "Value": 3.00,
+        "Name": "Medium",
+        "DisplayOrder": 2,
+        "Enabled": true,
+        "AddOnStatus": 1,
+        "CreatedBy": "CoeusAdminUser",
+        "CreatedTime": "12/12/9999 00:00:00",
+        "LastUpdatedBy": "CoeusAdminUser",
+        "LastUpdatedTime": "12/12/9999 00:00:00",
+        "Id": 2
+      },
+      "ControlAssessments": [
+        {
+          "ControlType": {
+            "Category": {
+              "Weight": 5.00,
+              "Name": "Corporate & Divisional Training",
+              "DisplayOrder": 3,
+              "Enabled": true,
+              "AddOnStatus": 1,
+              "CreatedBy": "CoeusAdminUser",
+              "CreatedTime": "12/12/9999 00:00:00",
+              "LastUpdatedBy": "CoeusAdminUser",
+              "LastUpdatedTime": "12/12/9999 00:00:00",
+              "Id": 3
+            },
+            "Name": "Resides in centralized location with employee access",
+            "DisplayOrder": 2,
+            "Enabled": true,
+            "AddOnStatus": 1,
+            "CreatedBy": "CoeusAdminUser",
+            "CreatedTime": "12/12/9999 00:00:00",
+            "LastUpdatedBy": "CoeusAdminUser",
+            "LastUpdatedTime": "12/12/9999 00:00:00",
+            "Id": 2
+          },
+          "OtherControlType": "OtherControlType_2",
+          "ControlObjective": "ControlObjective_2",
+          "ControlFrequency": {
+            "Name": "Daily",
+            "DisplayOrder": 2,
+            "Enabled": true,
+            "AddOnStatus": 1,
+            "CreatedBy": "CoeusAdminUser",
+            "CreatedTime": "12/12/9999 00:00:00",
+            "LastUpdatedBy": "CoeusAdminUser",
+            "LastUpdatedTime": "12/12/9999 00:00:00",
+            "Id": 2
+          },
+          "ControlDesigns": [
+            {
+              "Name": "IT Dependent",
+              "DisplayOrder": 2,
+              "Enabled": true,
+              "AddOnStatus": 1,
+              "CreatedBy": "CoeusAdminUser",
+              "CreatedTime": "12/12/9999 00:00:00",
+              "LastUpdatedBy": "CoeusAdminUser",
+              "LastUpdatedTime": "12/12/9999 00:00:00",
+              "Id": 2
+            },
+            {
+              "Name": "Manual Prevention (Same Day)",
+              "DisplayOrder": 3,
+              "Enabled": true,
+              "AddOnStatus": 1,
+              "CreatedBy": "CoeusAdminUser",
+              "CreatedTime": "12/12/9999 00:00:00",
+              "LastUpdatedBy": "CoeusAdminUser",
+              "LastUpdatedTime": "12/12/9999 00:00:00",
+              "Id": 3
+            }
+          ],
+          "TestingFrequencies": [
+            {
+              "Name": "Business Area - Daily",
+              "DisplayOrder": 2,
+              "Enabled": true,
+              "AddOnStatus": 1,
+              "CreatedBy": "CoeusAdminUser",
+              "CreatedTime": "12/12/9999 00:00:00",
+              "LastUpdatedBy": "CoeusAdminUser",
+              "LastUpdatedTime": "12/12/9999 00:00:00",
+              "Id": 2
+            },
+            {
+              "Name": "Business Area - Weekly",
+              "DisplayOrder": 3,
+              "Enabled": true,
+              "AddOnStatus": 1,
+              "CreatedBy": "CoeusAdminUser",
+              "CreatedTime": "12/12/9999 00:00:00",
+              "LastUpdatedBy": "CoeusAdminUser",
+              "LastUpdatedTime": "12/12/9999 00:00:00",
+              "Id": 3
+            }
+          ],
+          "OtherTestingFrequency": "OtherTestingFrequency_2",
+          "ControlTriggers": [
+            {
+              "Name": "Process",
+              "DisplayOrder": 2,
+              "Enabled": true,
+              "AddOnStatus": 1,
+              "CreatedBy": "CoeusAdminUser",
+              "CreatedTime": "12/12/9999 00:00:00",
+              "LastUpdatedBy": "CoeusAdminUser",
+              "LastUpdatedTime": "12/12/9999 00:00:00",
+              "Id": 2
+            },
+            {
+              "Name": "Product",
+              "DisplayOrder": 3,
+              "Enabled": true,
+              "AddOnStatus": 1,
+              "CreatedBy": "CoeusAdminUser",
+              "CreatedTime": "12/12/9999 00:00:00",
+              "LastUpdatedBy": "CoeusAdminUser",
+              "LastUpdatedTime": "12/12/9999 00:00:00",
+              "Id": 3
+            }
+          ],
+          "KeyControlsMaturity": {
+            "Value": 0.60,
+            "Name": "Partially Developed/Requires Improvement",
+            "DisplayOrder": 2,
+            "Enabled": true,
+            "AddOnStatus": 1,
+            "CreatedBy": "CoeusAdminUser",
+            "CreatedTime": "12/12/9999 00:00:00",
+            "LastUpdatedBy": "CoeusAdminUser",
+            "LastUpdatedTime": "12/12/9999 00:00:00",
+            "Id": 2
+          },
+          "OtherKeyControlMaturity": "OtherKeyControlMaturity_2",
+          "Id": 0
+        },
+        {
+          "ControlType": {
+            "Category": {
+              "Weight": 5.00,
+              "Name": "Corporate & Divisional Training",
+              "DisplayOrder": 3,
+              "Enabled": true,
+              "AddOnStatus": 1,
+              "CreatedBy": "CoeusAdminUser",
+              "CreatedTime": "12/12/9999 00:00:00",
+              "LastUpdatedBy": "CoeusAdminUser",
+              "LastUpdatedTime": "12/12/9999 00:00:00",
+              "Id": 3
+            },
+            "Name": "Change in policies & procedures are communicated",
+            "DisplayOrder": 3,
+            "Enabled": true,
+            "AddOnStatus": 1,
+            "CreatedBy": "CoeusAdminUser",
+            "CreatedTime": "12/12/9999 00:00:00",
+            "LastUpdatedBy": "CoeusAdminUser",
+            "LastUpdatedTime": "12/12/9999 00:00:00",
+            "Id": 3
+          },
+          "OtherControlType": "OtherControlType_3",
+          "ControlObjective": "ControlObjective_3",
+          "ControlFrequency": {
+            "Name": "Weekly",
+            "DisplayOrder": 3,
+            "Enabled": true,
+            "AddOnStatus": 1,
+            "CreatedBy": "CoeusAdminUser",
+            "CreatedTime": "12/12/9999 00:00:00",
+            "LastUpdatedBy": "CoeusAdminUser",
+            "LastUpdatedTime": "12/12/9999 00:00:00",
+            "Id": 3
+          },
+          "ControlDesigns": [
+            {
+              "Name": "Manual Prevention (Same Day)",
+              "DisplayOrder": 3,
+              "Enabled": true,
+              "AddOnStatus": 1,
+              "CreatedBy": "CoeusAdminUser",
+              "CreatedTime": "12/12/9999 00:00:00",
+              "LastUpdatedBy": "CoeusAdminUser",
+              "LastUpdatedTime": "12/12/9999 00:00:00",
+              "Id": 3
+            },
+            {
+              "Name": "Manual Detect (Day 2 plus)",
+              "DisplayOrder": 4,
+              "Enabled": true,
+              "AddOnStatus": 1,
+              "CreatedBy": "CoeusAdminUser",
+              "CreatedTime": "12/12/9999 00:00:00",
+              "LastUpdatedBy": "CoeusAdminUser",
+              "LastUpdatedTime": "12/12/9999 00:00:00",
+              "Id": 4
+            }
+          ],
+          "TestingFrequencies": [
+            {
+              "Name": "Business Area - Weekly",
+              "DisplayOrder": 3,
+              "Enabled": true,
+              "AddOnStatus": 1,
+              "CreatedBy": "CoeusAdminUser",
+              "CreatedTime": "12/12/9999 00:00:00",
+              "LastUpdatedBy": "CoeusAdminUser",
+              "LastUpdatedTime": "12/12/9999 00:00:00",
+              "Id": 3
+            },
+            {
+              "Name": "Business Area - Monthly",
+              "DisplayOrder": 4,
+              "Enabled": true,
+              "AddOnStatus": 1,
+              "CreatedBy": "CoeusAdminUser",
+              "CreatedTime": "12/12/9999 00:00:00",
+              "LastUpdatedBy": "CoeusAdminUser",
+              "LastUpdatedTime": "12/12/9999 00:00:00",
+              "Id": 4
+            }
+          ],
+          "OtherTestingFrequency": "OtherTestingFrequency_3",
+          "ControlTriggers": [
+            {
+              "Name": "Product",
+              "DisplayOrder": 3,
+              "Enabled": true,
+              "AddOnStatus": 1,
+              "CreatedBy": "CoeusAdminUser",
+              "CreatedTime": "12/12/9999 00:00:00",
+              "LastUpdatedBy": "CoeusAdminUser",
+              "LastUpdatedTime": "12/12/9999 00:00:00",
+              "Id": 3
+            },
+            {
+              "Name": "Regulatory/Compliance",
+              "DisplayOrder": 4,
+              "Enabled": true,
+              "AddOnStatus": 1,
+              "CreatedBy": "CoeusAdminUser",
+              "CreatedTime": "12/12/9999 00:00:00",
+              "LastUpdatedBy": "CoeusAdminUser",
+              "LastUpdatedTime": "12/12/9999 00:00:00",
+              "Id": 4
+            }
+          ],
+          "KeyControlsMaturity": {
+            "Value": 1.00,
+            "Name": "Under Developed/Weak",
+            "DisplayOrder": 3,
+            "Enabled": true,
+            "AddOnStatus": 1,
+            "CreatedBy": "CoeusAdminUser",
+            "CreatedTime": "12/12/9999 00:00:00",
+            "LastUpdatedBy": "CoeusAdminUser",
+            "LastUpdatedTime": "12/12/9999 00:00:00",
+            "Id": 3
+          },
+          "OtherKeyControlMaturity": "OtherKeyControlMaturity_3",
+          "Id": 0
+        }
+      ],
+      "Category": {
+        "Weight": 65.00,
+        "Name": "Functional Area Processes",
+        "DisplayOrder": 2,
+        "Enabled": true,
+        "AddOnStatus": 1,
+        "CreatedBy": "CoeusAdminUser",
+        "CreatedTime": "12/12/9999 00:00:00",
+        "LastUpdatedBy": "CoeusAdminUser",
+        "LastUpdatedTime": "12/12/9999 00:00:00",
+        "Id": 2
+      },
+      "Id": 0
+    }
+  ],
+  "OverallRiskRatingCommentary": "OverallRiskRatingCommentary_1",
+  "ApprovalStatus": 0,
+  "BUFunctionalApproverUsername": "CoeusBUFuncApp1",
+  "BUFunctionalApprover": {
+    "Username": "CoeusBUFuncApp1",
+    "FirstName": "CoeusBUFunctionalApprover",
+    "LastName": "User 1",
+    "Role": 1,
+    "KPIRole": null,
+    "IsActive": true,
+    "BusinessUnits": [
+      {
+        "Category": null,
+        "Name": "Annuities",
+        "DisplayOrder": 1,
+        "Enabled": true,
+        "AddOnStatus": 1,
+        "CreatedBy": "CoeusAdminUser",
+        "CreatedTime": "12/12/9999 00:00:00",
+        "LastUpdatedBy": "CoeusAdminUser",
+        "LastUpdatedTime": "12/12/9999 00:00:00",
+        "Id": 1
+      },
+      {
+        "Category": null,
+        "Name": "Insurance",
+        "DisplayOrder": 2,
+        "Enabled": true,
+        "AddOnStatus": 1,
+        "CreatedBy": "CoeusAdminUser",
+        "CreatedTime": "12/12/9999 00:00:00",
+        "LastUpdatedBy": "CoeusAdminUser",
+        "LastUpdatedTime": "12/12/9999 00:00:00",
+        "Id": 2
+      },
+      {
+        "Category": null,
+        "Name": "Investments/JHSS",
+        "DisplayOrder": 3,
+        "Enabled": true,
+        "AddOnStatus": 1,
+        "CreatedBy": "CoeusAdminUser",
+        "CreatedTime": "12/12/9999 00:00:00",
+        "LastUpdatedBy": "CoeusAdminUser",
+        "LastUpdatedTime": "12/12/9999 00:00:00",
+        "Id": 3
+      },
+      {
+        "Category": null,
+        "Name": "RPS",
+        "DisplayOrder": 4,
+        "Enabled": true,
+        "AddOnStatus": 1,
+        "CreatedBy": "CoeusAdminUser",
+        "CreatedTime": "12/12/9999 00:00:00",
+        "LastUpdatedBy": "CoeusAdminUser",
+        "LastUpdatedTime": "12/12/9999 00:00:00",
+        "Id": 4
+      },
+      {
+        "Category": null,
+        "Name": "Shared Services",
+        "DisplayOrder": 5,
+        "Enabled": true,
+        "AddOnStatus": 1,
+        "CreatedBy": "CoeusAdminUser",
+        "CreatedTime": "12/12/9999 00:00:00",
+        "LastUpdatedBy": "CoeusAdminUser",
+        "LastUpdatedTime": "12/12/9999 00:00:00",
+        "Id": 5
+      }
+    ]
+  },
+  "BUFunctionalApproveTime": "10/22/2021 00:00:00",
+  "BURiskManagementApproverUsername": "CoeusRiskManager",
+  "BURiskManagementApprover": {
+    "Username": "CoeusRiskManager",
+    "FirstName": "CoeusRiskManager",
+    "LastName": "User1",
+    "Role": 2,
+    "KPIRole": null,
+    "IsActive": true,
+    "BusinessUnits": [
+      {
+        "Category": null,
+        "Name": "Annuities",
+        "DisplayOrder": 1,
+        "Enabled": true,
+        "AddOnStatus": 1,
+        "CreatedBy": "CoeusAdminUser",
+        "CreatedTime": "12/12/9999 00:00:00",
+        "LastUpdatedBy": "CoeusAdminUser",
+        "LastUpdatedTime": "12/12/9999 00:00:00",
+        "Id": 1
+      },
+      {
+        "Category": null,
+        "Name": "Insurance",
+        "DisplayOrder": 2,
+        "Enabled": true,
+        "AddOnStatus": 1,
+        "CreatedBy": "CoeusAdminUser",
+        "CreatedTime": "12/12/9999 00:00:00",
+        "LastUpdatedBy": "CoeusAdminUser",
+        "LastUpdatedTime": "12/12/9999 00:00:00",
+        "Id": 2
+      },
+      {
+        "Category": null,
+        "Name": "Investments/JHSS",
+        "DisplayOrder": 3,
+        "Enabled": true,
+        "AddOnStatus": 1,
+        "CreatedBy": "CoeusAdminUser",
+        "CreatedTime": "12/12/9999 00:00:00",
+        "LastUpdatedBy": "CoeusAdminUser",
+        "LastUpdatedTime": "12/12/9999 00:00:00",
+        "Id": 3
+      },
+      {
+        "Category": null,
+        "Name": "RPS",
+        "DisplayOrder": 4,
+        "Enabled": true,
+        "AddOnStatus": 1,
+        "CreatedBy": "CoeusAdminUser",
+        "CreatedTime": "12/12/9999 00:00:00",
+        "LastUpdatedBy": "CoeusAdminUser",
+        "LastUpdatedTime": "12/12/9999 00:00:00",
+        "Id": 4
+      },
+      {
+        "Category": null,
+        "Name": "Shared Services",
+        "DisplayOrder": 5,
+        "Enabled": true,
+        "AddOnStatus": 1,
+        "CreatedBy": "CoeusAdminUser",
+        "CreatedTime": "12/12/9999 00:00:00",
+        "LastUpdatedBy": "CoeusAdminUser",
+        "LastUpdatedTime": "12/12/9999 00:00:00",
+        "Id": 5
+      }
+    ]
+  },
+  "BURiskManagementApproveTime": "01/25/2024 00:00:00",
+  "DivisionalRiskManagementApproverUsername": "CoeusDivManager",
+  "DivisionalRiskManagementApprover": {
+    "Username": "CoeusDivManager",
+    "FirstName": "CoeusDivisionalManager",
+    "LastName": "User1",
+    "Role": 3,
+    "KPIRole": null,
+    "IsActive": true,
+    "BusinessUnits": [
+      {
+        "Category": null,
+        "Name": "Annuities",
+        "DisplayOrder": 1,
+        "Enabled": true,
+        "AddOnStatus": 1,
+        "CreatedBy": "CoeusAdminUser",
+        "CreatedTime": "12/12/9999 00:00:00",
+        "LastUpdatedBy": "CoeusAdminUser",
+        "LastUpdatedTime": "12/12/9999 00:00:00",
+        "Id": 1
+      },
+      {
+        "Category": null,
+        "Name": "Insurance",
+        "DisplayOrder": 2,
+        "Enabled": true,
+        "AddOnStatus": 1,
+        "CreatedBy": "CoeusAdminUser",
+        "CreatedTime": "12/12/9999 00:00:00",
+        "LastUpdatedBy": "CoeusAdminUser",
+        "LastUpdatedTime": "12/12/9999 00:00:00",
+        "Id": 2
+      },
+      {
+        "Category": null,
+        "Name": "Investments/JHSS",
+        "DisplayOrder": 3,
+        "Enabled": true,
+        "AddOnStatus": 1,
+        "CreatedBy": "CoeusAdminUser",
+        "CreatedTime": "12/12/9999 00:00:00",
+        "LastUpdatedBy": "CoeusAdminUser",
+        "LastUpdatedTime": "12/12/9999 00:00:00",
+        "Id": 3
+      },
+      {
+        "Category": null,
+        "Name": "RPS",
+        "DisplayOrder": 4,
+        "Enabled": true,
+        "AddOnStatus": 1,
+        "CreatedBy": "CoeusAdminUser",
+        "CreatedTime": "12/12/9999 00:00:00",
+        "LastUpdatedBy": "CoeusAdminUser",
+        "LastUpdatedTime": "12/12/9999 00:00:00",
+        "Id": 4
+      },
+      {
+        "Category": null,
+        "Name": "Shared Services",
+        "DisplayOrder": 5,
+        "Enabled": true,
+        "AddOnStatus": 1,
+        "CreatedBy": "CoeusAdminUser",
+        "CreatedTime": "12/12/9999 00:00:00",
+        "LastUpdatedBy": "CoeusAdminUser",
+        "LastUpdatedTime": "12/12/9999 00:00:00",
+        "Id": 5
+      }
+    ]
+  },
+  "DivisionalRiskManagementApproveTime": "04/28/2027 00:00:00",
+  "RejecterUsername": "CoeusAdminUser",
+  "Rejecter": {
+    "Username": "CoeusAdminUser",
+    "FirstName": "Coeus",
+    "LastName": "Admin",
+    "Role": 4,
+    "KPIRole": null,
+    "IsActive": true,
+    "BusinessUnits": [
+      {
+        "Category": null,
+        "Name": "Annuities",
+        "DisplayOrder": 1,
+        "Enabled": true,
+        "AddOnStatus": 1,
+        "CreatedBy": "CoeusAdminUser",
+        "CreatedTime": "12/12/9999 00:00:00",
+        "LastUpdatedBy": "CoeusAdminUser",
+        "LastUpdatedTime": "12/12/9999 00:00:00",
+        "Id": 1
+      },
+      {
+        "Category": null,
+        "Name": "Insurance",
+        "DisplayOrder": 2,
+        "Enabled": true,
+        "AddOnStatus": 1,
+        "CreatedBy": "CoeusAdminUser",
+        "CreatedTime": "12/12/9999 00:00:00",
+        "LastUpdatedBy": "CoeusAdminUser",
+        "LastUpdatedTime": "12/12/9999 00:00:00",
+        "Id": 2
+      },
+      {
+        "Category": null,
+        "Name": "Investments/JHSS",
+        "DisplayOrder": 3,
+        "Enabled": true,
+        "AddOnStatus": 1,
+        "CreatedBy": "CoeusAdminUser",
+        "CreatedTime": "12/12/9999 00:00:00",
+        "LastUpdatedBy": "CoeusAdminUser",
+        "LastUpdatedTime": "12/12/9999 00:00:00",
+        "Id": 3
+      },
+      {
+        "Category": null,
+        "Name": "RPS",
+        "DisplayOrder": 4,
+        "Enabled": true,
+        "AddOnStatus": 1,
+        "CreatedBy": "CoeusAdminUser",
+        "CreatedTime": "12/12/9999 00:00:00",
+        "LastUpdatedBy": "CoeusAdminUser",
+        "LastUpdatedTime": "12/12/9999 00:00:00",
+        "Id": 4
+      },
+      {
+        "Category": null,
+        "Name": "Shared Services",
+        "DisplayOrder": 5,
+        "Enabled": true,
+        "AddOnStatus": 1,
+        "CreatedBy": "CoeusAdminUser",
+        "CreatedTime": "12/12/9999 00:00:00",
+        "LastUpdatedBy": "CoeusAdminUser",
+        "LastUpdatedTime": "12/12/9999 00:00:00",
+        "Id": 5
+      }
+    ]
+  },
+  "RejectTime": "07/03/2030 00:00:00",
+  "RejectionReason": "RejectionReason_1",
+  "RejectPhase": 1,
+  "SubmitterUsername": "CoeusOwnerUser1",
+  "Submitter": {
+    "Username": "CoeusOwnerUser1",
+    "FirstName": "CoeusOwner",
+    "LastName": "User1",
+    "Role": 0,
+    "KPIRole": null,
+    "IsActive": true,
+    "BusinessUnits": [
+      {
+        "Category": null,
+        "Name": "Annuities",
+        "DisplayOrder": 1,
+        "Enabled": true,
+        "AddOnStatus": 1,
+        "CreatedBy": "CoeusAdminUser",
+        "CreatedTime": "12/12/9999 00:00:00",
+        "LastUpdatedBy": "CoeusAdminUser",
+        "LastUpdatedTime": "12/12/9999 00:00:00",
+        "Id": 1
+      },
+      {
+        "Category": null,
+        "Name": "Insurance",
+        "DisplayOrder": 2,
+        "Enabled": true,
+        "AddOnStatus": 1,
+        "CreatedBy": "CoeusAdminUser",
+        "CreatedTime": "12/12/9999 00:00:00",
+        "LastUpdatedBy": "CoeusAdminUser",
+        "LastUpdatedTime": "12/12/9999 00:00:00",
+        "Id": 2
+      },
+      {
+        "Category": null,
+        "Name": "Investments/JHSS",
+        "DisplayOrder": 3,
+        "Enabled": true,
+        "AddOnStatus": 1,
+        "CreatedBy": "CoeusAdminUser",
+        "CreatedTime": "12/12/9999 00:00:00",
+        "LastUpdatedBy": "CoeusAdminUser",
+        "LastUpdatedTime": "12/12/9999 00:00:00",
+        "Id": 3
+      },
+      {
+        "Category": null,
+        "Name": "RPS",
+        "DisplayOrder": 4,
+        "Enabled": true,
+        "AddOnStatus": 1,
+        "CreatedBy": "CoeusAdminUser",
+        "CreatedTime": "12/12/9999 00:00:00",
+        "LastUpdatedBy": "CoeusAdminUser",
+        "LastUpdatedTime": "12/12/9999 00:00:00",
+        "Id": 4
+      },
+      {
+        "Category": null,
+        "Name": "Shared Services",
+        "DisplayOrder": 5,
+        "Enabled": true,
+        "AddOnStatus": 1,
+        "CreatedBy": "CoeusAdminUser",
+        "CreatedTime": "12/12/9999 00:00:00",
+        "LastUpdatedBy": "CoeusAdminUser",
+        "LastUpdatedTime": "12/12/9999 00:00:00",
+        "Id": 5
+      }
+    ]
+  },
+  "SubmitTime": "12/08/2035 00:00:00",
+  "Title": "Title_1",
+  "CreatedBy": "CreatedBy_1",
+  "CreatedTime": "03/11/2038 00:00:00",
+  "LastUpdatedBy": "LastUpdatedBy_1",
+  "LastUpdatedTime": "05/13/2040 00:00:00",
+  "Id": 0
+}

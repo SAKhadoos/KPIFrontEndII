@@ -1,0 +1,237 @@
+{
+  "RootCauseConfig": [
+    {
+      "Value": "OperationalIncidentRootCauseValue1",
+      "Enabled": true,
+      "Id": 1
+    },
+    {
+      "Value": "OperationalIncidentRootCauseValue2",
+      "Enabled": false,
+      "Id": 2
+    },
+    {
+      "Value": "OperationalIncidentRootCauseValue3",
+      "Enabled": true,
+      "Id": 3
+    },
+    {
+      "Value": "OperationalIncidentRootCauseValue4",
+      "Enabled": false,
+      "Id": 4
+    },
+    {
+      "Value": "OperationalIncidentRootCauseValue5",
+      "Enabled": true,
+      "Id": 5
+    },
+    {
+      "Value": "OperationalIncidentRootCauseValue6",
+      "Enabled": false,
+      "Id": 6
+    },
+    {
+      "Value": "OperationalIncidentRootCauseValue7",
+      "Enabled": true,
+      "Id": 7
+    },
+    {
+      "Value": "OperationalIncidentRootCauseValue8",
+      "Enabled": false,
+      "Id": 8
+    },
+    {
+      "Value": "OperationalIncidentRootCauseValue9",
+      "Enabled": true,
+      "Id": 9
+    }
+  ],
+  "SourceConfig": [
+    {
+      "Value": "OperationalIncidentSourceValue1",
+      "Enabled": true,
+      "Id": 1
+    },
+    {
+      "Value": "OperationalIncidentSourceValue2",
+      "Enabled": false,
+      "Id": 2
+    },
+    {
+      "Value": "OperationalIncidentSourceValue3",
+      "Enabled": true,
+      "Id": 3
+    },
+    {
+      "Value": "OperationalIncidentSourceValue4",
+      "Enabled": false,
+      "Id": 4
+    },
+    {
+      "Value": "OperationalIncidentSourceValue5",
+      "Enabled": true,
+      "Id": 5
+    },
+    {
+      "Value": "OperationalIncidentSourceValue6",
+      "Enabled": false,
+      "Id": 6
+    },
+    {
+      "Value": "OperationalIncidentSourceValue7",
+      "Enabled": true,
+      "Id": 7
+    },
+    {
+      "Value": "OperationalIncidentSourceValue8",
+      "Enabled": false,
+      "Id": 8
+    },
+    {
+      "Value": "OperationalIncidentSourceValue9",
+      "Enabled": true,
+      "Id": 9
+    }
+  ],
+  "ImpactConfig": [
+    {
+      "Value": "OperationalIncidentImpactValue1",
+      "Enabled": true,
+      "Id": 1
+    },
+    {
+      "Value": "OperationalIncidentImpactValue2",
+      "Enabled": false,
+      "Id": 2
+    },
+    {
+      "Value": "OperationalIncidentImpactValue3",
+      "Enabled": true,
+      "Id": 3
+    },
+    {
+      "Value": "OperationalIncidentImpactValue4",
+      "Enabled": false,
+      "Id": 4
+    },
+    {
+      "Value": "OperationalIncidentImpactValue5",
+      "Enabled": true,
+      "Id": 5
+    },
+    {
+      "Value": "OperationalIncidentImpactValue6",
+      "Enabled": false,
+      "Id": 6
+    },
+    {
+      "Value": "OperationalIncidentImpactValue7",
+      "Enabled": true,
+      "Id": 7
+    },
+    {
+      "Value": "OperationalIncidentImpactValue8",
+      "Enabled": false,
+      "Id": 8
+    },
+    {
+      "Value": "OperationalIncidentImpactValue9",
+      "Enabled": true,
+      "Id": 9
+    }
+  ],
+  "StatusConfig": [
+    {
+      "Value": "OperationalIncidentStatusValue1",
+      "Enabled": true,
+      "Id": 1
+    },
+    {
+      "Value": "OperationalIncidentStatusValue2",
+      "Enabled": false,
+      "Id": 2
+    },
+    {
+      "Value": "OperationalIncidentStatusValue3",
+      "Enabled": true,
+      "Id": 3
+    },
+    {
+      "Value": "OperationalIncidentStatusValue4",
+      "Enabled": false,
+      "Id": 4
+    },
+    {
+      "Value": "OperationalIncidentStatusValue5",
+      "Enabled": true,
+      "Id": 5
+    },
+    {
+      "Value": "OperationalIncidentStatusValue6",
+      "Enabled": false,
+      "Id": 6
+    },
+    {
+      "Value": "OperationalIncidentStatusValue7",
+      "Enabled": true,
+      "Id": 7
+    },
+    {
+      "Value": "OperationalIncidentStatusValue8",
+      "Enabled": false,
+      "Id": 8
+    },
+    {
+      "Value": "OperationalIncidentStatusValue9",
+      "Enabled": true,
+      "Id": 9
+    }
+  ],
+  "ReportedToGORMConfig": [
+    {
+      "Value": "OperationalIncidentReportedToGORMValue1",
+      "Enabled": true,
+      "Id": 1
+    },
+    {
+      "Value": "OperationalIncidentReportedToGORMValue2",
+      "Enabled": false,
+      "Id": 2
+    },
+    {
+      "Value": "OperationalIncidentReportedToGORMValue3",
+      "Enabled": true,
+      "Id": 3
+    },
+    {
+      "Value": "OperationalIncidentReportedToGORMValue4",
+      "Enabled": false,
+      "Id": 4
+    },
+    {
+      "Value": "OperationalIncidentReportedToGORMValue5",
+      "Enabled": true,
+      "Id": 5
+    },
+    {
+      "Value": "OperationalIncidentReportedToGORMValue6",
+      "Enabled": false,
+      "Id": 6
+    },
+    {
+      "Value": "OperationalIncidentReportedToGORMValue7",
+      "Enabled": true,
+      "Id": 7
+    },
+    {
+      "Value": "OperationalIncidentReportedToGORMValue8",
+      "Enabled": false,
+      "Id": 8
+    },
+    {
+      "Value": "OperationalIncidentReportedToGORMValue9",
+      "Enabled": true,
+      "Id": 9
+    }
+  ]
+}

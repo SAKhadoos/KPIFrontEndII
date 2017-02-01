@@ -1,0 +1,52 @@
+<div>
+    <!-- BEGIN #main-content -->
+    <div id="main-content" class="row margin-top-35">
+        <h1 class="row m-t-20 title">Edit Risk Assessment fields</h1>
+        <div class="nav-tabs m-t-20 row" data-ng-include="'partials/admin/shared/tabnav.edit.html'"></div>
+        <div class="clearfix"></div>
+        <div class="edit-addons-content">
+            <ul class="wrapper-all">
+                <li class="primary-row" ng-repeat="item in pendingAddOns">
+                    <div class="left-group-ct">
+                        <div class="cover-all" ng-show="!item.editing"  ng-bind-html='item|addOnTitle'>
+                        </div>
+                        <div ng-show="item.editing==true">
+                            <input type="text" class="editor-ctrl" maxlength="200" ng-model="item.name" ng-class="{error: item.name.length<1}"/>
+                        </div>
+                    </div>
+                    <!-- /left-group-ct -->
+                    <div class="right-group-ct">
+                        <span class="left-line"></span>
+                        <div class="choose-func" ng-show="!item.editing">
+                            <a class="same btn-approve" href="javascript:;" data-ng-click="approvePendingAddOn(item);">
+                                <i class="sprites"></i>Approve</a>
+                            <a class="same btn-reject" href="javascript:;" ng-click="rejectPendingAddOn(item);"><i class="sprites"></i>Reject</a>
+                            <a class="same btn-edit last" href="javascript:;" ng-click="startEditingAddOn(item, false)"><i class="sprites"></i>Edit</a>
+                            <div class="clearfix"></div>
+                        </div>
+                        <div class="choose-func" ng-show="item.editing==true">
+                            <a class="same btn-approve" href="javascript:;" data-ng-click="cancelEditingAddOn(item, false);">Cancel</a>
+                            <a class="same btn-reject" href="javascript:;" data-ng-click="updatePendingAddOn(item, false);">Save</a>
+                            <div class="clearfix"></div>
+                        </div>
+                        <!-- /choose-func -->
+                    </div>
+                    <!-- /right-group-ct -->
+                    <div class="clearfix"></div>
+                </li>
+            </ul>
+        </div>
+        <!-- /.col-layout -->
+
+        <div class="section-footer row m-t-40">
+            <div class="left">
+                <a href="#/admin/edit/riskCalculation" class="btn btn-primary">Prev</a>
+            </div>
+            <div class="right">
+                <a href="#/admin/edit/bulkdata" class="btn btn-primary">Next</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- END #main-content -->
+<div class="clearfix"></div>

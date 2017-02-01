@@ -1,0 +1,158 @@
+{
+  "OverallInherentRiskScore": 66.825000,
+  "OverallResidualRiskScore": 27.598458333333333333333333334,
+  "CategoryInherentRiskScores": [
+    {
+      "Category": {
+        "Weight": 65.00,
+        "Name": "Functional Area Processes",
+        "DisplayOrder": 2,
+        "Enabled": true,
+        "AddOnStatus": 1,
+        "CreatedBy": "CoeusAdminUser",
+        "CreatedTime": "12/12/9999 00:00:00",
+        "LastUpdatedBy": "CoeusAdminUser",
+        "LastUpdatedTime": "12/12/9999 00:00:00",
+        "Id": 2
+      },
+      "Score": 100.5000
+    },
+    {
+      "Category": {
+        "Weight": 5.00,
+        "Name": "Corporate & Divisional Training",
+        "DisplayOrder": 3,
+        "Enabled": true,
+        "AddOnStatus": 1,
+        "CreatedBy": "CoeusAdminUser",
+        "CreatedTime": "12/12/9999 00:00:00",
+        "LastUpdatedBy": "CoeusAdminUser",
+        "LastUpdatedTime": "12/12/9999 00:00:00",
+        "Id": 3
+      },
+      "Score": 6.0000
+    },
+    {
+      "Category": {
+        "Weight": 5.00,
+        "Name": "Business Continuity & Disaster Recovery",
+        "DisplayOrder": 4,
+        "Enabled": true,
+        "AddOnStatus": 1,
+        "CreatedBy": "CoeusAdminUser",
+        "CreatedTime": "12/12/9999 00:00:00",
+        "LastUpdatedBy": "CoeusAdminUser",
+        "LastUpdatedTime": "12/12/9999 00:00:00",
+        "Id": 4
+      },
+      "Score": 6.0000
+    },
+    {
+      "Category": {
+        "Weight": 5.00,
+        "Name": "Records Management",
+        "DisplayOrder": 5,
+        "Enabled": true,
+        "AddOnStatus": 1,
+        "CreatedBy": "CoeusAdminUser",
+        "CreatedTime": "12/12/9999 00:00:00",
+        "LastUpdatedBy": "CoeusAdminUser",
+        "LastUpdatedTime": "12/12/9999 00:00:00",
+        "Id": 5
+      },
+      "Score": 6.0000
+    },
+    {
+      "Category": {
+        "Weight": 10.00,
+        "Name": "Information Security",
+        "DisplayOrder": 6,
+        "Enabled": true,
+        "AddOnStatus": 1,
+        "CreatedBy": "CoeusAdminUser",
+        "CreatedTime": "12/12/9999 00:00:00",
+        "LastUpdatedBy": "CoeusAdminUser",
+        "LastUpdatedTime": "12/12/9999 00:00:00",
+        "Id": 6
+      },
+      "Score": 6.0000
+    }
+  ],
+  "CategoryResidualRiskScores": [
+    {
+      "Category": {
+        "Weight": 65.00,
+        "Name": "Functional Area Processes",
+        "DisplayOrder": 2,
+        "Enabled": true,
+        "AddOnStatus": 1,
+        "CreatedBy": "CoeusAdminUser",
+        "CreatedTime": "12/12/9999 00:00:00",
+        "LastUpdatedBy": "CoeusAdminUser",
+        "LastUpdatedTime": "12/12/9999 00:00:00",
+        "Id": 2
+      },
+      "Score": 41.604166666666666666666666668
+    },
+    {
+      "Category": {
+        "Weight": 5.00,
+        "Name": "Corporate & Divisional Training",
+        "DisplayOrder": 3,
+        "Enabled": true,
+        "AddOnStatus": 1,
+        "CreatedBy": "CoeusAdminUser",
+        "CreatedTime": "12/12/9999 00:00:00",
+        "LastUpdatedBy": "CoeusAdminUser",
+        "LastUpdatedTime": "12/12/9999 00:00:00",
+        "Id": 3
+      },
+      "Score": 0.73500000
+    },
+    {
+      "Category": {
+        "Weight": 5.00,
+        "Name": "Business Continuity & Disaster Recovery",
+        "DisplayOrder": 4,
+        "Enabled": true,
+        "AddOnStatus": 1,
+        "CreatedBy": "CoeusAdminUser",
+        "CreatedTime": "12/12/9999 00:00:00",
+        "LastUpdatedBy": "CoeusAdminUser",
+        "LastUpdatedTime": "12/12/9999 00:00:00",
+        "Id": 4
+      },
+      "Score": 6.00000000
+    },
+    {
+      "Category": {
+        "Weight": 5.00,
+        "Name": "Records Management",
+        "DisplayOrder": 5,
+        "Enabled": true,
+        "AddOnStatus": 1,
+        "CreatedBy": "CoeusAdminUser",
+        "CreatedTime": "12/12/9999 00:00:00",
+        "LastUpdatedBy": "CoeusAdminUser",
+        "LastUpdatedTime": "12/12/9999 00:00:00",
+        "Id": 5
+      },
+      "Score": 0.06000000
+    },
+    {
+      "Category": {
+        "Weight": 10.00,
+        "Name": "Information Security",
+        "DisplayOrder": 6,
+        "Enabled": true,
+        "AddOnStatus": 1,
+        "CreatedBy": "CoeusAdminUser",
+        "CreatedTime": "12/12/9999 00:00:00",
+        "LastUpdatedBy": "CoeusAdminUser",
+        "LastUpdatedTime": "12/12/9999 00:00:00",
+        "Id": 6
+      },
+      "Score": 2.16000000
+    }
+  ]
+}

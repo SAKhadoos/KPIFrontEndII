@@ -1,0 +1,237 @@
+{
+  "RootCauseConfig": [
+    {
+      "Value": "AuditFindingSourceValue1",
+      "Enabled": true,
+      "Id": 1
+    },
+    {
+      "Value": "AuditFindingSourceValue2",
+      "Enabled": false,
+      "Id": 2
+    },
+    {
+      "Value": "AuditFindingSourceValue3",
+      "Enabled": true,
+      "Id": 3
+    },
+    {
+      "Value": "AuditFindingSourceValue4",
+      "Enabled": false,
+      "Id": 4
+    },
+    {
+      "Value": "AuditFindingSourceValue5",
+      "Enabled": true,
+      "Id": 5
+    },
+    {
+      "Value": "AuditFindingSourceValue6",
+      "Enabled": false,
+      "Id": 6
+    },
+    {
+      "Value": "AuditFindingSourceValue7",
+      "Enabled": true,
+      "Id": 7
+    },
+    {
+      "Value": "AuditFindingSourceValue8",
+      "Enabled": false,
+      "Id": 8
+    },
+    {
+      "Value": "AuditFindingSourceValue9",
+      "Enabled": true,
+      "Id": 9
+    }
+  ],
+  "SourceConfig": [
+    {
+      "Value": "AuditFindingSourceValue1",
+      "Enabled": true,
+      "Id": 1
+    },
+    {
+      "Value": "AuditFindingSourceValue2",
+      "Enabled": false,
+      "Id": 2
+    },
+    {
+      "Value": "AuditFindingSourceValue3",
+      "Enabled": true,
+      "Id": 3
+    },
+    {
+      "Value": "AuditFindingSourceValue4",
+      "Enabled": false,
+      "Id": 4
+    },
+    {
+      "Value": "AuditFindingSourceValue5",
+      "Enabled": true,
+      "Id": 5
+    },
+    {
+      "Value": "AuditFindingSourceValue6",
+      "Enabled": false,
+      "Id": 6
+    },
+    {
+      "Value": "AuditFindingSourceValue7",
+      "Enabled": true,
+      "Id": 7
+    },
+    {
+      "Value": "AuditFindingSourceValue8",
+      "Enabled": false,
+      "Id": 8
+    },
+    {
+      "Value": "AuditFindingSourceValue9",
+      "Enabled": true,
+      "Id": 9
+    }
+  ],
+  "ImpactConfig": [
+    {
+      "Value": "AuditFindingImpactValue1",
+      "Enabled": true,
+      "Id": 1
+    },
+    {
+      "Value": "AuditFindingImpactValue2",
+      "Enabled": false,
+      "Id": 2
+    },
+    {
+      "Value": "AuditFindingImpactValue3",
+      "Enabled": true,
+      "Id": 3
+    },
+    {
+      "Value": "AuditFindingImpactValue4",
+      "Enabled": false,
+      "Id": 4
+    },
+    {
+      "Value": "AuditFindingImpactValue5",
+      "Enabled": true,
+      "Id": 5
+    },
+    {
+      "Value": "AuditFindingImpactValue6",
+      "Enabled": false,
+      "Id": 6
+    },
+    {
+      "Value": "AuditFindingImpactValue7",
+      "Enabled": true,
+      "Id": 7
+    },
+    {
+      "Value": "AuditFindingImpactValue8",
+      "Enabled": false,
+      "Id": 8
+    },
+    {
+      "Value": "AuditFindingImpactValue9",
+      "Enabled": true,
+      "Id": 9
+    }
+  ],
+  "StatusConfig": [
+    {
+      "Value": "AuditFindingStatusValue1",
+      "Enabled": true,
+      "Id": 1
+    },
+    {
+      "Value": "AuditFindingStatusValue2",
+      "Enabled": false,
+      "Id": 2
+    },
+    {
+      "Value": "AuditFindingStatusValue3",
+      "Enabled": true,
+      "Id": 3
+    },
+    {
+      "Value": "AuditFindingStatusValue4",
+      "Enabled": false,
+      "Id": 4
+    },
+    {
+      "Value": "AuditFindingStatusValue5",
+      "Enabled": true,
+      "Id": 5
+    },
+    {
+      "Value": "AuditFindingStatusValue6",
+      "Enabled": false,
+      "Id": 6
+    },
+    {
+      "Value": "AuditFindingStatusValue7",
+      "Enabled": true,
+      "Id": 7
+    },
+    {
+      "Value": "AuditFindingStatusValue8",
+      "Enabled": false,
+      "Id": 8
+    },
+    {
+      "Value": "AuditFindingStatusValue9",
+      "Enabled": true,
+      "Id": 9
+    }
+  ],
+  "ReportedToGORMConfig": [
+    {
+      "Value": "AuditFindingReportedToGORMValue1",
+      "Enabled": true,
+      "Id": 1
+    },
+    {
+      "Value": "AuditFindingReportedToGORMValue2",
+      "Enabled": false,
+      "Id": 2
+    },
+    {
+      "Value": "AuditFindingReportedToGORMValue3",
+      "Enabled": true,
+      "Id": 3
+    },
+    {
+      "Value": "AuditFindingReportedToGORMValue4",
+      "Enabled": false,
+      "Id": 4
+    },
+    {
+      "Value": "AuditFindingReportedToGORMValue5",
+      "Enabled": true,
+      "Id": 5
+    },
+    {
+      "Value": "AuditFindingReportedToGORMValue6",
+      "Enabled": false,
+      "Id": 6
+    },
+    {
+      "Value": "AuditFindingReportedToGORMValue7",
+      "Enabled": true,
+      "Id": 7
+    },
+    {
+      "Value": "AuditFindingReportedToGORMValue8",
+      "Enabled": false,
+      "Id": 8
+    },
+    {
+      "Value": "AuditFindingReportedToGORMValue9",
+      "Enabled": true,
+      "Id": 9
+    }
+  ]
+}

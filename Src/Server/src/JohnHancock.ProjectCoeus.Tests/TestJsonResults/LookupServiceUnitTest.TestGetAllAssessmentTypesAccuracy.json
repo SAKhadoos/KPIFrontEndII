@@ -1,0 +1,46 @@
+[
+  {
+    "Name": "Annual Analysis",
+    "DisplayOrder": 1,
+    "Enabled": true,
+    "AddOnStatus": 1,
+    "CreatedBy": "CoeusAdminUser",
+    "CreatedTime": "12/12/9999 00:00:00",
+    "LastUpdatedBy": "CoeusAdminUser",
+    "LastUpdatedTime": "12/12/9999 00:00:00",
+    "Id": 1
+  },
+  {
+    "Name": "New Function Analysis",
+    "DisplayOrder": 2,
+    "Enabled": true,
+    "AddOnStatus": 1,
+    "CreatedBy": "CoeusAdminUser",
+    "CreatedTime": "12/12/9999 00:00:00",
+    "LastUpdatedBy": "CoeusAdminUser",
+    "LastUpdatedTime": "12/12/9999 00:00:00",
+    "Id": 2
+  },
+  {
+    "Name": "New Policy/Process Analysis",
+    "DisplayOrder": 3,
+    "Enabled": true,
+    "AddOnStatus": 1,
+    "CreatedBy": "CoeusAdminUser",
+    "CreatedTime": "12/12/9999 00:00:00",
+    "LastUpdatedBy": "CoeusAdminUser",
+    "LastUpdatedTime": "12/12/9999 00:00:00",
+    "Id": 3
+  },
+  {
+    "Name": "Management Change Review",
+    "DisplayOrder": 4,
+    "Enabled": true,
+    "AddOnStatus": 1,
+    "CreatedBy": "CoeusAdminUser",
+    "CreatedTime": "12/12/9999 00:00:00",
+    "LastUpdatedBy": "CoeusAdminUser",
+    "LastUpdatedTime": "12/12/9999 00:00:00",
+    "Id": 4
+  }
+]

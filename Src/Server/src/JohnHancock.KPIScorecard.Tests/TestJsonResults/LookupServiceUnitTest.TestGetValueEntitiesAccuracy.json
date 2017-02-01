@@ -1,0 +1,872 @@
+[
+  {
+    "Value": "AuditFindingImpactValue1",
+    "Enabled": true,
+    "Id": 1
+  },
+  {
+    "Value": "AuditFindingImpactValue2",
+    "Enabled": false,
+    "Id": 2
+  },
+  {
+    "Value": "AuditFindingImpactValue3",
+    "Enabled": true,
+    "Id": 3
+  },
+  {
+    "Value": "AuditFindingImpactValue4",
+    "Enabled": false,
+    "Id": 4
+  },
+  {
+    "Value": "AuditFindingImpactValue5",
+    "Enabled": true,
+    "Id": 5
+  },
+  {
+    "Value": "AuditFindingImpactValue6",
+    "Enabled": false,
+    "Id": 6
+  },
+  {
+    "Value": "AuditFindingImpactValue7",
+    "Enabled": true,
+    "Id": 7
+  },
+  {
+    "Value": "AuditFindingImpactValue8",
+    "Enabled": false,
+    "Id": 8
+  },
+  {
+    "Value": "AuditFindingImpactValue9",
+    "Enabled": true,
+    "Id": 9
+  },
+  {
+    "Value": "AuditFindingReportedToGORMValue1",
+    "Enabled": true,
+    "Id": 1
+  },
+  {
+    "Value": "AuditFindingReportedToGORMValue2",
+    "Enabled": false,
+    "Id": 2
+  },
+  {
+    "Value": "AuditFindingReportedToGORMValue3",
+    "Enabled": true,
+    "Id": 3
+  },
+  {
+    "Value": "AuditFindingReportedToGORMValue4",
+    "Enabled": false,
+    "Id": 4
+  },
+  {
+    "Value": "AuditFindingReportedToGORMValue5",
+    "Enabled": true,
+    "Id": 5
+  },
+  {
+    "Value": "AuditFindingReportedToGORMValue6",
+    "Enabled": false,
+    "Id": 6
+  },
+  {
+    "Value": "AuditFindingReportedToGORMValue7",
+    "Enabled": true,
+    "Id": 7
+  },
+  {
+    "Value": "AuditFindingReportedToGORMValue8",
+    "Enabled": false,
+    "Id": 8
+  },
+  {
+    "Value": "AuditFindingReportedToGORMValue9",
+    "Enabled": true,
+    "Id": 9
+  },
+  {
+    "Value": "AuditFindingSourceValue1",
+    "Enabled": true,
+    "Id": 1
+  },
+  {
+    "Value": "AuditFindingSourceValue2",
+    "Enabled": false,
+    "Id": 2
+  },
+  {
+    "Value": "AuditFindingSourceValue3",
+    "Enabled": true,
+    "Id": 3
+  },
+  {
+    "Value": "AuditFindingSourceValue4",
+    "Enabled": false,
+    "Id": 4
+  },
+  {
+    "Value": "AuditFindingSourceValue5",
+    "Enabled": true,
+    "Id": 5
+  },
+  {
+    "Value": "AuditFindingSourceValue6",
+    "Enabled": false,
+    "Id": 6
+  },
+  {
+    "Value": "AuditFindingSourceValue7",
+    "Enabled": true,
+    "Id": 7
+  },
+  {
+    "Value": "AuditFindingSourceValue8",
+    "Enabled": false,
+    "Id": 8
+  },
+  {
+    "Value": "AuditFindingSourceValue9",
+    "Enabled": true,
+    "Id": 9
+  },
+  {
+    "Value": "AuditFindingSourceValue1",
+    "Enabled": true,
+    "Id": 1
+  },
+  {
+    "Value": "AuditFindingSourceValue2",
+    "Enabled": false,
+    "Id": 2
+  },
+  {
+    "Value": "AuditFindingSourceValue3",
+    "Enabled": true,
+    "Id": 3
+  },
+  {
+    "Value": "AuditFindingSourceValue4",
+    "Enabled": false,
+    "Id": 4
+  },
+  {
+    "Value": "AuditFindingSourceValue5",
+    "Enabled": true,
+    "Id": 5
+  },
+  {
+    "Value": "AuditFindingSourceValue6",
+    "Enabled": false,
+    "Id": 6
+  },
+  {
+    "Value": "AuditFindingSourceValue7",
+    "Enabled": true,
+    "Id": 7
+  },
+  {
+    "Value": "AuditFindingSourceValue8",
+    "Enabled": false,
+    "Id": 8
+  },
+  {
+    "Value": "AuditFindingSourceValue9",
+    "Enabled": true,
+    "Id": 9
+  },
+  {
+    "Value": "AuditFindingStatusValue1",
+    "Enabled": true,
+    "Id": 1
+  },
+  {
+    "Value": "AuditFindingStatusValue2",
+    "Enabled": false,
+    "Id": 2
+  },
+  {
+    "Value": "AuditFindingStatusValue3",
+    "Enabled": true,
+    "Id": 3
+  },
+  {
+    "Value": "AuditFindingStatusValue4",
+    "Enabled": false,
+    "Id": 4
+  },
+  {
+    "Value": "AuditFindingStatusValue5",
+    "Enabled": true,
+    "Id": 5
+  },
+  {
+    "Value": "AuditFindingStatusValue6",
+    "Enabled": false,
+    "Id": 6
+  },
+  {
+    "Value": "AuditFindingStatusValue7",
+    "Enabled": true,
+    "Id": 7
+  },
+  {
+    "Value": "AuditFindingStatusValue8",
+    "Enabled": false,
+    "Id": 8
+  },
+  {
+    "Value": "AuditFindingStatusValue9",
+    "Enabled": true,
+    "Id": 9
+  },
+  {
+    "Value": "KST_BusinessUnit1",
+    "Enabled": true,
+    "Id": 1
+  },
+  {
+    "Value": "KST_BusinessUnit2",
+    "Enabled": true,
+    "Id": 2
+  },
+  {
+    "Value": "KST_BusinessUnit3",
+    "Enabled": false,
+    "Id": 3
+  },
+  {
+    "Value": "KST_BusinessUnit4",
+    "Enabled": true,
+    "Id": 4
+  },
+  {
+    "Value": "KST_BusinessUnit5",
+    "Enabled": true,
+    "Id": 5
+  },
+  {
+    "Value": "KST_BusinessUnit6",
+    "Enabled": false,
+    "Id": 6
+  },
+  {
+    "Value": "KST_BusinessUnit7",
+    "Enabled": true,
+    "Id": 7
+  },
+  {
+    "Value": "KST_BusinessUnit8",
+    "Enabled": false,
+    "Id": 8
+  },
+  {
+    "Value": "KST_BusinessUnit9",
+    "Enabled": true,
+    "Id": 9
+  },
+  {
+    "Value": "January",
+    "Enabled": true,
+    "Id": 1
+  },
+  {
+    "Value": "February",
+    "Enabled": false,
+    "Id": 2
+  },
+  {
+    "Value": "March",
+    "Enabled": true,
+    "Id": 3
+  },
+  {
+    "Value": "April",
+    "Enabled": false,
+    "Id": 4
+  },
+  {
+    "Value": "May",
+    "Enabled": true,
+    "Id": 5
+  },
+  {
+    "Value": "June",
+    "Enabled": false,
+    "Id": 6
+  },
+  {
+    "Value": "July",
+    "Enabled": true,
+    "Id": 7
+  },
+  {
+    "Value": "August",
+    "Enabled": false,
+    "Id": 8
+  },
+  {
+    "Value": "September",
+    "Enabled": true,
+    "Id": 9
+  },
+  {
+    "Value": "October",
+    "Enabled": true,
+    "Id": 10
+  },
+  {
+    "Value": "November",
+    "Enabled": true,
+    "Id": 11
+  },
+  {
+    "Value": "December",
+    "Enabled": true,
+    "Id": 12
+  },
+  {
+    "Value": "OperationalIncidentImpactValue1",
+    "Enabled": true,
+    "Id": 1
+  },
+  {
+    "Value": "OperationalIncidentImpactValue2",
+    "Enabled": false,
+    "Id": 2
+  },
+  {
+    "Value": "OperationalIncidentImpactValue3",
+    "Enabled": true,
+    "Id": 3
+  },
+  {
+    "Value": "OperationalIncidentImpactValue4",
+    "Enabled": false,
+    "Id": 4
+  },
+  {
+    "Value": "OperationalIncidentImpactValue5",
+    "Enabled": true,
+    "Id": 5
+  },
+  {
+    "Value": "OperationalIncidentImpactValue6",
+    "Enabled": false,
+    "Id": 6
+  },
+  {
+    "Value": "OperationalIncidentImpactValue7",
+    "Enabled": true,
+    "Id": 7
+  },
+  {
+    "Value": "OperationalIncidentImpactValue8",
+    "Enabled": false,
+    "Id": 8
+  },
+  {
+    "Value": "OperationalIncidentImpactValue9",
+    "Enabled": true,
+    "Id": 9
+  },
+  {
+    "Value": "OperationalIncidentReportedToGORMValue1",
+    "Enabled": true,
+    "Id": 1
+  },
+  {
+    "Value": "OperationalIncidentReportedToGORMValue2",
+    "Enabled": false,
+    "Id": 2
+  },
+  {
+    "Value": "OperationalIncidentReportedToGORMValue3",
+    "Enabled": true,
+    "Id": 3
+  },
+  {
+    "Value": "OperationalIncidentReportedToGORMValue4",
+    "Enabled": false,
+    "Id": 4
+  },
+  {
+    "Value": "OperationalIncidentReportedToGORMValue5",
+    "Enabled": true,
+    "Id": 5
+  },
+  {
+    "Value": "OperationalIncidentReportedToGORMValue6",
+    "Enabled": false,
+    "Id": 6
+  },
+  {
+    "Value": "OperationalIncidentReportedToGORMValue7",
+    "Enabled": true,
+    "Id": 7
+  },
+  {
+    "Value": "OperationalIncidentReportedToGORMValue8",
+    "Enabled": false,
+    "Id": 8
+  },
+  {
+    "Value": "OperationalIncidentReportedToGORMValue9",
+    "Enabled": true,
+    "Id": 9
+  },
+  {
+    "Value": "OperationalIncidentRootCauseValue1",
+    "Enabled": true,
+    "Id": 1
+  },
+  {
+    "Value": "OperationalIncidentRootCauseValue2",
+    "Enabled": false,
+    "Id": 2
+  },
+  {
+    "Value": "OperationalIncidentRootCauseValue3",
+    "Enabled": true,
+    "Id": 3
+  },
+  {
+    "Value": "OperationalIncidentRootCauseValue4",
+    "Enabled": false,
+    "Id": 4
+  },
+  {
+    "Value": "OperationalIncidentRootCauseValue5",
+    "Enabled": true,
+    "Id": 5
+  },
+  {
+    "Value": "OperationalIncidentRootCauseValue6",
+    "Enabled": false,
+    "Id": 6
+  },
+  {
+    "Value": "OperationalIncidentRootCauseValue7",
+    "Enabled": true,
+    "Id": 7
+  },
+  {
+    "Value": "OperationalIncidentRootCauseValue8",
+    "Enabled": false,
+    "Id": 8
+  },
+  {
+    "Value": "OperationalIncidentRootCauseValue9",
+    "Enabled": true,
+    "Id": 9
+  },
+  {
+    "Value": "OperationalIncidentSourceValue1",
+    "Enabled": true,
+    "Id": 1
+  },
+  {
+    "Value": "OperationalIncidentSourceValue2",
+    "Enabled": false,
+    "Id": 2
+  },
+  {
+    "Value": "OperationalIncidentSourceValue3",
+    "Enabled": true,
+    "Id": 3
+  },
+  {
+    "Value": "OperationalIncidentSourceValue4",
+    "Enabled": false,
+    "Id": 4
+  },
+  {
+    "Value": "OperationalIncidentSourceValue5",
+    "Enabled": true,
+    "Id": 5
+  },
+  {
+    "Value": "OperationalIncidentSourceValue6",
+    "Enabled": false,
+    "Id": 6
+  },
+  {
+    "Value": "OperationalIncidentSourceValue7",
+    "Enabled": true,
+    "Id": 7
+  },
+  {
+    "Value": "OperationalIncidentSourceValue8",
+    "Enabled": false,
+    "Id": 8
+  },
+  {
+    "Value": "OperationalIncidentSourceValue9",
+    "Enabled": true,
+    "Id": 9
+  },
+  {
+    "Value": "OperationalIncidentStatusValue1",
+    "Enabled": true,
+    "Id": 1
+  },
+  {
+    "Value": "OperationalIncidentStatusValue2",
+    "Enabled": false,
+    "Id": 2
+  },
+  {
+    "Value": "OperationalIncidentStatusValue3",
+    "Enabled": true,
+    "Id": 3
+  },
+  {
+    "Value": "OperationalIncidentStatusValue4",
+    "Enabled": false,
+    "Id": 4
+  },
+  {
+    "Value": "OperationalIncidentStatusValue5",
+    "Enabled": true,
+    "Id": 5
+  },
+  {
+    "Value": "OperationalIncidentStatusValue6",
+    "Enabled": false,
+    "Id": 6
+  },
+  {
+    "Value": "OperationalIncidentStatusValue7",
+    "Enabled": true,
+    "Id": 7
+  },
+  {
+    "Value": "OperationalIncidentStatusValue8",
+    "Enabled": false,
+    "Id": 8
+  },
+  {
+    "Value": "OperationalIncidentStatusValue9",
+    "Enabled": true,
+    "Id": 9
+  },
+  {
+    "Value": "PrivacyIncidentMitigationCodeValue1",
+    "Enabled": true,
+    "Id": 1
+  },
+  {
+    "Value": "PrivacyIncidentMitigationCodeValue2",
+    "Enabled": false,
+    "Id": 2
+  },
+  {
+    "Value": "PrivacyIncidentMitigationCodeValue3",
+    "Enabled": true,
+    "Id": 3
+  },
+  {
+    "Value": "PrivacyIncidentMitigationCodeValue4",
+    "Enabled": false,
+    "Id": 4
+  },
+  {
+    "Value": "PrivacyIncidentMitigationCodeValue5",
+    "Enabled": true,
+    "Id": 5
+  },
+  {
+    "Value": "PrivacyIncidentMitigationCodeValue6",
+    "Enabled": false,
+    "Id": 6
+  },
+  {
+    "Value": "PrivacyIncidentMitigationCodeValue7",
+    "Enabled": true,
+    "Id": 7
+  },
+  {
+    "Value": "PrivacyIncidentMitigationCodeValue8",
+    "Enabled": false,
+    "Id": 8
+  },
+  {
+    "Value": "PrivacyIncidentMitigationCodeValue9",
+    "Enabled": true,
+    "Id": 9
+  },
+  {
+    "Value": "PrivacyIncidentStatusValue1",
+    "Enabled": true,
+    "Id": 1
+  },
+  {
+    "Value": "PrivacyIncidentStatusValue2",
+    "Enabled": false,
+    "Id": 2
+  },
+  {
+    "Value": "PrivacyIncidentStatusValue3",
+    "Enabled": true,
+    "Id": 3
+  },
+  {
+    "Value": "PrivacyIncidentStatusValue4",
+    "Enabled": false,
+    "Id": 4
+  },
+  {
+    "Value": "PrivacyIncidentStatusValue5",
+    "Enabled": true,
+    "Id": 5
+  },
+  {
+    "Value": "PrivacyIncidentStatusValue6",
+    "Enabled": false,
+    "Id": 6
+  },
+  {
+    "Value": "PrivacyIncidentStatusValue7",
+    "Enabled": true,
+    "Id": 7
+  },
+  {
+    "Value": "PrivacyIncidentStatusValue8",
+    "Enabled": false,
+    "Id": 8
+  },
+  {
+    "Value": "PrivacyIncidentStatusValue9",
+    "Enabled": true,
+    "Id": 9
+  },
+  {
+    "Value": "PrivacyIncidentStatusValue1",
+    "Enabled": true,
+    "Id": 1
+  },
+  {
+    "Value": "PrivacyIncidentStatusValue2",
+    "Enabled": false,
+    "Id": 2
+  },
+  {
+    "Value": "PrivacyIncidentStatusValue3",
+    "Enabled": true,
+    "Id": 3
+  },
+  {
+    "Value": "PrivacyIncidentStatusValue4",
+    "Enabled": false,
+    "Id": 4
+  },
+  {
+    "Value": "PrivacyIncidentStatusValue5",
+    "Enabled": true,
+    "Id": 5
+  },
+  {
+    "Value": "PrivacyIncidentStatusValue6",
+    "Enabled": false,
+    "Id": 6
+  },
+  {
+    "Value": "PrivacyIncidentStatusValue7",
+    "Enabled": true,
+    "Id": 7
+  },
+  {
+    "Value": "PrivacyIncidentStatusValue8",
+    "Enabled": false,
+    "Id": 8
+  },
+  {
+    "Value": "PrivacyIncidentStatusValue9",
+    "Enabled": true,
+    "Id": 9
+  },
+  {
+    "Value": "PrivacyIncidentTypeValue1",
+    "Enabled": true,
+    "Id": 1
+  },
+  {
+    "Value": "PrivacyIncidentTypeValue2",
+    "Enabled": false,
+    "Id": 2
+  },
+  {
+    "Value": "PrivacyIncidentTypeValue3",
+    "Enabled": true,
+    "Id": 3
+  },
+  {
+    "Value": "PrivacyIncidentTypeValue4",
+    "Enabled": false,
+    "Id": 4
+  },
+  {
+    "Value": "PrivacyIncidentTypeValue5",
+    "Enabled": true,
+    "Id": 5
+  },
+  {
+    "Value": "PrivacyIncidentTypeValue6",
+    "Enabled": false,
+    "Id": 6
+  },
+  {
+    "Value": "PrivacyIncidentTypeValue7",
+    "Enabled": true,
+    "Id": 7
+  },
+  {
+    "Value": "PrivacyIncidentTypeValue8",
+    "Enabled": false,
+    "Id": 8
+  },
+  {
+    "Value": "PrivacyIncidentTypeValue9",
+    "Enabled": true,
+    "Id": 9
+  },
+  {
+    "Value": "StatusValue1",
+    "Enabled": true,
+    "Id": 1
+  },
+  {
+    "Value": "StatusValue2",
+    "Enabled": false,
+    "Id": 2
+  },
+  {
+    "Value": "StatusValue3",
+    "Enabled": true,
+    "Id": 3
+  },
+  {
+    "Value": "StatusValue4",
+    "Enabled": false,
+    "Id": 4
+  },
+  {
+    "Value": "StatusValue5",
+    "Enabled": true,
+    "Id": 5
+  },
+  {
+    "Value": "StatusValue6",
+    "Enabled": false,
+    "Id": 6
+  },
+  {
+    "Value": "StatusValue7",
+    "Enabled": true,
+    "Id": 7
+  },
+  {
+    "Value": "StatusValue8",
+    "Enabled": false,
+    "Id": 8
+  },
+  {
+    "Value": "StatusValue9",
+    "Enabled": true,
+    "Id": 9
+  },
+  {
+    "Value": "VolumeTypeValue1",
+    "Enabled": true,
+    "Id": 1
+  },
+  {
+    "Value": "VolumeTypeValue2",
+    "Enabled": false,
+    "Id": 2
+  },
+  {
+    "Value": "VolumeTypeValue3",
+    "Enabled": true,
+    "Id": 3
+  },
+  {
+    "Value": "VolumeTypeValue4",
+    "Enabled": false,
+    "Id": 4
+  },
+  {
+    "Value": "VolumeTypeValue5",
+    "Enabled": true,
+    "Id": 5
+  },
+  {
+    "Value": "VolumeTypeValue6",
+    "Enabled": false,
+    "Id": 6
+  },
+  {
+    "Value": "VolumeTypeValue7",
+    "Enabled": true,
+    "Id": 7
+  },
+  {
+    "Value": "VolumeTypeValue8",
+    "Enabled": false,
+    "Id": 8
+  },
+  {
+    "Value": "VolumeTypeValue9",
+    "Enabled": true,
+    "Id": 9
+  },
+  {
+    "Value": "2017",
+    "Enabled": true,
+    "Id": 1
+  },
+  {
+    "Value": "2018",
+    "Enabled": true,
+    "Id": 2
+  },
+  {
+    "Value": "2019",
+    "Enabled": true,
+    "Id": 3
+  },
+  {
+    "Value": "2020",
+    "Enabled": false,
+    "Id": 4
+  },
+  {
+    "Value": "2021",
+    "Enabled": true,
+    "Id": 5
+  },
+  {
+    "Value": "2011",
+    "Enabled": false,
+    "Id": 6
+  },
+  {
+    "Value": "2012",
+    "Enabled": true,
+    "Id": 7
+  },
+  {
+    "Value": "2013",
+    "Enabled": false,
+    "Id": 8
+  },
+  {
+    "Value": "2016",
+    "Enabled": true,
+    "Id": 9
+  }
+]

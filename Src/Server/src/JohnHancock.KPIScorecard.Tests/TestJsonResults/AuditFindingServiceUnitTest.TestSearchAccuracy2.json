@@ -1,0 +1,210 @@
+{
+  "TotalRecords": 3,
+  "TotalPages": 1,
+  "Items": [
+    {
+      "AuditFindingNumber": "A1612001",
+      "BusinessUnit": {
+        "Value": "KST_BusinessUnit5",
+        "Enabled": true,
+        "Id": 5
+      },
+      "AuditTitle": "AuditTitle5",
+      "RootCause": {
+        "Value": "AuditFindingSourceValue5",
+        "Enabled": true,
+        "Id": 5
+      },
+      "RootCauseDetail": "RootCauseDetail5",
+      "Source": {
+        "Value": "AuditFindingSourceValue5",
+        "Enabled": true,
+        "Id": 5
+      },
+      "Impact": [],
+      "MitigationStrategy": "MitigationStrategy5",
+      "AuditYear": {
+        "Value": "2021",
+        "Enabled": true,
+        "Id": 5
+      },
+      "AuditMonth": {
+        "Value": "May",
+        "Enabled": true,
+        "Id": 5
+      },
+      "RemediationYear": {
+        "Value": "2021",
+        "Enabled": true,
+        "Id": 5
+      },
+      "RemediationMonth": {
+        "Value": "May",
+        "Enabled": true,
+        "Id": 5
+      },
+      "Status": {
+        "Value": "AuditFindingStatusValue5",
+        "Enabled": true,
+        "Id": 5
+      },
+      "ReportedToGORM": {
+        "Value": "AuditFindingReportedToGORMValue5",
+        "Enabled": true,
+        "Id": 5
+      },
+      "ReportedToORMYear": {
+        "Value": "2021",
+        "Enabled": true,
+        "Id": 5
+      },
+      "ReportedToORMMonth": {
+        "Value": "May",
+        "Enabled": true,
+        "Id": 5
+      },
+      "CompletionType": 0,
+      "CreatedBy": "CreatedBy5",
+      "CreatedTime": "11/10/2016 00:00:00",
+      "LastUpdatedBy": "LastUpdatedBy5",
+      "LastUpdatedTime": "11/09/2016 00:00:00",
+      "Id": 5
+    },
+    {
+      "AuditFindingNumber": "A1612015",
+      "BusinessUnit": {
+        "Value": "KST_BusinessUnit7",
+        "Enabled": true,
+        "Id": 7
+      },
+      "AuditTitle": "AuditTitile7",
+      "RootCause": {
+        "Value": "AuditFindingSourceValue7",
+        "Enabled": true,
+        "Id": 7
+      },
+      "RootCauseDetail": "RootCauseDetail7",
+      "Source": {
+        "Value": "AuditFindingSourceValue7",
+        "Enabled": true,
+        "Id": 7
+      },
+      "Impact": [],
+      "MitigationStrategy": "MitigationStrategy7",
+      "AuditYear": {
+        "Value": "2012",
+        "Enabled": true,
+        "Id": 7
+      },
+      "AuditMonth": {
+        "Value": "July",
+        "Enabled": true,
+        "Id": 7
+      },
+      "RemediationYear": {
+        "Value": "2012",
+        "Enabled": true,
+        "Id": 7
+      },
+      "RemediationMonth": {
+        "Value": "July",
+        "Enabled": true,
+        "Id": 7
+      },
+      "Status": {
+        "Value": "AuditFindingStatusValue7",
+        "Enabled": true,
+        "Id": 7
+      },
+      "ReportedToGORM": {
+        "Value": "AuditFindingReportedToGORMValue7",
+        "Enabled": true,
+        "Id": 7
+      },
+      "ReportedToORMYear": {
+        "Value": "2012",
+        "Enabled": true,
+        "Id": 7
+      },
+      "ReportedToORMMonth": {
+        "Value": "July",
+        "Enabled": true,
+        "Id": 7
+      },
+      "CompletionType": 1,
+      "CreatedBy": "CreatedBy7",
+      "CreatedTime": "10/21/2016 00:00:00",
+      "LastUpdatedBy": "LastUpdatedBy7",
+      "LastUpdatedTime": "10/20/2016 00:00:00",
+      "Id": 7
+    },
+    {
+      "AuditFindingNumber": "A1612003",
+      "BusinessUnit": {
+        "Value": "KST_BusinessUnit3",
+        "Enabled": false,
+        "Id": 3
+      },
+      "AuditTitle": "AuditTitle8",
+      "RootCause": {
+        "Value": "AuditFindingSourceValue5",
+        "Enabled": true,
+        "Id": 5
+      },
+      "RootCauseDetail": "RootCauseDetail8",
+      "Source": {
+        "Value": "AuditFindingSourceValue4",
+        "Enabled": false,
+        "Id": 4
+      },
+      "Impact": [],
+      "MitigationStrategy": "MitigationStrategy8",
+      "AuditYear": {
+        "Value": "2018",
+        "Enabled": true,
+        "Id": 2
+      },
+      "AuditMonth": {
+        "Value": "January",
+        "Enabled": true,
+        "Id": 1
+      },
+      "RemediationYear": {
+        "Value": "2021",
+        "Enabled": true,
+        "Id": 5
+      },
+      "RemediationMonth": {
+        "Value": "April",
+        "Enabled": false,
+        "Id": 4
+      },
+      "Status": {
+        "Value": "AuditFindingStatusValue3",
+        "Enabled": true,
+        "Id": 3
+      },
+      "ReportedToGORM": {
+        "Value": "AuditFindingReportedToGORMValue6",
+        "Enabled": false,
+        "Id": 6
+      },
+      "ReportedToORMYear": {
+        "Value": "2011",
+        "Enabled": false,
+        "Id": 6
+      },
+      "ReportedToORMMonth": {
+        "Value": "July",
+        "Enabled": true,
+        "Id": 7
+      },
+      "CompletionType": 0,
+      "CreatedBy": "CreatedBy8",
+      "CreatedTime": "10/11/2016 00:00:00",
+      "LastUpdatedBy": "LastUpdatedBy8",
+      "LastUpdatedTime": "10/10/2016 00:00:00",
+      "Id": 8
+    }
+  ]
+}

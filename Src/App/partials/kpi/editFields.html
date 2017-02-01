@@ -1,0 +1,319 @@
+<div>
+  <!-- BEGIN #main-content -->
+    <div id="main-content" class="row normal-main-content row-container form-container margin-top-35">
+        <h1 class="row m-t-20 title normal-title big-title">Edit Fields<span class="line"></span></h1>
+        <div class="row m-top-17 edit-fields-content">
+            <!-- BEGIN .expand-container -->
+            <div id="section-businessUnit" class="row expand-container blue-plus-title">
+                <div class="expand-head row blue-plus-head" data-ng-class="{closed: businessUnitClosed}"
+                     data-ng-click="businessUnitClosed = !businessUnitClosed">
+                    <i></i>Business Unit
+                </div>
+                <div class="row expand-body blue-plus-body" data-ng-show="!businessUnitClosed">
+                    <section data-toggle-view="" class="toggle-view-sn business-unit-data data-edit-view">
+                        <div class="col-layout kpi-col-layout view-content edit-list-content">
+                            <div class="col">
+                                <section class="edit-block-sn">
+                                    <h2><span>Business Unit</span></h2>
+                                    <div data-edit-kpi-value-block="config.businessUnit.businessUnits" class="toggle-view-con"
+                                         category="businessUnit" child-category="businessUnits">
+                                    </div>
+                                </section>
+                            </div>
+                            <!-- /.col -->
+                            <div class="col">
+                                <section class="edit-block-sn no-li-add custom-edit-block">
+                                    <h2><span>KPI Scorecard</span></h2>
+                                    <ul class="edit-list">
+                                        <li class="li" data-ng-class="{'active': sectionType === 'Operation Performance'}" data-ng-click="sectionType = 'Operation Performance';newRecordTable = {};">
+                                            <div class="edit-row">
+                                                <div class="chk-ctrl"><span class="tx ng-binding">Operation Performance</span></div>
+                                            </div>
+                                            <!-- /.edit-row -->
+                                        </li>
+                                        <li class="li" data-ng-class="{'active': sectionType === 'Financial Indicators'}" data-ng-click="sectionType = 'Financial Indicators';newRecordTable = {};">
+                                            <div class="edit-row">
+                                                <div class="chk-ctrl"><span class="tx ng-binding">Financial Indicators</span></div>
+                                            </div>
+                                            <!-- /.edit-row -->
+                                        </li>
+                                        <li class="li" data-ng-class="{'active': sectionType === 'Business Continuity Planning'}" data-ng-click="sectionType = 'Business Continuity Planning';newRecordTable = {};">
+                                            <div class="edit-row">
+                                                <div class="chk-ctrl"><span class="tx ng-binding">Business Continuity Planning</span></div>
+                                            </div>
+                                            <!-- /.edit-row -->
+                                        </li>
+                                        <li class="li" data-ng-class="{'active': sectionType === 'Security'}" data-ng-click="sectionType = 'Security';newRecordTable = {};">
+                                            <div class="edit-row">
+                                                <div class="chk-ctrl"><span class="tx ng-binding">Security</span></div>
+                                            </div>
+                                            <!-- /.edit-row -->
+                                        </li>
+                                        <li class="li" data-ng-class="{'active': sectionType === 'Concentration Risk'}" data-ng-click="sectionType = 'Concentration Risk';newRecordTable = {};">
+                                            <div class="edit-row">
+                                                <div class="chk-ctrl"><span class="tx ng-binding">Concentration Risk</span></div>
+                                            </div>
+                                            <!-- /.edit-row -->
+                                        </li>
+                                    </ul>
+                                </section>
+                                <section class="edit-block-sn no-li-add custom-edit-block">
+                                    <h2><span>Month/Year</span></h2>
+                                    <ul class="edit-list">
+                                        <li class="li" data-ng-class="{'active': sectionType === 'Month'}" data-ng-click="sectionType = 'Month';newRecordTable = {};">
+                                            <div class="edit-row">
+                                                <div class="chk-ctrl"><span class="tx ng-binding">Month</span></div>
+                                            </div>
+                                            <!-- /.edit-row -->
+                                        </li>
+                                        <li class="li" data-ng-class="{'active': sectionType === 'Year'}" data-ng-click="sectionType = 'Year';newRecordTable = {};">
+                                            <div class="edit-row">
+                                                <div class="chk-ctrl"><span class="tx ng-binding">Year</span></div>
+                                            </div>
+                                            <!-- /.edit-row -->
+                                        </li>
+                                    </ul>
+                                </section>
+                                <section class="edit-block-sn">
+                                    <h2><span>Volume Type</span></h2>
+                                    <div data-edit-kpi-value-block="config.businessUnit.volumeTypeConfig" class="toggle-view-con"
+                                         category="businessUnit" child-category="volumeTypeConfig">
+                                    </div>
+                                </section>
+                                <section class="edit-block-sn">
+                                    <h2><span>Status</span></h2>
+                                    <div data-edit-kpi-value-block="config.businessUnit.statusConfig" class="toggle-view-con"
+                                         category="businessUnit" child-category="statusConfig">
+                                    </div>
+                                </section>
+                            </div>
+                            <!-- /.col -->
+                            <div class="col">
+                                <section class="edit-block-sn m-t-0 kpi-scorecard-table operation-performance-section" data-ng-show="sectionType === 'Operation Performance'">
+                                    <h2><span>Operation Performance</span></h2>
+                                    <div data-edit-block-table="config.businessUnit.operationPerformanceConfig" class="toggle-view-con"
+                                         category="businessUnit" child-category="operationPerformanceConfig">
+                                    </div>
+                                </section>
+                                <section class="edit-block-sn m-t-0 kpi-scorecard-table financial-indicators-section" data-ng-show="sectionType === 'Financial Indicators'">
+                                    <h2><span>Financial Indicators</span></h2>
+                                    <div data-edit-block-table="config.businessUnit.financialIndicatorsConfig" class="toggle-view-con"
+                                         category="businessUnit" child-category="financialIndicatorsConfig">
+                                    </div>
+                                </section>
+                                <section class="edit-block-sn m-t-0 kpi-scorecard-table business-continuity-planning-section" data-ng-show="sectionType === 'Business Continuity Planning'">
+                                    <h2><span>Business Continuity Planning</span></h2>
+                                    <div data-edit-block-table="config.businessUnit.businessContinuityPlanningConfig" class="toggle-view-con"
+                                         category="businessUnit" child-category="businessContinuityPlanningConfig">
+                                    </div>
+                                </section>
+                                <section class="edit-block-sn m-t-0 kpi-scorecard-table security-section" data-ng-show="sectionType === 'Security'">
+                                    <h2><span>Security</span></h2>
+                                    <div data-edit-block-table="config.businessUnit.securityConfig" class="toggle-view-con"
+                                         category="businessUnit" child-category="securityConfig">
+                                    </div>
+                                </section>
+                                <section class="edit-block-sn m-t-0 kpi-scorecard-table concentration-risk-section" data-ng-show="sectionType === 'Concentration Risk'">
+                                    <h2><span>Concentration Risk</span></h2>
+                                    <div data-edit-block-table="config.businessUnit.concentrationRiskConfig" class="toggle-view-con"
+                                         category="businessUnit" child-category="concentrationRiskConfig">
+                                    </div>
+                                </section>
+                                <section class="edit-block-sn m-t-0 month-section" data-ng-show="sectionType === 'Month'">
+                                    <h2><span>Month</span></h2>
+                                    <div data-edit-kpi-value-block="config.businessUnit.monthConfig" class="toggle-view-con"
+                                         category="businessUnit" child-category="monthConfig">
+                                    </div>
+                                </section>
+                                <section class="edit-block-sn m-t-0 year-section" data-ng-show="sectionType === 'Year'">
+                                    <h2><span>Year</span></h2>
+                                    <div data-edit-kpi-value-block="config.businessUnit.yearConfig" class="toggle-view-con"
+                                         category="businessUnit" child-category="yearConfig" only-integer="true">
+                                    </div>
+                                </section>
+                            </div>
+                            <!-- /.col -->
+                        </div>
+                        <!-- /.col-layout -->
+                    </section>
+                    <!-- /.toggle-view-sn -->
+                </div>
+            </div>
+            <!-- END .expand-container -->
+            <!-- BEGIN .expand-container -->
+            <div class="row expand-container blue-plus-title">
+                <div class="expand-head row blue-plus-head" data-ng-class="{closed: operationalIncidentClosed}"
+                     data-ng-click="operationalIncidentClosed = !operationalIncidentClosed">
+                    <i></i>Operational Incident
+                </div>
+                <div class="row expand-body blue-plus-body" data-ng-show="!operationalIncidentClosed">
+                    <section data-toggle-view="" class="toggle-view-sn">
+                        <div class="col-layout kpi-col-layout view-content edit-list-content">
+                            <div class="col">
+                                <section class="edit-block-sn">
+                                    <h2><span>Root Cause</span></h2>
+                                    <div data-edit-kpi-value-block="config.operationalIncident.rootCauseConfig" class="toggle-view-con"
+                                         category="operationalIncident" child-category="rootCauseConfig">
+                                    </div>
+                                </section>
+                                <section class="edit-block-sn">
+                                    <h2><span>Source</span></h2>
+                                    <div data-edit-kpi-value-block="config.operationalIncident.sourceConfig" class="toggle-view-con"
+                                         category="operationalIncident" child-category="sourceConfig">
+                                    </div>
+                                </section>
+                            </div>
+                            <!-- /.col -->
+                            <div class="col">
+                                <section class="edit-block-sn">
+                                    <h2><span>Impact</span></h2>
+                                    <div data-edit-kpi-value-block="config.operationalIncident.impactConfig" class="toggle-view-con"
+                                         category="operationalIncident" child-category="impactConfig">
+                                    </div>
+                                </section>
+                                <section class="edit-block-sn">
+                                    <h2><span>Status</span></h2>
+                                    <div data-edit-kpi-value-block="config.operationalIncident.statusConfig" class="toggle-view-con"
+                                         category="operationalIncident" child-category="statusConfig">
+                                    </div>
+                                </section>
+                            </div>
+                            <!-- /.col -->
+                            <div class="col">
+                                <section class="edit-block-sn">
+                                    <h2><span>Reported to GORM</span></h2>
+                                    <div data-edit-kpi-value-block="config.operationalIncident.reportedToGORMConfig" class="toggle-view-con"
+                                         category="operationalIncident" child-category="reportedToGORMConfig">
+                                    </div>
+                                </section>
+                            </div>
+                            <!-- /.col -->
+                        </div>
+                        <!-- /.col-layout -->
+                    </section>
+                    <!-- /.toggle-view-sn -->
+                </div>
+            </div>
+            <!-- END .expand-container -->
+            <!-- BEGIN .expand-container -->
+            <div class="row expand-container blue-plus-title">
+                <div class="expand-head row blue-plus-head" data-ng-class="{closed: privacyIncidentClosed}"
+                     data-ng-click="privacyIncidentClosed = !privacyIncidentClosed">
+                    <i></i>Privacy Incident
+                </div>
+                <div class="row expand-body blue-plus-body" data-ng-show="!privacyIncidentClosed">
+                    <section data-toggle-view="" class="toggle-view-sn">
+                        <div class="col-layout kpi-col-layout view-content edit-list-content">
+                            <div class="col">
+                                <section class="edit-block-sn">
+                                    <h2><span>Privacy Incident Type</span></h2>
+                                    <div data-edit-kpi-value-block="config.privacyIncident.typeConfig" class="toggle-view-con"
+                                         category="privacyIncident" child-category="typeConfig">
+                                    </div>
+                                </section>
+                                <section class="edit-block-sn">
+                                    <h2><span>Status</span></h2>
+                                    <div data-edit-kpi-value-block="config.privacyIncident.statusConfig" class="toggle-view-con"
+                                         category="privacyIncident" child-category="statusConfig">
+                                    </div>
+                                </section>
+                            </div>
+                            <!-- /.col -->
+                            <div class="col">
+                                <section class="edit-block-sn">
+                                    <h2><span>Root Cause</span></h2>
+                                    <div data-edit-kpi-value-block="config.privacyIncident.rootCauseConfig" class="toggle-view-con"
+                                         category="privacyIncident" child-category="rootCauseConfig">
+                                    </div>
+                                </section>
+                            </div>
+                            <!-- /.col -->
+                            <div class="col">
+                                <section class="edit-block-sn">
+                                    <h2><span>Privacy Incident Mitigation Code</span></h2>
+                                    <div data-edit-kpi-value-block="config.privacyIncident.migrationCodeConfig" class="toggle-view-con"
+                                         category="privacyIncident" child-category="migrationCodeConfig">
+                                    </div>
+                                </section>
+                            </div>
+                            <!-- /.col -->
+                        </div>
+                        <!-- /.col-layout -->
+                    </section>
+                    <!-- /.toggle-view-sn -->
+                </div>
+            </div>
+            <!-- END .expand-container -->
+            <!-- BEGIN .expand-container -->
+            <div class="row expand-container blue-plus-title">
+                <div class="expand-head row blue-plus-head" data-ng-class="{closed: auditFindingClosed}"
+                     data-ng-click="auditFindingClosed = !auditFindingClosed">
+                    <i></i>Audit Finding
+                </div>
+                <div class="row expand-body blue-plus-body" data-ng-show="!auditFindingClosed">
+                    <section data-toggle-view="" class="toggle-view-sn">
+                        <div class="col-layout kpi-col-layout view-content edit-list-content">
+                            <div class="col">
+                                <section class="edit-block-sn">
+                                    <h2><span>Root Cause</span></h2>
+                                    <div data-edit-kpi-value-block="config.auditFinding.rootCauseConfig" class="toggle-view-con"
+                                         category="auditFinding" child-category="rootCauseConfig">
+                                    </div>
+                                </section>
+                                <section class="edit-block-sn">
+                                    <h2><span>Source</span></h2>
+                                    <div data-edit-kpi-value-block="config.auditFinding.sourceConfig" class="toggle-view-con"
+                                         category="auditFinding" child-category="sourceConfig">
+                                    </div>
+                                </section>
+                            </div>
+                            <!-- /.col -->
+                            <div class="col">
+                                <section class="edit-block-sn">
+                                    <h2><span>Impact</span></h2>
+                                    <div data-edit-kpi-value-block="config.auditFinding.impactConfig" class="toggle-view-con"
+                                         category="auditFinding" child-category="impactConfig">
+                                    </div>
+                                </section>
+                                <section class="edit-block-sn">
+                                    <h2><span>Status</span></h2>
+                                    <div data-edit-kpi-value-block="config.auditFinding.statusConfig" class="toggle-view-con"
+                                         category="auditFinding" child-category="statusConfig">
+                                    </div>
+                                </section>
+                            </div>
+                            <!-- /.col -->
+                            <div class="col">
+                                <section class="edit-block-sn">
+                                    <h2><span>Reported to GORM</span></h2>
+                                    <div data-edit-kpi-value-block="config.auditFinding.reportedToGORMConfig" class="toggle-view-con"
+                                         category="auditFinding" child-category="reportedToGORMConfig">
+                                    </div>
+                                </section>
+                            </div>
+                            <!-- /.col -->
+                        </div>
+                        <!-- /.col-layout -->
+                    </section>
+                    <!-- /.toggle-view-sn -->
+                </div>
+            </div>
+            <!-- END .expand-container -->
+        </div>
+        <!-- /.col-layout -->
+    </div>
+</div>
+<!-- END #main-content -->
+<div class="hide row lookup-delete" id="value-already-exists-dialog" title="Validation Error">
+    <div>
+        <form class="custom-form">
+            <div class="row">
+                <p class="tc">Given value already exists.</p>
+            </div>
+        </form>
+        <center class="pad-t-25 buttons">
+            <a href="javascript:;" close-dialog data-target-id="#value-already-exists-dialog" class="btn btn-primary">OK</a>
+        </center>
+    </div>
+</div>
+<div class="clearfix"></div>

@@ -1,0 +1,35 @@
+[
+  {
+    "Name": "Not Started",
+    "DisplayOrder": 1,
+    "Enabled": true,
+    "AddOnStatus": 1,
+    "CreatedBy": "CoeusAdminUser",
+    "CreatedTime": "12/12/9999 00:00:00",
+    "LastUpdatedBy": "CoeusAdminUser",
+    "LastUpdatedTime": "12/12/9999 00:00:00",
+    "Id": 1
+  },
+  {
+    "Name": "In Progress",
+    "DisplayOrder": 2,
+    "Enabled": true,
+    "AddOnStatus": 1,
+    "CreatedBy": "CoeusAdminUser",
+    "CreatedTime": "12/12/9999 00:00:00",
+    "LastUpdatedBy": "CoeusAdminUser",
+    "LastUpdatedTime": "12/12/9999 00:00:00",
+    "Id": 2
+  },
+  {
+    "Name": "Complete",
+    "DisplayOrder": 3,
+    "Enabled": true,
+    "AddOnStatus": 1,
+    "CreatedBy": "CoeusAdminUser",
+    "CreatedTime": "12/12/9999 00:00:00",
+    "LastUpdatedBy": "CoeusAdminUser",
+    "LastUpdatedTime": "12/12/9999 00:00:00",
+    "Id": 3
+  }
+]

@@ -1,0 +1,139 @@
+<div class="table-data deit-table-data">
+    <div class="row-tr row-th">
+        <div class="col-th width41">
+            <div class="spacing">Key Performance Indicators</div>
+        </div>
+        <div class="col-th width21 text-center">
+            <div class="spacing">Service Level</div>
+        </div>
+        <div class="col-th width18 text-center">
+            <div class="spacing">Threshold</div>
+        </div>
+        <div class="col-th width20 text-center">
+            <div class="spacing">Target</div>
+        </div>
+    </div>
+    <!-- END .row-tr -->
+
+    <ul class="edit-list" data-ng-model="list" data-ui-sortable="sortOptions">
+        <li class="li" data-ng-repeat="record in list">
+            <div class="edit-row" data-index="{{$index}}">
+                <a class="move-handel"></a>
+                <div class="chk-ctrl def-ctrl">
+                    <input type="checkbox" data-ng-change="changeChk()" data-ng-model="record.enabled" class="ck ng-pristine ng-valid ng-not-empty ng-touched">
+                    <label class="chk-lbl"><span class="ng-binding">&nbsp;</span></label>
+                </div>
+                <div class="row-tr row-td">
+                    <div class="col-td width41">
+                        <div class="spacing tx" ng-hide="$parent.editingIndex===$index && $parent.editingField==='kpi'"
+                             ng-dblclick="$parent.setEditingMode($index, 'kpi')">{{record.keyPerformanceIndicator}}</div>
+                        <input type="text" class="kpi-text-ctrl table-editor-ctrl" ng-show="$parent.editingIndex===$index && $parent.editingField==='kpi'" maxlength="200"
+                               data-ng-enter="$parent.updateRecord()"
+                               data-ng-blur="$parent.cancelEditingMode()"
+                               data-ng-model="$parent.updatingRecord.keyPerformanceIndicator" focus-on-show />
+                    </div>
+                    <div class="col-td width21 text-center">
+                        <div class="spacing">
+                            <span class="br tx" ng-hide="$parent.editingIndex===$index && $parent.editingField==='slv'"
+                                  ng-dblclick="$parent.setEditingMode($index, 'slv')">{{record.serviceLevel.value}}{{record.serviceLevel.percentage ? '%' : ''}}</span>
+                            <input type="text" class="kpi-text-ctrl table-editor-ctrl" ng-show="$parent.editingIndex===$index && $parent.editingField==='slv'" maxlength="20"
+                                   data-ng-enter="$parent.updateRecord()"
+                                   data-ng-blur="$parent.cancelEditingMode()"
+                                   data-ng-class="{error: $parent.editingIndex==$index && !$parent.isValidDecimalOrPercentage($parent.updatingRecord.serviceLevel.value)}"
+                                   data-ng-model="$parent.updatingRecord.serviceLevel.value" focus-on-show />
+
+                            <span class="br tx" ng-hide="$parent.editingIndex===$index && $parent.editingField==='slan'"
+                                  ng-dblclick="$parent.setEditingMode($index, 'slan')">{{record.serviceLevel.additionalNote}}</span>
+                            <input type="text" class="kpi-text-ctrl table-editor-ctrl" ng-show="$parent.editingIndex===$index && $parent.editingField==='slan'" maxlength="200"
+                                   data-ng-enter="$parent.updateRecord()"
+                                   data-ng-blur="$parent.cancelEditingMode()"
+                                   data-ng-model="$parent.updatingRecord.serviceLevel.additionalNote" focus-on-show />
+                        </div>
+                    </div>
+                    <div class="col-td width18 text-center">
+                        <div class="spacing">
+                            <span class="br tx" ng-hide="$parent.editingIndex===$index && $parent.editingField==='tv'"
+                                  ng-dblclick="$parent.setEditingMode($index, 'tv')">{{record.threshold.value}}{{record.threshold.percentage ? '%' : ''}}</span>
+                            <input type="text" class="kpi-text-ctrl table-editor-ctrl" ng-show="$parent.editingIndex===$index && $parent.editingField==='tv'" maxlength="20"
+                                   data-ng-enter="$parent.updateRecord()"
+                                   data-ng-blur="$parent.cancelEditingMode()"
+                                   data-ng-class="{error: $parent.editingIndex==$index && !$parent.isValidDecimalOrPercentage($parent.updatingRecord.threshold.value)}"
+                                   data-ng-model="$parent.updatingRecord.threshold.value" focus-on-show />
+
+                            <span class="br tx" ng-hide="$parent.editingIndex===$index && $parent.editingField==='tan'"
+                                  ng-dblclick="$parent.setEditingMode($index, 'tan')">{{record.threshold.additionalNote}}</span>
+                            <input type="text" class="kpi-text-ctrl table-editor-ctrl" ng-show="$parent.editingIndex===$index && $parent.editingField==='tan'" maxlength="200"
+                                   data-ng-enter="$parent.updateRecord()"
+                                   data-ng-blur="$parent.cancelEditingMode()"
+                                   data-ng-model="$parent.updatingRecord.threshold.additionalNote" focus-on-show />
+                        </div>
+                    </div>
+                    <div class="col-td width20 text-center">
+                        <div class="spacing">
+                            <div class="inputs single-select-container select-width-60">
+                                <select class="single-dropdown switch-tools-select" select-tooltip
+                                        ng-model="record.targetHigh"
+                                        ng-options="targetHighToStr(item) for item in [true, false]"
+                                        ng-change="$parent.targetChanged($index)"></select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- /.edit-row -->
+            <a class="remove" data-ng-click="showDeleteConfirm($index)"></a>
+        </li>
+        <li class="li li-add">
+            <div class="row-tr row-td inputs-row">
+                <div class="col-td width41">
+                    <div class="inputs noraml-input beautify-input">
+                        <input type="text" data-ng-enter="addRecord()" data-ng-model="newRecord.keyPerformanceIndicator" maxlength="200">
+                    </div>
+                </div>
+                <div class="col-td width21">
+                    <div class="inputs noraml-input beautify-input">
+                        <input type="text" class="table-editor-ctrl" maxlength="20"
+                               data-ng-enter="addRecord()" data-ng-model="newRecord.serviceLevel.value"
+                               data-ng-class="{error: !isValidDecimalOrPercentage(newRecord.serviceLevel.value)}"
+                               data-ng-change="adjustCreatingPercentage(isPercentage(newRecord.serviceLevel.value))" />
+                    </div>
+                </div>
+                <div class="col-td width18">
+                    <div class="inputs noraml-input beautify-input">
+                        <input type="text" class="table-editor-ctrl" maxlength="20"
+                               data-ng-enter="addRecord()"
+                               data-ng-model="newRecord.threshold.value"
+                               data-ng-class="{error: !isValidDecimalOrPercentage(newRecord.threshold.value)}"
+                               data-ng-change="adjustCreatingPercentage(isPercentage(newRecord.threshold.value))" />
+                    </div>
+                </div>
+                <div class="col-td width20 text-center">
+                    <a href="javascript:;" class="icon-plus" data-ng-click="addRecord()"></a>
+                    <div class="inputs single-select-container select-width-60">
+                        <select class="single-dropdown switch-tools-select" select-tooltip
+                                ng-model="newRecord.targetHigh"
+                                ng-options="targetHighToStr(item) for item in [true, false]"></select>
+                    </div>
+                </div>
+            </div>
+            <!-- END .row-tr -->
+        </li>
+    </ul>
+    <!-- edit-list -->
+    <div class="hide row lookup-delete" id="modal-delete-{{category}}-record-{{childCategory}}" title="Field Delete">
+        <div>
+            <form class="custom-form">
+                <div class="row">
+                    <p class="tc">Are you sure you want to delete "<strong>{{deleting.name}}</strong>"?</p>
+                </div>
+            </form>
+            <center class="pad-t-25 buttons">
+                <a href="javascript:;" class="btn btn-primary" close-dialog data-target-id="#modal-delete-{{category}}-record-{{childCategory}}"
+                   ng-click="removeRecord()">Delete</a> &nbsp;&nbsp;&nbsp;
+                <a href="javascript:;" close-dialog data-target-id="#modal-delete-{{category}}-record-{{childCategory}}" class="btn btn-primary"
+                   ng-click="deleting={}">Cancel</a>
+            </center>
+        </div>
+    </div>
+</div>
+<!-- END .table-data -->

@@ -1,0 +1,91 @@
+{
+  "TotalRecords": 1,
+  "TotalPages": 1,
+  "Items": [
+    {
+      "IncidentNumber": "I160121",
+      "BusinessUnit": {
+        "Value": "KST_BusinessUnit1",
+        "Enabled": true,
+        "Id": 1
+      },
+      "IncidentTitle": "IncidentTitle11",
+      "IncidentType": {
+        "Value": "PrivacyIncidentTypeValue1",
+        "Enabled": true,
+        "Id": 1
+      },
+      "RootCause": {
+        "Value": "PrivacyIncidentStatusValue1",
+        "Enabled": true,
+        "Id": 1
+      },
+      "RootCauseDetail": "RootCauseDetail1",
+      "NumberOfCustomersImpacted": 4,
+      "MitigationCode": [
+        {
+          "Value": "PrivacyIncidentMitigationCodeValue1",
+          "Enabled": true,
+          "Id": 1
+        },
+        {
+          "Value": "PrivacyIncidentMitigationCodeValue2",
+          "Enabled": false,
+          "Id": 2
+        },
+        {
+          "Value": "PrivacyIncidentMitigationCodeValue3",
+          "Enabled": true,
+          "Id": 3
+        },
+        {
+          "Value": "PrivacyIncidentMitigationCodeValue4",
+          "Enabled": false,
+          "Id": 4
+        }
+      ],
+      "MitigationDetail": "MitigationDetail21",
+      "IncidentYear": {
+        "Value": "2017",
+        "Enabled": true,
+        "Id": 1
+      },
+      "IncidentMonth": {
+        "Value": "January",
+        "Enabled": true,
+        "Id": 1
+      },
+      "RemediationYear": {
+        "Value": "2017",
+        "Enabled": true,
+        "Id": 1
+      },
+      "RemediationMonth": {
+        "Value": "January",
+        "Enabled": true,
+        "Id": 1
+      },
+      "Status": {
+        "Value": "PrivacyIncidentStatusValue1",
+        "Enabled": true,
+        "Id": 1
+      },
+      "ReportedToORMYear": {
+        "Value": "2017",
+        "Enabled": true,
+        "Id": 1
+      },
+      "ReportedToORMMonth": {
+        "Value": "January",
+        "Enabled": true,
+        "Id": 1
+      },
+      "CompletionType": 1,
+      "CreatedBy": "CreatedBy1",
+      "CreatedTime": "12/20/2016 00:00:00",
+      "LastUpdatedBy": "LastUpdatedBy1",
+      "LastUpdatedTime": "12/19/2016 00:00:00",
+      "Id": 1
+    }
+  ]
+}

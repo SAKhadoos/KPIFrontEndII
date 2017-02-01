@@ -1,0 +1,7 @@
+<span ng-hide="editing || !value" ng-dblclick="setEditingMode(record)">
+    {{value}}</span>
+
+<input type="text" class="text-ctrl editor-ctrl-auto" ng-show="editing || !value" data-ng-enter="updateRecord()"
+    maxlength="200" ng-blur="cancelEditingMode()" ng-class="{error: updatingRecordValue.length<1}"
+     data-ng-model="updatingRecordValue"
+    focus-on-show/>

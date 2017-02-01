@@ -1,0 +1,39 @@
+{
+  "KPIs": [
+    {
+      "Name": "Answer Rate",
+      "DisplayOrder": 1,
+      "Enabled": true,
+      "AddOnStatus": 1,
+      "CreatedBy": "CoeusAdminUser",
+      "CreatedTime": "12/12/9999 00:00:00",
+      "LastUpdatedBy": "CoeusAdminUser",
+      "LastUpdatedTime": "12/12/9999 00:00:00",
+      "Id": 0
+    }
+  ],
+  "SLAs": [
+    {
+      "Name": "XX% Satisfied",
+      "DisplayOrder": 1,
+      "Enabled": true,
+      "AddOnStatus": 1,
+      "CreatedBy": "CoeusAdminUser",
+      "CreatedTime": "12/12/9999 00:00:00",
+      "LastUpdatedBy": "CoeusAdminUser",
+      "LastUpdatedTime": "12/12/9999 00:00:00",
+      "Id": 0
+    }
+  ],
+  "BusinessUnitId": 1,
+  "FunctionalAreaId": 1,
+  "Name": "Name_1",
+  "DisplayOrder": 16,
+  "Enabled": true,
+  "AddOnStatus": 0,
+  "CreatedBy": "CreatedBy_1",
+  "CreatedTime": "11/11/2010 00:00:00",
+  "LastUpdatedBy": "LastUpdatedBy_1",
+  "LastUpdatedTime": "01/13/2012 00:00:00",
+  "Id": 1111
+}

@@ -1,0 +1,62 @@
+[
+  {
+    "BusinessUnitId": 1,
+    "Name": "Annuities Administration",
+    "DisplayOrder": 1,
+    "Enabled": true,
+    "AddOnStatus": 1,
+    "CreatedBy": "CoeusAdminUser",
+    "CreatedTime": "12/12/9999 00:00:00",
+    "LastUpdatedBy": "CoeusAdminUser",
+    "LastUpdatedTime": "12/12/9999 00:00:00",
+    "Id": 1
+  },
+  {
+    "BusinessUnitId": 1,
+    "Name": "Client Output Services, eDelivery & Vendor Management",
+    "DisplayOrder": 2,
+    "Enabled": true,
+    "AddOnStatus": 1,
+    "CreatedBy": "CoeusAdminUser",
+    "CreatedTime": "12/12/9999 00:00:00",
+    "LastUpdatedBy": "CoeusAdminUser",
+    "LastUpdatedTime": "12/12/9999 00:00:00",
+    "Id": 2
+  },
+  {
+    "BusinessUnitId": 1,
+    "Name": "Dealer & Institutional Services",
+    "DisplayOrder": 3,
+    "Enabled": true,
+    "AddOnStatus": 1,
+    "CreatedBy": "CoeusAdminUser",
+    "CreatedTime": "12/12/9999 00:00:00",
+    "LastUpdatedBy": "CoeusAdminUser",
+    "LastUpdatedTime": "12/12/9999 00:00:00",
+    "Id": 3
+  },
+  {
+    "BusinessUnitId": 1,
+    "Name": "Institutional Contract Services",
+    "DisplayOrder": 4,
+    "Enabled": true,
+    "AddOnStatus": 1,
+    "CreatedBy": "CoeusAdminUser",
+    "CreatedTime": "12/12/9999 00:00:00",
+    "LastUpdatedBy": "CoeusAdminUser",
+    "LastUpdatedTime": "12/12/9999 00:00:00",
+    "Id": 4
+  },
+  {
+    "BusinessUnitId": 1,
+    "Name": "Intake Operatioins & Business Solutions",
+    "DisplayOrder": 5,
+    "Enabled": true,
+    "AddOnStatus": 1,
+    "CreatedBy": "CoeusAdminUser",
+    "CreatedTime": "12/12/9999 00:00:00",
+    "LastUpdatedBy": "CoeusAdminUser",
+    "LastUpdatedTime": "12/12/9999 00:00:00",
+    "Id": 5
+  }
+]

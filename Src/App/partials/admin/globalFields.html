@@ -1,0 +1,221 @@
+<div>
+  <!-- BEGIN #main-content -->
+  <div id="main-content" class="row margin-top-35">
+    <h1 class="row m-t-20 title">Edit Risk Assessment fields</h1>
+    <div class="nav-tabs m-t-20 row" data-ng-include="'partials/admin/shared/tabnav.edit.html'"> </div>
+    <div class="row m-t-25 global-field">
+      <section data-toggle-view="" class="toggle-view-sn">
+        <div class="title-wrap">
+          <h2 class="toggle-group-title">
+            <span class="text">
+              Business Unit
+            </span>
+          </h2>
+        </div>
+        <div class="norm-layout  view-content">
+          <div data-edit-block="adminLookups.BusinessUnit"  type="BusinessUnit" on-created="createLookupEntity" class="toggle-view-con"></div>
+        </div>
+        <!-- /BusinessUnit -->
+      </section>
+      <section data-toggle-view="" class="toggle-view-sn">
+        <div class="title-wrap">
+          <h2 class="toggle-group-title">
+            <span class="text">
+              What % of the function is processed in each site?
+            </span>
+          </h2>
+        </div>
+        <div class="norm-layout  view-content">
+          <div data-edit-block="adminLookups.Percentage" type="Percentage"  only-integer="true" on-created="createLookupEntity" class="toggle-view-con"></div>
+        </div>
+        <!-- /<Percentage -->
+      </section>
+      <section data-toggle-view="" class="toggle-view-sn">
+        <div class="title-wrap">
+          <h2 class="toggle-group-title">
+            <span class="text">
+              In what site(s) is the function performed?
+            </span>
+          </h2>
+        </div>
+        <div class="norm-layout  view-content">
+          <div data-edit-block="adminLookups.Site"  type="Site" on-created="createLookupEntity" class="toggle-view-con"></div>
+        </div>
+        <!--/.Sites -->
+      </section>
+      <section data-toggle-view="" class="toggle-view-sn">
+        <div class="title-wrap">
+          <h2 class="toggle-group-title">
+            <span class="text">
+              Assessment Type
+            </span>
+          </h2>
+        </div>
+        <div class="norm-layout  view-content">
+          <div data-edit-block="adminLookups.AssessmentType"  type="AssessmentType" on-created="createLookupEntity" class="toggle-view-con"></div>
+        </div>
+        <!--/.AssessmentType -->
+      </section>
+      <section data-toggle-view="" class="toggle-view-sn">
+        <div class="title-wrap">
+          <h2 class="toggle-group-title">
+            <span class="text">
+              Assessment Status
+            </span>
+          </h2>
+        </div>
+        <div class="norm-layout  view-content">
+          <div data-edit-block="adminLookups.AssessmentStatus"  type="AssessmentStatus" on-created="createLookupEntity" class="toggle-view-con"></div>
+        </div>
+        <!--/.AssessmentStatus -->
+      </section>
+      </section>
+      <section data-toggle-view="" class="toggle-view-sn">
+        <div class="title-wrap">
+          <h2 class="toggle-group-title">
+            <span class="text">
+              Change Type
+            </span>
+          </h2>
+        </div>
+        <div class="norm-layout  view-content">
+          <div data-edit-block="adminLookups.ChangeType"  type="ChangeType" on-created="createLookupEntity" class="toggle-view-con"></div>
+        </div>
+        <!--/.ChangeType -->
+      </section>
+      </section>
+      <section data-toggle-view="" class="toggle-view-sn">
+        <div class="title-wrap">
+          <h2 class="toggle-group-title">
+            <span class="text have-icon">
+              Likelihood of Occurrence
+              <span class="tooltip">
+                The frequency of how often sub-process is performed such as a daily, weekly, monthly, quarterly or annual basis.  An example would disbursements/withdrawals are processed on a daily basis.
+                <span class="arrow"></span>
+              </span>
+            </span>
+          </h2>
+        </div>
+        <div class="norm-layout  view-content">
+          <div data-edit-block="adminLookups.LikelihoodOfOccurrence"  type="LikelihoodOfOccurrence" on-created="createLookupEntity" class="toggle-view-con"></div>
+        </div>
+        <!--/.LikelihoodOfOccurrence -->
+      </section>
+      <section data-toggle-view="" class="toggle-view-sn">
+        <div class="title-wrap">
+          <h2 class="toggle-group-title">
+            <span class="text have-icon">
+              Risk Impact
+              <span class="tooltip">
+                Categorizing the type of risk(s) if a sub-process is not performed or performed incorrectly.  For example, a particular risk could be financial, operational, regulatory, reputational or any combination of these.
+                <span class="arrow"></span>
+              </span>
+            </span>
+          </h2>
+        </div>
+        <div class="norm-layout  view-content">
+          <div data-edit-block="adminLookups.RiskImpact"  type="RiskImpact" on-created="createLookupEntity" class="toggle-view-con"></div>
+        </div>
+        <!--/.RiskImpact -->
+      </section>
+      <section data-toggle-view="" class="toggle-view-sn">
+        <div class="title-wrap">
+          <h2 class="toggle-group-title">
+            <span class="text have-icon">
+              Control Frequency
+              <span class="tooltip">
+                The frequency of how often a control is performed such as adhoc, daily, weekly, monthly, quarterly or annual.
+                <span class="arrow"></span>
+              </span>
+            </span>
+          </h2>
+        </div>
+        <div class="norm-layout  view-content">
+          <div data-edit-block="adminLookups.ControlFrequency"  type="ControlFrequency" on-created="createLookupEntity" class="toggle-view-con"></div>
+        </div>
+        <!--/.ControlFrequency -->
+      </section>
+      <section data-toggle-view="" class="toggle-view-sn">
+        <div class="title-wrap">
+          <h2 class="toggle-group-title">
+            <span class="text have-icon">
+              Control Design
+              <span class="tooltip">
+                The function or method that triggers the application of the control.  An example would be whether the control is manual or automated.
+                <span class="arrow"></span>
+              </span>
+            </span>
+          </h2>
+        </div>
+        <div class="norm-layout  view-content">
+          <div data-edit-block="adminLookups.ControlDesign"  type="ControlDesign" on-created="createLookupEntity" class="toggle-view-con"></div>
+        </div>
+        <!--/.ControlDesign -->
+      </section>
+      <section data-toggle-view="" class="toggle-view-sn">
+        <div class="title-wrap">
+          <h2 class="toggle-group-title">
+            <span class="text have-icon">
+              Testing & Frequency
+              <span class="tooltip">
+                 This captures whether a control is tested, how often it is tested and by whom it is tested.  For example, a control might be tested within the business area on a quarterly basis and by Internal Audit on an annual basis.  Controls could also not be tested as well.
+                <span class="arrow"></span>
+              </span>
+            </span>
+          </h2>
+        </div>
+        <div class="norm-layout  view-content">
+          <div data-edit-block="adminLookups.TestingFrequency"  type="TestingFrequency" on-created="createLookupEntity" class="toggle-view-con"></div>
+        </div>
+        <!--/.TestingFrequency -->
+      </section>
+      <section data-toggle-view="" class="toggle-view-sn">
+        <div class="title-wrap">
+          <h2 class="toggle-group-title">
+            <span class="text have-icon">
+              Control Trigger
+              <span class="tooltip">
+                The cause or reason for the control.  Some reasons could be Performance, Process, Product, Regulatory, SOC 1, SOC 2, SOX/MAR, 38a-1, etc.  Many times there could be multiple reasons.
+                <span class="arrow"></span>
+              </span>
+            </span>
+          </h2>
+        </div>
+        <div class="norm-layout  view-content">
+          <div data-edit-block="adminLookups.ControlTrigger"  type="ControlTrigger" on-created="createLookupEntity" class="toggle-view-con"></div>
+        </div>
+        <!--/.ControlTrigger -->
+      </section>
+      <section data-toggle-view="" class="toggle-view-sn">
+        <div class="title-wrap">
+          <h2 class="toggle-group-title">
+            <span class="text have-icon">
+              Key Controls Maturity
+              <span class="tooltip">
+                The level of optimization achieved with the Control.  The propensity of the control to increase efficiency and add value to the company.  Options would include Well Developed, Partially Developed/Requires Improvement, and Under Developed/Weak.
+                <span class="arrow"></span>
+              </span>
+            </span>
+          </h2>
+        </div>
+        <div class="norm-layout  view-content">
+          <div data-edit-block="adminLookups.KeyControlsMaturity"  type="KeyControlsMaturity" on-created="createLookupEntity" class="toggle-view-con"></div>
+        </div>
+        <!--/.KeyControlsMaturity -->
+      </section>
+      <!-- /.toggle-view-sn -->
+    </div>
+    <!-- /.col-layout -->
+
+    <div class="section-footer row m-t-40">
+      <div class="left">
+        <a href="#/admin/edit/processes" class="btn btn-primary">Prev</a>
+      </div>
+      <div class="right">
+        <a href="#/admin/edit/riskCalculation" class="btn btn-primary">Next</a>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- END #main-content -->
+<div class="clearfix"></div>

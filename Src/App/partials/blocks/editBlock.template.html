@@ -1,0 +1,60 @@
+<div class="check-all" ng-if="masterList">
+  <a href="javascript:;" data-ng-click="toggleAllChks(true)">Check All </a>
+  <span></span>
+  <a href="javascript:;" data-ng-click="toggleAllChks(false)">Un-Check All</a>
+</div>
+<div class="clearfix"></div>
+<ul class="edit-list fixed-height" ng-class="{'master-list':masterList}" data-ng-model="list" data-ui-sortable="sortOptions">
+  <li class="li" id="{{record.id}}" data-ng-repeat="record in list" data-ng-class="{'active':selected.id===record.id}">
+    <div class="edit-row">
+      <a class="move-handel"></a>
+      <div class="chk-ctrl">
+        <input type="checkbox" ng-hide="$parent.hideCheckbox" ng-if="!masterList" data-ng-change="enableOrDisabled(record)"
+         data-ng-model="record.enabled" class="ck" d/>
+        <input type="checkbox" ng-if="masterList" ng-model="record.selected"  class="ck" data-ng-change="changeChk(record)"/>
+        <label ng-class="{'chk-lbl':!$parent.hideCheckbox, 'chk-ctrl':$parent.hideCheckbox}">
+          <span class="tx" ng-hide="$parent.editing==record.id"
+           ng-dblclick="$parent.setEditingMode(record)" 
+           data-sglclick="select(record)">{{record.name}}</span>
+
+          <input type="text" ng-if="!$parent.onlyInteger" class="text-ctrl editor-ctrl" ng-show="$parent.editing==record.id"
+          data-ng-enter="$parent.updateRecord()" maxlength="200" 
+          ng-blur="$parent.cancelEditingMode()" ng-class="{error: $parent.updatingRecord.name.length<1}"
+          data-ng-model="$parent.updatingRecord.name" focus-on-show/>
+
+          <input type="text" ng-if="$parent.onlyInteger" class="text-ctrl editor-ctrl" ng-show="$parent.editing==record.id"
+          data-ng-enter="$parent.updateRecord()" maxlength="200" 
+          ng-blur="$parent.cancelEditingMode()" ng-class="{error: $parent.updatingRecord.name.length<1}"
+          data-ng-model="$parent.updatingRecord.name" focus-on-show data-only-integers/>
+          </label>
+      </div>
+    </div>
+    <!-- /.edit-row -->
+    <a class="remove" data-ng-click="showDeleteConfirm($index, record.id, record.name)"></a>
+  </li>
+</ul>
+<ul class="edit-list">
+  <li class="li li-add">
+    <div class="add-group dsd">
+      <input type="text" ng-show="!onlyInteger" class="text-ctrl" data-ng-enter="addRecord()" maxlength="200" data-ng-model="newRecord" />
+      <input type="text" ng-show="onlyInteger" class="text-ctrl" data-ng-enter="addRecord()" maxlength="6" data-ng-model="newRecord" data-only-integers/>
+      <a class="add-link" data-ng-click="addRecord()"></a>
+    </div>
+  </li>
+</ul>
+<!-- edit-list -->
+<div class="hide row lookup-delete" id="modal-delete-{{entityType}}-record-{{uniqueName}}" title="Field Delete">
+    <div>
+        <form class="custom-form">
+            <div class="row">
+                <p class="tc">Are you sure you want to delete "<strong>{{deleting.name}}</strong>"?</p>
+            </div>
+        </form>
+        <center class="pad-t-25 buttons">
+            <a href="javascript:;" class="btn btn-primary" close-dialog data-target-id="#modal-delete-{{entityType}}-record-{{uniqueName}}"
+               ng-click="removeRecord()">Delete</a> &nbsp;&nbsp;&nbsp;
+            <a href="javascript:;" close-dialog data-target-id="#modal-delete-{{entityType}}-record-{{uniqueName}}" class="btn btn-primary"
+               ng-click="deleting={}">Cancel</a>
+        </center>
+    </div>
+</div>

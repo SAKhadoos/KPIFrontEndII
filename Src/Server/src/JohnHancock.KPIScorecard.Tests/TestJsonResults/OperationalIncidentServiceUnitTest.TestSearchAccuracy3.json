@@ -1,0 +1,90 @@
+{
+  "TotalRecords": 1,
+  "TotalPages": 1,
+  "Items": [
+    {
+      "IncidentNumber": "O160114",
+      "BusinessUnit": {
+        "Value": "KST_BusinessUnit4",
+        "Enabled": true,
+        "Id": 4
+      },
+      "OperationalFinding": "OperationalFinding4",
+      "RootCause": {
+        "Value": "OperationalIncidentRootCauseValue4",
+        "Enabled": false,
+        "Id": 4
+      },
+      "RootCauseDetail": "RootCauseDetail4",
+      "FinancialExposure": {
+        "Amount": 1.40,
+        "Type": 1,
+        "Id": 4
+      },
+      "Source": {
+        "Value": "OperationalIncidentSourceValue4",
+        "Enabled": false,
+        "Id": 4
+      },
+      "Impact": [
+        {
+          "Value": "OperationalIncidentImpactValue8",
+          "Enabled": false,
+          "Id": 8
+        },
+        {
+          "Value": "OperationalIncidentImpactValue9",
+          "Enabled": true,
+          "Id": 9
+        }
+      ],
+      "MitigationStrategy": "MitigationStrategy4",
+      "IncidentYear": {
+        "Value": "2020",
+        "Enabled": false,
+        "Id": 4
+      },
+      "IncidentMonth": {
+        "Value": "April",
+        "Enabled": false,
+        "Id": 4
+      },
+      "RemediationYear": {
+        "Value": "2020",
+        "Enabled": false,
+        "Id": 4
+      },
+      "RemediationMonth": {
+        "Value": "April",
+        "Enabled": false,
+        "Id": 4
+      },
+      "Status": {
+        "Value": "OperationalIncidentStatusValue4",
+        "Enabled": false,
+        "Id": 4
+      },
+      "ReportedToGORM": {
+        "Value": "OperationalIncidentReportedToGORMValue4",
+        "Enabled": false,
+        "Id": 4
+      },
+      "ReportedToORMYear": {
+        "Value": "2020",
+        "Enabled": false,
+        "Id": 4
+      },
+      "ReportedToORMMonth": {
+        "Value": "April",
+        "Enabled": false,
+        "Id": 4
+      },
+      "CompletionType": 0,
+      "CreatedBy": "CreatedBy4",
+      "CreatedTime": "11/20/2016 00:00:00",
+      "LastUpdatedBy": "LastUpdatedBy4",
+      "LastUpdatedTime": "11/19/2016 00:00:00",
+      "Id": 4
+    }
+  ]
+}

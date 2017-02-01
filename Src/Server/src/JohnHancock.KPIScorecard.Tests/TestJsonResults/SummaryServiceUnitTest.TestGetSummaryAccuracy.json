@@ -1,0 +1,148 @@
+{
+  "BusinessUnit": {
+    "Value": "KST_BusinessUnit2",
+    "Enabled": true,
+    "Id": 2
+  },
+  "Year": {
+    "Value": "2018",
+    "Enabled": true,
+    "Id": 2
+  },
+  "Month": {
+    "Value": "February",
+    "Enabled": false,
+    "Id": 2
+  },
+  "Status": {
+    "Value": "StatusValue2",
+    "Enabled": false,
+    "Id": 2
+  },
+  "DueDate": "12/31/2016 00:00:00",
+  "OperationalIncidentsNumber": 1,
+  "PrivacyIncidentsNumber": 1,
+  "AuditFindingsNumber": 1,
+  "OperationalPerformanceOverallScore": 1.5,
+  "BusinessContinuityPlanningOverallScore": 2.3333333333333333333333333333,
+  "SecurityOverallScore": 2.6666666666666666666666666667,
+  "ConcentrationRiskOverallScore": 3.0,
+  "OverallThresholdAnalysis": {
+    "OperationalPerformanceValues": [
+      {
+        "Month": {
+          "Value": "February",
+          "Enabled": false,
+          "Id": 2
+        },
+        "OverallScore": 1.5,
+        "Rating": 2
+      },
+      {
+        "Month": {
+          "Value": "April",
+          "Enabled": false,
+          "Id": 4
+        },
+        "OverallScore": 1.0,
+        "Rating": 2
+      },
+      {
+        "Month": {
+          "Value": "May",
+          "Enabled": true,
+          "Id": 5
+        },
+        "OverallScore": 0.0,
+        "Rating": 2
+      }
+    ],
+    "BusinessContinuityPlanningValues": [
+      {
+        "Month": {
+          "Value": "February",
+          "Enabled": false,
+          "Id": 2
+        },
+        "OverallScore": 2.3333333333333333333333333333,
+        "Rating": 1
+      },
+      {
+        "Month": {
+          "Value": "April",
+          "Enabled": false,
+          "Id": 4
+        },
+        "OverallScore": 2.5,
+        "Rating": 0
+      },
+      {
+        "Month": {
+          "Value": "May",
+          "Enabled": true,
+          "Id": 5
+        },
+        "OverallScore": 0.0,
+        "Rating": 2
+      }
+    ],
+    "SecurityValues": [
+      {
+        "Month": {
+          "Value": "February",
+          "Enabled": false,
+          "Id": 2
+        },
+        "OverallScore": 2.6666666666666666666666666667,
+        "Rating": 0
+      },
+      {
+        "Month": {
+          "Value": "April",
+          "Enabled": false,
+          "Id": 4
+        },
+        "OverallScore": 3.0,
+        "Rating": 0
+      },
+      {
+        "Month": {
+          "Value": "May",
+          "Enabled": true,
+          "Id": 5
+        },
+        "OverallScore": 0.0,
+        "Rating": 2
+      }
+    ],
+    "ConcentrationRiskValues": [
+      {
+        "Month": {
+          "Value": "February",
+          "Enabled": false,
+          "Id": 2
+        },
+        "OverallScore": 3.0,
+        "Rating": 0
+      },
+      {
+        "Month": {
+          "Value": "April",
+          "Enabled": false,
+          "Id": 4
+        },
+        "OverallScore": 2.0,
+        "Rating": 1
+      },
+      {
+        "Month": {
+          "Value": "May",
+          "Enabled": true,
+          "Id": 5
+        },
+        "OverallScore": 0.0,
+        "Rating": 2
+      }
+    ]
+  }
+}

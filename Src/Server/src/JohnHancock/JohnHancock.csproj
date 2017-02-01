@@ -1,0 +1,337 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{EFB6B661-1B22-4FB4-B038-50FA5594FD84}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>JohnHancock</RootNamespace>
+    <AssemblyName>JohnHancock.ProjectCoeus</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>bin\JohnHancock.ProjectCoeus.xml</DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Ciloci.Flee">
+      <HintPath>..\..\lib\Ciloci.Flee.dll</HintPath>
+    </Reference>
+    <Reference Include="ClosedXML">
+      <HintPath>..\..\lib\ClosedXML.dll</HintPath>
+    </Reference>
+    <Reference Include="DocumentFormat.OpenXml">
+      <HintPath>..\..\lib\DocumentFormat.OpenXml.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework">
+      <HintPath>..\..\lib\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer">
+      <HintPath>..\..\lib\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="log4net">
+      <HintPath>..\..\lib\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Microsoft.Practices.Unity, Version=1.2.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\lib\Microsoft.Practices.Unity.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.Unity.Configuration">
+      <HintPath>..\..\lib\Microsoft.Practices.Unity.Configuration.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\lib\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.DirectoryServices.AccountManagement" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Net.Http.Formatting, Version=5.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\lib\System.Net.Http.Formatting.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Web.Cors">
+      <HintPath>..\..\lib\System.Web.Cors.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Http, Version=5.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\lib\System.Web.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Http.Cors">
+      <HintPath>..\..\lib\System.Web.Http.Cors.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Http.WebHost, Version=5.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\lib\System.Web.Http.WebHost.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="Unity.WebApi">
+      <HintPath>..\..\lib\Unity.WebApi.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Content Include="Global.asax" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Common\API\Controllers\BaseController.cs" />
+    <Compile Include="Common\Entities\AuditableEntity.cs" />
+    <Compile Include="Common\Entities\DTO\BaseSearchCriteria.cs" />
+    <Compile Include="Common\Entities\DTO\SearchResult.cs" />
+    <Compile Include="Common\Entities\DTO\SortType.cs" />
+    <Compile Include="Common\Entities\IdentifiableEntity.cs" />
+    <Compile Include="Common\Entities\Token.cs" />
+    <Compile Include="Common\Exceptions\AuthenticationException.cs" />
+    <Compile Include="Common\Exceptions\AuthorizationException.cs" />
+    <Compile Include="Common\Exceptions\ConfigurationException.cs" />
+    <Compile Include="Common\Exceptions\EntityNotFoundException.cs" />
+    <Compile Include="Common\Exceptions\PersistenceException.cs" />
+    <Compile Include="Common\Exceptions\ServiceException.cs" />
+    <Compile Include="Common\Services\Impl\BasePersistenceService.cs" />
+    <Compile Include="Common\Services\Impl\BaseService.cs" />
+    <Compile Include="KPIScorecard\API\Controllers\AuditFindingController.cs" />
+    <Compile Include="KPIScorecard\API\Controllers\BusinessUnitKPIScorecardController.cs" />
+    <Compile Include="KPIScorecard\API\Controllers\KPIScorecardConfigurationController.cs" />
+    <Compile Include="KPIScorecard\API\Controllers\OperationalIncidentController.cs" />
+    <Compile Include="KPIScorecard\API\Controllers\PrivacyIncidentController.cs" />
+    <Compile Include="KPIScorecard\API\Controllers\KSTLookupController.cs" />
+    <Compile Include="KPIScorecard\API\Controllers\SummaryController.cs" />
+    <Compile Include="KPIScorecard\Helper.cs" />
+    <Compile Include="KPIScorecard\Entities\AuditFinding.cs" />
+    <Compile Include="KPIScorecard\Entities\AuditFindingImpactValue.cs" />
+    <Compile Include="KPIScorecard\Entities\AuditFindingReportedToGORMValue.cs" />
+    <Compile Include="KPIScorecard\Entities\AuditFindingRootCauseValue.cs" />
+    <Compile Include="KPIScorecard\Entities\AuditFindingSourceValue.cs" />
+    <Compile Include="KPIScorecard\Entities\AuditFindingStatusValue.cs" />
+    <Compile Include="KPIScorecard\Entities\BusinessUnit.cs" />
+    <Compile Include="KPIScorecard\Entities\BusinessUnitKPIScorecard.cs" />
+    <Compile Include="KPIScorecard\Entities\DecimalOrPercentageValue.cs" />
+    <Compile Include="KPIScorecard\Entities\DTOs\AuditFindingConfig.cs" />
+    <Compile Include="KPIScorecard\Entities\DTOs\AuditFindingSearchCriteria.cs" />
+    <Compile Include="KPIScorecard\Entities\DTOs\BusinessUnitConfig.cs" />
+    <Compile Include="KPIScorecard\Entities\DTOs\BusinessUnitKPIScorecardSearchCriteria.cs" />
+    <Compile Include="KPIScorecard\Entities\DTOs\KPIScorecardConfiguration.cs" />
+    <Compile Include="KPIScorecard\Entities\DTOs\OperationalIncidentConfig.cs" />
+    <Compile Include="KPIScorecard\Entities\DTOs\OperationalIncidentSearchCriteria.cs" />
+    <Compile Include="KPIScorecard\Entities\DTOs\OverallThresholdAnalysis.cs" />
+    <Compile Include="KPIScorecard\Entities\DTOs\OverallThresholdAnalysisMonthValue.cs" />
+    <Compile Include="KPIScorecard\Entities\DTOs\OverallThresholdAnalysisRating.cs" />
+    <Compile Include="KPIScorecard\Entities\DTOs\PrivacyIncidentConfig.cs" />
+    <Compile Include="KPIScorecard\Entities\DTOs\PrivacyIncidentSearchCriteria.cs" />
+    <Compile Include="KPIScorecard\Entities\DTOs\Summary.cs" />
+    <Compile Include="KPIScorecard\Entities\FinancialExposureValue.cs" />
+    <Compile Include="KPIScorecard\Entities\FinancialExposureValueType.cs" />
+    <Compile Include="KPIScorecard\Entities\KPIScore.cs" />
+    <Compile Include="KPIScorecard\Entities\KPIScorecardItem.cs" />
+    <Compile Include="KPIScorecard\Entities\KPIScorecardItemType.cs" />
+    <Compile Include="KPIScorecard\Entities\KPIVolumeScore.cs" />
+    <Compile Include="KPIScorecard\Entities\LookupEntity.cs" />
+    <Compile Include="KPIScorecard\Entities\LowPerformanceReason.cs" />
+    <Compile Include="KPIScorecard\Entities\MonthValue.cs" />
+    <Compile Include="KPIScorecard\Entities\OperationalIncident.cs" />
+    <Compile Include="KPIScorecard\Entities\OperationalIncidentImpactValue.cs" />
+    <Compile Include="KPIScorecard\Entities\OperationalIncidentReportedToGORMValue.cs" />
+    <Compile Include="KPIScorecard\Entities\OperationalIncidentRootCauseValue.cs" />
+    <Compile Include="KPIScorecard\Entities\OperationalIncidentSourceValue.cs" />
+    <Compile Include="KPIScorecard\Entities\OperationalIncidentStatusValue.cs" />
+    <Compile Include="KPIScorecard\Entities\PrivacyIncident.cs" />
+    <Compile Include="KPIScorecard\Entities\PrivacyIncidentMitigationCodeValue.cs" />
+    <Compile Include="KPIScorecard\Entities\PrivacyIncidentRootCauseValue.cs" />
+    <Compile Include="KPIScorecard\Entities\PrivacyIncidentStatusValue.cs" />
+    <Compile Include="KPIScorecard\Entities\PrivacyIncidentTypeValue.cs" />
+    <Compile Include="KPIScorecard\Entities\ScorecardCompletionType.cs" />
+    <Compile Include="KPIScorecard\Entities\StatusValue.cs" />
+    <Compile Include="KPIScorecard\Entities\ValueEntity.cs" />
+    <Compile Include="KPIScorecard\Entities\VolumeTypeValue.cs" />
+    <Compile Include="KPIScorecard\Entities\YearValue.cs" />
+    <Compile Include="KPIScorecard\Exceptions\BusinessProcessingException.cs" />
+    <Compile Include="Common\CommonHelper.cs" />
+    <Compile Include="KPIScorecard\Services\Impl\AuditFindingService.cs" />
+    <Compile Include="KPIScorecard\Services\Impl\BaseGenericService.cs" />
+    <Compile Include="KPIScorecard\Services\Impl\BusinessUnitKPIScorecardService.cs" />
+    <Compile Include="KPIScorecard\Services\Impl\CustomDbContext.cs" />
+    <Compile Include="KPIScorecard\Services\Impl\KPIScorecardConfigurationService.cs" />
+    <Compile Include="KPIScorecard\Services\Impl\LookupService.cs" />
+    <Compile Include="KPIScorecard\Services\Impl\OperationalIncidentService.cs" />
+    <Compile Include="KPIScorecard\Services\Impl\PrivacyIncidentService.cs" />
+    <Compile Include="KPIScorecard\Services\IAuditFindingService.cs" />
+    <Compile Include="KPIScorecard\Services\IBusinessUnitKPIScorecardService.cs" />
+    <Compile Include="KPIScorecard\Services\IGenericService.cs" />
+    <Compile Include="KPIScorecard\Services\IKPIScorecardConfigurationService.cs" />
+    <Compile Include="KPIScorecard\Services\ILookupService.cs" />
+    <Compile Include="KPIScorecard\Services\IOperationalIncidentService.cs" />
+    <Compile Include="KPIScorecard\Services\IPrivacyIncidentService.cs" />
+    <Compile Include="KPIScorecard\Services\ISummaryService.cs" />
+    <Compile Include="KPIScorecard\Services\Impl\SummaryService.cs" />
+    <Compile Include="ProjectCoeus\API\Controllers\AssessmentController.cs" />
+    <Compile Include="ProjectCoeus\API\Controllers\LookupController.cs" />
+    <Compile Include="Common\API\Controllers\SecurityController.cs" />
+    <Compile Include="Common\API\Controllers\UserController.cs" />
+    <Compile Include="ProjectCoeus\API\Entities\LookupEntityReorderRequest.cs" />
+    <Compile Include="Common\API\Entities\LoginRequest.cs" />
+    <Compile Include="Common\API\Entities\LoginResult.cs" />
+    <Compile Include="Common\API\Support\AuthorizationFilter.cs" />
+    <Compile Include="Common\API\Support\ExceptionFilter.cs" />
+    <Compile Include="Common\API\Support\LoggingActionFilter.cs" />
+    <Compile Include="ProjectCoeus\Calculators\Impl\RiskScoreCalculator.cs" />
+    <Compile Include="Common\Entities\ActionPermission.cs" />
+    <Compile Include="ProjectCoeus\Entities\ApprovalStatus.cs" />
+    <Compile Include="ProjectCoeus\Entities\Assessment.cs" />
+    <Compile Include="ProjectCoeus\Entities\AssessmentStatus.cs" />
+    <Compile Include="ProjectCoeus\Entities\AssessmentType.cs" />
+    <Compile Include="ProjectCoeus\Entities\AuditRecord.cs" />
+    <Compile Include="ProjectCoeus\Entities\BusinessUnit.cs" />
+    <Compile Include="ProjectCoeus\Entities\BusinessUnitLookupEntity.cs" />
+    <Compile Include="ProjectCoeus\Entities\Category.cs" />
+    <Compile Include="ProjectCoeus\Entities\ChangeType.cs" />
+    <Compile Include="ProjectCoeus\Entities\ControlAssessment.cs" />
+    <Compile Include="ProjectCoeus\Entities\DTOs\CategoryRiskScore.cs" />
+    <Compile Include="ProjectCoeus\Entities\DTOs\RiskScore.cs" />
+    <Compile Include="Common\Entities\DTO\User.cs" />
+    <Compile Include="ProjectCoeus\Entities\ProcessControlAssessment.cs" />
+    <Compile Include="ProjectCoeus\Entities\ControlDesign.cs" />
+    <Compile Include="ProjectCoeus\Entities\ControlFrequency.cs" />
+    <Compile Include="ProjectCoeus\Entities\ControlTrigger.cs" />
+    <Compile Include="ProjectCoeus\Entities\ControlType.cs" />
+    <Compile Include="ProjectCoeus\Entities\CoreProcess.cs" />
+    <Compile Include="ProjectCoeus\Entities\Department.cs" />
+    <Compile Include="ProjectCoeus\Entities\DepartmentHead.cs" />
+    <Compile Include="ProjectCoeus\Entities\DTOs\AssessmentSearchCriteria.cs" />
+    <Compile Include="ProjectCoeus\Entities\DTOs\CategoryBar.cs" />
+    <Compile Include="ProjectCoeus\Entities\DTOs\CompositeBar.cs" />
+    <Compile Include="ProjectCoeus\Entities\DTOs\ExportFormat.cs" />
+    <Compile Include="ProjectCoeus\Entities\DTOs\OverallRiskRatingReport.cs" />
+    <Compile Include="ProjectCoeus\Entities\DTOs\ResidualRiskReport.cs" />
+    <Compile Include="ProjectCoeus\Entities\DTOs\RiskReport.cs" />
+    <Compile Include="Common\Entities\DTO\UserSearchCriteria.cs" />
+    <Compile Include="ProjectCoeus\Entities\FunctionalArea.cs" />
+    <Compile Include="ProjectCoeus\Entities\BusinessUnitFunctionalAreaLookupEntity.cs" />
+    <Compile Include="ProjectCoeus\Entities\FunctionalAreaOwner.cs" />
+    <Compile Include="ProjectCoeus\Entities\FunctionalAreaProcessAssessment.cs" />
+    <Compile Include="ProjectCoeus\Entities\FunctionChange.cs" />
+    <Compile Include="ProjectCoeus\Entities\FunctionPerformedSite.cs" />
+    <Compile Include="ProjectCoeus\Entities\KeyControlsMaturity.cs" />
+    <Compile Include="ProjectCoeus\Entities\KPICategory.cs" />
+    <Compile Include="ProjectCoeus\Entities\KPI.cs" />
+    <Compile Include="ProjectCoeus\Entities\KPISLAAssessment.cs" />
+    <Compile Include="ProjectCoeus\Entities\LikelihoodOfOccurrence.cs" />
+    <Compile Include="ProjectCoeus\Entities\LookupEntity.cs" />
+    <Compile Include="ProjectCoeus\Entities\Percentage.cs" />
+    <Compile Include="ProjectCoeus\Entities\ProcessRisk.cs" />
+    <Compile Include="ProjectCoeus\Entities\ProcessRiskAssessment.cs" />
+    <Compile Include="ProjectCoeus\Entities\ProcessRiskEntity.cs" />
+    <Compile Include="ProjectCoeus\Entities\Product.cs" />
+    <Compile Include="ProjectCoeus\Entities\AddOnStatus.cs" />
+    <Compile Include="ProjectCoeus\Entities\RejectPhase.cs" />
+    <Compile Include="ProjectCoeus\Entities\RiskScoreRange.cs" />
+    <Compile Include="ProjectCoeus\Entities\RiskExposure.cs" />
+    <Compile Include="ProjectCoeus\Entities\RiskImpact.cs" />
+    <Compile Include="Common\Entities\Role.cs" />
+    <Compile Include="ProjectCoeus\Entities\Site.cs" />
+    <Compile Include="ProjectCoeus\Entities\SLA.cs" />
+    <Compile Include="ProjectCoeus\Entities\SubProcessRisk.cs" />
+    <Compile Include="ProjectCoeus\Entities\TestingFrequency.cs" />
+    <Compile Include="Common\Entities\UserMappingInfo.cs" />
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="ProjectCoeus\Helper.cs" />
+    <Compile Include="ProjectCoeus\Services\Impl\AssessmentService.cs" />
+    <Compile Include="ProjectCoeus\Services\Impl\AuditService.cs" />
+    <Compile Include="ProjectCoeus\Services\Impl\CustomDbContext.cs" />
+    <Compile Include="ProjectCoeus\Services\Impl\IRiskScoreCalculator.cs" />
+    <Compile Include="ProjectCoeus\Services\Impl\LookupService.cs" />
+    <Compile Include="Common\Services\Impl\SecurityService.cs" />
+    <Compile Include="Common\Services\Impl\UserService.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ProjectCoeus\Services\IAssessmentService.cs" />
+    <Compile Include="ProjectCoeus\Services\IAuditService.cs" />
+    <Compile Include="ProjectCoeus\Services\ILookupService.cs" />
+    <Compile Include="Common\Services\ISecurityService.cs" />
+    <Compile Include="Common\Services\IUserService.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>7104</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:7104/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

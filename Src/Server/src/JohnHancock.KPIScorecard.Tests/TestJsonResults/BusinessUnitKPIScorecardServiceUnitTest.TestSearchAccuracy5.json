@@ -1,0 +1,527 @@
+{
+  "TotalRecords": 2,
+  "TotalPages": 1,
+  "Items": [
+    {
+      "BusinessUnit": {
+        "Value": "KST_BusinessUnit4",
+        "Enabled": true,
+        "Id": 4
+      },
+      "Status": {
+        "Value": "StatusValue6",
+        "Enabled": false,
+        "Id": 6
+      },
+      "Year": {
+        "Value": "2018",
+        "Enabled": true,
+        "Id": 2
+      },
+      "Month": {
+        "Value": "July",
+        "Enabled": true,
+        "Id": 7
+      },
+      "DueDate": "12/31/2016 00:00:00",
+      "OperationPerformanceScores": [],
+      "FinancialIndicatorScores": [],
+      "BusinessContinuityPlanningScores": [],
+      "SecurityScores": [],
+      "ConcentrationRiskScores": [],
+      "CompletionType": 1,
+      "CreatedBy": "CreatedBy9",
+      "CreatedTime": "09/30/2016 00:00:00",
+      "LastUpdatedBy": "LastUpdatedBy9",
+      "LastUpdatedTime": "09/29/2016 00:00:00",
+      "Id": 9
+    },
+    {
+      "BusinessUnit": {
+        "Value": "KST_BusinessUnit2",
+        "Enabled": true,
+        "Id": 2
+      },
+      "Status": {
+        "Value": "StatusValue2",
+        "Enabled": false,
+        "Id": 2
+      },
+      "Year": {
+        "Value": "2018",
+        "Enabled": true,
+        "Id": 2
+      },
+      "Month": {
+        "Value": "February",
+        "Enabled": false,
+        "Id": 2
+      },
+      "DueDate": "12/31/2016 00:00:00",
+      "OperationPerformanceScores": [
+        {
+          "Volume": 3.20,
+          "VolumeType": {
+            "Value": "VolumeTypeValue2",
+            "Enabled": false,
+            "Id": 2
+          },
+          "ScorecardItem": {
+            "KeyPerformanceIndicator": "KeyPerformanceIndicator2",
+            "ServiceLevel": {
+              "Value": 2.10,
+              "Percentage": false,
+              "AdditionalNote": "AdditionalNote2",
+              "Id": 2
+            },
+            "Threshold": {
+              "Value": 1.90,
+              "Percentage": true,
+              "AdditionalNote": "AdditionalNote5",
+              "Id": 5
+            },
+            "TargetHigh": false,
+            "Enabled": false,
+            "Type": 1,
+            "Id": 2
+          },
+          "Score": 2.50,
+          "LowPerformanceReasons": [
+            {
+              "Name": "KST_LowPerformanceReason3",
+              "Id": 3
+            },
+            {
+              "Name": "KST_LowPerformanceReason4",
+              "Id": 4
+            },
+            {
+              "Name": "KST_LowPerformanceReason5",
+              "Id": 5
+            }
+          ],
+          "Id": 12
+        },
+        {
+          "Volume": 3.50,
+          "VolumeType": {
+            "Value": "VolumeTypeValue5",
+            "Enabled": true,
+            "Id": 5
+          },
+          "ScorecardItem": {
+            "KeyPerformanceIndicator": "KeyPerformanceIndicator5",
+            "ServiceLevel": {
+              "Value": 1.30,
+              "Percentage": false,
+              "AdditionalNote": null,
+              "Id": 6
+            },
+            "Threshold": {
+              "Value": 1.20,
+              "Percentage": true,
+              "AdditionalNote": "AdditionalNote1",
+              "Id": 1
+            },
+            "TargetHigh": true,
+            "Enabled": true,
+            "Type": 4,
+            "Id": 5
+          },
+          "Score": 2.20,
+          "LowPerformanceReasons": [],
+          "Id": 15
+        },
+        {
+          "Volume": 3.60,
+          "VolumeType": null,
+          "ScorecardItem": {
+            "KeyPerformanceIndicator": null,
+            "ServiceLevel": {
+              "Value": 1.30,
+              "Percentage": false,
+              "AdditionalNote": null,
+              "Id": 6
+            },
+            "Threshold": {
+              "Value": 1.30,
+              "Percentage": false,
+              "AdditionalNote": null,
+              "Id": 6
+            },
+            "TargetHigh": false,
+            "Enabled": false,
+            "Type": 0,
+            "Id": 6
+          },
+          "Score": 3.60,
+          "LowPerformanceReasons": [],
+          "Id": 16
+        },
+        {
+          "Volume": 3.70,
+          "VolumeType": {
+            "Value": "VolumeTypeValue7",
+            "Enabled": true,
+            "Id": 7
+          },
+          "ScorecardItem": {
+            "KeyPerformanceIndicator": "KeyPerformanceIndicator7",
+            "ServiceLevel": {
+              "Value": 2.40,
+              "Percentage": false,
+              "AdditionalNote": "AdditionalNote4",
+              "Id": 4
+            },
+            "Threshold": {
+              "Value": 1.90,
+              "Percentage": true,
+              "AdditionalNote": "AdditionalNote5",
+              "Id": 5
+            },
+            "TargetHigh": true,
+            "Enabled": true,
+            "Type": 1,
+            "Id": 7
+          },
+          "Score": 1.80,
+          "LowPerformanceReasons": [],
+          "Id": 17
+        }
+      ],
+      "FinancialIndicatorScores": [
+        {
+          "ScorecardItem": {
+            "KeyPerformanceIndicator": null,
+            "ServiceLevel": {
+              "Value": 1.30,
+              "Percentage": true,
+              "AdditionalNote": null,
+              "Id": 3
+            },
+            "Threshold": {
+              "Value": 1.30,
+              "Percentage": true,
+              "AdditionalNote": null,
+              "Id": 3
+            },
+            "TargetHigh": true,
+            "Enabled": true,
+            "Type": 2,
+            "Id": 3
+          },
+          "Score": 1.30,
+          "LowPerformanceReasons": [],
+          "Id": 3
+        },
+        {
+          "ScorecardItem": {
+            "KeyPerformanceIndicator": "KeyPerformanceIndicator4",
+            "ServiceLevel": {
+              "Value": 1.70,
+              "Percentage": true,
+              "AdditionalNote": "AdditionalNote7",
+              "Id": 7
+            },
+            "Threshold": {
+              "Value": 2.40,
+              "Percentage": false,
+              "AdditionalNote": "AdditionalNote4",
+              "Id": 4
+            },
+            "TargetHigh": false,
+            "Enabled": false,
+            "Type": 3,
+            "Id": 4
+          },
+          "Score": 1.40,
+          "LowPerformanceReasons": [
+            {
+              "Name": "KST_LowPerformanceReason8",
+              "Id": 8
+            },
+            {
+              "Name": "KST_LowPerformanceReason9",
+              "Id": 9
+            }
+          ],
+          "Id": 4
+        }
+      ],
+      "BusinessContinuityPlanningScores": [
+        {
+          "ScorecardItem": {
+            "KeyPerformanceIndicator": "KeyPerformanceIndicator5",
+            "ServiceLevel": {
+              "Value": 1.30,
+              "Percentage": false,
+              "AdditionalNote": null,
+              "Id": 6
+            },
+            "Threshold": {
+              "Value": 1.20,
+              "Percentage": true,
+              "AdditionalNote": "AdditionalNote1",
+              "Id": 1
+            },
+            "TargetHigh": true,
+            "Enabled": true,
+            "Type": 4,
+            "Id": 5
+          },
+          "Score": 1.40,
+          "LowPerformanceReasons": [],
+          "Id": 5
+        },
+        {
+          "ScorecardItem": {
+            "KeyPerformanceIndicator": null,
+            "ServiceLevel": {
+              "Value": 1.30,
+              "Percentage": false,
+              "AdditionalNote": null,
+              "Id": 6
+            },
+            "Threshold": {
+              "Value": 1.30,
+              "Percentage": false,
+              "AdditionalNote": null,
+              "Id": 6
+            },
+            "TargetHigh": false,
+            "Enabled": false,
+            "Type": 0,
+            "Id": 6
+          },
+          "Score": 1.29,
+          "LowPerformanceReasons": [],
+          "Id": 6
+        },
+        {
+          "ScorecardItem": {
+            "KeyPerformanceIndicator": "KeyPerformanceIndicator7",
+            "ServiceLevel": {
+              "Value": 2.40,
+              "Percentage": false,
+              "AdditionalNote": "AdditionalNote4",
+              "Id": 4
+            },
+            "Threshold": {
+              "Value": 1.90,
+              "Percentage": true,
+              "AdditionalNote": "AdditionalNote5",
+              "Id": 5
+            },
+            "TargetHigh": true,
+            "Enabled": true,
+            "Type": 1,
+            "Id": 7
+          },
+          "Score": 1.70,
+          "LowPerformanceReasons": [],
+          "Id": 7
+        }
+      ],
+      "SecurityScores": [
+        {
+          "ScorecardItem": {
+            "KeyPerformanceIndicator": "KeyPerformanceIndicator5",
+            "ServiceLevel": {
+              "Value": 1.30,
+              "Percentage": false,
+              "AdditionalNote": null,
+              "Id": 6
+            },
+            "Threshold": {
+              "Value": 1.20,
+              "Percentage": true,
+              "AdditionalNote": "AdditionalNote1",
+              "Id": 1
+            },
+            "TargetHigh": true,
+            "Enabled": true,
+            "Type": 4,
+            "Id": 5
+          },
+          "Score": 1.40,
+          "LowPerformanceReasons": [],
+          "Id": 5
+        },
+        {
+          "ScorecardItem": {
+            "KeyPerformanceIndicator": "KeyPerformanceIndicator8",
+            "ServiceLevel": {
+              "Value": 1.90,
+              "Percentage": true,
+              "AdditionalNote": "AdditionalNote5",
+              "Id": 5
+            },
+            "Threshold": {
+              "Value": 2.10,
+              "Percentage": false,
+              "AdditionalNote": "AdditionalNote2",
+              "Id": 2
+            },
+            "TargetHigh": false,
+            "Enabled": false,
+            "Type": 2,
+            "Id": 8
+          },
+          "Score": 1.90,
+          "LowPerformanceReasons": [],
+          "Id": 8
+        },
+        {
+          "ScorecardItem": {
+            "KeyPerformanceIndicator": null,
+            "ServiceLevel": {
+              "Value": 1.30,
+              "Percentage": true,
+              "AdditionalNote": null,
+              "Id": 3
+            },
+            "Threshold": {
+              "Value": 2.30,
+              "Percentage": true,
+              "AdditionalNote": null,
+              "Id": 9
+            },
+            "TargetHigh": true,
+            "Enabled": true,
+            "Type": 3,
+            "Id": 9
+          },
+          "Score": 1.30,
+          "LowPerformanceReasons": [],
+          "Id": 9
+        }
+      ],
+      "ConcentrationRiskScores": [
+        {
+          "ScorecardItem": {
+            "KeyPerformanceIndicator": "KeyPerformanceIndicator2",
+            "ServiceLevel": {
+              "Value": 2.10,
+              "Percentage": false,
+              "AdditionalNote": "AdditionalNote2",
+              "Id": 2
+            },
+            "Threshold": {
+              "Value": 1.90,
+              "Percentage": true,
+              "AdditionalNote": "AdditionalNote5",
+              "Id": 5
+            },
+            "TargetHigh": false,
+            "Enabled": false,
+            "Type": 1,
+            "Id": 2
+          },
+          "Score": 1.20,
+          "LowPerformanceReasons": [
+            {
+              "Name": "KST_LowPerformanceReason5",
+              "Id": 5
+            },
+            {
+              "Name": "KST_LowPerformanceReason6",
+              "Id": 6
+            },
+            {
+              "Name": "KST_LowPerformanceReason7",
+              "Id": 7
+            }
+          ],
+          "Id": 2
+        },
+        {
+          "ScorecardItem": {
+            "KeyPerformanceIndicator": null,
+            "ServiceLevel": {
+              "Value": 1.30,
+              "Percentage": true,
+              "AdditionalNote": null,
+              "Id": 3
+            },
+            "Threshold": {
+              "Value": 1.30,
+              "Percentage": true,
+              "AdditionalNote": null,
+              "Id": 3
+            },
+            "TargetHigh": true,
+            "Enabled": true,
+            "Type": 2,
+            "Id": 3
+          },
+          "Score": 1.30,
+          "LowPerformanceReasons": [],
+          "Id": 3
+        },
+        {
+          "ScorecardItem": {
+            "KeyPerformanceIndicator": "KeyPerformanceIndicator4",
+            "ServiceLevel": {
+              "Value": 1.70,
+              "Percentage": true,
+              "AdditionalNote": "AdditionalNote7",
+              "Id": 7
+            },
+            "Threshold": {
+              "Value": 2.40,
+              "Percentage": false,
+              "AdditionalNote": "AdditionalNote4",
+              "Id": 4
+            },
+            "TargetHigh": false,
+            "Enabled": false,
+            "Type": 3,
+            "Id": 4
+          },
+          "Score": 1.40,
+          "LowPerformanceReasons": [
+            {
+              "Name": "KST_LowPerformanceReason8",
+              "Id": 8
+            },
+            {
+              "Name": "KST_LowPerformanceReason9",
+              "Id": 9
+            }
+          ],
+          "Id": 4
+        },
+        {
+          "ScorecardItem": {
+            "KeyPerformanceIndicator": "KeyPerformanceIndicator5",
+            "ServiceLevel": {
+              "Value": 1.30,
+              "Percentage": false,
+              "AdditionalNote": null,
+              "Id": 6
+            },
+            "Threshold": {
+              "Value": 1.20,
+              "Percentage": true,
+              "AdditionalNote": "AdditionalNote1",
+              "Id": 1
+            },
+            "TargetHigh": true,
+            "Enabled": true,
+            "Type": 4,
+            "Id": 5
+          },
+          "Score": 1.40,
+          "LowPerformanceReasons": [],
+          "Id": 5
+        }
+      ],
+      "CompletionType": 1,
+      "CreatedBy": "CreatedBy2",
+      "CreatedTime": "12/09/2016 00:00:00",
+      "LastUpdatedBy": "LastUpdatedBy2",
+      "LastUpdatedTime": "12/08/2016 00:00:00",
+      "Id": 2
+    }
+  ]
+}

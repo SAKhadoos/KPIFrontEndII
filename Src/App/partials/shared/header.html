@@ -1,0 +1,89 @@
+<!-- BEGIN header -->
+<a class="logo fl" href="#/home"><img src="i/logo2.png" alt="" /></a>
+<div class="right-nav top-nav" data-notification-header="">
+    <p>
+        <a class="nfn-link" ng-show="selectedApp[0] === config.COEUS_APP_NAME && user.role==config.ROLES.ADMIN_ROLE_NAME">
+            <span class="count">{{pendingAddOnsCount}}</span>
+        </a>
+        <span>Welcome {{user.firstName}} {{user.lastName}},</span>
+        <a href="javascript:;" ng-click="logout()"><strong>Logout</strong></a>
+    </p>
+    <div class="section-select-app">
+        <label class="label">View App</label>
+        <div class="inputs beautify-select">
+            <select class="multiple ultra-short" multiple="multiple"
+                    ng-model="appSelector.selectedItem"
+                    ng-options="item for item in appSelector.choices"
+                    ng-multi-select
+                    ng-multi-select-single="true"
+                    ng-multi-select-filter="false"
+                    ng-change="switchApp(appSelector.selectedItem[0])"></select>
+        </div>
+    </div>
+
+    <nav ng-if="appSelector.selectedItem[0] === config.KPI_APP_NAME">
+        <a href="#/kpi/home" data-ng-class="{active: currentMenu==config.MENUS.KPI.KPIs}"
+           ng-if="checkPermission('kpi.home')">Key Performance Indicators</a>
+        <a href="javascript:;" data-ng-class="{'active':(vmc.checkMenu('/operationalincident') || vmc.checkMenu('/searchoperationalincident'))}"
+           ng-if="checkPermission('kpi.operationalincident')">Operational Incident</a>
+        <a href="javascript:;" data-ng-class="{'active':(vmc.checkMenu('/privacyincident') || vmc.checkMenu('/searchprivacyincident'))}"
+           ng-if="checkPermission('kpi.privacyincident')">Privacy Incident</a>
+        <a href="javascript:;" data-ng-class="{'active':(vmc.checkMenu('/auditfinding') || vmc.checkMenu('/searchauditfinding'))}"
+           ng-if="checkPermission('kpi.auditfinding')">Audit Finding</a>
+        <a href="javascript:;" data-ng-class="{'active':vmc.checkMenu('/summary')}"
+           ng-if="checkPermission('kpi.summary')">Summary</a>
+        <a href="#/kpi/editFields" data-ng-class="{active: currentMenu==config.MENUS.KPI.EDIT_FIELDS}"
+           ng-if="checkPermission('kpi.editFields')">Edit Fields</a>
+    </nav>
+    <nav ng-if="appSelector.selectedItem[0] === config.COEUS_APP_NAME">
+        <a href="#/home" ng-class="{active: currentMenu==config.MENUS.HOME}" ng-if="checkPermission('home')">Home</a>
+        <a href="#/users" ng-class="{active: currentMenu==config.MENUS.USER}" ng-if="checkPermission('userAccess')"
+           ng-if="user.role==config.ROLES.ADMIN_ROLE_NAME">User Access</a>
+        <a href="#/admin/edit" ng-if="checkPermission('editFields')"
+           ng-class="{active: currentMenu==config.MENUS.EDIT_FIELDS}">Edit Fields</a>
+        <a href="#/addAssessment" ng-if="checkPermission('addAssessment')"
+           ng-class="{active: currentMenu==config.MENUS.ADD_ASSESSMENT}">Add a New Assessment</a>
+
+        <a href="#/assessments/{{config.ASSESSMENT_STATUS.DRAFT}}" ng-if="checkPermission('draftAssessments')"
+           ng-class="{'active': currentMenu==config.MENUS.DRAFT_ASSESSMENT}">Draft Assessment ({{draftCount}})</a>
+
+        <a href="#/assessments/{{config.ASSESSMENT_STATUS.AWAITING}}" ng-if="checkPermission('awaitingAssessments')"
+           ng-class="{active: currentMenu==config.MENUS.AWAITING_ASSESSMENT}">
+            Awaiting Approval
+            ({{awaitingApprovalCount}})
+        </a>
+
+        <a href="#/assessments/{{config.ASSESSMENT_STATUS.APPROVED}}" ng-if="checkPermission('approvedAssessments')"
+           ng-class="{active: currentMenu==config.MENUS.APPROVED_ASSESSMENT}">
+            Approved
+            ({{approvedCount}})
+        </a>
+
+        <a href="#/assessments/{{config.ASSESSMENT_STATUS.REJECTED}}" ng-if="checkPermission('rejectedAssessments')"
+           ng-class="{active: currentMenu==config.MENUS.REJECTED_ASSESSMENT}"
+           ng-if="user.role==config.ROLES.OWNER_ROLE_NAME">Rejected ({{rejectedCount}})</a>
+    </nav>
+    <div ng-if="appSelector.selectedItem[0] === config.COEUS_APP_NAME" class="nofication-panel" ng-show="user.role==config.ROLES.ADMIN_ROLE_NAME && pendingAddOns.length>0">
+        <span class="ar"></span>
+        <ul>
+            <li class="unread" ng-repeat="item in pendingAddOns">
+                <div class="licon">
+                    <div class="nfn-text" ng-show="!item.notificationEditing" ng-bind-html='item|addOnTitlePopover'></div>
+                    <div class="opts" ng-show="!item.notificationEditing">
+                        <a class="lk" ng-click="approvePendingAddOn(item);$event.stopPropagation()">Approve</a>
+                        <a class="lk" ng-click="rejectPendingAddOn(item);$event.stopPropagation()">Reject</a>
+                        <a class="lk" ng-click="startEditingAddOn(item, true);$event.stopPropagation()">Edit</a>
+                    </div>
+                    <div ng-show="item.notificationEditing==true">
+                        <input type="text" class="editor-ctrl" maxlength="200" ng-model="item.name" ng-class="{error: item.name.length<1}" />
+                    </div>
+                    <div class="opts" ng-show="item.notificationEditing==true">
+                        <a class="lk" ng-click="cancelEditingAddOn(item, true);$event.stopPropagation()">Cancel</a>
+                        <a class="lk" ng-click="updatePendingAddOn(item, true);$event.stopPropagation()">Save</a>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </div>
+</div>
+<!-- END header -->

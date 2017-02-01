@@ -1,0 +1,86 @@
+{
+  "TotalRecords": 1,
+  "TotalPages": 1,
+  "Items": [
+    {
+      "IncidentNumber": "I160102",
+      "BusinessUnit": {
+        "Value": "KST_BusinessUnit2",
+        "Enabled": true,
+        "Id": 2
+      },
+      "IncidentTitle": "IncidentTitle12",
+      "IncidentType": {
+        "Value": "PrivacyIncidentTypeValue2",
+        "Enabled": false,
+        "Id": 2
+      },
+      "RootCause": {
+        "Value": "PrivacyIncidentStatusValue2",
+        "Enabled": false,
+        "Id": 2
+      },
+      "RootCauseDetail": "RootCauseDetail2",
+      "NumberOfCustomersImpacted": 7,
+      "MitigationCode": [
+        {
+          "Value": "PrivacyIncidentMitigationCodeValue5",
+          "Enabled": true,
+          "Id": 5
+        },
+        {
+          "Value": "PrivacyIncidentMitigationCodeValue6",
+          "Enabled": false,
+          "Id": 6
+        },
+        {
+          "Value": "PrivacyIncidentMitigationCodeValue7",
+          "Enabled": true,
+          "Id": 7
+        }
+      ],
+      "MitigationDetail": "MitigationDetail22",
+      "IncidentYear": {
+        "Value": "2018",
+        "Enabled": true,
+        "Id": 2
+      },
+      "IncidentMonth": {
+        "Value": "February",
+        "Enabled": false,
+        "Id": 2
+      },
+      "RemediationYear": {
+        "Value": "2018",
+        "Enabled": true,
+        "Id": 2
+      },
+      "RemediationMonth": {
+        "Value": "February",
+        "Enabled": false,
+        "Id": 2
+      },
+      "Status": {
+        "Value": "PrivacyIncidentStatusValue2",
+        "Enabled": false,
+        "Id": 2
+      },
+      "ReportedToORMYear": {
+        "Value": "2018",
+        "Enabled": true,
+        "Id": 2
+      },
+      "ReportedToORMMonth": {
+        "Value": "February",
+        "Enabled": false,
+        "Id": 2
+      },
+      "CompletionType": 0,
+      "CreatedBy": "CreatedBy2",
+      "CreatedTime": "12/10/2016 00:00:00",
+      "LastUpdatedBy": "LastUpdatedBy2",
+      "LastUpdatedTime": "12/09/2016 00:00:00",
+      "Id": 2
+    }
+  ]
+}

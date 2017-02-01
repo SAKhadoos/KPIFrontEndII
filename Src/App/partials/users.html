@@ -1,0 +1,270 @@
+<div class="mask" ng-show="edit.isProcessing" ng-hide="!edit.isProcessing">
+    <div class="text-center">
+        <div class="progress center-block" style="width:200px;">
+            <!-- set to certain width -->
+            <div class="progress-bar progress-bar-striped active" role="progressbar" style="width: 100%; text-align:center">
+                <span>
+                <div class="loading tc row "><img src="i/loading.gif" width="60" alt=""/>
+                </div>
+                  <span>
+                Please wait...
+              </span>
+                </span>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="main-content" class="row margin-top-35">
+    <div class="container">
+        <h1 class="row title dr-title">User Access</h1>
+        <div class="row search-panel">
+            <h2>Search for Users</h2>
+            <div class="row">
+                <div class="left">
+                    <div class="row">
+                        <label>Username</label>
+                        <input type="text" maxlength="200" ng-model="criteria.username" class="normal-input"/>
+                    </div>
+                    <div class="row">
+                        <label>Real Name</label>
+                        <input type="text" maxlength="400" ng-model="criteria.realName" class="normal-input"/>
+                    </div>
+
+                    <div class="row">
+                        <label>Business Unit(s)</label>
+                        <div class="inputs" tool-tips>
+                            <select id="select-business-input" class="multiple search"
+                                    ng-model="criteria.businessUnits"
+                                    ng-options="item as item.name for item in data.businessUnits"
+                                    ng-multi-select
+                                    ng-multi-select-single="false"
+                                    multiple="multiple"
+                                    ng-multi-select-track="data.businessUnits"
+                                    ng-multi-select-filter="false"
+                                    ng-multi-select-placeholder="Select"
+                                    ng-multi-select-keep-open="true"
+                                    ng-multi-select--minimum-count-selected="0"
+                                    ng-multi-select-select-all="false"
+                                    data-close-drop>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <div class="right">
+                    <h3 class="row">Status</h3>
+                    <div class="col-l">
+                        <!--<label>Status</label>-->
+                        <label ng-repeat="status in data.statuses">
+                            <input type="checkbox" data-checklist-model="criteria.statuses"
+                                   data-checklist-value="status.value"> {{status.name}}
+                        </label>
+                    </div>
+                    <div class="col-r margin-top-10">
+                        <h3 class="row">Role</h3>
+                        <label ng-repeat="role in config.ROLE_WITH_NAMES">
+                            <input type="checkbox" data-checklist-model="criteria.roles" data-checklist-value="role.value">
+                            {{role.name}}
+                        </label>
+                        <label ng-repeat="role in config.KPI_ROLE_WITH_NAMES">
+                            <input type="checkbox" data-checklist-model="criteria.roles" data-checklist-value="role.value">
+                            {{role.name}}
+                        </label>
+                    </div>
+                </div>
+            </div>
+            <div class="buttons row">
+                <a class="btn btn-primary fr btn-search" href="javascript:;" ng-click="search(true)">Search</a>
+            </div>
+        </div>
+        <div class="loading tc row " ng-show="isSearching"><img src="i/loading.gif" width="60" alt=""/></div>
+        <div class="row m-t-40 result-container" ng-show="isSearched">
+            <div class="result-head">
+                Results: {{searchResult.totalRecords}} {{searchResult.totalRecords==1?'User':'Users'}} found
+            </div>
+            <table class="table wrap-table">
+                <colgroup>
+                    <col width="160px">
+                    <col width="135px">
+                    <col width="135px">
+                    <col width="130px">
+                    <col width="130px">
+                    <col width="80px">
+                    <col width="100px">
+                </colgroup>
+                <thead>
+                <tr>
+                    <th data-ng-click="sort_by('Username')" class="sortable"
+                        ng-class="{'sort':sortBy === 'Username','sort-asc':sortAscending, 'sort-desc':!sortAscending}">
+                        <strong><span>Username</span></strong></th>
+                    <th data-ng-click="sort_by('FirstName')" class="sortable"
+                        ng-class="{'sort':sortBy === 'FirstName','sort-asc':sortAscending, 'sort-desc':!sortAscending}">
+                        <span>First Name</span></th>
+                    <th data-ng-click="sort_by('LastName')" class="sortable"
+                        ng-class="{'sort':sortBy === 'LastName','sort-asc':sortAscending, 'sort-desc':!sortAscending}">
+                        <span>Last Name</span></th>
+                    <th data-ng-click="sort_by('Role')" class="sortable"
+                        ng-class="{'sort':sortBy === 'Role','sort-asc':sortAscending, 'sort-desc':!sortAscending}">
+                        <span>Role</span></th>
+                    <th data-ng-click="sort_by('KPIRole')" class="sortable"
+                        ng-class="{'sort':sortBy === 'KPIRole','sort-asc':sortAscending, 'sort-desc':!sortAscending}">
+                        <span>KPI Role</span>
+                    </th>
+                    <th data-ng-click="sort_by('IsActive')" class="sortable"
+                        ng-class="{'sort':sortBy === 'IsActive','sort-asc':!sortAscending, 'sort-desc':sortAscending}">
+                        <span>Status</span></th>
+                    <th></th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr dir-paginate='item in searchResult.items| itemsPerPage: pageSize'
+                    current-page="pageNumber" total-items="searchResult.totalRecords">
+                    <td>
+                        <strong>{{item.username}}</strong></td>
+                    <td>{{item.firstName}}</td>
+                    <td>{{item.lastName}}</td>
+                    <td>{{item.role | roleName}}</td>
+                    <td>{{item.kpiRole | roleName}}</td>
+                    <td>{{item.isActive | activeInactive}}</td>
+                    <td class="actions">
+                        <a href="javascript:;" class="btn-edit" ng-click="setEditMode(item)">
+                            Edit
+                        </a>
+                        <a href="javascript:;" ng-hide="user.username==item.username || !item.role"
+                            data-dialog-height="150" ng-click="showDeleteConfirm(item.username);">
+                            Delete
+                        </a>
+                    </td>
+                </tr>
+                <tr ng-if="searchResult.items.length<1">
+                    <td colspan="6" class="tc">No Records Found</td>
+                </tr>
+                </tbody>
+            </table>
+            <dir-pagination-controls template-url="partials/shared/dirPagination.tpl.html" max-size="10"
+                                     on-page-change="pageChanged(newPageNumber)"></dir-pagination-controls>
+        </div>
+    </div>
+</div>
+<div class="hide row" id="modal-edit-user" title="User Edit">
+    <div class="row">
+        <form class="custom-form">
+            <div class="row">
+                <label for="username">Username</label>
+                <input type="text" class="normal-input" id="username" readonly="readonly" required
+                       ng-model="userToEdit.username"/>
+            </div>
+            <div class="row">
+                <label for="firstName">First Name</label>
+                <input type="text" class="normal-input" id="firstName" readonly="readonly" required
+                       ng-model="userToEdit.firstName"/>
+            </div>
+            <div class="row">
+                <label for="lastName">Last Name</label>
+                <input type="text" class="normal-input" id="lastName" readonly="readonly" required
+                       ng-model="userToEdit.lastName"/>
+            </div>
+            <div class="row">
+                <label for="select-role">Role</label>
+                <select id="select-role" class="multiple search" ng-model="userToEdit.role"
+                        ng-options="item as item.name for item in config.ROLE_WITH_NAMES track by item.value"
+                        ng-multi-select
+                        multiple="multiple"
+                        ng-change="userValidation.errors=[]"
+                        ng-multi-select-track="config.ROLE_WITH_NAMES"
+                        ng-multi-select-single="true"
+                        ng-multi-select-filter="false"
+                        ng-multi-select-placeholder="Select">
+                </select>
+            </div>
+            <div class="row">
+                <label for="select-kpi-role">KPI Role</label>
+                <select id="select-kpi-role" class="multiple search" ng-model="userToEdit.kpiRole"
+                        ng-options="item as item.name for item in config.KPI_ROLE_WITH_NAMES track by item.value"
+                        ng-multi-select
+                        multiple="multiple"
+                        ng-change="userValidation.errors=[]"
+                        ng-multi-select-track="config.KPI_ROLE_WITH_NAMES"
+                        ng-multi-select-single="true"
+                        ng-multi-select-filter="false"
+                        ng-multi-select-all-selected="{{config.KPI_ROLE_WITH_NAMES[0].name}}"
+                        ng-multi-select-placeholder="Select"></select>
+            </div>
+            <div class="row">
+                <label for="select-business-input1">Business Unit(s)</label>
+                <select id="select-business-input1" class="multiple search"
+                        ng-model="userToEdit.businessUnits"
+                        ng-options="item as item.name for item in data.businessUnits track by item.id"
+                        ng-multi-select
+                        ng-multi-select-single="false"
+                        multiple="multiple"
+                        ng-change="userValidation.errors=[]"
+                        ng-multi-select-track="data.businessUnits"
+                        ng-multi-select-filter="false"
+                        ng-multi-select-placeholder="Select"
+                        ng-multi-select-keep-open="true"
+                        ng-multi-select--minimum-count-selected="0"
+                        ng-multi-select-select-all="false"
+                        data-close-drop>
+                </select>
+            </div>
+            <div class="row">
+                <label>Status</label>
+                <div>
+                    <label class="margin-left-0">
+                        <input type="radio" ng-model="userToEdit.isActive"
+                               ng-value="true">
+                        <span>Active</span>
+                    </label>
+
+                    <label>
+                        <input type="radio" ng-model="userToEdit.isActive"
+                               ng-value="false">
+                        <span>Inactive</span>
+                    </label>
+                </div>
+            </div>
+        </form>
+
+        <div class="row" ng-show="userValidation.errors.length>0">
+            <div class="validation-error">
+                <label ng-repeat="err in userValidation.errors">&nbsp;&nbsp;{{err}}</label><br/>
+            </div>
+        </div>
+        <center class="pad-t-25 row buttons">
+            <a href="javascript:;" class="btn btn-primary" ng-click="update()">Save</a> &nbsp;&nbsp;&nbsp;
+            <a href="javascript:;" close-dialog data-target-id="#modal-edit-user" class="btn btn-primary"
+               ng-click="resetForm();">Cancel</a>
+        </center>
+    </div>
+</div>
+<div class="hide row" id="modal-delete-user" title="User Delete">
+    <div>
+        <form class="custom-form">
+            <div class="row">
+                <p class="tc">Are you sure you want to delete?</p>
+            </div>
+        </form>
+        <center class="pad-t-25 buttons">
+            <a href="javascript:;" class="btn btn-primary" close-dialog data-target-id="#modal-delete-user"
+               ng-click="delete()">Delete</a> &nbsp;&nbsp;&nbsp;
+            <a href="javascript:;" close-dialog data-target-id="#modal-delete-user" class="btn btn-primary"
+               ng-click="deleting.username=null">Cancel</a>
+        </center>
+    </div>
+</div>
+<div class="hide row" id="user-delete-no-exists" title="User Delete">
+    <div>
+        <form class="custom-form">
+            <div class="row">
+                <p class="tc"> The user "{{userToEdit.username}}" does not exists in active directory.
+                    Would you like to delete user information from application?</p>
+            </div>
+        </form>
+        <center class="pad-t-25 buttons">
+            <a href="javascript:;" class="btn btn-primary" close-dialog data-target-id="#user-delete-no-exists"
+               ng-click="deleting.username=userToEdit.username;delete()">Delete</a> &nbsp;&nbsp;&nbsp;
+            <a href="javascript:;" close-dialog data-target-id="#user-delete-no-exists" class="btn btn-primary"
+               ng-click="userToEdit={};search();deleting.username=null;">Cancel</a>
+        </center>
+    </div>
+</div>

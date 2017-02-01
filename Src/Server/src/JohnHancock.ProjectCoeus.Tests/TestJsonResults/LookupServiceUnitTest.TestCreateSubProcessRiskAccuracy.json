@@ -1,0 +1,28 @@
+{
+  "CoreProcess": {
+    "SubProcessRisks": [],
+    "Category": null,
+    "ControlTypes": null,
+    "BusinessUnitId": null,
+    "FunctionalAreaId": 1,
+    "Name": "Policies and procedures",
+    "DisplayOrder": 1,
+    "Enabled": true,
+    "AddOnStatus": 1,
+    "CreatedBy": "CoeusAdminUser",
+    "CreatedTime": "12/12/9999 00:00:00",
+    "LastUpdatedBy": "CoeusAdminUser",
+    "LastUpdatedTime": "12/12/9999 00:00:00",
+    "Id": 0
+  },
+  "Risk": "Risk_1",
+  "Name": "Name_1",
+  "DisplayOrder": 14,
+  "Enabled": true,
+  "AddOnStatus": 0,
+  "CreatedBy": "CreatedBy_1",
+  "CreatedTime": "09/09/2008 00:00:00",
+  "LastUpdatedBy": "LastUpdatedBy_1",
+  "LastUpdatedTime": "11/11/2010 00:00:00",
+  "Id": 0
+}

@@ -1,0 +1,430 @@
+<div data-page-script="">
+    <!-- BEGIN #main-content -->
+    <div id="main-content" class="row row-container form-container margin-top-35">
+        <!-- BEGIN .title-area -->
+        <div class="row title-area">
+            <div class="title-date">
+                <span class="txt">Days left for data input:</span>
+                <span class="number-txt">{{getInputDaysLeft()}}</span>
+            </div>
+            <h1 class="title normal-title">Key Performance Indicators</h1>
+        </div>
+        <!-- END .title-area -->
+        <!-- BEGIN .search-panel -->
+        <div class="row search-panel data-selection-panel">
+            <!-- BEGIN .head-title -->
+            <div class="head-title">
+                <h2>Data Selection</h2>
+                <a href="javascript:;" class="link-blue"
+                   data-ng-class="{ 'hide-filter': showFilter, 'show-filter': !showFilter }"
+                   data-ng-click="showFilter = !showFilter">{{showFilter ? 'Hide' : 'Show'}}</a>
+            </div>
+            <!-- END .head-title -->
+            <!-- BEGIN .data-selection-content -->
+            <div class="data-selection-content" ng-show="showFilter">
+                <div class="row">
+                    <div class="left">
+                        <div class="row">
+                            <label class="title-label">Business Unit:</label>
+                            <div class="inputs" tool-tips>
+                                <select class="multiple ultra-short" multiple="multiple"
+                                        ng-model="filter.businessUnits"
+                                        ng-options="item as item.value for item in config.businessUnits | enabledOnly"
+                                        ng-multi-select
+                                        ng-multi-select-single="true"
+                                        ng-multi-select-filter="false"
+                                        ng-multi-select-track="config.businessUnits"
+                                        ng-multi-select-placeholder="Select"
+                                        data-ng-change="updateEditMode()">
+                                </select>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <label class="title-label">Status:</label>
+                            <div class="inputs" tool-tips>
+                                <select class="multiple ultra-short" multiple="multiple"
+                                        ng-model="filter.statuses"
+                                        ng-options="item as item.value for item in config.statusConfig | enabledOnly"
+                                        ng-multi-select
+                                        ng-multi-select-single="true"
+                                        ng-multi-select-filter="false"
+                                        ng-multi-select-track="config.statusConfig"
+                                        ng-multi-select-placeholder="Select">
+                                </select>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <label class="title-label">Due Date:</label>
+                            <div class="inputs">
+                                <div class="date-wrapper">
+                                    <input type="text" class="date-input" date-picker ng-model="filter.dueDate"
+                                           placeholder="Select" readonly/>
+                                    <i class="date-icon" datepicker-input></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="left">
+                        <div class="row">
+                            <label class="title-label">Reporting Year:</label>
+                            <div class="inputs" tool-tips>
+                                <select class="multiple ultra-short" multiple="multiple"
+                                        ng-model="filter.years"
+                                        ng-options="item as item.value for item in config.yearConfig | enabledOnly"
+                                        ng-multi-select
+                                        ng-multi-select-single="true"
+                                        ng-multi-select-filter="false"
+                                        ng-multi-select-track="config.yearConfig"
+                                        ng-multi-select-placeholder="Select"
+                                        data-ng-change="updateEditMode();savePreferences()">
+                                </select>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <label class="title-label">Reporting Month:</label>
+                            <div class="inputs" tool-tips>
+                                <select class="multiple ultra-short" multiple="multiple"
+                                        ng-model="filter.months"
+                                        ng-options="item as item.value for item in config.monthConfig | enabledOnly"
+                                        ng-multi-select
+                                        ng-multi-select-single="true"
+                                        ng-multi-select-filter="false"
+                                        ng-multi-select-track="config.monthConfig"
+                                        ng-multi-select-placeholder="Select"
+                                        data-ng-change="updateEditMode();savePreferences()">
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="buttons row">
+                    <a class="btn btn-primary fr" data-ng-class="{disabled: !config}" href="javascript:;" data-ng-click="search()">Apply</a>
+                    <a href="javascript:;" class="btn-reset fr" data-ng-click="filter={}">Reset</a>
+                </div>
+            </div>
+            <!-- END .head-title -->
+        </div>
+        <!-- END .search-panel -->
+        <!-- BEGIN .data-content -->
+        <div class="data-content" data-ng-class="{'previous-month': vm.previousMonth}">
+            <div class="row sub-head">
+                <a data-ng-if="isAdmin()" href="#/kpi/editFields?section=businessUnit" class="btn-icon-edit">
+                    <span class="txt">Edit</span>
+                </a>
+                <h2>KPI Scorecard</h2>
+            </div>
+            <!-- BEGIN .expand-container -->
+            <div class="row expand-container blue-plus-title">
+                <div class="expand-head blue-plus-head row" data-ng-class="{closed: operationalPerformanceClosed}"
+                     data-ng-click="operationalPerformanceClosed = !operationalPerformanceClosed">
+                    <i></i>Operational Performance
+                </div>
+                <div class="row expand-body blue-plus-body" data-ng-show="!operationalPerformanceClosed">
+                    <table class="table normal-table inner-table">
+                        <colgroup>
+                            <col class="col19">
+                            <col class="col16">
+                            <col class="col17">
+                            <col class="col16">
+                            <col class="col16">
+                            <col class="col16">
+                        </colgroup>
+                        <thead>
+                            <tr>
+                                <th><span>Key Performance Indicators</span></th>
+                                <th><span>Service Levels</span><span class="block">(Target)</span></th>
+                                <th><span>Threshold</span><span class="block">(Minimum)</span></th>
+                                <th><span>Score</span></th>
+                                <th><span>Volume</span></th>
+                                <th><span>Volume Type</span></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr data-ng-repeat="item in config.operationPerformanceConfig">
+                                <td><span class="spacing">{{item.keyPerformanceIndicator}}</span></td>
+                                <td><span class="spacing">{{item.serviceLevel | decimalOrPercent}} {{item.serviceLevel.additionalNote}}</span></td>
+                                <td><span class="spacing">{{item.threshold | decimalOrPercent}} {{item.threshold.additionalNote}}</span></td>
+                                <td class="p-r-5 p-l-10" data-ng-class="{'select-td':isBadScore(item),'inputs-dark-blue':isNormalScore(item),'inputs-green':isGoodScore(item)}">
+                                    <div data-ng-show="editMode" class="beautify-input float-left">
+                                        <input type="text" class="inputs inputs-red" data-ng-model="item.score" priceFormat="number" placeholder="Enter"
+                                               ng-class="{'input-error': !item.score}" only-decimals maxlength="20">
+                                        <span class="percent"><span class="spacing symbol-txt">{{item.threshold.percentage ? '%' : ' '}}</span></span>
+                                    </div>
+                                    <div data-ng-show="editMode && isBadScore(item)" class="inputs low-performance-reason float-left" tool-tips>
+                                        <select class="multiple table-select ultra-short"
+                                                ng-model="item.lowPerformanceReasons"
+                                                ng-options="entity as entity.name for entity in lowPerformanceReasons"
+                                                ng-multi-select ng-multi-select-single="false" multiple="multiple"
+                                                ng-multi-select-track="lowPerformanceReasons"
+                                                ng-multi-select-filter="false" ng-multi-select-placeholder="Select"
+                                                ng-multi-select-keep-open="true"
+                                                ng-multi-select--minimum-count-selected="0" ng-multi-select-select-all="false"
+                                                data-close-drop></select>
+                                    </div>
+                                    <div data-ng-class="{'score-red':isBadScore(item),'score-green':isGoodScore(item)}"
+                                         data-ng-show="!editMode">{{item.score}}{{item.threshold.percentage ? '%' : ''}}</div>
+                                </td>
+                                <td>
+                                    <div data-ng-show="editMode" class="beautify-input">
+                                        <input type="text" class="inputs" data-ng-model="item.volume" priceFormat="number" placeholder="Enter"
+                                               ng-class="{'input-error': !item.volume}" only-decimals maxlength="20">
+                                    </div>
+                                    <div data-ng-show="!editMode" class="txt-black">{{item.volume}}</div>
+                                </td>
+                                <td>
+                                    <div data-ng-show="editMode" class="volume-type inputs" tool-tips
+                                         ng-class="{'select-input-error': !item.volumeTypes}">
+                                        <select class="multiple table-select ultra-short" multiple="multiple"
+                                                ng-model="item.volumeTypes"
+                                                ng-options="entity as entity.value for entity in config.volumeTypeConfig"
+                                                ng-multi-select
+                                                ng-multi-select-single="true"
+                                                ng-multi-select-filter="false"
+                                                ng-multi-select-track="config.volumeTypeConfig"
+                                                ng-multi-select-placeholder="Select">
+                                        </select>
+                                    </div>
+                                    <div data-ng-show="!editMode" class="txt-black">{{item.volumeTypes[0].value}}</div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <!-- END .expand-container -->
+            <!-- BEGIN .expand-container -->
+            <div class="row expand-container">
+                <div class="expand-head row blue-plus-head" data-ng-class="{closed: financialIndicatorsClosed}"
+                     data-ng-click="financialIndicatorsClosed = !financialIndicatorsClosed">
+                    <i></i>Financial Indicators
+                </div>
+                <div class="row expand-body blue-plus-body" data-ng-show="!financialIndicatorsClosed">
+                    <table class="table normal-table inner-table">
+                        <colgroup>
+                            <col class="col19">
+                            <col class="col16">
+                            <col class="col17">
+                            <col class="col48">
+                        </colgroup>
+                        <thead>
+                            <tr>
+                                <th><span>Key Performance Indicators</span></th>
+                                <th><span>Service Levels</span><span class="block">(Target)</span></th>
+                                <th><span>Threshold</span><span class="block">(Minimum)</span></th>
+                                <th><span>Score</span></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr data-ng-repeat="item in config.financialIndicatorsConfig">
+                                <td><span class="spacing">{{item.keyPerformanceIndicator}}</span></td>
+                                <td><span class="spacing">{{item.serviceLevel | decimalOrPercent}}</span></td>
+                                <td><span class="spacing">{{item.threshold | decimalOrPercent}}</span></td>
+                                <td class="p-r-5 p-l-10" data-ng-class="{'select-td':isBadScore(item),'inputs-dark-blue':isNormalScore(item),'inputs-green':isGoodScore(item)}">
+                                    <div data-ng-show="editMode" class="beautify-input float-left">
+                                        <input type="text" class="inputs inputs-red" data-ng-model="item.score" priceFormat="number" placeholder="Enter"
+                                               ng-class="{'input-error': !item.score}" only-decimals maxlength="20">
+                                        <span class="percent"><span class="spacing symbol-txt">{{item.threshold.percentage ? '%' : ' '}}</span></span>
+                                    </div>
+                                    <div data-ng-show="editMode && isBadScore(item)" class="inputs low-performance-reason float-left" tool-tips>
+                                        <select class="multiple table-select ultra-short"
+                                                ng-model="item.lowPerformanceReasons"
+                                                ng-options="entity as entity.name for entity in lowPerformanceReasons"
+                                                ng-multi-select ng-multi-select-single="false" multiple="multiple"
+                                                ng-multi-select-track="lowPerformanceReasons"
+                                                ng-multi-select-filter="false" ng-multi-select-placeholder="Select"
+                                                ng-multi-select-keep-open="true"
+                                                ng-multi-select--minimum-count-selected="0" ng-multi-select-select-all="false"
+                                                data-close-drop></select>
+                                    </div>
+                                    <div data-ng-class="{'score-red':isBadScore(item),'score-green':isGoodScore(item)}"
+                                         data-ng-show="!editMode">{{item.score}}{{item.threshold.percentage ? '%' : ''}}</div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <!-- END .expand-container -->
+            <!-- BEGIN .expand-container -->
+            <div class="row expand-container">
+                <div class="expand-head row blue-plus-head" data-ng-class="{closed: businessContinuityPlanningClosed}"
+                     data-ng-click="businessContinuityPlanningClosed = !businessContinuityPlanningClosed">
+                    <i></i>Business Continuity Planning
+                </div>
+                <div class="row expand-body blue-plus-body" data-ng-show="!businessContinuityPlanningClosed">
+                    <table class="table normal-table inner-table">
+                        <colgroup>
+                            <col class="col19">
+                            <col class="col16">
+                            <col class="col17">
+                            <col class="col48">
+                        </colgroup>
+                        <thead>
+                            <tr>
+                                <th><span>Key Performance Indicators</span></th>
+                                <th><span>Service Levels</span><span class="block">(Target)</span></th>
+                                <th><span>Threshold</span><span class="block">(Minimum)</span></th>
+                                <th><span>Score</span></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr data-ng-repeat="item in config.businessContinuityPlanningConfig">
+                                <td><span class="spacing">{{item.keyPerformanceIndicator}}</span></td>
+                                <td><span class="spacing">{{item.serviceLevel | decimalOrPercent}}</span></td>
+                                <td><span class="spacing">{{item.threshold | decimalOrPercent}}</span></td>
+                                <td class="p-r-5 p-l-10" data-ng-class="{'select-td':isBadScore(item),'inputs-dark-blue':isNormalScore(item),'inputs-green':isGoodScore(item)}">
+                                    <div data-ng-show="editMode" class="beautify-input float-left">
+                                        <input type="text" class="inputs inputs-red" data-ng-model="item.score" priceFormat="number" placeholder="Enter"
+                                               ng-class="{'input-error': !item.score}" only-decimals maxlength="20">
+                                        <span class="percent"><span class="spacing symbol-txt">{{item.threshold.percentage ? '%' : ' '}}</span></span>
+                                    </div>
+                                    <div data-ng-show="editMode && isBadScore(item)" class="inputs low-performance-reason float-left" tool-tips>
+                                        <select class="multiple table-select ultra-short"
+                                                ng-model="item.lowPerformanceReasons"
+                                                ng-options="entity as entity.name for entity in lowPerformanceReasons"
+                                                ng-multi-select ng-multi-select-single="false" multiple="multiple"
+                                                ng-multi-select-track="lowPerformanceReasons"
+                                                ng-multi-select-filter="false" ng-multi-select-placeholder="Select"
+                                                ng-multi-select-keep-open="true"
+                                                ng-multi-select--minimum-count-selected="0" ng-multi-select-select-all="false"
+                                                data-close-drop></select>
+                                    </div>
+                                    <div data-ng-class="{'score-red':isBadScore(item),'score-green':isGoodScore(item)}"
+                                         data-ng-show="!editMode">{{item.score}}{{item.threshold.percentage ? '%' : ''}}</div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <!-- END .expand-container -->
+            <!-- BEGIN .expand-container -->
+            <div class="row expand-container">
+                <div class="expand-head row blue-plus-head" data-ng-class="{closed: securityClosed}"
+                     data-ng-click="securityClosed = !securityClosed">
+                    <i></i>Security
+                </div>
+                <div class="row expand-body blue-plus-body" data-ng-show="!securityClosed">
+                    <table class="table normal-table inner-table">
+                        <colgroup>
+                            <col class="col19">
+                            <col class="col16">
+                            <col class="col17">
+                            <col class="col48">
+                        </colgroup>
+                        <thead>
+                            <tr>
+                                <th><span>Key Performance Indicators</span></th>
+                                <th><span>Service Levels</span><span class="block">(Target)</span></th>
+                                <th><span>Service Levels</span><span class="block">(Minimum)</span></th>
+                                <th><span>Score</span></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr data-ng-repeat="item in config.securityConfig">
+                                <td><span class="spacing">{{item.keyPerformanceIndicator}}</span></td>
+                                <td><span class="spacing">{{item.serviceLevel | decimalOrPercent}}</span></td>
+                                <td><span class="spacing">{{item.threshold | decimalOrPercent}}</span></td>
+                                <td class="p-r-5 p-l-10" data-ng-class="{'select-td':isBadScore(item),'inputs-dark-blue':isNormalScore(item),'inputs-green':isGoodScore(item)}">
+                                    <div data-ng-show="editMode" class="beautify-input float-left">
+                                        <input type="text" class="inputs inputs-red" data-ng-model="item.score" priceFormat="number" placeholder="Enter"
+                                               ng-class="{'input-error': !item.score}" only-decimals maxlength="20">
+                                        <span class="percent"><span class="spacing symbol-txt">{{item.threshold.percentage ? '%' : ' '}}</span></span>
+                                    </div>
+                                    <div data-ng-show="editMode && isBadScore(item)" class="inputs low-performance-reason float-left" tool-tips>
+                                        <select class="multiple table-select ultra-short"
+                                                ng-model="item.lowPerformanceReasons"
+                                                ng-options="entity as entity.name for entity in lowPerformanceReasons"
+                                                ng-multi-select ng-multi-select-single="false" multiple="multiple"
+                                                ng-multi-select-track="lowPerformanceReasons"
+                                                ng-multi-select-filter="false" ng-multi-select-placeholder="Select"
+                                                ng-multi-select-keep-open="true"
+                                                ng-multi-select--minimum-count-selected="0" ng-multi-select-select-all="false"
+                                                data-close-drop></select>
+                                    </div>
+                                    <div data-ng-class="{'score-red':isBadScore(item),'score-green':isGoodScore(item)}"
+                                         data-ng-show="!editMode">{{item.score}}{{item.threshold.percentage ? '%' : ''}}</div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <!-- END .expand-container -->
+            <!-- BEGIN .expand-container -->
+            <div class="row expand-container">
+                <div class="expand-head row blue-plus-head" data-ng-class="{closed: concentrationRiskClosed}"
+                     data-ng-click="concentrationRiskClosed = !concentrationRiskClosed">
+                    <i></i>Concentration Risk
+                </div>
+                <div class="row expand-body blue-plus-body" data-ng-show="!concentrationRiskClosed">
+                    <table class="table normal-table inner-table">
+                        <colgroup>
+                            <col class="col19">
+                            <col class="col16">
+                            <col class="col17">
+                            <col class="col48">
+                        </colgroup>
+                        <thead>
+                            <tr>
+                                <th><span>Key Performance Indicators</span></th>
+                                <th><span>Service Levels</span><span class="block">(Target)</span></th>
+                                <th><span>Threshold</span><span class="block">(Minimum)</span></th>
+                                <th><span>Score</span></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr data-ng-repeat="item in config.concentrationRiskConfig">
+                                <td><span class="spacing">{{item.keyPerformanceIndicator}}</span></td>
+                                <td><span class="spacing">{{item.serviceLevel | decimalOrPercent}}</span></td>
+                                <td><span class="spacing">{{item.threshold | decimalOrPercent}}</span></td>
+                                <td class="p-r-5 p-l-10" data-ng-class="{'select-td':isBadScore(item),'inputs-dark-blue':isNormalScore(item),'inputs-green':isGoodScore(item)}">
+                                    <div data-ng-show="editMode" class="beautify-input float-left">
+                                        <input type="text" class="inputs inputs-red" data-ng-model="item.score" priceFormat="number" placeholder="Enter"
+                                               ng-class="{'input-error': !item.score}" only-decimals maxlength="20">
+                                        <span class="percent"><span class="spacing symbol-txt">{{item.threshold.percentage ? '%' : ' '}}</span></span>
+                                    </div>
+                                    <div data-ng-show="editMode && isBadScore(item)" class="inputs low-performance-reason float-left" tool-tips>
+                                        <select class="multiple table-select ultra-short"
+                                                ng-model="item.lowPerformanceReasons"
+                                                ng-options="entity as entity.name for entity in lowPerformanceReasons"
+                                                ng-multi-select ng-multi-select-single="false" multiple="multiple"
+                                                ng-multi-select-track="lowPerformanceReasons"
+                                                ng-multi-select-filter="false" ng-multi-select-placeholder="Select"
+                                                ng-multi-select-keep-open="true"
+                                                ng-multi-select--minimum-count-selected="0" ng-multi-select-select-all="false"
+                                                data-close-drop></select>
+                                    </div>
+                                    <div data-ng-class="{'score-red':isBadScore(item),'score-green':isGoodScore(item)}"
+                                         data-ng-show="!editMode">{{item.score}}{{item.threshold.percentage ? '%' : ''}}</div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <!-- END .expand-container -->
+        </div>
+        <!-- END .data-content -->
+    </div>
+    <!-- END #main-content -->
+    <div class="section-footer row m-t-24">
+        <div class="right">
+            <a href="javascript:;" data-ng-show="editMode" data-ng-click="submit('Completed')" class="btn btn-primary">Submit</a>
+            <a href="javascript:;" data-ng-show="editMode && (existing.isDraft || isNewScorecard())" data-ng-click="submit('Draft')">Save as Draft</a>
+        </div>
+    </div>
+
+    <div class="clearfix"></div>
+</div>
+
+<!--Popups-->
+<div class="dark-overlay" data-ng-show="showMessage" data-ng-click="showMessage=false;"></div>
+<div class="overlay-dialog-popup" data-ng-show="showMessage">
+    <div class="popup-content">
+        <p class="gray-txt">{{messageText}}</p>
+        <div class="btn-box">
+            <a href="javascript:;" class="btn btn-primary btn-gray" data-ng-click="showMessage=false;">Close</a>
+        </div>
+    </div>
+</div>

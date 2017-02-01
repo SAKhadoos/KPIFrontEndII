@@ -1,0 +1,190 @@
+{
+  "RootCauseConfig": [
+    {
+      "Value": "PrivacyIncidentStatusValue1",
+      "Enabled": true,
+      "Id": 1
+    },
+    {
+      "Value": "PrivacyIncidentStatusValue2",
+      "Enabled": false,
+      "Id": 2
+    },
+    {
+      "Value": "PrivacyIncidentStatusValue3",
+      "Enabled": true,
+      "Id": 3
+    },
+    {
+      "Value": "PrivacyIncidentStatusValue4",
+      "Enabled": false,
+      "Id": 4
+    },
+    {
+      "Value": "PrivacyIncidentStatusValue5",
+      "Enabled": true,
+      "Id": 5
+    },
+    {
+      "Value": "PrivacyIncidentStatusValue6",
+      "Enabled": false,
+      "Id": 6
+    },
+    {
+      "Value": "PrivacyIncidentStatusValue7",
+      "Enabled": true,
+      "Id": 7
+    },
+    {
+      "Value": "PrivacyIncidentStatusValue8",
+      "Enabled": false,
+      "Id": 8
+    },
+    {
+      "Value": "PrivacyIncidentStatusValue9",
+      "Enabled": true,
+      "Id": 9
+    }
+  ],
+  "TypeConfig": [
+    {
+      "Value": "PrivacyIncidentTypeValue1",
+      "Enabled": true,
+      "Id": 1
+    },
+    {
+      "Value": "PrivacyIncidentTypeValue2",
+      "Enabled": false,
+      "Id": 2
+    },
+    {
+      "Value": "PrivacyIncidentTypeValue3",
+      "Enabled": true,
+      "Id": 3
+    },
+    {
+      "Value": "PrivacyIncidentTypeValue4",
+      "Enabled": false,
+      "Id": 4
+    },
+    {
+      "Value": "PrivacyIncidentTypeValue5",
+      "Enabled": true,
+      "Id": 5
+    },
+    {
+      "Value": "PrivacyIncidentTypeValue6",
+      "Enabled": false,
+      "Id": 6
+    },
+    {
+      "Value": "PrivacyIncidentTypeValue7",
+      "Enabled": true,
+      "Id": 7
+    },
+    {
+      "Value": "PrivacyIncidentTypeValue8",
+      "Enabled": false,
+      "Id": 8
+    },
+    {
+      "Value": "PrivacyIncidentTypeValue9",
+      "Enabled": true,
+      "Id": 9
+    }
+  ],
+  "MigrationCodeConfig": [
+    {
+      "Value": "PrivacyIncidentMitigationCodeValue1",
+      "Enabled": true,
+      "Id": 1
+    },
+    {
+      "Value": "PrivacyIncidentMitigationCodeValue2",
+      "Enabled": false,
+      "Id": 2
+    },
+    {
+      "Value": "PrivacyIncidentMitigationCodeValue3",
+      "Enabled": true,
+      "Id": 3
+    },
+    {
+      "Value": "PrivacyIncidentMitigationCodeValue4",
+      "Enabled": false,
+      "Id": 4
+    },
+    {
+      "Value": "PrivacyIncidentMitigationCodeValue5",
+      "Enabled": true,
+      "Id": 5
+    },
+    {
+      "Value": "PrivacyIncidentMitigationCodeValue6",
+      "Enabled": false,
+      "Id": 6
+    },
+    {
+      "Value": "PrivacyIncidentMitigationCodeValue7",
+      "Enabled": true,
+      "Id": 7
+    },
+    {
+      "Value": "PrivacyIncidentMitigationCodeValue8",
+      "Enabled": false,
+      "Id": 8
+    },
+    {
+      "Value": "PrivacyIncidentMitigationCodeValue9",
+      "Enabled": true,
+      "Id": 9
+    }
+  ],
+  "StatusConfig": [
+    {
+      "Value": "PrivacyIncidentStatusValue1",
+      "Enabled": true,
+      "Id": 1
+    },
+    {
+      "Value": "PrivacyIncidentStatusValue2",
+      "Enabled": false,
+      "Id": 2
+    },
+    {
+      "Value": "PrivacyIncidentStatusValue3",
+      "Enabled": true,
+      "Id": 3
+    },
+    {
+      "Value": "PrivacyIncidentStatusValue4",
+      "Enabled": false,
+      "Id": 4
+    },
+    {
+      "Value": "PrivacyIncidentStatusValue5",
+      "Enabled": true,
+      "Id": 5
+    },
+    {
+      "Value": "PrivacyIncidentStatusValue6",
+      "Enabled": false,
+      "Id": 6
+    },
+    {
+      "Value": "PrivacyIncidentStatusValue7",
+      "Enabled": true,
+      "Id": 7
+    },
+    {
+      "Value": "PrivacyIncidentStatusValue8",
+      "Enabled": false,
+      "Id": 8
+    },
+    {
+      "Value": "PrivacyIncidentStatusValue9",
+      "Enabled": true,
+      "Id": 9
+    }
+  ]
+}

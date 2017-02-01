@@ -1,0 +1,70 @@
+{
+  "Username": "CoeusOwnerUser1",
+  "FirstName": "CoeusOwner",
+  "LastName": "User1",
+  "Role": 0,
+  "KPIRole": null,
+  "IsActive": true,
+  "BusinessUnits": [
+    {
+      "Category": null,
+      "Name": "Annuities",
+      "DisplayOrder": 1,
+      "Enabled": true,
+      "AddOnStatus": 1,
+      "CreatedBy": "CoeusAdminUser",
+      "CreatedTime": "12/12/9999 00:00:00",
+      "LastUpdatedBy": "CoeusAdminUser",
+      "LastUpdatedTime": "12/12/9999 00:00:00",
+      "Id": 1
+    },
+    {
+      "Category": null,
+      "Name": "Insurance",
+      "DisplayOrder": 2,
+      "Enabled": true,
+      "AddOnStatus": 1,
+      "CreatedBy": "CoeusAdminUser",
+      "CreatedTime": "12/12/9999 00:00:00",
+      "LastUpdatedBy": "CoeusAdminUser",
+      "LastUpdatedTime": "12/12/9999 00:00:00",
+      "Id": 2
+    },
+    {
+      "Category": null,
+      "Name": "Investments/JHSS",
+      "DisplayOrder": 3,
+      "Enabled": true,
+      "AddOnStatus": 1,
+      "CreatedBy": "CoeusAdminUser",
+      "CreatedTime": "12/12/9999 00:00:00",
+      "LastUpdatedBy": "CoeusAdminUser",
+      "LastUpdatedTime": "12/12/9999 00:00:00",
+      "Id": 3
+    },
+    {
+      "Category": null,
+      "Name": "RPS",
+      "DisplayOrder": 4,
+      "Enabled": true,
+      "AddOnStatus": 1,
+      "CreatedBy": "CoeusAdminUser",
+      "CreatedTime": "12/12/9999 00:00:00",
+      "LastUpdatedBy": "CoeusAdminUser",
+      "LastUpdatedTime": "12/12/9999 00:00:00",
+      "Id": 4
+    },
+    {
+      "Category": null,
+      "Name": "Shared Services",
+      "DisplayOrder": 5,
+      "Enabled": true,
+      "AddOnStatus": 1,
+      "CreatedBy": "CoeusAdminUser",
+      "CreatedTime": "12/12/9999 00:00:00",
+      "LastUpdatedBy": "CoeusAdminUser",
+      "LastUpdatedTime": "12/12/9999 00:00:00",
+      "Id": 5
+    }
+  ]
+}

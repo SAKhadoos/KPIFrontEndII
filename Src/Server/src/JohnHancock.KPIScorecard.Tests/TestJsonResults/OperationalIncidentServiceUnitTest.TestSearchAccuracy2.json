@@ -1,0 +1,95 @@
+{
+  "TotalRecords": 1,
+  "TotalPages": 1,
+  "Items": [
+    {
+      "IncidentNumber": "O160121",
+      "BusinessUnit": {
+        "Value": "KST_BusinessUnit2",
+        "Enabled": true,
+        "Id": 2
+      },
+      "OperationalFinding": "OperationalFinding12",
+      "RootCause": {
+        "Value": "OperationalIncidentRootCauseValue2",
+        "Enabled": false,
+        "Id": 2
+      },
+      "RootCauseDetail": "RootCauseDetail2",
+      "FinancialExposure": {
+        "Amount": 1.20,
+        "Type": 2,
+        "Id": 2
+      },
+      "Source": {
+        "Value": "OperationalIncidentSourceValue2",
+        "Enabled": false,
+        "Id": 2
+      },
+      "Impact": [
+        {
+          "Value": "OperationalIncidentImpactValue5",
+          "Enabled": true,
+          "Id": 5
+        },
+        {
+          "Value": "OperationalIncidentImpactValue6",
+          "Enabled": false,
+          "Id": 6
+        },
+        {
+          "Value": "OperationalIncidentImpactValue7",
+          "Enabled": true,
+          "Id": 7
+        }
+      ],
+      "MitigationStrategy": "MitigationStrategy2",
+      "IncidentYear": {
+        "Value": "2018",
+        "Enabled": true,
+        "Id": 2
+      },
+      "IncidentMonth": {
+        "Value": "February",
+        "Enabled": false,
+        "Id": 2
+      },
+      "RemediationYear": {
+        "Value": "2018",
+        "Enabled": true,
+        "Id": 2
+      },
+      "RemediationMonth": {
+        "Value": "February",
+        "Enabled": false,
+        "Id": 2
+      },
+      "Status": {
+        "Value": "OperationalIncidentStatusValue2",
+        "Enabled": false,
+        "Id": 2
+      },
+      "ReportedToGORM": {
+        "Value": "OperationalIncidentReportedToGORMValue2",
+        "Enabled": false,
+        "Id": 2
+      },
+      "ReportedToORMYear": {
+        "Value": "2018",
+        "Enabled": true,
+        "Id": 2
+      },
+      "ReportedToORMMonth": {
+        "Value": "February",
+        "Enabled": false,
+        "Id": 2
+      },
+      "CompletionType": 1,
+      "CreatedBy": "CreatedBy2",
+      "CreatedTime": "12/10/2016 00:00:00",
+      "LastUpdatedBy": "LastUpdatedBy2",
+      "LastUpdatedTime": "12/09/2016 00:00:00",
+      "Id": 2
+    }
+  ]
+}

@@ -1,0 +1,220 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{5A045F51-8977-4523-BA61-6DE12A0195B2}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>JohnHancock.ProjectCoeus.Tests</RootNamespace>
+    <AssemblyName>JohnHancock.ProjectCoeus.Tests</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <IsCodedUITest>False</IsCodedUITest>
+    <TestProjectType>UnitTest</TestProjectType>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>bin\Debug\JohnHancock.ProjectCoeus.Tests.xml</DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\lib\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer">
+      <HintPath>..\..\lib\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="log4net, Version=1.2.13.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\lib\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Microsoft.Practices.Unity, Version=1.2.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\lib\Microsoft.Practices.Unity.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.Unity.Configuration, Version=3.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\lib\Microsoft.Practices.Unity.Configuration.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualStudio.QualityTools.UnitTestFramework" />
+    <Reference Include="Newtonsoft.Json, Version=7.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\lib\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Calculators\Impl\RiskScoreCalculatorUnitTest.cs" />
+    <Compile Include="Services\Impl\AssessmentServiceUnitTest.cs" />
+    <Compile Include="Services\Impl\AuditServiceUnitTest.cs" />
+    <Compile Include="BaseServiceUnitTest.cs" />
+    <Compile Include="Services\Impl\LookupServiceUnitTest.cs" />
+    <Compile Include="Services\Impl\SecurityServiceUnitTest.cs" />
+    <Compile Include="Services\Impl\UserServiceUnitTest.cs" />
+    <Compile Include="TestHelper.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="TestJsonResults\AssessmentServiceUnitTest.TestCreateAccuracy.json" />
+    <None Include="TestJsonResults\AssessmentServiceUnitTest.TestGetAccuracy.json" />
+    <None Include="TestJsonResults\AssessmentServiceUnitTest.TestGetAccuracy2.json" />
+    <None Include="TestJsonResults\AssessmentServiceUnitTest.TestGetOverallRiskRatingReportAccuracy.json" />
+    <None Include="TestJsonResults\AssessmentServiceUnitTest.TestGetOverallRiskRatingReportAccuracy2.json" />
+    <None Include="TestJsonResults\AssessmentServiceUnitTest.TestGetRiskScore.json" />
+    <None Include="TestJsonResults\AssessmentServiceUnitTest.TestSearchAccuracy1.json" />
+    <None Include="TestJsonResults\AssessmentServiceUnitTest.TestSearchAccuracy2.json" />
+    <None Include="TestJsonResults\AssessmentServiceUnitTest.TestSearchAccuracy3.json" />
+    <None Include="TestJsonResults\AssessmentServiceUnitTest.TestSearchAccuracy4.json" />
+    <None Include="TestJsonResults\AssessmentServiceUnitTest.TestSearchAccuracy5.json" />
+    <None Include="TestJsonResults\AssessmentServiceUnitTest.TestSearchAccuracy6.json" />
+    <None Include="TestJsonResults\AssessmentServiceUnitTest.TestSearchAccuracy7.json" />
+    <None Include="TestJsonResults\AssessmentServiceUnitTest.TestUpdateAccuracy.json" />
+    <None Include="TestJsonResults\LookupServiceUnitTest.TestCountPendingAddOnsAccuracy.json" />
+    <None Include="TestJsonResults\LookupServiceUnitTest.TestCreateAssessmentStatusAccuracy.json" />
+    <None Include="TestJsonResults\LookupServiceUnitTest.TestCreateAssessmentTypeAccuracy.json" />
+    <None Include="TestJsonResults\LookupServiceUnitTest.TestCreateBusinessUnitAccuracy.json" />
+    <None Include="TestJsonResults\LookupServiceUnitTest.TestCreateCategoryAccuracy.json" />
+    <None Include="TestJsonResults\LookupServiceUnitTest.TestCreateChangeTypeAccuracy.json" />
+    <None Include="TestJsonResults\LookupServiceUnitTest.TestCreateControlDesignAccuracy.json" />
+    <None Include="TestJsonResults\LookupServiceUnitTest.TestCreateControlFrequencyAccuracy.json" />
+    <None Include="TestJsonResults\LookupServiceUnitTest.TestCreateControlTriggerAccuracy.json" />
+    <None Include="TestJsonResults\LookupServiceUnitTest.TestCreateControlTypeAccuracy.json" />
+    <None Include="TestJsonResults\LookupServiceUnitTest.TestCreateCoreProcessAccuracy.json" />
+    <None Include="TestJsonResults\LookupServiceUnitTest.TestCreateDepartmentAccuracy.json" />
+    <None Include="TestJsonResults\LookupServiceUnitTest.TestCreateDepartmentHeadAccuracy.json" />
+    <None Include="TestJsonResults\LookupServiceUnitTest.TestCreateFunctionalAreaAccuracy.json" />
+    <None Include="TestJsonResults\LookupServiceUnitTest.TestCreateFunctionalAreaOwnerAccuracy.json" />
+    <None Include="TestJsonResults\LookupServiceUnitTest.TestCreateKeyControlsMaturityAccuracy.json" />
+    <None Include="TestJsonResults\LookupServiceUnitTest.TestCreateKPIAccuracy.json" />
+    <None Include="TestJsonResults\LookupServiceUnitTest.TestCreateKPICategoryAccuracy.json" />
+    <None Include="TestJsonResults\LookupServiceUnitTest.TestCreateLikelihoodOfOccurrenceAccuracy.json" />
+    <None Include="TestJsonResults\LookupServiceUnitTest.TestCreatePercentageAccuracy.json" />
+    <None Include="TestJsonResults\LookupServiceUnitTest.TestCreateProcessRiskAccuracy.json" />
+    <None Include="TestJsonResults\LookupServiceUnitTest.TestCreateProductAccuracy.json" />
+    <None Include="TestJsonResults\LookupServiceUnitTest.TestCreateRiskExposureAccuracy.json" />
+    <None Include="TestJsonResults\LookupServiceUnitTest.TestCreateRiskImpactAccuracy.json" />
+    <None Include="TestJsonResults\LookupServiceUnitTest.TestCreateRiskScoreRangeAccuracy.json" />
+    <None Include="TestJsonResults\LookupServiceUnitTest.TestCreateSiteAccuracy.json" />
+    <None Include="TestJsonResults\LookupServiceUnitTest.TestCreateSLAAccuracy.json" />
+    <None Include="TestJsonResults\LookupServiceUnitTest.TestCreateSubProcessRiskAccuracy.json" />
+    <None Include="TestJsonResults\LookupServiceUnitTest.TestCreateTestingFrequencyAccuracy.json" />
+    <None Include="TestJsonResults\LookupServiceUnitTest.TestGetAllAssessmentStatusesAccuracy.json" />
+    <None Include="TestJsonResults\LookupServiceUnitTest.TestGetAllAssessmentTypesAccuracy.json" />
+    <None Include="TestJsonResults\LookupServiceUnitTest.TestGetAllBusinessUnitsAccuracy.json" />
+    <None Include="TestJsonResults\LookupServiceUnitTest.TestGetAllCategoriesAccuracy.json" />
+    <None Include="TestJsonResults\LookupServiceUnitTest.TestGetAllChangeTypesAccuracy.json" />
+    <None Include="TestJsonResults\LookupServiceUnitTest.TestGetAllControlDesignsAccuracy.json" />
+    <None Include="TestJsonResults\LookupServiceUnitTest.TestGetAllControlFrequenciesAccuracy.json" />
+    <None Include="TestJsonResults\LookupServiceUnitTest.TestGetAllControlTriggersAccuracy.json" />
+    <None Include="TestJsonResults\LookupServiceUnitTest.TestGetAllControlTypesWithCategoryAccuracy.json" />
+    <None Include="TestJsonResults\LookupServiceUnitTest.TestGetAllDepartmentHeadsAccuracy.json" />
+    <None Include="TestJsonResults\LookupServiceUnitTest.TestGetAllDepartmentsAccuracy.json" />
+    <None Include="TestJsonResults\LookupServiceUnitTest.TestGetAllKeyControlsMaturitiesAccuracy.json" />
+    <None Include="TestJsonResults\LookupServiceUnitTest.TestGetAllLikelihoodOfOccurrencesAccuracy.json" />
+    <None Include="TestJsonResults\LookupServiceUnitTest.TestGetAllPercentagesAccuracy.json" />
+    <None Include="TestJsonResults\LookupServiceUnitTest.TestGetAllProcessRisksAccuracy.json" />
+    <None Include="TestJsonResults\LookupServiceUnitTest.TestGetAllProductsAccuracy.json" />
+    <None Include="TestJsonResults\LookupServiceUnitTest.TestGetAllRiskExposuresAccuracy.json" />
+    <None Include="TestJsonResults\LookupServiceUnitTest.TestGetAllRiskImpactsAccuracy.json" />
+    <None Include="TestJsonResults\LookupServiceUnitTest.TestGetAllRiskScoreRangesAccuracy.json" />
+    <None Include="TestJsonResults\LookupServiceUnitTest.TestGetAllSitesAccuracy.json" />
+    <None Include="TestJsonResults\LookupServiceUnitTest.TestGetAllSLAsAccuracy.json" />
+    <None Include="TestJsonResults\LookupServiceUnitTest.TestGetAllTestingFrequenciesAccuracy.json" />
+    <None Include="TestJsonResults\LookupServiceUnitTest.TestGetBusinessUnitsWithCategoryAccuracy.json" />
+    <None Include="TestJsonResults\LookupServiceUnitTest.TestGetCoreProcessesAccuracy.json" />
+    <None Include="TestJsonResults\LookupServiceUnitTest.TestGetFunctionalAreaOwnersAccuracy.json" />
+    <None Include="TestJsonResults\LookupServiceUnitTest.TestGetFunctionalAreasAccuracy.json" />
+    <None Include="TestJsonResults\LookupServiceUnitTest.TestGetFunctionalAreasWithCategoryAccuracy.json" />
+    <None Include="TestJsonResults\LookupServiceUnitTest.TestGetKPICategoriesAccuracy.json" />
+    <None Include="TestJsonResults\LookupServiceUnitTest.TestGetPendingAddOnsAccuracy.json" />
+    <None Include="TestJsonResults\LookupServiceUnitTest.TestImportAccuracy.json" />
+    <None Include="TestJsonResults\LookupServiceUnitTest.TestUpdateAssessmentStatusAccuracy.json" />
+    <None Include="TestJsonResults\LookupServiceUnitTest.TestUpdateAssessmentTypeAccuracy.json" />
+    <None Include="TestJsonResults\LookupServiceUnitTest.TestUpdateBusinessUnitAccuracy.json" />
+    <None Include="TestJsonResults\LookupServiceUnitTest.TestUpdateCategoryAccuracy.json" />
+    <None Include="TestJsonResults\LookupServiceUnitTest.TestUpdateChangeTypeAccuracy.json" />
+    <None Include="TestJsonResults\LookupServiceUnitTest.TestUpdateControlDesignAccuracy.json" />
+    <None Include="TestJsonResults\LookupServiceUnitTest.TestUpdateControlFrequencyAccuracy.json" />
+    <None Include="TestJsonResults\LookupServiceUnitTest.TestUpdateControlTriggerAccuracy.json" />
+    <None Include="TestJsonResults\LookupServiceUnitTest.TestUpdateControlTypeAccuracy.json" />
+    <None Include="TestJsonResults\LookupServiceUnitTest.TestUpdateCoreProcessAccuracy.json" />
+    <None Include="TestJsonResults\LookupServiceUnitTest.TestUpdateDepartmentAccuracy.json" />
+    <None Include="TestJsonResults\LookupServiceUnitTest.TestUpdateDepartmentHeadAccuracy.json" />
+    <None Include="TestJsonResults\LookupServiceUnitTest.TestUpdateFunctionalAreaAccuracy.json" />
+    <None Include="TestJsonResults\LookupServiceUnitTest.TestUpdateFunctionalAreaOwnerAccuracy.json" />
+    <None Include="TestJsonResults\LookupServiceUnitTest.TestUpdateKeyControlsMaturityAccuracy.json" />
+    <None Include="TestJsonResults\LookupServiceUnitTest.TestUpdateKPIAccuracy.json" />
+    <None Include="TestJsonResults\LookupServiceUnitTest.TestUpdateKPICategoryAccuracy.json" />
+    <None Include="TestJsonResults\LookupServiceUnitTest.TestUpdateLikelihoodOfOccurrenceAccuracy.json" />
+    <None Include="TestJsonResults\LookupServiceUnitTest.TestUpdatePercentageAccuracy.json" />
+    <None Include="TestJsonResults\LookupServiceUnitTest.TestUpdateProcessRiskAccuracy.json" />
+    <None Include="TestJsonResults\LookupServiceUnitTest.TestUpdateProductAccuracy.json" />
+    <None Include="TestJsonResults\LookupServiceUnitTest.TestUpdateRiskExposureAccuracy.json" />
+    <None Include="TestJsonResults\LookupServiceUnitTest.TestUpdateRiskImpactAccuracy.json" />
+    <None Include="TestJsonResults\LookupServiceUnitTest.TestUpdateRiskScoreRangeAccuracy.json" />
+    <None Include="TestJsonResults\LookupServiceUnitTest.TestUpdateSiteAccuracy.json" />
+    <None Include="TestJsonResults\LookupServiceUnitTest.TestUpdateSLAAccuracy.json" />
+    <None Include="TestJsonResults\LookupServiceUnitTest.TestUpdateSubProcessRiskAccuracy.json" />
+    <None Include="TestJsonResults\LookupServiceUnitTest.TestUpdateTestingFrequencyAccuracy.json" />
+    <None Include="TestJsonResults\SecurityServiceUnitTest.TestAuthenticateCredentialsAccuracy2.json" />
+    <None Include="TestJsonResults\SecurityServiceUnitTest.TestAuthenticateCredentialsAccuracy3.json" />
+    <None Include="TestJsonResults\SecurityServiceUnitTest.TestAuthenticateWithTokenAccuracy.json" />
+    <None Include="TestJsonResults\UserServiceUnitTest.TestGetByRealNameAccuracy1.json" />
+    <None Include="TestJsonResults\UserServiceUnitTest.TestGetByRealNameAccuracy2.json" />
+    <None Include="TestJsonResults\UserServiceUnitTest.TestGetByRealNameAccuracy3.json" />
+    <None Include="TestJsonResults\UserServiceUnitTest.TestGetByUsernameAccuracy1.json" />
+    <None Include="TestJsonResults\UserServiceUnitTest.TestGetByUsernameAccuracy2.json" />
+    <None Include="TestJsonResults\UserServiceUnitTest.TestGetByUsernameAccuracy3.json" />
+    <None Include="TestJsonResults\UserServiceUnitTest.TestGetByUsernameAccuracy4.json" />
+    <None Include="TestJsonResults\UserServiceUnitTest.TestGetByUsernameAccuracy5.json" />
+    <None Include="TestJsonResults\UserServiceUnitTest.TestSearchAccuracy1.json" />
+    <None Include="TestJsonResults\UserServiceUnitTest.TestSearchAccuracy2.json" />
+    <None Include="TestJsonResults\UserServiceUnitTest.TestSearchAccuracy3.json" />
+    <None Include="TestJsonResults\UserServiceUnitTest.TestSearchAccuracy4.json" />
+    <None Include="TestJsonResults\UserServiceUnitTest.TestSearchAccuracy5.json" />
+    <None Include="test_files\ImportLookup.xlsx" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\JohnHancock\JohnHancock.csproj">
+      <Project>{efb6b661-1b22-4fb4-b038-50fa5594fd84}</Project>
+      <Name>JohnHancock</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

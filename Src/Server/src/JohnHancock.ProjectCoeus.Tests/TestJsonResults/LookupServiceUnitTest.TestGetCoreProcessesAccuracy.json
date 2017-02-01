@@ -1,0 +1,576 @@
+[
+  {
+    "SubProcessRisks": [
+      {
+        "Risk": "Out of date or lack of policies and procedures",
+        "Name": "Document policies and procedures",
+        "DisplayOrder": 1,
+        "Enabled": true,
+        "AddOnStatus": 1,
+        "CreatedBy": "CoeusAdminUser",
+        "CreatedTime": "12/12/9999 00:00:00",
+        "LastUpdatedBy": "CoeusAdminUser",
+        "LastUpdatedTime": "12/12/9999 00:00:00",
+        "Id": 1
+      }
+    ],
+    "Category": {
+      "Weight": 65.00,
+      "Name": "Functional Area Processes",
+      "DisplayOrder": 2,
+      "Enabled": true,
+      "AddOnStatus": 1,
+      "CreatedBy": "CoeusAdminUser",
+      "CreatedTime": "12/12/9999 00:00:00",
+      "LastUpdatedBy": "CoeusAdminUser",
+      "LastUpdatedTime": "12/12/9999 00:00:00",
+      "Id": 2
+    },
+    "ControlTypes": [
+      {
+        "Category": {
+          "Weight": 65.00,
+          "Name": "Functional Area Processes",
+          "DisplayOrder": 2,
+          "Enabled": true,
+          "AddOnStatus": 1,
+          "CreatedBy": "CoeusAdminUser",
+          "CreatedTime": "12/12/9999 00:00:00",
+          "LastUpdatedBy": "CoeusAdminUser",
+          "LastUpdatedTime": "12/12/9999 00:00:00",
+          "Id": 2
+        },
+        "Name": "Quality Review",
+        "DisplayOrder": 43,
+        "Enabled": true,
+        "AddOnStatus": 1,
+        "CreatedBy": "CoeusAdminUser",
+        "CreatedTime": "12/12/9999 00:00:00",
+        "LastUpdatedBy": "CoeusAdminUser",
+        "LastUpdatedTime": "12/12/9999 00:00:00",
+        "Id": 201
+      },
+      {
+        "Category": {
+          "Weight": 65.00,
+          "Name": "Functional Area Processes",
+          "DisplayOrder": 2,
+          "Enabled": true,
+          "AddOnStatus": 1,
+          "CreatedBy": "CoeusAdminUser",
+          "CreatedTime": "12/12/9999 00:00:00",
+          "LastUpdatedBy": "CoeusAdminUser",
+          "LastUpdatedTime": "12/12/9999 00:00:00",
+          "Id": 2
+        },
+        "Name": "Manager Approval",
+        "DisplayOrder": 44,
+        "Enabled": true,
+        "AddOnStatus": 1,
+        "CreatedBy": "CoeusAdminUser",
+        "CreatedTime": "12/12/9999 00:00:00",
+        "LastUpdatedBy": "CoeusAdminUser",
+        "LastUpdatedTime": "12/12/9999 00:00:00",
+        "Id": 202
+      }
+    ],
+    "BusinessUnitId": null,
+    "FunctionalAreaId": 1,
+    "Name": "Policies and procedures",
+    "DisplayOrder": 1,
+    "Enabled": true,
+    "AddOnStatus": 1,
+    "CreatedBy": "CoeusAdminUser",
+    "CreatedTime": "12/12/9999 00:00:00",
+    "LastUpdatedBy": "CoeusAdminUser",
+    "LastUpdatedTime": "12/12/9999 00:00:00",
+    "Id": 1
+  },
+  {
+    "SubProcessRisks": [
+      {
+        "Risk": "Old or inaccurate files in the workflow",
+        "Name": "Verification of internal UCI and Lexis Nexis death files prior to AWD RIP job for processing",
+        "DisplayOrder": 1,
+        "Enabled": true,
+        "AddOnStatus": 1,
+        "CreatedBy": "CoeusAdminUser",
+        "CreatedTime": "12/12/9999 00:00:00",
+        "LastUpdatedBy": "CoeusAdminUser",
+        "LastUpdatedTime": "12/12/9999 00:00:00",
+        "Id": 2
+      },
+      {
+        "Risk": "Previously reported deaths added to the workflow causing confusion and unnecessary work",
+        "Name": "Scrub internal UCI and Lexis Nexis death files and create AWD RIP job for processing",
+        "DisplayOrder": 2,
+        "Enabled": true,
+        "AddOnStatus": 1,
+        "CreatedBy": "CoeusAdminUser",
+        "CreatedTime": "12/12/9999 00:00:00",
+        "LastUpdatedBy": "CoeusAdminUser",
+        "LastUpdatedTime": "12/12/9999 00:00:00",
+        "Id": 3
+      },
+      {
+        "Risk": "Wrongful terminations, customer service issues and financial impacts to company",
+        "Name": "Check admin system and AWD to confirm if the deceased is a JH client, has inactive account, and if there is a pending or completed claim",
+        "DisplayOrder": 1,
+        "Enabled": true,
+        "AddOnStatus": 1,
+        "CreatedBy": "CoeusAdminUser",
+        "CreatedTime": "12/12/9999 00:00:00",
+        "LastUpdatedBy": "CoeusAdminUser",
+        "LastUpdatedTime": "12/12/9999 00:00:00",
+        "Id": 4
+      },
+      {
+        "Risk": "Increase in false positive death matches",
+        "Name": "Perfom 2nd validation of death using an external resource",
+        "DisplayOrder": 3,
+        "Enabled": true,
+        "AddOnStatus": 1,
+        "CreatedBy": "CoeusAdminUser",
+        "CreatedTime": "12/12/9999 00:00:00",
+        "LastUpdatedBy": "CoeusAdminUser",
+        "LastUpdatedTime": "12/12/9999 00:00:00",
+        "Id": 5
+      }
+    ],
+    "Category": {
+      "Weight": 65.00,
+      "Name": "Functional Area Processes",
+      "DisplayOrder": 2,
+      "Enabled": true,
+      "AddOnStatus": 1,
+      "CreatedBy": "CoeusAdminUser",
+      "CreatedTime": "12/12/9999 00:00:00",
+      "LastUpdatedBy": "CoeusAdminUser",
+      "LastUpdatedTime": "12/12/9999 00:00:00",
+      "Id": 2
+    },
+    "ControlTypes": [
+      {
+        "Category": {
+          "Weight": 65.00,
+          "Name": "Functional Area Processes",
+          "DisplayOrder": 2,
+          "Enabled": true,
+          "AddOnStatus": 1,
+          "CreatedBy": "CoeusAdminUser",
+          "CreatedTime": "12/12/9999 00:00:00",
+          "LastUpdatedBy": "CoeusAdminUser",
+          "LastUpdatedTime": "12/12/9999 00:00:00",
+          "Id": 2
+        },
+        "Name": "Legal/Compliance Review",
+        "DisplayOrder": 45,
+        "Enabled": true,
+        "AddOnStatus": 1,
+        "CreatedBy": "CoeusAdminUser",
+        "CreatedTime": "12/12/9999 00:00:00",
+        "LastUpdatedBy": "CoeusAdminUser",
+        "LastUpdatedTime": "12/12/9999 00:00:00",
+        "Id": 204
+      },
+      {
+        "Category": {
+          "Weight": 65.00,
+          "Name": "Functional Area Processes",
+          "DisplayOrder": 2,
+          "Enabled": true,
+          "AddOnStatus": 1,
+          "CreatedBy": "CoeusAdminUser",
+          "CreatedTime": "12/12/9999 00:00:00",
+          "LastUpdatedBy": "CoeusAdminUser",
+          "LastUpdatedTime": "12/12/9999 00:00:00",
+          "Id": 2
+        },
+        "Name": "AWD/Workflow Reporting",
+        "DisplayOrder": 46,
+        "Enabled": true,
+        "AddOnStatus": 1,
+        "CreatedBy": "CoeusAdminUser",
+        "CreatedTime": "12/12/9999 00:00:00",
+        "LastUpdatedBy": "CoeusAdminUser",
+        "LastUpdatedTime": "12/12/9999 00:00:00",
+        "Id": 205
+      }
+    ],
+    "BusinessUnitId": null,
+    "FunctionalAreaId": 1,
+    "Name": "Death notification and validation",
+    "DisplayOrder": 2,
+    "Enabled": true,
+    "AddOnStatus": 1,
+    "CreatedBy": "CoeusAdminUser",
+    "CreatedTime": "12/12/9999 00:00:00",
+    "LastUpdatedBy": "CoeusAdminUser",
+    "LastUpdatedTime": "12/12/9999 00:00:00",
+    "Id": 2
+  },
+  {
+    "SubProcessRisks": [
+      {
+        "Risk": "Client could still be receiving payments after death",
+        "Name": "If death is confirmed, suspend systematic payments in admin systems and place contracts in a non-paying status",
+        "DisplayOrder": 1,
+        "Enabled": true,
+        "AddOnStatus": 1,
+        "CreatedBy": "CoeusAdminUser",
+        "CreatedTime": "12/12/9999 00:00:00",
+        "LastUpdatedBy": "CoeusAdminUser",
+        "LastUpdatedTime": "12/12/9999 00:00:00",
+        "Id": 6
+      },
+      {
+        "Risk": "Work routed to the wrong workflow queue",
+        "Name": "Update the AWD work item status based on reasearch and work is forwarded to Operations for processing",
+        "DisplayOrder": 2,
+        "Enabled": true,
+        "AddOnStatus": 1,
+        "CreatedBy": "CoeusAdminUser",
+        "CreatedTime": "12/12/9999 00:00:00",
+        "LastUpdatedBy": "CoeusAdminUser",
+        "LastUpdatedTime": "12/12/9999 00:00:00",
+        "Id": 7
+      }
+    ],
+    "Category": {
+      "Weight": 65.00,
+      "Name": "Functional Area Processes",
+      "DisplayOrder": 2,
+      "Enabled": true,
+      "AddOnStatus": 1,
+      "CreatedBy": "CoeusAdminUser",
+      "CreatedTime": "12/12/9999 00:00:00",
+      "LastUpdatedBy": "CoeusAdminUser",
+      "LastUpdatedTime": "12/12/9999 00:00:00",
+      "Id": 2
+    },
+    "ControlTypes": [
+      {
+        "Category": {
+          "Weight": 65.00,
+          "Name": "Functional Area Processes",
+          "DisplayOrder": 2,
+          "Enabled": true,
+          "AddOnStatus": 1,
+          "CreatedBy": "CoeusAdminUser",
+          "CreatedTime": "12/12/9999 00:00:00",
+          "LastUpdatedBy": "CoeusAdminUser",
+          "LastUpdatedTime": "12/12/9999 00:00:00",
+          "Id": 2
+        },
+        "Name": "Document Imaging",
+        "DisplayOrder": 47,
+        "Enabled": true,
+        "AddOnStatus": 1,
+        "CreatedBy": "CoeusAdminUser",
+        "CreatedTime": "12/12/9999 00:00:00",
+        "LastUpdatedBy": "CoeusAdminUser",
+        "LastUpdatedTime": "12/12/9999 00:00:00",
+        "Id": 206
+      }
+    ],
+    "BusinessUnitId": null,
+    "FunctionalAreaId": 1,
+    "Name": "BU notification of death",
+    "DisplayOrder": 3,
+    "Enabled": true,
+    "AddOnStatus": 1,
+    "CreatedBy": "CoeusAdminUser",
+    "CreatedTime": "12/12/9999 00:00:00",
+    "LastUpdatedBy": "CoeusAdminUser",
+    "LastUpdatedTime": "12/12/9999 00:00:00",
+    "Id": 3
+  },
+  {
+    "SubProcessRisks": [
+      {
+        "Risk": "Incarease in false positives death matches",
+        "Name": "Test the accuracy of Lexis Nexis death match logic",
+        "DisplayOrder": 1,
+        "Enabled": true,
+        "AddOnStatus": 1,
+        "CreatedBy": "CoeusAdminUser",
+        "CreatedTime": "12/12/9999 00:00:00",
+        "LastUpdatedBy": "CoeusAdminUser",
+        "LastUpdatedTime": "12/12/9999 00:00:00",
+        "Id": 8
+      }
+    ],
+    "Category": {
+      "Weight": 65.00,
+      "Name": "Functional Area Processes",
+      "DisplayOrder": 2,
+      "Enabled": true,
+      "AddOnStatus": 1,
+      "CreatedBy": "CoeusAdminUser",
+      "CreatedTime": "12/12/9999 00:00:00",
+      "LastUpdatedBy": "CoeusAdminUser",
+      "LastUpdatedTime": "12/12/9999 00:00:00",
+      "Id": 2
+    },
+    "ControlTypes": [
+      {
+        "Category": {
+          "Weight": 65.00,
+          "Name": "Functional Area Processes",
+          "DisplayOrder": 2,
+          "Enabled": true,
+          "AddOnStatus": 1,
+          "CreatedBy": "CoeusAdminUser",
+          "CreatedTime": "12/12/9999 00:00:00",
+          "LastUpdatedBy": "CoeusAdminUser",
+          "LastUpdatedTime": "12/12/9999 00:00:00",
+          "Id": 2
+        },
+        "Name": "Call Recording",
+        "DisplayOrder": 48,
+        "Enabled": true,
+        "AddOnStatus": 1,
+        "CreatedBy": "CoeusAdminUser",
+        "CreatedTime": "12/12/9999 00:00:00",
+        "LastUpdatedBy": "CoeusAdminUser",
+        "LastUpdatedTime": "12/12/9999 00:00:00",
+        "Id": 207
+      },
+      {
+        "Category": {
+          "Weight": 65.00,
+          "Name": "Functional Area Processes",
+          "DisplayOrder": 2,
+          "Enabled": true,
+          "AddOnStatus": 1,
+          "CreatedBy": "CoeusAdminUser",
+          "CreatedTime": "12/12/9999 00:00:00",
+          "LastUpdatedBy": "CoeusAdminUser",
+          "LastUpdatedTime": "12/12/9999 00:00:00",
+          "Id": 2
+        },
+        "Name": "Daily Reconciliation",
+        "DisplayOrder": 49,
+        "Enabled": true,
+        "AddOnStatus": 1,
+        "CreatedBy": "CoeusAdminUser",
+        "CreatedTime": "12/12/9999 00:00:00",
+        "LastUpdatedBy": "CoeusAdminUser",
+        "LastUpdatedTime": "12/12/9999 00:00:00",
+        "Id": 208
+      }
+    ],
+    "BusinessUnitId": null,
+    "FunctionalAreaId": 1,
+    "Name": "Death logic verification",
+    "DisplayOrder": 4,
+    "Enabled": true,
+    "AddOnStatus": 1,
+    "CreatedBy": "CoeusAdminUser",
+    "CreatedTime": "12/12/9999 00:00:00",
+    "LastUpdatedBy": "CoeusAdminUser",
+    "LastUpdatedTime": "12/12/9999 00:00:00",
+    "Id": 4
+  },
+  {
+    "SubProcessRisks": [],
+    "Category": {
+      "Weight": 65.00,
+      "Name": "Functional Area Processes",
+      "DisplayOrder": 2,
+      "Enabled": true,
+      "AddOnStatus": 1,
+      "CreatedBy": "CoeusAdminUser",
+      "CreatedTime": "12/12/9999 00:00:00",
+      "LastUpdatedBy": "CoeusAdminUser",
+      "LastUpdatedTime": "12/12/9999 00:00:00",
+      "Id": 2
+    },
+    "ControlTypes": [
+      {
+        "Category": null,
+        "Name": "No controls are in place",
+        "DisplayOrder": 9,
+        "Enabled": true,
+        "AddOnStatus": 1,
+        "CreatedBy": "CoeusAdminUser",
+        "CreatedTime": "12/12/9999 00:00:00",
+        "LastUpdatedBy": "CoeusAdminUser",
+        "LastUpdatedTime": "12/12/9999 00:00:00",
+        "Id": 9
+      },
+      {
+        "Category": {
+          "Weight": 65.00,
+          "Name": "Functional Area Processes",
+          "DisplayOrder": 2,
+          "Enabled": true,
+          "AddOnStatus": 1,
+          "CreatedBy": "CoeusAdminUser",
+          "CreatedTime": "12/12/9999 00:00:00",
+          "LastUpdatedBy": "CoeusAdminUser",
+          "LastUpdatedTime": "12/12/9999 00:00:00",
+          "Id": 2
+        },
+        "Name": "Quality Review",
+        "DisplayOrder": 43,
+        "Enabled": true,
+        "AddOnStatus": 1,
+        "CreatedBy": "CoeusAdminUser",
+        "CreatedTime": "12/12/9999 00:00:00",
+        "LastUpdatedBy": "CoeusAdminUser",
+        "LastUpdatedTime": "12/12/9999 00:00:00",
+        "Id": 201
+      },
+      {
+        "Category": {
+          "Weight": 65.00,
+          "Name": "Functional Area Processes",
+          "DisplayOrder": 2,
+          "Enabled": true,
+          "AddOnStatus": 1,
+          "CreatedBy": "CoeusAdminUser",
+          "CreatedTime": "12/12/9999 00:00:00",
+          "LastUpdatedBy": "CoeusAdminUser",
+          "LastUpdatedTime": "12/12/9999 00:00:00",
+          "Id": 2
+        },
+        "Name": "Manager Approval",
+        "DisplayOrder": 44,
+        "Enabled": true,
+        "AddOnStatus": 1,
+        "CreatedBy": "CoeusAdminUser",
+        "CreatedTime": "12/12/9999 00:00:00",
+        "LastUpdatedBy": "CoeusAdminUser",
+        "LastUpdatedTime": "12/12/9999 00:00:00",
+        "Id": 202
+      },
+      {
+        "Category": {
+          "Weight": 65.00,
+          "Name": "Functional Area Processes",
+          "DisplayOrder": 2,
+          "Enabled": true,
+          "AddOnStatus": 1,
+          "CreatedBy": "CoeusAdminUser",
+          "CreatedTime": "12/12/9999 00:00:00",
+          "LastUpdatedBy": "CoeusAdminUser",
+          "LastUpdatedTime": "12/12/9999 00:00:00",
+          "Id": 2
+        },
+        "Name": "Legal/Compliance Review",
+        "DisplayOrder": 45,
+        "Enabled": true,
+        "AddOnStatus": 1,
+        "CreatedBy": "CoeusAdminUser",
+        "CreatedTime": "12/12/9999 00:00:00",
+        "LastUpdatedBy": "CoeusAdminUser",
+        "LastUpdatedTime": "12/12/9999 00:00:00",
+        "Id": 204
+      },
+      {
+        "Category": {
+          "Weight": 65.00,
+          "Name": "Functional Area Processes",
+          "DisplayOrder": 2,
+          "Enabled": true,
+          "AddOnStatus": 1,
+          "CreatedBy": "CoeusAdminUser",
+          "CreatedTime": "12/12/9999 00:00:00",
+          "LastUpdatedBy": "CoeusAdminUser",
+          "LastUpdatedTime": "12/12/9999 00:00:00",
+          "Id": 2
+        },
+        "Name": "AWD/Workflow Reporting",
+        "DisplayOrder": 46,
+        "Enabled": true,
+        "AddOnStatus": 1,
+        "CreatedBy": "CoeusAdminUser",
+        "CreatedTime": "12/12/9999 00:00:00",
+        "LastUpdatedBy": "CoeusAdminUser",
+        "LastUpdatedTime": "12/12/9999 00:00:00",
+        "Id": 205
+      },
+      {
+        "Category": {
+          "Weight": 65.00,
+          "Name": "Functional Area Processes",
+          "DisplayOrder": 2,
+          "Enabled": true,
+          "AddOnStatus": 1,
+          "CreatedBy": "CoeusAdminUser",
+          "CreatedTime": "12/12/9999 00:00:00",
+          "LastUpdatedBy": "CoeusAdminUser",
+          "LastUpdatedTime": "12/12/9999 00:00:00",
+          "Id": 2
+        },
+        "Name": "Document Imaging",
+        "DisplayOrder": 47,
+        "Enabled": true,
+        "AddOnStatus": 1,
+        "CreatedBy": "CoeusAdminUser",
+        "CreatedTime": "12/12/9999 00:00:00",
+        "LastUpdatedBy": "CoeusAdminUser",
+        "LastUpdatedTime": "12/12/9999 00:00:00",
+        "Id": 206
+      },
+      {
+        "Category": {
+          "Weight": 65.00,
+          "Name": "Functional Area Processes",
+          "DisplayOrder": 2,
+          "Enabled": true,
+          "AddOnStatus": 1,
+          "CreatedBy": "CoeusAdminUser",
+          "CreatedTime": "12/12/9999 00:00:00",
+          "LastUpdatedBy": "CoeusAdminUser",
+          "LastUpdatedTime": "12/12/9999 00:00:00",
+          "Id": 2
+        },
+        "Name": "Daily Reconciliation",
+        "DisplayOrder": 49,
+        "Enabled": true,
+        "AddOnStatus": 1,
+        "CreatedBy": "CoeusAdminUser",
+        "CreatedTime": "12/12/9999 00:00:00",
+        "LastUpdatedBy": "CoeusAdminUser",
+        "LastUpdatedTime": "12/12/9999 00:00:00",
+        "Id": 208
+      },
+      {
+        "Category": {
+          "Weight": 65.00,
+          "Name": "Functional Area Processes",
+          "DisplayOrder": 2,
+          "Enabled": true,
+          "AddOnStatus": 1,
+          "CreatedBy": "CoeusAdminUser",
+          "CreatedTime": "12/12/9999 00:00:00",
+          "LastUpdatedBy": "CoeusAdminUser",
+          "LastUpdatedTime": "12/12/9999 00:00:00",
+          "Id": 2
+        },
+        "Name": "Call Monitoring/Recording",
+        "DisplayOrder": 52,
+        "Enabled": true,
+        "AddOnStatus": 1,
+        "CreatedBy": "CoeusAdminUser",
+        "CreatedTime": "12/12/9999 00:00:00",
+        "LastUpdatedBy": "CoeusAdminUser",
+        "LastUpdatedTime": "12/12/9999 00:00:00",
+        "Id": 403
+      }
+    ],
+    "BusinessUnitId": null,
+    "FunctionalAreaId": 1,
+    "Name": "Additional",
+    "DisplayOrder": 5,
+    "Enabled": true,
+    "AddOnStatus": 1,
+    "CreatedBy": "CoeusAdminUser",
+    "CreatedTime": "12/12/9999 00:00:00",
+    "LastUpdatedBy": "CoeusAdminUser",
+    "LastUpdatedTime": "12/12/9999 00:00:00",
+    "Id": 5
+  }
+]

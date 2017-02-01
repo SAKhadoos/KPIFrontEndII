@@ -1,0 +1,532 @@
+[
+  {
+    "KPIs": [
+      {
+        "Name": "Answer Rate",
+        "DisplayOrder": 1,
+        "Enabled": true,
+        "AddOnStatus": 1,
+        "CreatedBy": "CoeusAdminUser",
+        "CreatedTime": "12/12/9999 00:00:00",
+        "LastUpdatedBy": "CoeusAdminUser",
+        "LastUpdatedTime": "12/12/9999 00:00:00",
+        "Id": 1
+      },
+      {
+        "Name": "Abandoned Rate",
+        "DisplayOrder": 2,
+        "Enabled": true,
+        "AddOnStatus": 1,
+        "CreatedBy": "CoeusAdminUser",
+        "CreatedTime": "12/12/9999 00:00:00",
+        "LastUpdatedBy": "CoeusAdminUser",
+        "LastUpdatedTime": "12/12/9999 00:00:00",
+        "Id": 2
+      },
+      {
+        "Name": "IVR Containment Rate",
+        "DisplayOrder": 3,
+        "Enabled": true,
+        "AddOnStatus": 1,
+        "CreatedBy": "CoeusAdminUser",
+        "CreatedTime": "12/12/9999 00:00:00",
+        "LastUpdatedBy": "CoeusAdminUser",
+        "LastUpdatedTime": "12/12/9999 00:00:00",
+        "Id": 3
+      },
+      {
+        "Name": "Occupancy Rate",
+        "DisplayOrder": 4,
+        "Enabled": true,
+        "AddOnStatus": 1,
+        "CreatedBy": "CoeusAdminUser",
+        "CreatedTime": "12/12/9999 00:00:00",
+        "LastUpdatedBy": "CoeusAdminUser",
+        "LastUpdatedTime": "12/12/9999 00:00:00",
+        "Id": 4
+      }
+    ],
+    "SLAs": [
+      {
+        "Name": "Not applicable",
+        "DisplayOrder": 50,
+        "Enabled": true,
+        "AddOnStatus": 1,
+        "CreatedBy": "CoeusAdminUser",
+        "CreatedTime": "12/12/9999 00:00:00",
+        "LastUpdatedBy": "CoeusAdminUser",
+        "LastUpdatedTime": "12/12/9999 00:00:00",
+        "Id": 4
+      },
+      {
+        "Name": "<3%",
+        "DisplayOrder": 28,
+        "Enabled": true,
+        "AddOnStatus": 1,
+        "CreatedBy": "CoeusAdminUser",
+        "CreatedTime": "12/12/9999 00:00:00",
+        "LastUpdatedBy": "CoeusAdminUser",
+        "LastUpdatedTime": "12/12/9999 00:00:00",
+        "Id": 15
+      },
+      {
+        "Name": "90%",
+        "DisplayOrder": 21,
+        "Enabled": true,
+        "AddOnStatus": 1,
+        "CreatedBy": "CoeusAdminUser",
+        "CreatedTime": "12/12/9999 00:00:00",
+        "LastUpdatedBy": "CoeusAdminUser",
+        "LastUpdatedTime": "12/12/9999 00:00:00",
+        "Id": 21
+      },
+      {
+        "Name": "85%",
+        "DisplayOrder": 22,
+        "Enabled": true,
+        "AddOnStatus": 1,
+        "CreatedBy": "CoeusAdminUser",
+        "CreatedTime": "12/12/9999 00:00:00",
+        "LastUpdatedBy": "CoeusAdminUser",
+        "LastUpdatedTime": "12/12/9999 00:00:00",
+        "Id": 22
+      },
+      {
+        "Name": "80%",
+        "DisplayOrder": 23,
+        "Enabled": true,
+        "AddOnStatus": 1,
+        "CreatedBy": "CoeusAdminUser",
+        "CreatedTime": "12/12/9999 00:00:00",
+        "LastUpdatedBy": "CoeusAdminUser",
+        "LastUpdatedTime": "12/12/9999 00:00:00",
+        "Id": 24
+      },
+      {
+        "Name": "30%",
+        "DisplayOrder": 24,
+        "Enabled": true,
+        "AddOnStatus": 1,
+        "CreatedBy": "CoeusAdminUser",
+        "CreatedTime": "12/12/9999 00:00:00",
+        "LastUpdatedBy": "CoeusAdminUser",
+        "LastUpdatedTime": "12/12/9999 00:00:00",
+        "Id": 25
+      }
+    ],
+    "BusinessUnitId": null,
+    "FunctionalAreaId": null,
+    "Name": "Telephony",
+    "DisplayOrder": 1,
+    "Enabled": true,
+    "AddOnStatus": 1,
+    "CreatedBy": "CoeusAdminUser",
+    "CreatedTime": "12/12/9999 00:00:00",
+    "LastUpdatedBy": "CoeusAdminUser",
+    "LastUpdatedTime": "12/12/9999 00:00:00",
+    "Id": 1
+  },
+  {
+    "KPIs": [],
+    "SLAs": [
+      {
+        "Name": "Same day",
+        "DisplayOrder": 2,
+        "Enabled": true,
+        "AddOnStatus": 1,
+        "CreatedBy": "CoeusAdminUser",
+        "CreatedTime": "12/12/9999 00:00:00",
+        "LastUpdatedBy": "CoeusAdminUser",
+        "LastUpdatedTime": "12/12/9999 00:00:00",
+        "Id": 2
+      },
+      {
+        "Name": "Phone/emails every 15 days",
+        "DisplayOrder": 3,
+        "Enabled": true,
+        "AddOnStatus": 1,
+        "CreatedBy": "CoeusAdminUser",
+        "CreatedTime": "12/12/9999 00:00:00",
+        "LastUpdatedBy": "CoeusAdminUser",
+        "LastUpdatedTime": "12/12/9999 00:00:00",
+        "Id": 3
+      },
+      {
+        "Name": "Not applicable",
+        "DisplayOrder": 50,
+        "Enabled": true,
+        "AddOnStatus": 1,
+        "CreatedBy": "CoeusAdminUser",
+        "CreatedTime": "12/12/9999 00:00:00",
+        "LastUpdatedBy": "CoeusAdminUser",
+        "LastUpdatedTime": "12/12/9999 00:00:00",
+        "Id": 4
+      },
+      {
+        "Name": "Letters every 30 days",
+        "DisplayOrder": 6,
+        "Enabled": true,
+        "AddOnStatus": 1,
+        "CreatedBy": "CoeusAdminUser",
+        "CreatedTime": "12/12/9999 00:00:00",
+        "LastUpdatedBy": "CoeusAdminUser",
+        "LastUpdatedTime": "12/12/9999 00:00:00",
+        "Id": 6
+      },
+      {
+        "Name": "90% in 6 hours",
+        "DisplayOrder": 9,
+        "Enabled": true,
+        "AddOnStatus": 1,
+        "CreatedBy": "CoeusAdminUser",
+        "CreatedTime": "12/12/9999 00:00:00",
+        "LastUpdatedBy": "CoeusAdminUser",
+        "LastUpdatedTime": "12/12/9999 00:00:00",
+        "Id": 9
+      },
+      {
+        "Name": "90% in 5 days",
+        "DisplayOrder": 10,
+        "Enabled": true,
+        "AddOnStatus": 1,
+        "CreatedBy": "CoeusAdminUser",
+        "CreatedTime": "12/12/9999 00:00:00",
+        "LastUpdatedBy": "CoeusAdminUser",
+        "LastUpdatedTime": "12/12/9999 00:00:00",
+        "Id": 10
+      },
+      {
+        "Name": "3-5 days",
+        "DisplayOrder": 11,
+        "Enabled": true,
+        "AddOnStatus": 1,
+        "CreatedBy": "CoeusAdminUser",
+        "CreatedTime": "12/12/9999 00:00:00",
+        "LastUpdatedBy": "CoeusAdminUser",
+        "LastUpdatedTime": "12/12/9999 00:00:00",
+        "Id": 11
+      },
+      {
+        "Name": "30 days",
+        "DisplayOrder": 12,
+        "Enabled": true,
+        "AddOnStatus": 1,
+        "CreatedBy": "CoeusAdminUser",
+        "CreatedTime": "12/12/9999 00:00:00",
+        "LastUpdatedBy": "CoeusAdminUser",
+        "LastUpdatedTime": "12/12/9999 00:00:00",
+        "Id": 12
+      },
+      {
+        "Name": "1-2 days",
+        "DisplayOrder": 14,
+        "Enabled": true,
+        "AddOnStatus": 1,
+        "CreatedBy": "CoeusAdminUser",
+        "CreatedTime": "12/12/9999 00:00:00",
+        "LastUpdatedBy": "CoeusAdminUser",
+        "LastUpdatedTime": "12/12/9999 00:00:00",
+        "Id": 14
+      },
+      {
+        "Name": "% of payments in inventory by days (15/30 days)",
+        "DisplayOrder": 16,
+        "Enabled": true,
+        "AddOnStatus": 1,
+        "CreatedBy": "CoeusAdminUser",
+        "CreatedTime": "12/12/9999 00:00:00",
+        "LastUpdatedBy": "CoeusAdminUser",
+        "LastUpdatedTime": "12/12/9999 00:00:00",
+        "Id": 16
+      }
+    ],
+    "BusinessUnitId": null,
+    "FunctionalAreaId": null,
+    "Name": "Transactional Timeliness",
+    "DisplayOrder": 2,
+    "Enabled": true,
+    "AddOnStatus": 1,
+    "CreatedBy": "CoeusAdminUser",
+    "CreatedTime": "12/12/9999 00:00:00",
+    "LastUpdatedBy": "CoeusAdminUser",
+    "LastUpdatedTime": "12/12/9999 00:00:00",
+    "Id": 2
+  },
+  {
+    "KPIs": [
+      {
+        "Name": "Individual Productivity",
+        "DisplayOrder": 1,
+        "Enabled": true,
+        "AddOnStatus": 1,
+        "CreatedBy": "CoeusAdminUser",
+        "CreatedTime": "12/12/9999 00:00:00",
+        "LastUpdatedBy": "CoeusAdminUser",
+        "LastUpdatedTime": "12/12/9999 00:00:00",
+        "Id": 5
+      }
+    ],
+    "SLAs": [
+      {
+        "Name": "Not applicable",
+        "DisplayOrder": 50,
+        "Enabled": true,
+        "AddOnStatus": 1,
+        "CreatedBy": "CoeusAdminUser",
+        "CreatedTime": "12/12/9999 00:00:00",
+        "LastUpdatedBy": "CoeusAdminUser",
+        "LastUpdatedTime": "12/12/9999 00:00:00",
+        "Id": 4
+      },
+      {
+        "Name": "180 plans to one representative",
+        "DisplayOrder": 13,
+        "Enabled": true,
+        "AddOnStatus": 1,
+        "CreatedBy": "CoeusAdminUser",
+        "CreatedTime": "12/12/9999 00:00:00",
+        "LastUpdatedBy": "CoeusAdminUser",
+        "LastUpdatedTime": "12/12/9999 00:00:00",
+        "Id": 13
+      },
+      {
+        "Name": "95%",
+        "DisplayOrder": 20,
+        "Enabled": true,
+        "AddOnStatus": 1,
+        "CreatedBy": "CoeusAdminUser",
+        "CreatedTime": "12/12/9999 00:00:00",
+        "LastUpdatedBy": "CoeusAdminUser",
+        "LastUpdatedTime": "12/12/9999 00:00:00",
+        "Id": 20
+      },
+      {
+        "Name": "90%",
+        "DisplayOrder": 21,
+        "Enabled": true,
+        "AddOnStatus": 1,
+        "CreatedBy": "CoeusAdminUser",
+        "CreatedTime": "12/12/9999 00:00:00",
+        "LastUpdatedBy": "CoeusAdminUser",
+        "LastUpdatedTime": "12/12/9999 00:00:00",
+        "Id": 21
+      }
+    ],
+    "BusinessUnitId": null,
+    "FunctionalAreaId": null,
+    "Name": "Utilization",
+    "DisplayOrder": 3,
+    "Enabled": true,
+    "AddOnStatus": 1,
+    "CreatedBy": "CoeusAdminUser",
+    "CreatedTime": "12/12/9999 00:00:00",
+    "LastUpdatedBy": "CoeusAdminUser",
+    "LastUpdatedTime": "12/12/9999 00:00:00",
+    "Id": 3
+  },
+  {
+    "KPIs": [
+      {
+        "Name": "Individual Accuracy",
+        "DisplayOrder": 1,
+        "Enabled": true,
+        "AddOnStatus": 1,
+        "CreatedBy": "CoeusAdminUser",
+        "CreatedTime": "12/12/9999 00:00:00",
+        "LastUpdatedBy": "CoeusAdminUser",
+        "LastUpdatedTime": "12/12/9999 00:00:00",
+        "Id": 6
+      }
+    ],
+    "SLAs": [
+      {
+        "Name": "Not applicable",
+        "DisplayOrder": 50,
+        "Enabled": true,
+        "AddOnStatus": 1,
+        "CreatedBy": "CoeusAdminUser",
+        "CreatedTime": "12/12/9999 00:00:00",
+        "LastUpdatedBy": "CoeusAdminUser",
+        "LastUpdatedTime": "12/12/9999 00:00:00",
+        "Id": 4
+      },
+      {
+        "Name": "99%",
+        "DisplayOrder": 18,
+        "Enabled": true,
+        "AddOnStatus": 1,
+        "CreatedBy": "CoeusAdminUser",
+        "CreatedTime": "12/12/9999 00:00:00",
+        "LastUpdatedBy": "CoeusAdminUser",
+        "LastUpdatedTime": "12/12/9999 00:00:00",
+        "Id": 18
+      },
+      {
+        "Name": "98%",
+        "DisplayOrder": 19,
+        "Enabled": true,
+        "AddOnStatus": 1,
+        "CreatedBy": "CoeusAdminUser",
+        "CreatedTime": "12/12/9999 00:00:00",
+        "LastUpdatedBy": "CoeusAdminUser",
+        "LastUpdatedTime": "12/12/9999 00:00:00",
+        "Id": 19
+      },
+      {
+        "Name": "95%",
+        "DisplayOrder": 20,
+        "Enabled": true,
+        "AddOnStatus": 1,
+        "CreatedBy": "CoeusAdminUser",
+        "CreatedTime": "12/12/9999 00:00:00",
+        "LastUpdatedBy": "CoeusAdminUser",
+        "LastUpdatedTime": "12/12/9999 00:00:00",
+        "Id": 20
+      },
+      {
+        "Name": "90%",
+        "DisplayOrder": 21,
+        "Enabled": true,
+        "AddOnStatus": 1,
+        "CreatedBy": "CoeusAdminUser",
+        "CreatedTime": "12/12/9999 00:00:00",
+        "LastUpdatedBy": "CoeusAdminUser",
+        "LastUpdatedTime": "12/12/9999 00:00:00",
+        "Id": 21
+      }
+    ],
+    "BusinessUnitId": null,
+    "FunctionalAreaId": null,
+    "Name": "Quality",
+    "DisplayOrder": 4,
+    "Enabled": true,
+    "AddOnStatus": 1,
+    "CreatedBy": "CoeusAdminUser",
+    "CreatedTime": "12/12/9999 00:00:00",
+    "LastUpdatedBy": "CoeusAdminUser",
+    "LastUpdatedTime": "12/12/9999 00:00:00",
+    "Id": 4
+  },
+  {
+    "KPIs": [
+      {
+        "Name": "Call Surveys (CSAT)",
+        "DisplayOrder": 1,
+        "Enabled": true,
+        "AddOnStatus": 1,
+        "CreatedBy": "CoeusAdminUser",
+        "CreatedTime": "12/12/9999 00:00:00",
+        "LastUpdatedBy": "CoeusAdminUser",
+        "LastUpdatedTime": "12/12/9999 00:00:00",
+        "Id": 7
+      }
+    ],
+    "SLAs": [
+      {
+        "Name": "XX% Satisfied",
+        "DisplayOrder": 1,
+        "Enabled": true,
+        "AddOnStatus": 1,
+        "CreatedBy": "CoeusAdminUser",
+        "CreatedTime": "12/12/9999 00:00:00",
+        "LastUpdatedBy": "CoeusAdminUser",
+        "LastUpdatedTime": "12/12/9999 00:00:00",
+        "Id": 1
+      },
+      {
+        "Name": "Not applicable",
+        "DisplayOrder": 50,
+        "Enabled": true,
+        "AddOnStatus": 1,
+        "CreatedBy": "CoeusAdminUser",
+        "CreatedTime": "12/12/9999 00:00:00",
+        "LastUpdatedBy": "CoeusAdminUser",
+        "LastUpdatedTime": "12/12/9999 00:00:00",
+        "Id": 4
+      },
+      {
+        "Name": "Net Promoter Score of X",
+        "DisplayOrder": 5,
+        "Enabled": true,
+        "AddOnStatus": 1,
+        "CreatedBy": "CoeusAdminUser",
+        "CreatedTime": "12/12/9999 00:00:00",
+        "LastUpdatedBy": "CoeusAdminUser",
+        "LastUpdatedTime": "12/12/9999 00:00:00",
+        "Id": 5
+      },
+      {
+        "Name": "Customer Effort Score of X",
+        "DisplayOrder": 7,
+        "Enabled": true,
+        "AddOnStatus": 1,
+        "CreatedBy": "CoeusAdminUser",
+        "CreatedTime": "12/12/9999 00:00:00",
+        "LastUpdatedBy": "CoeusAdminUser",
+        "LastUpdatedTime": "12/12/9999 00:00:00",
+        "Id": 7
+      }
+    ],
+    "BusinessUnitId": null,
+    "FunctionalAreaId": null,
+    "Name": "Customer Centricity",
+    "DisplayOrder": 5,
+    "Enabled": true,
+    "AddOnStatus": 1,
+    "CreatedBy": "CoeusAdminUser",
+    "CreatedTime": "12/12/9999 00:00:00",
+    "LastUpdatedBy": "CoeusAdminUser",
+    "LastUpdatedTime": "12/12/9999 00:00:00",
+    "Id": 5
+  },
+  {
+    "KPIs": [
+      {
+        "Name": "Answer Rate3",
+        "DisplayOrder": 1,
+        "Enabled": true,
+        "AddOnStatus": 1,
+        "CreatedBy": "CoeusAdminUser",
+        "CreatedTime": "12/12/9999 00:00:00",
+        "LastUpdatedBy": "CoeusAdminUser",
+        "LastUpdatedTime": "12/12/9999 00:00:00",
+        "Id": 1111
+      }
+    ],
+    "SLAs": [
+      {
+        "Name": "Not applicable1",
+        "DisplayOrder": 50,
+        "Enabled": true,
+        "AddOnStatus": 1,
+        "CreatedBy": "CoeusAdminUser",
+        "CreatedTime": "12/12/9999 00:00:00",
+        "LastUpdatedBy": "CoeusAdminUser",
+        "LastUpdatedTime": "12/12/9999 00:00:00",
+        "Id": 1111
+      },
+      {
+        "Name": "Not applicable3",
+        "DisplayOrder": 50,
+        "Enabled": true,
+        "AddOnStatus": 1,
+        "CreatedBy": "CoeusAdminUser",
+        "CreatedTime": "12/12/9999 00:00:00",
+        "LastUpdatedBy": "CoeusAdminUser",
+        "LastUpdatedTime": "12/12/9999 00:00:00",
+        "Id": 1112
+      }
+    ],
+    "BusinessUnitId": null,
+    "FunctionalAreaId": null,
+    "Name": "Customer Centricity2",
+    "DisplayOrder": 5,
+    "Enabled": true,
+    "AddOnStatus": 1,
+    "CreatedBy": "CoeusAdminUser",
+    "CreatedTime": "12/12/9999 00:00:00",
+    "LastUpdatedBy": "CoeusAdminUser",
+    "LastUpdatedTime": "12/12/9999 00:00:00",
+    "Id": 1111
+  }
+]

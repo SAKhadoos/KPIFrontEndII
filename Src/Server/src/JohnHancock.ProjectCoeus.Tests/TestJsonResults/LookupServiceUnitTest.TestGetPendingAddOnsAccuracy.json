@@ -1,0 +1,40 @@
+[
+  {
+    "Weight": 10.00,
+    "Name": "Data Privacy & Protection",
+    "DisplayOrder": 7,
+    "Enabled": true,
+    "AddOnStatus": 0,
+    "CreatedBy": "CoeusAdminUser",
+    "CreatedTime": "12/12/9999 00:00:00",
+    "LastUpdatedBy": "CoeusAdminUser",
+    "LastUpdatedTime": "12/12/9999 00:00:00",
+    "Id": 8
+  },
+  {
+    "Value": 1.00,
+    "Name": "Under Developed/Weak",
+    "DisplayOrder": 3,
+    "Enabled": true,
+    "AddOnStatus": 0,
+    "CreatedBy": "CoeusAdminUser",
+    "CreatedTime": "12/12/9999 00:00:00",
+    "LastUpdatedBy": "CoeusAdminUser",
+    "LastUpdatedTime": "12/12/9999 00:00:00",
+    "Id": 4
+  },
+  {
+    "UpperBound": null,
+    "LowerBound": 32.50,
+    "Color": "#ff0000",
+    "Name": "High",
+    "DisplayOrder": 4,
+    "Enabled": true,
+    "AddOnStatus": 0,
+    "CreatedBy": "CoeusAdminUser",
+    "CreatedTime": "12/12/9999 00:00:00",
+    "LastUpdatedBy": "CoeusAdminUser",
+    "LastUpdatedTime": "12/12/9999 00:00:00",
+    "Id": 5
+  }
+]

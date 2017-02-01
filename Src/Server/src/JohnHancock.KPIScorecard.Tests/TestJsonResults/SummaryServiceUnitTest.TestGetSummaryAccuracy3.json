@@ -1,0 +1,76 @@
+{
+  "BusinessUnit": {
+    "Value": "KST_BusinessUnit7",
+    "Enabled": true,
+    "Id": 7
+  },
+  "Year": {
+    "Value": "2012",
+    "Enabled": true,
+    "Id": 7
+  },
+  "Month": {
+    "Value": "July",
+    "Enabled": true,
+    "Id": 7
+  },
+  "Status": {
+    "Value": "StatusValue7",
+    "Enabled": true,
+    "Id": 7
+  },
+  "DueDate": "12/31/2016 00:00:00",
+  "OperationalIncidentsNumber": 1,
+  "PrivacyIncidentsNumber": 1,
+  "AuditFindingsNumber": 1,
+  "OperationalPerformanceOverallScore": 0.0,
+  "BusinessContinuityPlanningOverallScore": 0.0,
+  "SecurityOverallScore": 0.0,
+  "ConcentrationRiskOverallScore": 0.0,
+  "OverallThresholdAnalysis": {
+    "OperationalPerformanceValues": [
+      {
+        "Month": {
+          "Value": "July",
+          "Enabled": true,
+          "Id": 7
+        },
+        "OverallScore": 0.0,
+        "Rating": 2
+      }
+    ],
+    "BusinessContinuityPlanningValues": [
+      {
+        "Month": {
+          "Value": "July",
+          "Enabled": true,
+          "Id": 7
+        },
+        "OverallScore": 0.0,
+        "Rating": 2
+      }
+    ],
+    "SecurityValues": [
+      {
+        "Month": {
+          "Value": "July",
+          "Enabled": true,
+          "Id": 7
+        },
+        "OverallScore": 0.0,
+        "Rating": 2
+      }
+    ],
+    "ConcentrationRiskValues": [
+      {
+        "Month": {
+          "Value": "July",
+          "Enabled": true,
+          "Id": 7
+        },
+        "OverallScore": 0.0,
+        "Rating": 2
+      }
+    ]
+  }
+}

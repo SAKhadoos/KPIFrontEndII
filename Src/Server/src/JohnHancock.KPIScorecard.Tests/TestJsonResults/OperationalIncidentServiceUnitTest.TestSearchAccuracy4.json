@@ -1,0 +1,79 @@
+{
+  "TotalRecords": 1,
+  "TotalPages": 1,
+  "Items": [
+    {
+      "IncidentNumber": "O16122",
+      "BusinessUnit": {
+        "Value": "KST_BusinessUnit7",
+        "Enabled": true,
+        "Id": 7
+      },
+      "OperationalFinding": "OperationalFinding17",
+      "RootCause": {
+        "Value": "OperationalIncidentRootCauseValue7",
+        "Enabled": true,
+        "Id": 7
+      },
+      "RootCauseDetail": "RootCauseDetail7",
+      "FinancialExposure": {
+        "Amount": 1.70,
+        "Type": 0,
+        "Id": 7
+      },
+      "Source": {
+        "Value": "OperationalIncidentSourceValue7",
+        "Enabled": true,
+        "Id": 7
+      },
+      "Impact": [],
+      "MitigationStrategy": "MitigationStrategy7",
+      "IncidentYear": {
+        "Value": "2012",
+        "Enabled": true,
+        "Id": 7
+      },
+      "IncidentMonth": {
+        "Value": "July",
+        "Enabled": true,
+        "Id": 7
+      },
+      "RemediationYear": {
+        "Value": "2012",
+        "Enabled": true,
+        "Id": 7
+      },
+      "RemediationMonth": {
+        "Value": "July",
+        "Enabled": true,
+        "Id": 7
+      },
+      "Status": {
+        "Value": "OperationalIncidentStatusValue7",
+        "Enabled": true,
+        "Id": 7
+      },
+      "ReportedToGORM": {
+        "Value": "OperationalIncidentReportedToGORMValue7",
+        "Enabled": true,
+        "Id": 7
+      },
+      "ReportedToORMYear": {
+        "Value": "2012",
+        "Enabled": true,
+        "Id": 7
+      },
+      "ReportedToORMMonth": {
+        "Value": "July",
+        "Enabled": true,
+        "Id": 7
+      },
+      "CompletionType": 0,
+      "CreatedBy": "CreatedBy7",
+      "CreatedTime": "10/21/2016 00:00:00",
+      "LastUpdatedBy": "LastUpdatedBy7",
+      "LastUpdatedTime": "10/20/2016 00:00:00",
+      "Id": 7
+    }
+  ]
+}

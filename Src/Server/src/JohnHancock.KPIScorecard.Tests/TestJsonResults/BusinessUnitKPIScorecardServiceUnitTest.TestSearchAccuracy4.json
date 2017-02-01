@@ -1,0 +1,40 @@
+{
+  "TotalRecords": 1,
+  "TotalPages": 1,
+  "Items": [
+    {
+      "BusinessUnit": {
+        "Value": "KST_BusinessUnit5",
+        "Enabled": true,
+        "Id": 5
+      },
+      "Status": {
+        "Value": "StatusValue5",
+        "Enabled": true,
+        "Id": 5
+      },
+      "Year": {
+        "Value": "2021",
+        "Enabled": true,
+        "Id": 5
+      },
+      "Month": {
+        "Value": "May",
+        "Enabled": true,
+        "Id": 5
+      },
+      "DueDate": "11/10/2016 00:00:00",
+      "OperationPerformanceScores": [],
+      "FinancialIndicatorScores": [],
+      "BusinessContinuityPlanningScores": [],
+      "SecurityScores": [],
+      "ConcentrationRiskScores": [],
+      "CompletionType": 1,
+      "CreatedBy": "CreatedBy5",
+      "CreatedTime": "11/09/2016 00:00:00",
+      "LastUpdatedBy": "LastUpdatedBy5",
+      "LastUpdatedTime": "11/08/2016 00:00:00",
+      "Id": 5
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "AuditFindingNumber": null,
+  "BusinessUnit": {
+    "Value": "KST_BusinessUnit3",
+    "Enabled": false,
+    "Id": 3
+  },
+  "AuditTitle": "AuditTitle3",
+  "RootCause": {
+    "Value": "AuditFindingSourceValue3",
+    "Enabled": true,
+    "Id": 3
+  },
+  "RootCauseDetail": null,
+  "Source": null,
+  "Impact": [],
+  "MitigationStrategy": null,
+  "AuditYear": null,
+  "AuditMonth": null,
+  "RemediationYear": null,
+  "RemediationMonth": null,
+  "Status": null,
+  "ReportedToGORM": null,
+  "ReportedToORMYear": null,
+  "ReportedToORMMonth": null,
+  "CompletionType": 1,
+  "CreatedBy": "CreatedBy3",
+  "CreatedTime": "11/30/2016 00:00:00",
+  "LastUpdatedBy": "LastUpdatedBy3",
+  "LastUpdatedTime": "11/29/2016 00:00:00",
+  "Id": 3
+}
